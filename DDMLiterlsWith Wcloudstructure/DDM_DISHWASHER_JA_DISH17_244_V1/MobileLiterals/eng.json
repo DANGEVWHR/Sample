@@ -1,0 +1,204 @@
+{
+    "Manuals": {
+        "Warranty": {
+            "Title": "Warranty",
+            "FilePath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/Docs/eng/JA_DISH17_Warranty.pdf"
+        },
+        "UseCareGuide": {
+            "Title": "Use & Care Guide",
+            "FilePath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/Docs/eng/JA_DISH17_Use_Careguide.pdf"
+        },
+        "InstallationInstructions": {
+            "Title": "Installation Instructions",
+            "FilePath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/Docs/eng/JA_DISH17_InstallationInstructions.pdf"
+        },
+        "FCCInformationForm": {
+            "Title": "FCC Information Form",
+            "FilePath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/Docs/eng/JA_DISH17_FCC.pdf"
+        }
+    },
+    "NestSettings": {
+        "QuietWhileHome.Name": "Quiet While Home",
+        "QuietWhileHome.Description": "Your dishwasher will automatically go into Quiet Mode when Nest™ knows you’re home.",
+        "WashWhileAway.Name": "Wash While Away",
+        "WashWhileAway.Description": "When Nest™ detects you're away, your dishwasher will start the selected cycle.  Please note that it may take up to two hours for Nest™ to send the away signal."
+    },
+    "SpecialtyCycles": {
+        "Gentle.Name": "Gentle",
+        "Gentle.Description": "",
+        "Gentle.LongDescription": "",
+        "Gentle.IconPath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/Docs/JA_Dish_SpecialtyCycleIcons_PlasticItems.png",
+        "Heavy.Name": "Heavy",
+        "Heavy.Description": "",
+        "Heavy.LongDescription": "",
+        "Heavy.IconPath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/Docs/JA_Dish_SpecialtyCycleIcons_FineChina.png",
+        "SpecialtyItems.Name": "Specialty Items",
+        "SpecialtyItems.Description": "",
+        "SpecialtyItems.LongDescription": "",
+        "SpecialtyItems.IconPath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/Docs/JA_Dish_SpecialtyCycleIcons_CanningItems.png",
+        "SanitizeWash.Name": "Sanitize Wash",
+        "SanitizeWash.Description": "",
+        "SanitizeWash.LongDescription": "",
+        "SanitizeWash.IconPath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/Docs/JA_Dish_SpecialtyCycleIcons_CanningItems.png",
+        "QuickWash.Name": "Quick Wash",
+        "QuickWash.Description": "",
+        "QuickWash.LongDescription": "",
+        "QuickWash.IconPath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/Docs/JA_Dish_SpecialtyCycleIcons_RinseOnly.png"
+    },
+    "Notifications": {
+        "CycleComplete": {
+            "Name": "Cycle Complete",
+            "Description": "Receive a notification when the selected wash cycle has successfully completed."
+        },
+        "FilterStatus": {
+            "Name": "Clean Filter Alert",
+            "Description": "Receive a notification when it’s time to clean your dishwasher's triple filtration system."
+        },
+        "SaniRinse": {
+            "Name": "Sanitize Rinse",
+            "Description": "Receive notification for Sanitize Rinse Temperature."
+        },
+        "RemoteStatus": {
+            "Name": "Remote Control Status",
+            "Description": "Receive a notification when your appliance's Remote Enabled status has changed."
+        },
+        "AffreshNotification": {
+            "Name": "affresh® Status",
+            "Description": "Receive a notification when it’s time to run an affresh® cleaning cycle to keep your dishwasher clean"
+        }
+    },
+    "SupplyItem": {
+        "Warranty": {
+            "Name": "Extended Service Plan",
+            "Description": "Extended Service Plan",
+            "Disclaimer": "Extended Service Plan",
+            "SupplyLocations": [
+                {
+                    "Merchant": "Whirlpool",
+                    "Country": "United States",
+                    "url": "https://www.whirlpoolextendedserviceplans.com/Home/Welcome/"
+                },
+                {
+                    "Merchant": "Whirlpool",
+                    "Country": "Canada",
+                    "url": "https://certifiedcare.ca/"
+                }
+            ]
+        },
+        "AffreshDishwasherCleaner": {
+            "Name": "affresh® Dishwasher Cleaner",
+            "Description": "Power away - the right way affresh® Dishwasher Clearn is specially formulated to help remove limescale and mineral build-up that can be unsightly and could affect your dishwasher's performance. Each tablet is designed to clean inside your machine while your detergent cleans your dishes.*",
+            "Disclaimer": "check manufacturer's suggest cleaning instructions on all dishwasher-save items.",
+            "SupplyLocations": [
+                {
+                    "Merchant": "Whirlpool",
+                    "Country": "United States",
+                    "url": "http://www.whirlpool.com/-%5BW10282479%5D-1001564/W10282479/"
+                },
+                {
+                    "Merchant": "Whirlpool",
+                    "Country": "Canada",
+                    "url": "http://www.whirlpool.ca/en_CA/-%5BW10288149B%5D-1301464/W10288149B/"
+                }
+            ]
+        },
+        "ScheduleService": {
+            "Name": "Schedule Service",
+            "Description": "Schedule Service",
+            "Disclaimer": "Schedule Service",
+            "SupplyLocations": [
+                {
+                    "Merchant": "Whirlpool",
+                    "Country": "United States",
+                    "url": "https://www.servicebench.com/servicebenchv5/consumerApp/consumerRequestForward.action?token=ZHU6Y29uc3VtZXJQb3J0YWxQcm9kdWN0RGVzY3JpcHRpb247c2E6Mjc&cparam="
+                },
+                {
+                    "Merchant": "Whirlpool",
+                    "Country": "Canada",
+                    "url": "https://www.servicebench.com/servicebenchv5/consumerApp/consumerRequestForward.action?token=ZHU6Y29uc3VtZXJQb3J0YWxQcm9kdWN0RGVzY3JpcHRpb247c2s6V0M7c2E6NDA&cparam"
+                }
+            ]
+        }
+    },
+    "SmartTip": [],
+    "cxcDetail": {
+        "US": {
+            "Country": "United States",
+            "cxcEmail": {
+                "Development": "NAR_JennAirCustomerExperience@JennAir.com",
+                "Test": "NAR_JennAirCustomerExperience@JennAir.com",
+                "Staging": "NAR_JennAirCustomerExperience@JennAir.com",
+                "Cuft": "NAR_JennAirCustomerExperience@JennAir.com",
+                "Production": "NAR_JennAirCustomerExperience@JennAir.com"
+            },
+            "cxcPhone": {
+                "Development": "1-800-536-6247",
+                "Test": "1-800-536-6247",
+                "Staging": "1-800-536-6247",
+                "Cuft": "1-800-536-6247",
+                "Production": "1-800-536-6247"
+            },
+            "cxcHours": {
+                "Development": "8.00 AM-8.00 PM EST,Monday-Friday",
+                "Test": "8.00 AM-8.00 PM EST,Monday-Friday",
+                "Staging": "8.00 AM-8.00 PM EST,Monday-Friday",
+                "Cuft": "8.00 AM-8.00 PM EST,Monday-Friday",
+                "Production": "8.00 AM-8.00 PM EST,Monday-Friday"
+            }
+        },
+        "CA": {
+            "Country": "Canada",
+            "cxcEmail": {
+                "Development": "NAR_JennAirCustomerExperience@JennAir.com",
+                "Test": "NAR_JennAirCustomerExperience@JennAir.com",
+                "Staging": "NAR_JennAirCustomerExperience@JennAir.com",
+                "Cuft": "NAR_JennAirCustomerExperience@JennAir.com",
+                "Production": "NAR_JennAirCustomerExperience@JennAir.com"
+            },
+            "cxcPhone": {
+                "Development": "1-800-536-6247",
+                "Test": "1-800-536-6247",
+                "Staging": "1-800-536-6247",
+                "Cuft": "1-800-536-6247",
+                "Production": "1-800-536-6247"
+            },
+            "cxcHours": {
+                "Development": "8.00 AM-8.00 PM EST,Monday-Friday",
+                "Test": "8.00 AM-8.00 PM EST,Monday-Friday",
+                "Staging": "8.00 AM-8.00 PM EST,Monday-Friday",
+                "Cuft": "8.00 AM-8.00 PM EST,Monday-Friday",
+                "Production": "8.00 AM-8.00 PM EST,Monday-Friday"
+            }
+        }
+    },
+    "Replenishment": {
+        "ReplenishmentSlot": {
+            "DisplayName": {
+                "DishwasherSlot1Name": "Dishwasher Slot 1 Name",
+                "DishwasherSlot2Name": "Dishwasher Slot 2 Name"
+            },
+            "UomDisplay": {
+                "DishwasherSlot1UomDisplay": "Dishwasher Slot 1 UOM Display",
+                "DishwasherSlot2UomDisplay": "Dishwasher Slot 2 UOM Display"
+            }
+        },
+        "ReplenishmentDelay": {
+            "DisplayName": {
+                "DishwasherSlot1Delay0": "Delay 0",
+                "DishwasherSlot1Delay2": "Delay 2",
+                "DishwasherSlot1Delay4": "Delay 4",
+                "DishwasherSlot1Delay6": "Delay 6",
+                "DishwasherSlot2Delay0": "Delay 0",
+                "DishwasherSlot2Delay2": "Delay 2",
+                "DishwasherSlot2Delay4": "Delay 4",
+                "DishwasherSlot2Delay6": "Delay 6"
+            }
+        },
+        "ReplenishmentUsage": {
+            "DisplayName": {
+                "DishwasherSlot1UsageDefault": "Dishwasher Usage Slot 1 Default",
+                "DishwasherSlot2UsageDefault": "Dishwasher Usage Slot 2 Default"
+            }
+        }
+    }
+    }

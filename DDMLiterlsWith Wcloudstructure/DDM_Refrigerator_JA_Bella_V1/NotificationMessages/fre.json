@@ -1,0 +1,92 @@
+{
+    "NotificationContents": [
+        {
+            "TemplateId": "DoorOpenAlert1",
+            "SmsText": "L’alarme de porte de réfrigérateur ouverte retentit. Vérifiez que la porte est fermée ou qu’aucun article n’entrave la porte.",
+            "EmailText": "L’alarme de porte de réfrigérateur ouverte retentit. Vérifiez que la porte est fermée ou qu’aucun article n’entrave la porte.",
+            "PushText": "L’alarme de porte de réfrigérateur ouverte retentit. Vérifiez que la porte est fermée ou qu’aucun article n’entrave la porte.",
+            "AlertTitle": "Avertissement de porte ouverte",
+            "Type": "maxIceDoor"
+        },
+        {
+            "TemplateId": "MaxCool1",
+            "SmsText": "Le réfrigérateur a démarré la fonction Max Cool (refroidissement maximal), ce qui abaisse la température du réfrigérateur.",
+            "EmailText": "Le réfrigérateur a démarré la fonction Max Cool (refroidissement maximal), ce qui abaisse la température du réfrigérateur.",
+            "PushText": "Le réfrigérateur a démarré la fonction Max Cool (refroidissement maximal), ce qui abaisse la température du réfrigérateur.",
+            "AlertTitle": "Alerte de refroidissement maximal",
+            "Type": "system"
+        },
+        {
+            "TemplateId": "MaxCool2",
+            "SmsText": "Le réfrigérateur a cessé d’utiliser la fonction Max Cool (refroidissement maximal), ce qui replace la température du réfrigérateur à son réglage précédent.",
+            "EmailText": "Le réfrigérateur a cessé d’utiliser la fonction Max Cool (refroidissement maximal), ce qui replace la température du réfrigérateur à son réglage précédent.",
+            "PushText": "Le réfrigérateur a cessé d’utiliser la fonction Max Cool (refroidissement maximal), ce qui replace la température du réfrigérateur à son réglage précédent.",
+            "AlertTitle": "Alerte de refroidissement maximal",
+            "Type": "system"
+        },
+        {
+            "TemplateId": "MaxIce1",
+            "SmsText": "Le réfrigérateur a démarré la fonction Max Ice (production de glaçons maximale), ce qui abaisse la température du congélateur.",
+            "EmailText": "Le réfrigérateur a démarré la fonction Max Ice (production de glaçons maximale), ce qui abaisse la température du congélateur.",
+            "PushText": "Le réfrigérateur a démarré la fonction Max Ice (production de glaçons maximale), ce qui abaisse la température du congélateur.",
+            "AlertTitle": "Alerte de production de glaçons maximale",
+            "Type": "system"
+        },
+        {
+            "TemplateId": "MaxIce2",
+            "SmsText": "Le réfrigérateur a cessé d’utiliser la fonction Max Ice (production de glaçons maximale), ce qui replace la température du congélateur à son réglage précédent.",
+            "EmailText": "Le réfrigérateur a cessé d’utiliser la fonction Max Ice (production de glaçons maximale), ce qui replace la température du congélateur à son réglage précédent.",
+            "PushText": "Le réfrigérateur a cessé d’utiliser la fonction Max Ice (production de glaçons maximale), ce qui replace la température du congélateur à son réglage précédent.",
+            "AlertTitle": "Alerte de production de glaçons maximale",
+            "Type": "system"
+        },
+        {
+            "TemplateId": "OverTemp1",
+            "SmsText": "Vérifiez le contenu de votre réfrigérateur – la température est élevée",
+            "EmailText": "Vérifiez le contenu de votre réfrigérateur – la température est élevée",
+            "PushText": "Vérifiez le contenu de votre réfrigérateur – la température est élevée",
+            "AlertTitle": "Alerte de température élevée",
+            "Type": "system"
+        },
+        {
+            "TemplateId": "OverTemp2",
+            "SmsText": "Vérifiez le contenu de votre congélateur – la température est élevée.",
+            "EmailText": "Vérifiez le contenu de votre congélateur – la température est élevée.",
+            "PushText": "Vérifiez le contenu de votre congélateur – la température est élevée.",
+            "AlertTitle": "Alerte de température élevée",
+            "Type": "system"
+        },
+        {
+            "TemplateId": "PreventativeMaintenanceAirFilter",
+            "SmsText": "Il est temps de vérifier l’état du filtre à air ou du conservateur de produits frais du réfrigérateur ",
+            "EmailText": "Il est temps de vérifier l’état du filtre à air ou du conservateur de produits frais du réfrigérateur ",
+            "PushText": "Il est temps de vérifier l’état du filtre à air ou du conservateur de produits frais du réfrigérateur ",
+            "AlertTitle": "Alerte du filtre à air",
+            "Type": "system"
+        },
+        {
+            "TemplateId": "WaterFilter0",
+            "SmsText": "le filtre à eau remplacé, drainez le système d’eau comme décrit dans le guide d’utilisation et d’entretien avant d’utiliser le distributeur. Vous devriez aussi jeter les trois (3) premiers lots de glaçons.",
+            "EmailText": "le filtre à eau remplacé, drainez le système d’eau comme décrit dans le guide d’utilisation et d’entretien avant d’utiliser le distributeur. Vous devriez aussi jeter les trois (3) premiers lots de glaçons.",
+            "PushText": "le filtre à eau remplacé, drainez le système d’eau comme décrit dans le guide d’utilisation et d’entretien avant d’utiliser le distributeur. Vous devriez aussi jeter les trois (3) premiers lots de glaçons.",
+            "AlertTitle": "Alerte du filtre à eau",
+            "Type": "system"
+        },
+        {
+            "TemplateId": "WaterFilter1",
+            "SmsText": " Il est temps de remplacer le filtre à eau de votre réfrigérateur, commandez maintenant.",
+            "EmailText": "Il est temps de remplacer le filtre à eau de votre réfrigérateur, commandez maintenant.",
+            "PushText": "Il est temps de remplacer le filtre à eau de votre réfrigérateur, commandez maintenant.",
+            "AlertTitle": "Alerte du filtre à eau",
+            "Type": "waterFilter"
+        },
+        {
+            "TemplateId": "WaterFilter2",
+            "SmsText": "remplacer le filtre à eau de votre réfrigérateur,",
+            "EmailText": "remplacer le filtre à eau de votre réfrigérateur,",
+            "PushText": "remplacer le filtre à eau de votre réfrigérateur,",
+            "AlertTitle": "Alerte du filtre à eau",
+            "Type": "waterFilter"
+        }
+    ]
+    }

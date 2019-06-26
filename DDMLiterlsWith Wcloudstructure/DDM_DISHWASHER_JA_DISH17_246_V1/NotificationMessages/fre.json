@@ -1,0 +1,52 @@
+{
+    "NotificationContents": [
+        {
+            "TemplateId": "CycleComplete",
+            "SmsText": "Le programme de lavage du lave-vaisselle est terminé.",
+            "EmailText": "Le programme de lavage du lave-vaisselle est terminé.",
+            "PushText": "Le programme de lavage du lave-vaisselle est terminé.",
+            "AlertTitle": "Programme terminé",
+            "Type": "cycle"
+        },
+        {
+            "TemplateId": "AffreshNotification",
+            "SmsText": "Il est temps d’effectuer un programme de nettoyage affresh® sur votre lave-vaisselle. Il est recommandé d’utiliser le nettoyant affresh tous les mois pour garder votre lave-vaisselle propre et frais.",
+            "EmailText": "Il est temps d’effectuer un programme de nettoyage affresh® sur votre lave-vaisselle. Il est recommandé d’utiliser le nettoyant affresh tous les mois pour garder votre lave-vaisselle propre et frais.",
+            "PushText": "Il est temps d’effectuer un programme de nettoyage affresh® sur votre lave-vaisselle. Il est recommandé d’utiliser le nettoyant affresh tous les mois pour garder votre lave-vaisselle propre et frais.",
+            "AlertTitle": "État affresh®",
+            "Type": "affresh"
+        },
+        {
+            "TemplateId": "FilterStatus",
+            "SmsText": "Il est temps de nettoyer le système de triple filtration de votre lave-vaisselle si vous souhaitez conserver un rendement de lavage optimal.",
+            "EmailText": "Il est temps de nettoyer le système de triple filtration de votre lave-vaisselle si vous souhaitez conserver un rendement de lavage optimal.",
+            "PushText": "Il est temps de nettoyer le système de triple filtration de votre lave-vaisselle si vous souhaitez conserver un rendement de lavage optimal.",
+            "AlertTitle": "État du nettoyage du filtre",
+            "Type": "dishFilter"
+        },
+        {
+            "TemplateId": "SaniRinse",
+            "SmsText": "Le programme de rinçage avec assainissement est terminé.",
+            "EmailText": "Le programme de rinçage avec assainissement est terminé.",
+            "PushText": "Le programme de rinçage avec assainissement est terminé.",
+            "AlertTitle": "Rinçage avec assainissement",
+            "Type": "saniRinse"
+        },
+        {
+            "TemplateId": "RemoteStatusEnabled",
+            "SmsText": "La commande à distance du lave-vaisselle est activée. Vous pouvez maintenant commander votre lave-vaisselle à distance.",
+            "EmailText": "La commande à distance du lave-vaisselle est activée. Vous pouvez maintenant commander votre lave-vaisselle à distance.",
+            "PushText": "La commande à distance du lave-vaisselle est activée. Vous pouvez maintenant commander votre lave-vaisselle à distance.",
+            "AlertTitle": "État de commande à distance",
+            "Type": "remoteControl"
+        },
+        {
+            "TemplateId": "RemoteStatusDisabled",
+            "SmsText": "La commande à distance du lave-vaisselle est désactivée. Vous pouvez réactiver la commande sur votre appareil pour le commander à distance.",
+            "EmailText": "La commande à distance du lave-vaisselle est désactivée. Vous pouvez réactiver la commande sur votre appareil pour le commander à distance.",
+            "PushText": "La commande à distance du lave-vaisselle est désactivée. Vous pouvez réactiver la commande sur votre appareil pour le commander à distance.",
+            "AlertTitle": "État de commande à distance",
+            "Type": "remoteControl"
+        }
+    ]
+    }

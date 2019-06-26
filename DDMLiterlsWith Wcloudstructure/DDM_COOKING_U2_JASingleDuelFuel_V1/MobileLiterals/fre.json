@@ -1,0 +1,318 @@
+{
+    "Manuals": {
+        "UseCareGuide": {
+            "Title": "Guide d’utilisation et d’entretien",
+            "FilePath": "NAR/JENNAIR/DDM_COOKING_U2_JASingleDuelFuel_V1/Docs/eng/UserCareGuide.pdf"
+        },
+        "InstallationInstructions": {
+            "Title": "Instructions d’installation",
+            "FilePath": "NAR/JENNAIR/DDM_COOKING_U2_JASingleDuelFuel_V1/Docs/eng/InstallationInstruction.pdf"
+        },
+        "Warranty": {
+            "Title": "Garantie",
+            "FilePath": "NAR/JENNAIR/DDM_COOKING_U2_JASingleDuelFuel_V1/Docs/eng/Warranty.pdf"
+        },
+        "FccInformationForm": {
+            "Title": "Fiche informative du CFC",
+            "FilePath": "NAR/JENNAIR/DDM_COOKING_U2_JASingleDuelFuel_V1/Docs/eng/FccInformation.pdf"
+        }
+    },
+    "NestSettings": {
+        "AwayOvenWarning.Name": "Fermer lorsqu’absent",
+        "AwayOvenWarning.Description": "Recevez une notification vous demandant si vous souhaitez que Nest™ ferme votre four s’il détecte que vous êtes absent, mais que votre four fonctionne toujours.   Veuillez noter qu’il faudra peut-être jusqu’à 2 heures à Nest™ pour envoyer le signal que vous n’êtes pas là."
+    },
+    "SpecialtyCycles": {},
+    "SupplyItem": {
+        "ExtendedWarranty": {},
+        "ScheduleService": {
+            "Name": "Prendre rendez-vous",
+            "Description": "Prendre rendez-vous",
+            "Disclaimer": "Prendre rendez-vous",
+            "SupplyLocations": [
+                {
+                    "Merchant": "JennAir",
+                    "Country": "États-Unis",
+                    "url": "https://jennair.com/customer-care/schedule-repair"
+                },
+                {
+                    "Merchant": "JennAir",
+                    "Country": "Canada",
+                    "url": "http://www.jennair.ca/customer-care/schedule-service/"
+                }
+            ]
+        }
+    },
+    "Parts & Accessories": {
+        "Griddle": {
+            "Name": "Plaque à frire",
+            "Description": "Une plaque à frire en acier inoxydable avec un fond en aluminium qui peut être utilisée sur les tables de cuisson modulaires à induction ou à gaz sélectionnées.",
+            "Disclaimer": "",
+            "Path": "NAR/JENNAIR/DDM_COOKING_Loki_JA_V1/Docs/W11035422_Original.tif",
+            "SupplyLocations": [
+                {
+                    "Merchant": "JennAir",
+                    "Country": "États-Unis",
+                    "url": "https://jennair.com/accessories/details/W11035422"
+                }
+            ]
+        },
+        "Flat Bottom Wok": {
+            "Name": "Wok à fond plat",
+            "Description": "Le wok à fond plat d’un grand raffinement est conçu pour être utilisé avec une grande variété de techniques de cuisson comme la cuisson à la vapeur, les sautés à feu vif, le braisage, le pochage et plus. Ce pratique ustensile à technologie par induction est essentiel dans la cuisine de tout amateur.",
+            "Disclaimer": "",
+            "Path": "NAR/JENNAIR/DDM_COOKING_Loki_JA_V1/Docs/W11035423_Original.tif",
+            "SupplyLocations": [
+                {
+                    "Merchant": "JennAir",
+                    "Country": "États-Unis",
+                    "url": "https://jennair.com/accessories/details/W11035423"
+                }
+            ]
+        },
+        "Cooktop Cleaner": {
+            "Name": "Nettoyant pour table de cuisson affresh®",
+            "Description": "Le nettoyant pour table de cuisson affresh® est spécialement conçu pour nettoyer les taches tenaces cuites sur la surface de la table de cuisson. Utiliser tous les mois ou au besoin pour polir la table de cuisson et lui procurer un lustre éclatant.",
+            "Disclaimer": "",
+            "Path": "NAR/JENNAIR/DDM_COOKING_Loki_JA_V1/Docs/W10355051_Original.jpg",
+            "SupplyLocations": [
+                {
+                    "Merchant": "JennAir",
+                    "Country": "États-Unis",
+                    "url": "https://www.amazon.com/Whirlpool-W10355051-10-Ounce-Affresh-Cooktop/dp/B004VJSUM6/ref=sr_1_1?s=hi&ie=UTF8&qid=1517433369&sr=1-1&keywords=W10355051"
+                }
+            ]
+        },
+        "Cooktop Cleaning Wipes": {
+            "Name": "Lingettes nettoyantes pour table de cuisson affresh®",
+            "Description": "Les lingettes nettoyantes pour table de cuisson affresh® sont spécialement conçues avec un côté pour frotter et enlever les résidus de tous les jours et l’autre côté pour lustrer la surface en céramique de votre table de cuisson et lui donner une apparence éclatante.",
+            "Disclaimer": "",
+            "Path": "NAR/JENNAIR/DDM_COOKING_Loki_JA_V1/Docs/W10539770_Original.tif",
+            "SupplyLocations": [
+                {
+                    "Merchant": "JennAir",
+                    "Country": "États-Unis",
+                    "url": "https://www.amazon.com/Affresh-W10539770-Cooktop-Cleaning-Wipes/dp/B06VT232FH/ref=sr_1_1?s=hi&ie=UTF8&qid=1517433335&sr=8-1&keywords=W10539770"
+                }
+            ]
+        }
+    },
+    "Set Oven": {
+        "MainMode": {
+            "OvenUpperCavity": {
+                "Bake": {
+                    "Name": "Bake (cuisson au four)"
+                },
+                "Convect Bake": {
+                    "Name": "Cuisson au four par convection"
+                },
+                "Convect Roast": {
+                    "Name": "Rôtissage par convection"
+                },
+                "Convect Frozen Pizza": {
+                    "Name": "Cuisson par convection de pizza surgelée"
+                },
+                "Convect Broil": {
+                    "Name": "Cuisson au gril par convection"
+                },
+                "Convect Pastry": {
+                    "Name": "Cuisson de pâtisseries par convection"
+                },
+                "Broil": {
+                    "Name": "Cuisson au gril"
+                },
+                "Proof": {
+                    "Name": "Levée"
+                },
+                "Rapid Proof": {
+                    "Name": "Levée rapide"
+                },
+                "Keep Warm": {
+                    "Name": "Maintien au chaud"
+                },
+                "Self-Clean": {
+                    "Name": "Autonettoyage"
+                },
+                "Convect Slow Roast LO": {
+                    "Name": "Rôtissage lent par convection BAS"
+                },
+                "Convect Slow Roast MED": {
+                    "Name": "Rôtissage lent par convection MOYEN"
+                },
+                "Convect Slow Roast HI": {
+                    "Name": "Rôtissage lent par convection ÉLEVÉ"
+                }
+            },
+            "OvenLowerCavity": {
+                "Bake": {
+                    "Name": "Cuisson au four"
+                },
+                "Convect Bake": {
+                    "Name": "Cuisson au four par convection"
+                },
+                "Convect Roast": {
+                    "Name": "Rôtissage par convection"
+                },
+                "Convect Frozen Pizza": {
+                    "Name": "Cuisson par convection de pizza surgelée"
+                },
+                "Convect Broil": {
+                    "Name": "Cuisson au gril par convection"
+                },
+                "Convect Pastry": {
+                    "Name": "Cuisson de pâtisseries par convection"
+                },
+                "Broil": {
+                    "Name": "Cuisson au gril"
+                },
+                "Proof": {
+                    "Name": "Levée"
+                },
+                "Rapid Proof": {
+                    "Name": "Levée rapide"
+                },
+                "Keep Warm": {
+                    "Name": "Maintien au chaud"
+                },
+                "Self-Clean": {
+                    "Name": "Autonettoyage"
+                },
+                "Convect Slow Roast LO": {
+                    "Name": "Rôtissage lent par convection BAS"
+                },
+                "Convect Slow Roast MED": {
+                    "Name": "Rôtissage lent par convection MOYEN"
+                },
+                "Convect Slow Roast HI": {
+                    "Name": "Rôtissage lent par convection ÉLEVÉ"
+                }
+            }
+        },
+        "CookingStyle": {
+            "Auto": {
+                "Name": "Auto"
+            },
+            "Manual": {
+                "Name": "Réglage manuel"
+            },
+            "Easy": {
+                "Name": "Facile"
+            }
+        },
+        "CookingModeLabels": {
+            "Mode": {
+                "Name": "Mode"
+            },
+            "CookingStyle": {
+                "Name": "Style de cuisson"
+            },
+            "Food": {
+                "Name": "Aliment"
+            },
+            "CookTime": {
+                "Name": "Durée de cuisson"
+            },
+            "Temparature": {
+                "Name": "Température"
+            },
+            "Delay": {
+                "Name": "Ajouter un délai"
+            },
+            "CycleName": {
+                "Name": "Nom du programme"
+            }
+        }
+    },
+    "Notifications": {
+        "OvenOnWhileAway": {
+            "Name": "Four en marche lorsqu’absent",
+            "Description": "Votre maison est en mode absent/absent automatique et votre four fonctionne toujours."
+        },
+        "CookCycleCanceled": {
+            "Name": "Programme de cuisson annulé",
+            "Description": "Recevez une notification si le programme de cuisson du four a été annulé."
+        },
+        "CookModeChanged": {
+            "Name": "Mode de cuisson modifiée",
+            "Description": "Recevez une notification lorsque le mode de cuisson a été modifié."
+        },
+        "CookTargetTempChanged": {
+            "Name": "Température du four modifiée",
+            "Description": "Recevez une notification lorsque la température du four a été modifiée."
+        },
+        "CookTimeComplete": {
+            "Name": "Fin de cuisson",
+            "Description": "Recevez une notification lorsque la minuterie de cuisson du four est terminée. "
+        },
+        "CookTimerChanged": {
+            "Name": "Temps de cuisson modifié",
+            "Description": "Recevez une notification lorsque le temps de cuisson a été modifié."
+        },
+        "MeatProbeTempAchieved": {
+            "Name": "Température de la sonde atteinte",
+            "Description": "Recevez une notification lorsque la sonde de cuisson atteint la température souhaitée."
+        },
+        "PreheatComplete": {
+            "Name": "Préchauffage terminé",
+            "Description": "Recevez une notification lorsque le préchauffage du four est terminé."
+        },
+        "RemoteStatus": {
+            "Name": "État de commande à distance",
+            "Description": "Recevez une notification lorsque les commandes à distance sont activées ou désactivées."
+        },
+        "ErrorNotification": {
+            "Name": "Notification d’erreur",
+            "Description": "Recevez une notification lorsqu’un code d’erreur se produit. "
+        }
+    },
+    "smartTip": [],
+    "cxcDetail": {
+        "US": {
+            "Country": "États-Unis",
+            "cxcEmail": {
+                "Development": "wcloud@mailinator.com",
+                "Test": "wcloud@mailinator.com",
+                "Staging": "wcloud@mailinator.com",
+                "Cuft": "Connected_Appliances@Whirlpool.com",
+                "Production": "Connected_Appliances@Whirlpool.com"
+            },
+            "cxcPhone": {
+                "Development": "1 800 536-6247",
+                "Test": "1 800 536-6247",
+                "Staging": "1 800 536-6247",
+                "Cuft": "1 800 536-6247",
+                "Production": "1 800 536-6247"
+            },
+            "cxcHours": {
+                "Development": "Du lundi au vendredi de 8 h à 20 h HNE",
+                "Test": " Du lundi au vendredi de 8 h à 20 h HNE",
+                "Staging": " Du lundi au vendredi de 8 h à 20 h HNE",
+                "Cuft": " Du lundi au vendredi de 8 h à 20 h ",
+                "Production": " Du lundi au vendredi de 8 h à 20 h HNE"
+            }
+        },
+        "CA": {
+            "Country": "Canada",
+            "cxcEmail": {
+                "Development": "Connected_Appliances@Whirlpool.com",
+                "Test": "Connected_Appliances@Whirlpool.com",
+                "Staging": "Connected_Appliances@Whirlpool.com",
+                "Cuft": "Connected_Appliances@Whirlpool.com",
+                "Production": "Connected_Appliances@Whirlpool.com"
+            },
+            "cxcPhone": {
+                "Development": "1 800 536-6247",
+                "Test": "1 800 536-6247",
+                "Staging": "1 800 536-6247",
+                "Cuft": "1 800 536-6247",
+                "Production": "1 800 536-6247"
+            },
+            "cxcHours": {
+                "Development": "M-F 8 h – 20 h HNE",
+                "Test": "M-F 8 h – 20 h HNE",
+                "Staging": "M-F 8 h – 20 h HNE",
+                "Cuft": "M-F 8 h – 20 h HNE",
+                "Production": "M-F 8 h – 20 h HNE"
+            }
+        }
+    }
+    }

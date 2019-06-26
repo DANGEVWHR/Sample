@@ -1,0 +1,137 @@
+{
+    "F1E0": {
+        "ErrorCode": "F1E0",
+        "Name": "User Interface Board",
+        "Type": "User Interface Board",
+        "Description": "There may be a problem with the cooktop control, user interface board(s), or associated wiring.",
+        "StepsToRepair": [
+            "Reset power to the product by following the subsequent steps",
+            "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+            "Power unit up by turning on the circuit breaker(s).",
+            "Restart the cycle and monitor the cooktop for one (1) minute to ensure the error code does not display again.",
+            "Verify cooktop operation.",
+            "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+        ],
+        "HelpPath": "TBD"
+    },
+    "F1E1": {
+        "ErrorCode": "F1E1",
+        "Name": "Control Relay Board",
+        "Type": "Control Relay Board",
+        "Description": "There may be a problem with the cooktop control(s) or the associated wiring.",
+        "StepsToRepair": [
+            "Reset power to the product by following the subsequent steps",
+            "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+            "Power unit up by turning on the circuit breaker(s).",
+            "Restart the cycle and monitor the cooktop for one (1) minute to ensure the error code does not display again.",
+            "Verify cooktop operation.",
+            "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+        ],
+        "HelpPath": "TBD"
+    },
+    "F2E1": {
+        "ErrorCode": "F2E1",
+        "Name": "Stuck Key",
+        "Type": "Stuck Key",
+        "Description": "There may be a problem with the user interface board(s).",
+        "StepsToRepair": [
+            "Reset power to the product by following the subsequent steps",
+            "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+            "Power unit up by turning on the circuit breaker(s).",
+            "Restart the cycle and monitor the cooktop for one (1) minute to ensure the error code does not display again.",
+            "Verify cooktop operation.",
+            "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+        ],
+        "HelpPath": "TBD"
+    },
+    "F6E0": {
+        "ErrorCode": "F6E0",
+        "Name": "User Interface Connection",
+        "Type": "User Interface Connection",
+        "Description": "There may be a problem with the control(s), the user interface board(s), or the associated wiring.",
+        "StepsToRepair": [
+            "Reset power to the product by following the subsequent steps",
+            "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+            "Power unit up by turning on the circuit breaker(s).",
+            "Restart the cycle and monitor the cooktop for one (1) minute to ensure the error code does not display again.",
+            "Verify cooktop operation.",
+            "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+        ],
+        "HelpPath": "TBD"
+    },
+    "F6E4": {
+        "ErrorCode": "F6E4",
+        "Name": "Control Status",
+        "Type": "Control Status",
+        "Description": "There may be a problem with the main control.",
+        "StepsToRepair": [
+            "Reset power to the product by following the subsequent steps",
+            "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+            "Power unit up by turning on the circuit breaker(s).",
+            "Restart the cycle and monitor the cooktop for one (1) minute to ensure the error code does not display again.",
+            "Verify cooktop operation.",
+            "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+        ],
+        "HelpPath": "TBD"
+    },
+    "F6E6": {
+        "ErrorCode": "F6E6",
+        "Name": "Main Control Connection",
+        "Type": "Main Control Connection",
+        "Description": "There may be a problem with the main control or the associated wiring.",
+        "StepsToRepair": [
+            "There may be a problem with the main control or the associated wiring.",
+            "Reset power to the product by following the subsequent steps",
+            "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+            "Restart the cycle and monitor the cooktop for one (1) minute to ensure the error code does not display again.",
+            "Verify cooktop operation.",
+            "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+        ],
+        "HelpPath": "TBD"
+    },
+    "F6E9": {
+        "ErrorCode": "F6E9",
+        "Name": "Secondary Control Connection",
+        "Type": "Secondary Control Connection",
+        "Description": "There may be a problem with the secondary control or the associated wiring.",
+        "StepsToRepair": [
+            "Reset power to the product by following the subsequent steps",
+            "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+            "Power unit up by turning on the circuit breaker(s).",
+            "Restart the cycle and monitor the cooktop for one (1) minute to ensure the error code does not display again.",
+            "Verify cooktop operation.",
+            "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+        ],
+        "HelpPath": "TBD"
+    },
+    "F6EA": {
+        "ErrorCode": "F6EA",
+        "Name": "User Interface Over Temperature",
+        "Type": "User Interface Over Temperature",
+        "Description": "There may be a problem with the user interface board(s).",
+        "StepsToRepair": [
+            "Reset power to the product by following the subsequent steps",
+            "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+            "Power unit up by turning on the circuit breaker(s).",
+            "Restart the cycle and monitor the cooktop for one (1) minute to ensure the error code does not display again.",
+            "Verify cooktop operation.",
+            "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+        ],
+        "HelpPath": "TBD"
+    },
+    "F9E0": {
+        "ErrorCode": "F9E0",
+        "Name": "Power Input",
+        "Type": "Power Input",
+        "Description": "There may be a problem with the power wiring to the product.",
+        "StepsToRepair": [
+            "Reset power to the product by following the subsequent steps",
+            "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+            "Power unit up by turning on the circuit breaker(s).",
+            "Restart unit and monitor the cooktop for one (1) minute to ensure the error code does not display again.",
+            "Verify cooktop operation.",
+            "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+        ],
+        "HelpPath": "TBD"
+    }
+    }

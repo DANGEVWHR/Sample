@@ -1,0 +1,92 @@
+{
+    "NotificationContents": [
+        {
+            "TemplateId": "DoorOpenAlert1",
+            "SmsText": "Refrigerator door alarm is sounding. Check that the door is closed and/or items aren’t blocking the door.",
+            "EmailText": "Refrigerator door alarm is sounding. Check that the door is closed and/or items aren’t blocking the door.",
+            "PushText": "Refrigerator door alarm is sounding. Check that the door is closed and/or items aren’t blocking the door.",
+            "AlertTitle": "Door Alert",
+            "Type": "maxIceDoor"
+        },
+        {
+            "TemplateId": "MaxCool1",
+            "SmsText": "Refrigerator started Max Cool temporarily reducing the refrigerator set temperature.Refrigerator exited Max Cool returning the refrigerator temperature to the prior set temperature.",
+            "EmailText": "Refrigerator started Max Cool temporarily reducing the refrigerator set temperature.Refrigerator exited Max Cool returning the refrigerator temperature to the prior set temperature.",
+            "PushText": "Refrigerator started Max Cool temporarily reducing the refrigerator set temperature.Refrigerator exited Max Cool returning the refrigerator temperature to the prior set temperature.",
+            "AlertTitle": "System Alert",
+            "Type": "system"
+        },
+        {
+            "TemplateId": "MaxCool2",
+            "SmsText": "Refrigerator started Max Cool temporarily reducing the refrigerator set temperature.Refrigerator exited Max Cool returning the refrigerator temperature to the prior set temperature.",
+            "EmailText": "Refrigerator started Max Cool temporarily reducing the refrigerator set temperature.Refrigerator exited Max Cool returning the refrigerator temperature to the prior set temperature.",
+            "PushText": "Refrigerator started Max Cool temporarily reducing the refrigerator set temperature.Refrigerator exited Max Cool returning the refrigerator temperature to the prior set temperature.",
+            "AlertTitle": "System Alert",
+            "Type": "system"
+        },
+        {
+            "TemplateId": "MaxIce1",
+            "SmsText": "Refrigerator started Max Ice temporarily reducing the freezer set temperature.Refrigerator exited Max Ice returning the freezer temperature to the prior set temperature.",
+            "EmailText": "Refrigerator started Max Ice temporarily reducing the freezer set temperature.Refrigerator exited Max Ice returning the freezer temperature to the prior set temperature.",
+            "PushText": "Refrigerator started Max Ice temporarily reducing the freezer set temperature.Refrigerator exited Max Ice returning the freezer temperature to the prior set temperature.",
+            "AlertTitle": "System Alert",
+            "Type": "system"
+        },
+        {
+            "TemplateId": "MaxIce2",
+            "SmsText": "Refrigerator started Max Ice temporarily reducing the freezer set temperature.Refrigerator exited Max Ice returning the freezer temperature to the prior set temperature.",
+            "EmailText": "Refrigerator started Max Ice temporarily reducing the freezer set temperature.Refrigerator exited Max Ice returning the freezer temperature to the prior set temperature.",
+            "PushText": "Refrigerator started Max Ice temporarily reducing the freezer set temperature.Refrigerator exited Max Ice returning the freezer temperature to the prior set temperature.",
+            "AlertTitle": "System Alert",
+            "Type": "system"
+        },
+        {
+            "TemplateId": "OverTemp1",
+            "SmsText": "Review the contents of your refrigerator - it is over temperature",
+            "EmailText": "Review the contents of your refrigerator - it is over temperature",
+            "PushText": "Review the contents of your refrigerator - it is over temperature.",
+            "AlertTitle": "System Alert",
+            "Type": "system"
+        },
+        {
+            "TemplateId": "OverTemp2",
+            "SmsText": "Review the contents of your freezer - it is over temperature.",
+            "EmailText": "Review the contents of your freezer - it is over temperature.",
+            "PushText": "Review the contents of your freezer - it is over temperature.",
+            "AlertTitle": "System Alert",
+            "Type": "system"
+        },
+        {
+            "TemplateId": "PreventativeMaintenanceAirFilter",
+            "SmsText": "It’s time to check the status of the refrigerator's air filter or produce preserver ",
+            "EmailText": "It’s time to check the status of the refrigerator's air filter or produce preserver ",
+            "PushText": "It’s time to check the status of the refrigerator's air filter or produce preserver ",
+            "AlertTitle": "Air Filter Alert",
+            "Type": "system"
+        },
+        {
+            "TemplateId": "WaterFilter0",
+            "SmsText": "It's just about time to replace your refrigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+            "EmailText": "It's just about time to replace your refrigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+            "PushText": "It's just about time to replace your refrigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+            "AlertTitle": "System Alert",
+            "Type": "system"
+        },
+        {
+            "TemplateId": "WaterFilter1",
+            "SmsText": "It's just about time to replace your refrigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+            "EmailText": "It's just about time to replace your refrigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+            "PushText": "It's just about time to replace your refrigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+            "AlertTitle": "Water Filter Alert",
+            "Type": "waterFilter"
+        },
+        {
+            "TemplateId": "WaterFilter2",
+            "SmsText": "It's just about time to replace your refrigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+            "EmailText": "It's just about time to replace your refrigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+            "PushText": "It's just about time to replace your refrigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+            "AlertTitle": "Water Filter Alert",
+            "Type": "waterFilter"
+        }
+    ]
+    }

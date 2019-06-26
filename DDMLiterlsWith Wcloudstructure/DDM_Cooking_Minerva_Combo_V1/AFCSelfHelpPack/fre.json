@@ -1,0 +1,200 @@
+{
+    "F1,E0": {
+        "ErrorCode": "F1E0",
+        "Name": "Erreur d’interface utilisateur interne",
+        "Description": "Le produit a rencontré un problème et doit être réinitialisé. Appuyer sur « Réinitialiser » sur l’afficheur du four. Si le problème persiste, une intervention de dépannage sera requise.",
+        "StepsToRepair": [
+            
+        ],
+        "HelpPath": ""
+    },
+    "F1,E1": {
+        "ErrorCode": "F1E1",
+        "Name": "Erreur des commandes internes du four",
+        "Description": "Le four rencontre un problème et ne peut plus être utilisé.",
+        "StepsToRepair": [
+            
+        ],
+        "HelpPath": ""
+    },
+    "F1,E4": {
+        "ErrorCode": "F1E4",
+        "Name": "Relais d’alimentation de four à micro-ondes",
+        "Description": "Le four à micro-ondes rencontre un problème et ne peut plus être utilisé.",
+        "StepsToRepair": [
+            
+        ],
+        "HelpPath": ""
+    },
+    "F1,E5": {
+        "ErrorCode": "F1E5",
+        "Name": "Onduleur du four à micro-ondes",
+        "Description": "Le four à micro-ondes rencontre un problème et ne peut plus être utilisé.",
+        "StepsToRepair": [
+            
+        ],
+        "HelpPath": ""
+    },
+    "F1,E6": {
+        "ErrorCode": "F1E6",
+        "Name": "Four à micro-ondes – erreur de génération",
+        "Description": "Le four à micro-ondes rencontre un problème et ne peut plus être utilisé.",
+        "StepsToRepair": [
+            
+        ],
+        "HelpPath": ""
+    },
+    "F2,E0": {
+        "ErrorCode": "F2E0",
+        "Name": "Clavier déconnecté",
+        "Description": "Le produit a rencontré un problème et doit être réinitialisé. Appuyer sur « Réinitialiser » sur l’afficheur du four. Si le problème persiste, une intervention de dépannage sera requise.",
+        "StepsToRepair": [
+            
+        ],
+        "HelpPath": ""
+    },
+    "F2,E1": {
+        "ErrorCode": "F2E1",
+        "Name": "Touche bloquée/court-circuitée",
+        "Description": "Le produit a rencontré un problème et doit être réinitialisé. Appuyer sur « Réinitialiser » sur l’afficheur du four. Si le problème persiste, une intervention de dépannage sera requise.",
+        "StepsToRepair": [
+            
+        ],
+        "HelpPath": ""
+    },
+    "F3,E0": {
+        "ErrorCode": "F3E0",
+        "Name": "Capteur du four principal ouvert ou court-circuité",
+        "Description": "Le four rencontre un problème et ne peut plus être utilisé.",
+        "StepsToRepair": [
+            
+        ],
+        "HelpPath": ""
+    },
+    "F3,E3": {
+        "ErrorCode": "F3E3",
+        "Name": "Sonde de cuisson ou prise de connecteur de sonde de cuisson court-circuitée",
+        "Description": "La sonde de cuisson de la viande a rencontré un problème et ne peut plus être utilisée. Les autres caractéristiques fonctionnent normalement.",
+        "StepsToRepair": [
+            
+        ],
+        "HelpPath": ""
+    },
+    "F4,E1": {
+        "ErrorCode": "F4E1",
+        "Name": "Erreur de capteur de température cavité",
+        "Description": "Le four à micro-ondes rencontre un problème et ne peut plus être utilisé.",
+        "StepsToRepair": [
+            
+        ],
+        "HelpPath": ""
+    },
+    "F4,E2": {
+        "ErrorCode": "F4E2",
+        "Name": "Erreur du capteur de température du magnétron",
+        "Description": "Le four à micro-ondes rencontre un problème et ne peut plus être utilisé.",
+        "StepsToRepair": [
+            
+        ],
+        "HelpPath": ""
+    },
+    "F4,E4": {
+        "ErrorCode": "F4E4",
+        "Name": "Erreur de capteur humidité",
+        "Description": "Le four à micro-ondes rencontre un problème et ne peut plus être utilisé.",
+        "StepsToRepair": [
+            
+        ],
+        "HelpPath": ""
+    },
+    "F4,E8": {
+        "ErrorCode": "F4E8",
+        "Name": "Surchauffe de l’onduleur et du magnétron",
+        "Description": "Le four à micro-ondes rencontre un problème et ne peut plus être utilisé.",
+        "StepsToRepair": [
+            
+        ],
+        "HelpPath": ""
+    },
+    "F4,E9": {
+        "ErrorCode": "F4E9",
+        "Name": "Surchauffe de l’onduleur et du magnétron",
+        "Description": "Le four à micro-ondes rencontre un problème et ne peut plus être utilisé.",
+        "StepsToRepair": [
+            
+        ],
+        "HelpPath": ""
+    },
+    "F5,E0": {
+        "ErrorCode": "F5E0",
+        "Name": "Non-concordance entre les contacteurs de la porte et du loquet",
+        "Description": "Le four rencontre un problème et ne peut plus être utilisé.",
+        "StepsToRepair": [
+            
+        ],
+        "HelpPath": ""
+    },
+    "F5,E1": {
+        "ErrorCode": "F5E1",
+        "Name": "Moteur de loquet de porte non fonctionnel",
+        "Description": "Le four rencontre un problème et ne peut plus être utilisé.",
+        "StepsToRepair": [
+            
+        ],
+        "HelpPath": ""
+    },
+    "F6,E0": {
+        "ErrorCode": "F6E0",
+        "Name": "Contact perdu avec l’interface utilisateur",
+        "Description": "Le produit a rencontré un problème et doit être réinitialisé. Appuyer sur « Réinitialiser » sur l’afficheur du four. Si le problème persiste, une intervention de dépannage sera requise.",
+        "StepsToRepair": [
+            
+        ],
+        "HelpPath": ""
+    },
+    "F6,E1": {
+        "ErrorCode": "F6E1",
+        "Name": "Dépassement de la température quand le four chauffe",
+        "Description": "Le four rencontre un problème et ne peut plus être utilisé.",
+        "StepsToRepair": [
+            
+        ],
+        "HelpPath": ""
+    },
+    "F6,E4": {
+        "ErrorCode": "F6E4",
+        "Name": "Non-concordance de statut d’état de l’interface utilisateur/des commandes",
+        "Description": "Le four rencontre un problème et ne peut plus être utilisé.",
+        "StepsToRepair": [
+            
+        ],
+        "HelpPath": ""
+    },
+    "F6,E6": {
+        "ErrorCode": "F6E6",
+        "Name": "Commandes du four – perte du contact de communication",
+        "Description": "Le four a rencontré un problème et doit être réinitialisé. Appuyer sur « Réinitialiser » sur l’afficheur du four. Si le problème persiste, une intervention de dépannage sera requise.",
+        "StepsToRepair": [
+            
+        ],
+        "HelpPath": ""
+    },
+    "F6,E8": {
+        "ErrorCode": "F6E8",
+        "Name": "Commandes du four à micro-ondes – perte du contact de communication",
+        "Description": "Le four à micro-ondes a rencontré un problème et doit être réinitialisé. Appuyer sur « Réinitialiser » sur l’afficheur du four. Si le problème persiste, une intervention de dépannage sera requise.",
+        "StepsToRepair": [
+            
+        ],
+        "HelpPath": ""
+    },
+    "F9,E0": {
+        "ErrorCode": "F9E0",
+        "Name": "Mauvais câblage du produit",
+        "Description": "Le produit a rencontré un problème et ne peut plus être utilisé.",
+        "StepsToRepair": [
+            
+        ],
+        "HelpPath": ""
+    }
+    }

@@ -303,7 +303,7 @@
     "OvenLowerCavity_CycleSetCommonModeCommonModeConvectSlowRoast2.Label": "Rôtissage lent par convection MOYEN",
     "OvenLowerCavity_CycleSetCommonModeCommonModeConvectSlowRoast3.Label": "Rôtissage lent par convection ÉLEVÉ",
     "ControlLock.Label" : "Control lock",
-    "ControlLock.Description": "Permet de verrouiller les commandes pour éviter une utilisation involontaire de l'appareil.",
+    "ControlLock.Description": "Permet de verrouiller les commandes pour éviter une utilisation involontaire de l'appareil",
     "Notifications.Label" : "Notifications",
     "Notifications.Description" : "Start or stop notifications for individual notifications at any time",
     "KitchenTimer.Label" : "Kitchen timer",

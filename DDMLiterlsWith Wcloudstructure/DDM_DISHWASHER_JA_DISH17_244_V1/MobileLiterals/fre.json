@@ -1,0 +1,220 @@
+{
+    "Manuals": {
+        "Warranty": {
+            "Title": "Garantie",
+            "FilePath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/Docs/fre/JA_DISH17_Warranty.pdf"
+        },
+        "UseCareGuide": {
+            "Title": "Guide utilisation et entretien",
+            "FilePath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/Docs/fre/JA_DISH17_Use_Careguide.pdf"
+        },
+        "InstallationInstructions": {
+            "Title": "Instructions d’installation",
+            "FilePath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/Docs/fre/JA_DISH17_InstallationInstructions.pdf"
+        },
+        "FCCInformationForm": {
+            "Title": "Fiche informative de la CFC",
+            "FilePath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/Docs/fre/JA_DISH17_FCC.pdf"
+        }
+    },
+    "NestSettings": {
+        "QuietWhileHome.Name": "Calme tandis que la maison",
+        "QuietWhileHome.Description": "Votre lave-vaisselle passe automatiquement en mode silencieux lorsque Nest ™ sait que vous êtes chez vous.",
+        "WashWhileAway.Name": "Laver en dehors",
+        "WashWhileAway.Description": "Lorsque Nest ™ détecte que vous êtes absent, votre lave-vaisselle démarre le cycle sélectionné. Veuillez noter que Nest ™ peut prendre jusqu'à deux heures pour envoyer le signal à l'extérieur."
+    },
+    "Notifications": {
+        "CycleComplete": {
+            "Name": "Programme terminé",
+            "Description": "Recevez une notification lorsque le programme de lavage sélectionné est terminé."
+        },
+        "FilterStatus": {
+            "Name": "Alerte de nettoyage du filtre",
+            "Description": "Recevez une notification lorsque vient le temps de nettoyer le système de triple filtration de votre lave-vaisselle."
+        },
+        "SaniRinse": {
+            "Name": "Rinçage avec assainissement",
+            "Description": "Recevez une notification pour la température de rinçage avec assainissement."
+        },
+        "RemoteStatus": {
+            "Name": "État de commande à distance",
+            "Description": "Recevez une notification lorsque l’état de la commande à distance de votre appareil change."
+        },
+        "AffreshNotification": {
+            "Name": "État affresh®",
+            "Description": "Recevez une notification lorsque vient le temps d’effectuer un programme de nettoyage affresh® pour maintenir votre lave-vaisselle propre."
+        }
+    },
+    "SpecialtyCycles": {
+        "Gentle.Name": "Gentle",
+        "Gentle.Description": "",
+        "Gentle.LongDescription": "",
+        "Gentle.IconPath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/Docs/JA_Dish_SpecialtyCycleIcons_PlasticItems.png",
+        "Heavy.Name": "Heavy",
+        "Heavy.Description": "",
+        "Heavy.LongDescription": "",
+        "Heavy.IconPath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/Docs/JA_Dish_SpecialtyCycleIcons_FineChina.png",
+        "SpecialtyItems.Name": "Specialty Items",
+        "SpecialtyItems.Description": "",
+        "SpecialtyItems.LongDescription": "",
+        "SpecialtyItems.IconPath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/Docs/JA_Dish_SpecialtyCycleIcons_CanningItems.png",
+        "SanitizeWash.Name": "Sanitize Wash",
+        "SanitizeWash.Description": "",
+        "SanitizeWash.LongDescription": "",
+        "SanitizeWash.IconPath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/Docs/JA_Dish_SpecialtyCycleIcons_CanningItems.png",
+        "QuickWash.Name": "Quick Wash",
+        "QuickWash.Description": "",
+        "QuickWash.LongDescription": "",
+        "QuickWash.IconPath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/Docs/JA_Dish_SpecialtyCycleIcons_RinseOnly.png"
+    },
+    "SupplyItem": {
+        "Warranty": {
+            "Name": "Plan de service étendu",
+            "Description": "Plan de service étendu",
+            "Disclaimer": "Plan de service étendu",
+            "SupplyLocations": [
+                {
+                    "Merchant": "Whirlpool",
+                    "Country": "United States",
+                    "url": "https://www.whirlpoolextendedserviceplans.com/Home/Welcome/"
+                },
+                {
+                    "Merchant": "Whirlpool",
+                    "Country": "Canada",
+                    "url": "https://certifiedcare.ca/"
+                }
+            ]
+        },
+        "AffreshDishwasherCleaner": {
+            "Name": "Nettoyant pour lave-vaisselle affresh®",
+            "Description": "Écartez-vous - de la bonne façon Affresh® Dishwasher Clearn est spécialement formulé pour aider à éliminer l'accumulation de calcaire et de minéraux qui peut être inesthétique et qui pourrait affecter les performances de votre lave-vaisselle. Chaque tablette est conçue pour nettoyer l'intérieur de votre machine pendant que votre détergent nettoie votre vaisselle.*",
+            "Disclaimer": "Vérifiez les instructions de nettoyage du fabricant sur tous les articles de lave-vaisselle.",
+            "SupplyLocations": [
+                {
+                    "Merchant": "Whirlpool",
+                    "Country": "United States",
+                    "url": "http://www.whirlpool.com/-%5BW10282479%5D-1001564/W10282479/"
+                },
+                {
+                    "Merchant": "Whirlpool",
+                    "Country": "Canada",
+                    "url": "http://www.whirlpool.ca/en_CA/-%5BW10288149B%5D-1301464/W10288149B/"
+                }
+            ]
+        },
+        "ScheduleService": {
+            "Name": "Service de planification",
+            "Description": "Service de planification",
+            "Disclaimer": "Service de planification",
+            "SupplyLocations": [
+                {
+                    "Merchant": "Whirlpool",
+                    "Country": "United States",
+                    "url": "https://www.servicebench.com/servicebenchv5/consumerApp/consumerRequestForward.action?token=ZHU6Y29uc3VtZXJQb3J0YWxQcm9kdWN0RGVzY3JpcHRpb247c2E6Mjc&cparam="
+                },
+                {
+                    "Merchant": "Whirlpool",
+                    "Country": "Canada",
+                    "url": "https://www.servicebench.com/servicebenchv5/consumerApp/consumerRequestForward.action?token=ZHU6Y29uc3VtZXJQb3J0YWxQcm9kdWN0RGVzY3JpcHRpb247c2s6V0M7c2E6NDA&cparam"
+                }
+            ]
+        }
+    },
+    "GlobalGoverningStates": {
+        "Quiet": {
+            "Name": "Quiet Mode",
+            "Description": "Quiet Mode Minimizes the appliances operating noise and mutes alert sounds."
+        },
+        "Control": {
+            "Name": "Control Lock",
+            "Description": "Control Lock status of the control panel to prevent unintended use of the participating appliances."
+        },
+        "Vacation": {
+            "Name": "Vacation Mode",
+            "Description": "Vacation Mode monitors use of your appliances while you're away."
+        }
+    },
+    "SmartTip": [
+        
+    ],
+    "cxcDetail": {
+        "US": {
+            "Country": "United States",
+            "cxcEmail": {
+                "Development": "NAR_JennAirCustomerExperience@JennAir.com",
+                "Test": "NAR_JennAirCustomerExperience@JennAir.com",
+                "Staging": "NAR_JennAirCustomerExperience@JennAir.com",
+                "Cuft": "NAR_JennAirCustomerExperience@JennAir.com",
+                "Production": "NAR_JennAirCustomerExperience@JennAir.com"
+            },
+            "cxcPhone": {
+                "Development": "1-800-536-6247",
+                "Test": "1-800-536-6247",
+                "Staging": "1-800-536-6247",
+                "Cuft": "1-800-536-6247",
+                "Production": "1-800-536-6247"
+            },
+            "cxcHours": {
+                "Development": "8.00 AM-8.00 PM EST,Monday-Friday",
+                "Test": "8.00 AM-8.00 PM EST,Monday-Friday",
+                "Staging": "8.00 AM-8.00 PM EST,Monday-Friday",
+                "Cuft": "8.00 AM-8.00 PM EST,Monday-Friday",
+                "Production": "8.00 AM-8.00 PM EST,Monday-Friday"
+            }
+        },
+        "CA": {
+            "Country": "Canada",
+            "cxcEmail": {
+                "Development": "NAR_JennAirCustomerExperience@JennAir.com",
+                "Test": "NAR_JennAirCustomerExperience@JennAir.com",
+                "Staging": "NAR_JennAirCustomerExperience@JennAir.com",
+                "Cuft": "NAR_JennAirCustomerExperience@JennAir.com",
+                "Production": "NAR_JennAirCustomerExperience@JennAir.com"
+            },
+            "cxcPhone": {
+                "Development": "1-800-536-6247",
+                "Test": "1-800-536-6247",
+                "Staging": "1-800-536-6247",
+                "Cuft": "1-800-536-6247",
+                "Production": "1-800-536-6247"
+            },
+            "cxcHours": {
+                "Development": "8.00 AM-8.00 PM EST,Monday-Friday",
+                "Test": "8.00 AM-8.00 PM EST,Monday-Friday",
+                "Staging": "8.00 AM-8.00 PM EST,Monday-Friday",
+                "Cuft": "8.00 AM-8.00 PM EST,Monday-Friday",
+                "Production": "8.00 AM-8.00 PM EST,Monday-Friday"
+            }
+        }
+    },
+    "Replenishment": {
+        "ReplenishmentSlot": {
+            "DisplayName": {
+                "DishwasherSlot1Name": "Lave-vaisselle Fente 1 Nom",
+                "DishwasherSlot2Name": "Lave-vaisselle Fente 2 Nom"
+            },
+            "UomDisplay": {
+                "DishwasherSlot1UomDisplay": "Lave-vaisselle Fente 1 Affichage UOM",
+                "DishwasherSlot2UomDisplay": "Lave-vaisselle Fente 2 Affichage UOM"
+            }
+        },
+        "ReplenishmentDelay": {
+            "DisplayName": {
+                "DishwasherSlot1Delay0": "Mise en marche différée 0",
+                "DishwasherSlot1Delay2": "Délai 2",
+                "DishwasherSlot1Delay4": "Délai 4",
+                "DishwasherSlot1Delay6": "Délai 6",
+                "DishwasherSlot2Delay0": "Délai 0",
+                "DishwasherSlot2Delay2": "Délai 2",
+                "DishwasherSlot2Delay4": "Délai 4",
+                "DishwasherSlot2Delay6": "Délai 6"
+            }
+        },
+        "ReplenishmentUsage": {
+            "DisplayName": {
+                "DishwasherSlot1UsageDefault": "Utilisation du lave-vaisselle Fente 1 par défaut",
+                "DishwasherSlot2UsageDefault": "Utilisation du lave-vaisselle Fente 2 par défaut"
+            }
+        }
+    }
+    }

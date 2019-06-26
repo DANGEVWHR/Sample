@@ -1,0 +1,52 @@
+{
+    "NotificationContents": [
+        {
+            "TemplateId": "FreezerDoorCloseAlert1",
+            "SmsText": "Freezer door has been closed.",
+            "EmailText": "Freezer door has been closed",
+            "PushText": "Freezer door has been closed.",
+            "AlertTitle": "Door Close",
+            "Type": "maxIceDoor"
+        },
+        {
+            "TemplateId": "FreezerDoorOpenAlert1",
+            "SmsText": "Freezer door alarm is sounding. Check that the door is closed and/or items aren’t blocking the door.",
+            "EmailText": "Freezer door alarm is sounding. Check that the door is closed and/or items aren’t blocking the door.",
+            "PushText": "Freezer door alarm is sounding. Check that the door is closed and/or items aren’t blocking the door.",
+            "AlertTitle": "Door Open",
+            "Type": "maxIceDoor"
+        },
+        {
+            "TemplateId": "FreezerPowerOutAlert",
+            "SmsText": "freezer lost power.",
+            "EmailText": "freezer lost power.",
+            "PushText": "freezer lost power.",
+            "AlertTitle": "Power Outage",
+            "Type": "system"
+        },
+        {
+            "TemplateId": "FreezerWaterFilter0",
+            "SmsText": "It's just about time to replace your freezer's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+            "EmailText": "It's just about time to replace your freezer's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+            "PushText": "It's just about time to replace your freezer's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+            "AlertTitle": "Reorder Alert",
+            "Type": "system"
+        },
+        {
+            "TemplateId": "FreezerWaterFilter1",
+            "SmsText": "It's just about time to replace your freezer's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+            "EmailText": "It's just about time to replace your freezer's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+            "PushText": "It's just about time to replace your freezer's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+            "AlertTitle": "Reorder Alert",
+            "Type": "system"
+        },
+        {
+            "TemplateId": "FreezerWaterFilter2",
+            "SmsText": "It's just about time to replace your freezer's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+            "EmailText": "It's just about time to replace your freezer's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+            "PushText": "It's just about time to replace your freezer's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+            "AlertTitle": "Reorder Alert",
+            "Type": "system"
+        }
+    ]
+    }

@@ -73,7 +73,7 @@
     "Cooktop_OperationStatus.State.EnumValues.SimpleStateProgramming.Label": "Programming",
     "Cooktop_OperationStatus.State.EnumValues.SimpleStateRunning.Label": "Running",
     "ControlLock.Label" : "Control lock",
-    "SystemSettings_ControlLock.Description": "Allows you to lock the controls to prevent unintended use of the appliance.",
+    "SystemSettings_ControlLock.Description": "Allows you to lock the controls to prevent unintended use of the appliance",
     "Notifications.Label" : "Notifications",
     "Notifications.Description" : "Start or stop notifications for individual notifications at any time"
   },

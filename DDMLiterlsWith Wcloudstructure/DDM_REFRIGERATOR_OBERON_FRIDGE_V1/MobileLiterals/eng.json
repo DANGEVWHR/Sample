@@ -1,0 +1,187 @@
+{
+    "Manuals": {
+        "Warranty": {
+            "Title": "Warranty",
+            "FilePath": "NAR/JENNAIR/DDM_REFRIGERATOR_OBERON_FRIDGE_V1/Docs/eng/Refrigerator_Warranty.pdf"
+        },
+        "UseCareGuide": {
+            "Title": "Use & Care Guide",
+            "FilePath": "NAR/JENNAIR/DDM_REFRIGERATOR_OBERON_FRIDGE_V1/Docs/eng/Refrigerator_Use_and_Care_Guide.pdf"
+        },
+        "InstallationInstructions": {
+            "Title": "Installation Instructions",
+            "FilePath": "NAR/JENNAIR/DDM_REFRIGERATOR_OBERON_FRIDGE_V1/Docs/eng/Refrigerator_Installation_Instructions.pdf"
+        },
+        "FccInformationForm": {
+            "Title": "FCC Information Form",
+            "FilePath": "NAR/JENNAIR/DDM_REFRIGERATOR_OBERON_FRIDGE_V1/Docs/eng/Refrigerator_FCC.pdf"
+        }
+    },
+    "NestSettings": {},
+    "SpecialtyCycles": {},
+    "Notifications": {
+        "DoorOpenAlert": {
+            "Name": "Door Open",
+            "Description": "Receive a notification when the refrigerator door has been open for longer than 5 minutes."
+        },
+        "DoorCloseAlert": {
+            "Name": "Door Closed",
+            "Description": "Receive a notification when the door has been closed after being open for longer than 5 minutes."
+        },
+        "PowerOutAlert": {
+            "Name": "Power Outage",
+            "Description": "Receive a notification for any power outage and restoration."
+        },
+        "WaterFilter": {
+            "Name": "Order Filter Alert",
+            "Description": "Receive a notification when it is time to reorder your water filter for the refrigerator."
+        },
+        "OverTemp": {
+            "Name": "Over Temperature Alert",
+            "Description": "Receive a notification if your refrigerator temperature rises over 50° F."
+        }
+    },
+    "SupplyItem": {
+        "ProducePreserverRefill": {
+            "Name": "FreshFlow Produce Preserver Starter Kit",
+            "Description": "Fruits and vegetables naturally give off ethylene gas as they ripen. When they absorb the gas, it makes them over-ripen faster. The produce preserver helps absorb the ethylene instead, so produce stays fresher longer!",
+            "Disclaimer": "",
+            "Model": "P1FB6S1",
+            "SupplyLocations": [
+                {
+                    "Merchant": "JennAir",
+                    "Country": "United States",
+                    "url": "https://jennair.com/accessories/details/P1FB6S1"
+                },
+                {
+                    "Merchant": "JennAir",
+                    "Country": "Canada",
+                    "url": "https://whirlpoolparts.ca/POL/partssearch?partsId=P1FB6S1"
+                }
+            ]
+        },
+        "EveryDropWaterFilter": {
+            "Name": "Ice & Water Refrigerator Filter",
+            "Description": "Now, you and your family can enjoy the enriching benefits of cleaner, freshly filtered ice & water. Not just in beverages, but for preparing meals, too. Our advanced generation of ice & water refrigerator filters from EveryDrop™ Filters are certified to reduce the most contaminants — with Triple Filtration™ Technology. Filter 2 reduces 24 contaminants, so you can feel reassured that you and your family are getting the most out of your water. Remember to replace your refrigerator filter every 6 months to maximize contaminant reduction. (Replaces W10413645A)",
+            "Disclaimer": "",
+            "Model": "EDR2RXD1",
+            "SupplyLocations": [
+                {
+                    "Merchant": "JennAir",
+                    "Country": "United States",
+                    "url": "https://jennair.com/accessories/details/EDR2RXD1"
+                },
+                {
+                    "Merchant": "JennAir",
+                    "Country": "Canada",
+                    "url": "https://everydropwater.ca/en/filter2-refrigerator-water-filter-turn-model-edr2rxd1b?gclid=CjwKCAjwq57cBRBYEiwAdpx0vZWswhgI9gSgAwAvaJjLryVE87Y8HeIlAT3U4RLPshf3bMjv_35P_hoCu-UQAvD_BwE"
+                }
+            ]
+        },
+        "HerbTender": {
+            "Name": "Herb Tender™ Container",
+            "Description": "Provides a dedicated storage space to help optimize herb freshness. This stand-alone tumbler has a slotted top design, that keeps herbs such as mint, thyme, oregano and dill fresh longer. As this BPA Free container can be used in any refrigerator it is a perfect addition for any home.",
+            "Disclaimer": "",
+            "Model": "W10882409",
+            "SupplyLocations": [
+                {
+                    "Merchant": "JennAir",
+                    "Country": "United States",
+                    "url": "https://jennair.com/accessories/details/W10882409"
+                },
+                {
+                    "Merchant": "JennAir",
+                    "Country": "Canada",
+                    "url": "https://whirlpoolparts.ca/POL/partssearch?partsId=W10882409"
+                }
+            ]
+        },
+        "AdditionalRefrigeratorAccessories ": {
+            "Name": "Additional Refrigerator Accessories",
+            "Description": "Handle kits, ice buckets and other parts and accessories compliment your refrigerator. ",
+            "Disclaimer": "",
+            "Model": "N/A",
+            "SupplyLocations": [
+                {
+                    "Merchant": "JennAir",
+                    "Country": "United States",
+                    "url": "https://jennair.com/accessories/refrigerators"
+                },
+                {
+                    "Merchant": "JennAir",
+                    "Country": "Canada",
+                    "url": "https://www.jennair.ca/appliance/accessories/refrigeration-accessories/"
+                }
+            ]
+        },
+        "ScheduleService": {
+            "Name": "Schedule Service",
+            "Description": "Schedule Service",
+            "Disclaimer": "Schedule Service",
+            "SupplyLocations": [
+                {
+                    "Merchant": "JennAir",
+                    "Country": "United States",
+                    "url": "https://www.servicebench.com/servicebenchv5/consumerApp/consumerRequestForward.action?token=ZHU6Y29uc3VtZXJQb3J0YWxQcm9kdWN0RGVzY3JpcHRpb247c2E6Mjc&cparam="
+                },
+                {
+                    "Merchant": "JennAir",
+                    "Country": "Canada",
+                    "url": "https://www.servicebench.com/servicebenchv5/consumerApp/consumerRequestForward.action?token=ZHU6Y29uc3VtZXJQb3J0YWxQcm9kdWN0RGVzY3JpcHRpb247c2s6V0M7c2E6NDA&cparam"
+                }
+            ]
+        }
+    },
+    "smartTip": [],
+    "cxcDetail": {
+        "US": {
+            "Country": "United States",
+            "cxcEmail": {
+                "Development": "NAR_JennAirCustomerExperience@JennAir.com",
+                "Test": "NAR_JennAirCustomerExperience@JennAir.com",
+                "Staging": "NAR_JennAirCustomerExperience@JennAir.com",
+                "Cuft": "NAR_JennAirCustomerExperience@JennAir.com",
+                "Production": "NAR_JennAirCustomerExperience@JennAir.com"
+            },
+            "cxcPhone": {
+                "Development": "1-800-536-6247",
+                "Test": "1-800-536-6247",
+                "Staging": "1-800-536-6247",
+                "Cuft": "1-800-536-6247",
+                "Production": "1-800-536-6247"
+            },
+            "cxcHours": {
+                "Development": "Mon–Fri 8am–8pm EST",
+                "Test": "Mon–Fri 8am–8pm EST",
+                "Staging": "Mon–Fri 8am–8pm EST",
+                "Cuft": "Mon–Fri 8am–8pm EST",
+                "Production": "Mon–Fri 8am–8pm EST"
+            }
+        },
+        "CA": {
+            "Country": "Canada",
+            "cxcEmail": {
+                "Development": "NAR_JennAirCustomerExperience@JennAir.com",
+                "Test": "NAR_JennAirCustomerExperience@JennAir.com",
+                "Staging": "NAR_JennAirCustomerExperience@JennAir.com",
+                "Cuft": "NAR_JennAirCustomerExperience@JennAir.com",
+                "Production": "NAR_JennAirCustomerExperience@JennAir.com"
+            },
+            "cxcPhone": {
+                "Development": "1-800-536-6247",
+                "Test": "1-800-536-6247",
+                "Staging": "1-800-536-6247",
+                "Cuft": "1-800-536-6247",
+                "Production": "1-800-536-6247"
+            },
+            "cxcHours": {
+                "Development": "Mon–Fri 8am–8pm EST",
+                "Test": "Mon–Fri 8am–8pm EST",
+                "Staging": "Mon–Fri 8am–8pm EST",
+                "Cuft": "Mon–Fri 8am–8pm EST",
+                "Production": "Mon–Fri 8am–8pm EST"
+            }
+        }
+    },
+    "Replenishment": {}
+    }

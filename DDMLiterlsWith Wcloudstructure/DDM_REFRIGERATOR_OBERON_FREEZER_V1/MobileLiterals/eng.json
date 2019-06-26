@@ -1,0 +1,128 @@
+{
+    "Manuals": {
+        "Warranty": {
+            "Title": "Warranty",
+            "FilePath": "NAR/JENNAIR/DDM_REFRIGERATOR_OBERON_FREEZER_V1/Docs/eng/Freezer_Warranty.pdf"
+        },
+        "UseCareGuide": {
+            "Title": "Use & Care Guide",
+            "FilePath": "NAR/JENNAIR/DDM_REFRIGERATOR_OBERON_FREEZER_V1/Docs/eng/Freezer_Use_and_Care_Guide.pdf"
+        },
+        "InstallationInstructions": {
+            "Title": "Installation Instructions",
+            "FilePath": "NAR/JENNAIR/DDM_REFRIGERATOR_OBERON_FREEZER_V1/Docs/eng/Freezer_Installation_Instructions.pdf"
+        },
+        "FccInformationForm": {
+            "Title": "FCC Information Form",
+            "FilePath": "NAR/JENNAIR/DDM_REFRIGERATOR_OBERON_FREEZER_V1/Docs/eng/Freezer_FCC.pdf"
+        }
+    },
+    "NestSettings": {},
+    "SpecialtyCycles": {},
+    "Notifications": {
+        "DoorOpenAlert": {
+            "Name": "Door Open",
+            "Description": "Receive a notification when the door is left open for longer than 5 minutes"
+        },
+        "DoorCloseAlert": {
+            "Name": "Door Closed",
+            "Description": "Receive a notification when the door has been closed after being open for longer than 5 minutes."
+        },
+        "PowerOutAlert": {
+            "Name": "Power Outage",
+            "Description": "Receive a notification for any power outage and restoration."
+        },
+        "WaterFilter": {
+            "Name": "Reorder Alert",
+            "Description": "Receive a notification when it is time to reorder your water filter for the freezer."
+        }
+    },
+    "SupplyItem": {
+        "EveryDropWaterFilter": {
+            "Name": "EveryDrop™ Water Filter",
+            "Description": "",
+            "Disclaimer": "",
+            "SupplyLocations": [
+                {
+                    "Merchant": "EveryDrop",
+                    "Country": "United States",
+                    "url": "https://everydropwater.com/Filters/Item/EDR2RXD1"
+                },
+                {
+                    "Merchant": "EveryDrop",
+                    "Country": "Canada",
+                    "url": "https://everydropwater.ca/en/filter2-refrigerator-water-filter-turn-model-edr2rxd1b"
+                }
+            ]
+        },
+        "ScheduleService": {
+            "Name": "Schedule Service",
+            "Description": "Schedule Service",
+            "Disclaimer": "Schedule Service",
+            "SupplyLocations": [
+                {
+                    "Merchant": "JennAir",
+                    "Country": "United States",
+                    "url": "https://www.servicebench.com/servicebenchv5/consumerApp/consumerRequestForward.action?token=ZHU6Y29uc3VtZXJQb3J0YWxQcm9kdWN0RGVzY3JpcHRpb247c2E6Mjc&cparam="
+                },
+                {
+                    "Merchant": "JennAir",
+                    "Country": "Canada",
+                    "url": "https://www.servicebench.com/servicebenchv5/consumerApp/consumerRequestForward.action?token=ZHU6Y29uc3VtZXJQb3J0YWxQcm9kdWN0RGVzY3JpcHRpb247c2s6V0M7c2E6NDA&cparam"
+                }
+            ]
+        }
+    },
+    "smartTip": [],
+    "cxcDetail": {
+        "US": {
+            "Country": "United States",
+            "cxcEmail": {
+                "Development": "NAR_JennAirCustomerExperience@JennAir.com",
+                "Test": "NAR_JennAirCustomerExperience@JennAir.com",
+                "Staging": "NAR_JennAirCustomerExperience@JennAir.com",
+                "Cuft": "NAR_JennAirCustomerExperience@JennAir.com",
+                "Production": "NAR_JennAirCustomerExperience@JennAir.com"
+            },
+            "cxcPhone": {
+                "Development": "1-800-536-6247",
+                "Test": "1-800-536-6247",
+                "Staging": "1-800-536-6247",
+                "Cuft": "1-800-536-6247",
+                "Production": "1-800-536-6247"
+            },
+            "cxcHours": {
+                "Development": "Mon–Fri 8am–8pm EST",
+                "Test": "Mon–Fri 8am–8pm EST",
+                "Staging": "Mon–Fri 8am–8pm EST",
+                "Cuft": "Mon–Fri 8am–8pm EST",
+                "Production": "Mon–Fri 8am–8pm EST"
+            }
+        },
+        "CA": {
+            "Country": "Canada",
+            "cxcEmail": {
+                "Development": "NAR_JennAirCustomerExperience@JennAir.com",
+                "Test": "NAR_JennAirCustomerExperience@JennAir.com",
+                "Staging": "NAR_JennAirCustomerExperience@JennAir.com",
+                "Cuft": "NAR_JennAirCustomerExperience@JennAir.com",
+                "Production": "NAR_JennAirCustomerExperience@JennAir.com"
+            },
+            "cxcPhone": {
+                "Development": "1-800-536-6247",
+                "Test": "1-800-536-6247",
+                "Staging": "1-800-536-6247",
+                "Cuft": "1-800-536-6247",
+                "Production": "1-800-536-6247"
+            },
+            "cxcHours": {
+                "Development": "Mon–Fri 8am–8pm EST",
+                "Test": "Mon–Fri 8am–8pm EST",
+                "Staging": "Mon–Fri 8am–8pm EST",
+                "Cuft": "Mon–Fri 8am–8pm EST",
+                "Production": "Mon–Fri 8am–8pm EST"
+            }
+        }
+    },
+    "Replenishment": {}
+    }

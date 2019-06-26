@@ -1,0 +1,52 @@
+{
+    "NotificationContents": [
+        {
+            "TemplateId": "CycleComplete",
+            "SmsText": "Dishwasher wash cycle complete.",
+            "EmailText": "Dishwasher wash cycle complete.",
+            "PushText": "Dishwasher wash cycle complete.",
+            "AlertTitle": "Cycle Complete",
+            "Type": "cycle"
+        },
+        {
+            "TemplateId": "AffreshNotification",
+            "SmsText": "It's time to run an affresh® cleaning cycle on your dishwasher. It is recommended that you use affresh every month to keep your dishwasher clean and fresh.",
+            "EmailText": "It's time to run an affresh® cleaning cycle on your dishwasher. It is recommended that you use affresh every month to keep your dishwasher clean and fresh.",
+            "PushText": "It's time to run an affresh® cleaning cycle on your dishwasher. It is recommended that you use affresh every month to keep your dishwasher clean and fresh.",
+            "AlertTitle": "affresh® Status",
+            "Type": "affresh"
+        },
+        {
+            "TemplateId": "FilterStatus",
+            "SmsText": "It's time to clean your dishwasher's triple filtration system in order to achieve optimal cleaning performance.",
+            "EmailText": "It's time to clean your dishwasher's triple filtration system in order to achieve optimal cleaning performance.",
+            "PushText": "It's time to clean your dishwasher's triple filtration system in order to achieve optimal cleaning performance.",
+            "AlertTitle": "Filter Status",
+            "Type": "dishFilter"
+        },
+        {
+            "TemplateId": "SaniRinse",
+            "SmsText": "Dishwasher sanitize rinse cycle complete. ",
+            "EmailText": "Dishwasher sanitize rinse cycle complete. ",
+            "PushText": "Dishwasher sanitize rinse cycle complete. ",
+            "AlertTitle": "Sanitize Rinse",
+            "Type": "saniRinse"
+        },
+        {
+            "TemplateId": "RemoteStatusEnabled",
+            "SmsText": "Dishwasher Remote control is enabled. You can now control your dishwasher remotely.",
+            "EmailText": "Dishwasher Remote control is enabled. You can now control your dishwasher remotely.",
+            "PushText": "Dishwasher Remote control is enabled. You can now control your dishwasher remotely.",
+            "AlertTitle": "Remote Enabled",
+            "Type": "remoteControl"
+        },
+        {
+            "TemplateId": "RemoteStatusDisabled",
+            "SmsText": "Dishwasher Remote control on is disabled. You can re-enable on the appliance if you would like to control your appliance remotely.",
+            "EmailText": "Dishwasher Remote control on is disabled. You can re-enable on the appliance if you would like to control your appliance remotely.",
+            "PushText": "Dishwasher Remote control on is disabled. You can re-enable on the appliance if you would like to control your appliance remotely.",
+            "AlertTitle": "Remote Enabled",
+            "Type": "remoteControl"
+        }
+    ]
+    }

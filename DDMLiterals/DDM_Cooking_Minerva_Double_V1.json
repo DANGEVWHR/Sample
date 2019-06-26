@@ -562,7 +562,7 @@
         "UpperCavity_CavityModeOvenProof.Label" : "Proof",
         "UpperCavity_CavityModeOvenSabbath.Label" : "Sabbath",
         "ControlLock.Label" : "Control lock",
-        "ControlLock.Description": "Allows you to lock the controls to prevent unintended use of the appliance.",
+        "ControlLock.Description": "Allows you to lock the controls to prevent unintended use of the appliance",
         "Notifications.Label" : "Notifications",
         "Notifications.Description" : "Start or stop notifications for individual notifications at any time",
         "KitchenTimer.Label" : "Kitchen timer",

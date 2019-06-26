@@ -1,0 +1,150 @@
+{
+    "NotificationContents": [
+        {
+            "TemplateId": "OvenOnWhileAway",
+            "PushText": "Votre maison est réglée sur le mode absence/absence automatique et votre four est encore allumé",
+            "AlertTitle": "Four en marche lorsqu’absent",
+            "Type": "home_away"
+        },
+        {
+            "TemplateId": "ControlLockLocked",
+            "SmsText": "Tous – le verrouillage des commandes est activé",
+            "EmailText": "Tous – le verrouillage des commandes est activé",
+            "PushText": "Tous – le verrouillage des commandes est activé",
+            "AlertTitle": "verrouillage des commandes",
+            "Type": "lock"
+        },
+        {
+            "TemplateId": "ControlLockOpen",
+            "SmsText": "Tous – le verrouillage des commandes est désactivé",
+            "EmailText": "Tous – le verrouillage des commandes est désactivé",
+            "PushText": "Tous – le verrouillage des commandes est désactivé",
+            "AlertTitle": "verrouillage des commandes",
+            "Type": "lock"
+        },
+        {
+            "TemplateId": "CookCycleCancelled",
+            "SmsText": "Programme de cuisson du four supprimé",
+            "EmailText": "Programme de cuisson du four supprimé",
+            "PushText": "Programme de cuisson du four supprimé",
+            "AlertTitle": "Programme de cuisson annulé",
+            "Type": "cookMode"
+        },
+        {
+            "TemplateId": "CookModeChanged",
+            "SmsText": "Mode de cuisson du four modifié",
+            "EmailText": "Mode de cuisson du four modifié",
+            "PushText": "Mode de cuisson du four modifié",
+            "AlertTitle": "Mode de cuisson modifiée",
+            "Type": "cookMode"
+        },
+        {
+            "TemplateId": "CookTargetTempChanged",
+            "SmsText": "La température de cuisson du four a été modifiée pour {device.UpperCavity_CavityTargetTemp}°",
+            "EmailText": "La température de cuisson du four a été modifiée pour {device.UpperCavity_CavityTargetTemp}°",
+            "PushText": "La température de cuisson du four a été modifiée pour {device.UpperCavity_CavityTargetTemp}°",
+            "AlertTitle": "Température du four modifiée",
+            "Type": "cookMode"
+        },
+        {
+            "TemplateId": "CookTimeComplete",
+            "SmsText": "Temps de cuisson du four terminé",
+            "EmailText": "Temps de cuisson du four terminé",
+            "PushText": "Temps de cuisson du four terminé",
+            "AlertTitle": "Fin de cuisson",
+            "Type": "cookTimer"
+        },
+        {
+            "TemplateId": "CookTimeCompleteReminder",
+            "SmsText": "Temps de cuisson du four terminé. Vous pouvez éteindre le four ou modifier le programme.",
+            "EmailText": "Temps de cuisson du four terminé. Vous pouvez éteindre le four ou modifier le programme.",
+            "PushText": "Temps de cuisson du four terminé. Vous pouvez éteindre le four ou modifier le programme.",
+            "AlertTitle": "Rappel de temps de cuisson terminé",
+            "Type": "cookTimer"
+        },
+        {
+            "TemplateId": "CookTimerChanged",
+            "SmsText": "Temps de cuisson du four modifié",
+            "EmailText": "Temps de cuisson du four modifié",
+            "PushText": "Temps de cuisson du four modifié",
+            "AlertTitle": "Temps de cuisson modifié",
+            "Type": "cookTimer"
+        },
+        {
+            "TemplateId": "UpperCavityCulinaryInstructions",
+            "EmailText": "Le programme culinaire du four fonctionne. Consultez l’affichage du four pour obtenir des instructions",
+            "PushText": "Le programme culinaire du four fonctionne. Consultez l’affichage du four pour obtenir des instructions",
+            "SmsText": "Le programme culinaire du four fonctionne. Consultez l’affichage du four pour obtenir des instructions",
+            "AlertTitle": "Interruptions du centre culinaire",
+            "Type": "userInstruction"
+        },
+        {
+            "TemplateId": "KitchenTimerEventNotificationChanged",
+            "EmailText": "La minuterie de cuisine a été modifiée",
+            "PushText": "La minuterie de cuisine a été modifiée",
+            "AlertTitle": "Minuterie de cuisine modifiée",
+            "Type": "kitchenTimer"
+        },
+        {
+            "TemplateId": "KitchenTimerEventNotificationComplete",
+            "EmailText": "Minuterie de cuisine du four terminée",
+            "PushText": "Minuterie de cuisine du four terminée",
+            "SmsText": "Minuterie de cuisine du four terminée",
+            "AlertTitle": "Minuterie de cuisine terminée",
+            "Type": "kitchenTimer"
+        },
+        {
+            "TemplateId": "MeatProbeTargetChanged",
+            "EmailText": "La température de la sonde de cuisson a été modifiée pour {device.UpperCavity_MeatProbeTargetTemp}°",
+            "PushText": "La température de la sonde de cuisson a été modifiée pour {device.UpperCavity_MeatProbeTargetTemp}°",
+            "AlertTitle": "Cible de la sonde de cuisson atteinte",
+            "Type": "meatProbe"
+        },
+        {
+            "TemplateId": "MeatProbeTempAchieved",
+            "EmailText": "Température de la sonde de cuisson du four atteinte",
+            "PushText": "Température de la sonde de cuisson du four atteinte",
+            "SmsText": "Température de la sonde de cuisson du four atteinte",
+            "AlertTitle": " Température de la sonde atteinte",
+            "Type": "meatProbe"
+        },
+        {
+            "TemplateId": "Preheat25",
+            "EmailText": "Préchauffage du four à {device.UpperCavity_CavityActualTemp}° ({device.UpperCavity_CavityTargetTemp}° cible)",
+            "PushText": "Préchauffage du four à {device.UpperCavity_CavityActualTemp}° ({device.UpperCavity_CavityTargetTemp}° cible)",
+            "AlertTitle": "Progression du programme de préchauffage",
+            "Type": "preheat"
+        },
+        {
+            "TemplateId": "PreheatComplete",
+            "EmailText": "Préchauffage du four terminé",
+            "PushText": "Préchauffage du four terminé",
+            "SmsText": "Préchauffage du four terminé",
+            "AlertTitle": "Préchauffage terminé",
+            "Type": "preheat"
+        },
+        {
+            "TemplateId": "RemoteStatusDisabled",
+            "EmailText": "Tous – La commande à distance de votre appareil est désactivée",
+            "PushText": "Tous – La commande à distance de votre appareil est désactivée",
+            "AlertTitle": "État de commande à distance",
+            "Type": "remoteControl"
+        },
+        {
+            "TemplateId": "RemoteStatusEnabled",
+            "EmailText": "Tous – La commande à distance de votre appareil est activée",
+            "PushText": "Tous – La commande à distance de votre appareil est activée",
+            "SmsText": "Tous – La commande à distance de votre appareil est activée",
+            "AlertTitle": "État de commande à distance",
+            "Type": "remoteControl"
+        },
+        {
+            "TemplateId": "SelfCleanComplete",
+            "EmailText": "Autonettoyage du four terminé",
+            "PushText": "Autonettoyage du four terminé",
+            "SmsText": "Autonettoyage du four terminé",
+            "AlertTitle": "Autonettoyage terminé",
+            "Type": "selfClean"
+        }
+    ]
+    }

@@ -1,0 +1,250 @@
+{
+    "NotificationContents": [
+        {
+            "TemplateId": "OvenOnWhileAway",
+            "PushText": "Votre maison est réglée sur le mode absence/absence automatique et votre four est encore allumé",
+            "AlertTitle": "Four en marche lorsqu’absent",
+            "Type": "home_away"
+        },
+        {
+            "TemplateId": "ControlLockLocked",
+            "SmsText": "Tous – le verrouillage des commandes est activé",
+            "EmailText": "Tous – le verrouillage des commandes est activé",
+            "PushText": "Tous – le verrouillage des commandes est activé",
+            "AlertTitle": "verrouillage des commandes",
+            "Type": "lock"
+        },
+        {
+            "TemplateId": "ControlLockOpen",
+            "SmsText": "Tous – le verrouillage des commandes est désactivé",
+            "EmailText": "Tous – le verrouillage des commandes est désactivé",
+            "PushText": "Tous – le verrouillage des commandes est désactivé",
+            "AlertTitle": "Verrouillage des commandes",
+            "Type": "lock"
+        },
+        {
+            "TemplateId": "CookCycleCanceledLower",
+            "SmsText": " Programme de cuisson du four inférieur supprimé",
+            "EmailText": " Programme de cuisson du four inférieur supprimé",
+            "PushText": " Programme de cuisson du four inférieur supprimé",
+            "AlertTitle": "Programme de cuisson annulé",
+            "Type": "cookMode"
+        },
+        {
+            "TemplateId": "CookCycleCanceledUpper",
+            "SmsText": "Programme de cuisson du four supérieur supprimé",
+            "EmailText": "Programme de cuisson du four supérieur supprimé",
+            "PushText": "Programme de cuisson du four supérieur supprimé",
+            "AlertTitle": "Programme de cuisson annulé",
+            "Type": "cookMode"
+        },
+        {
+            "TemplateId": "CookModeChangedLower",
+            "SmsText": "Mode de cuisson du four inférieur modifié",
+            "EmailText": "Mode de cuisson du four inférieur modifié",
+            "PushText": "Mode de cuisson du four inférieur modifié",
+            "AlertTitle": "Mode de cuisson modifiée",
+            "Type": "cookMode"
+        },
+        {
+            "TemplateId": "CookModeChangedUpper",
+            "SmsText": "Mode de cuisson du four supérieur modifié",
+            "EmailText": "Mode de cuisson du four supérieur modifié",
+            "PushText": "Mode de cuisson du four supérieur modifié",
+            "AlertTitle": "Mode de cuisson modifiée",
+            "Type": "cookMode"
+        },
+        {
+            "TemplateId": "CookTargetTempChangedLower",
+            "SmsText": "La température de cuisson du four inférieur a été modifiée pour {device.UpperCavity_CavityTargetTemp}°",
+            "EmailText": "La température de cuisson du four inférieur a été modifiée pour {device.UpperCavity_CavityTargetTemp}°",
+            "PushText": "La température de cuisson du four inférieur a été modifiée pour {device.UpperCavity_CavityTargetTemp}°",
+            "AlertTitle": "Température du four modifiée",
+            "Type": "cookMode"
+        },
+        {
+            "TemplateId": "CookTargetTempChangedUpper",
+            "SmsText": "La température de cuisson du four supérieur a été modifiée pour {device.UpperCavity_CavityTargetTemp}°",
+            "EmailText": "La température de cuisson du four supérieur a été modifiée pour {device.UpperCavity_CavityTargetTemp}°",
+            "PushText": "La température de cuisson du four supérieur a été modifiée pour {device.UpperCavity_CavityTargetTemp}°",
+            "AlertTitle": "Température du four modifiée",
+            "Type": "cookMode"
+        },
+        {
+            "TemplateId": "CookTimeCompleteLower",
+            "SmsText": "Temps de cuisson du four inférieur terminé",
+            "EmailText": "Temps de cuisson du four inférieur terminé",
+            "PushText": "Temps de cuisson du four inférieur terminé",
+            "AlertTitle": "Fin de cuisson",
+            "Type": "cookTimer"
+        },
+        {
+            "TemplateId": "CookTimeCompleteReminderLower",
+            "SmsText": "Temps de cuisson du four inférieur terminé. Vous pouvez éteindre le four ou modifier le programme.",
+            "EmailText": "Temps de cuisson du four inférieur terminé. Vous pouvez éteindre le four ou modifier le programme.",
+            "PushText": "Temps de cuisson du four inférieur terminé. Vous pouvez éteindre le four ou modifier le programme.",
+            "AlertTitle": "Rappel de temps de cuisson terminé",
+            "Type": "cookTimer"
+        },
+        {
+            "TemplateId": "CookTimeCompleteReminderUpper",
+            "SmsText": "Temps de cuisson du four supérieur terminé. Vous pouvez éteindre le four ou modifier le programme.",
+            "EmailText": "Temps de cuisson du four supérieur terminé. Vous pouvez éteindre le four ou modifier le programme.",
+            "PushText": "Temps de cuisson du four supérieur terminé. Vous pouvez éteindre le four ou modifier le programme.",
+            "AlertTitle": "Rappel de temps de cuisson terminé",
+            "Type": "cookTimer"
+        },
+        {
+            "TemplateId": "CookTimeCompleteUpper",
+            "SmsText": "Temps de cuisson du four supérieur modifié",
+            "EmailText": "Temps de cuisson du four supérieur modifié",
+            "PushText": "Temps de cuisson du four supérieur modifié",
+            "AlertTitle": "Fin de cuisson",
+            "Type": "cookTimer"
+        },
+        {
+            "TemplateId": "CookTimerChangedLower",
+            "SmsText": "Temps de cuisson du four inférieur modifié",
+            "EmailText": "Temps de cuisson du four inférieur modifié",
+            "PushText": "Temps de cuisson du four inférieur modifié",
+            "AlertTitle": "Temps de cuisson modifié",
+            "Type": "cookTimer"
+        },
+        {
+            "TemplateId": "CookTimerChangedUpper",
+            "SmsText": "Temps de cuisson du four supérieur modifié",
+            "EmailText": "Temps de cuisson du four supérieur modifié",
+            "PushText": "Temps de cuisson du four supérieur modifié",
+            "AlertTitle": "Temps de cuisson modifié",
+            "Type": "cookTimer"
+        },
+        {
+            "TemplateId": "CulinaryUserInstructionsLower",
+            "SmsText": "Le programme culinaire du four inférieur fonctionne. Consultez l’affichage du four pour obtenir des instructions",
+            "EmailText": "Le programme culinaire du four inférieur fonctionne. Consultez l’affichage du four pour obtenir des instructions",
+            "PushText": "Le programme culinaire du four inférieur fonctionne. Consultez l’affichage du four pour obtenir des instructions",
+            "AlertTitle": "Interruptions du centre culinaire",
+            "Type": "userInstruction"
+        },
+        {
+            "TemplateId": "CulinaryUserInstructionsUpper",
+            "SmsText": "Le programme culinaire du four supérieur fonctionne. Consultez l’affichage du four pour obtenir des instructions",
+            "EmailText": "Le programme culinaire du four supérieur fonctionne. Consultez l’affichage du four pour obtenir des instructions",
+            "PushText": "Le programme culinaire du four supérieur fonctionne. Consultez l’affichage du four pour obtenir des instructions",
+            "AlertTitle": "Interruptions du centre culinaire",
+            "Type": "userInstruction"
+        },
+        {
+            "TemplateId": "KitchenTimerEventNotificationChanged",
+            "SmsText": "La minuterie de cuisine du four inférieur a été modifiée",
+            "EmailText": "La minuterie de cuisine du four inférieur a été modifiée",
+            "PushText": "La minuterie de cuisine du four inférieur a été modifiée",
+            "AlertTitle": "Minuterie de cuisine modifiée",
+            "Type": "kitchenTimer"
+        },
+        {
+            "TemplateId": "KitchenTimerEventNotificationComplete",
+            "SmsText": "Minuterie de cuisine du four inférieur terminée",
+            "EmailText": "Minuterie de cuisine du four inférieur terminée",
+            "PushText": "Minuterie de cuisine du four inférieur terminée",
+            "AlertTitle": "Minuterie de cuisine terminée",
+            "Type": "kitchenTimer"
+        },
+        {
+            "TemplateId": "MeatProbeTargetChangedLower",
+            "SmsText": "La température de la sonde de cuisson du four inférieur a été modifiée pour {device.UpperCavity_MeatProbeTargetTemp}°",
+            "EmailText": "La température de la sonde de cuisson du four inférieur a été modifiée pour {device.UpperCavity_MeatProbeTargetTemp}°",
+            "PushText": "La température de la sonde de cuisson du four inférieur a été modifiée pour {device.UpperCavity_MeatProbeTargetTemp}°",
+            "AlertTitle": "Cible de la sonde de cuisson atteinte",
+            "Type": "meatProbe"
+        },
+        {
+            "TemplateId": "MeatProbeTargetChangedUpper",
+            "SmsText": "La température de la sonde de cuisson du four supérieur a été modifiée pour {device.UpperCavity_MeatProbeTargetTemp}°",
+            "EmailText": "La température de la sonde de cuisson du four supérieur a été modifiée pour {device.UpperCavity_MeatProbeTargetTemp}°",
+            "PushText": "La température de la sonde de cuisson du four supérieur a été modifiée pour {device.UpperCavity_MeatProbeTargetTemp}°",
+            "AlertTitle": "Cible de la sonde de cuisson atteinte",
+            "Type": "meatProbe"
+        },
+        {
+            "TemplateId": "MeatProbeTempAchievedLower",
+            "SmsText": "Température de la sonde de cuisson du four inférieur atteinte",
+            "EmailText": "Température de la sonde de cuisson du four inférieur atteinte",
+            "PushText": "Température de la sonde de cuisson du four inférieur atteinte",
+            "AlertTitle": " Température de la sonde atteinte",
+            "Type": "meatProbe"
+        },
+        {
+            "TemplateId": "MeatProbeTempAchievedUpper",
+            "SmsText": "Température de la sonde de cuisson du four supérieur atteinte",
+            "EmailText": "Température de la sonde de cuisson du four supérieur atteinte",
+            "PushText": "Température de la sonde de cuisson du four supérieur atteinte",
+            "AlertTitle": "Température de la sonde atteinte",
+            "Type": "meatProbe"
+        },
+        {
+            "TemplateId": "Preheat25Lower",
+            "SmsText": "Préchauffage du four inférieur à {device.LowerCavity_CavityActualTemp}° ({device.LowerCavity_CavityTargetTemp}° cible)",
+            "EmailText": "Préchauffage du four inférieur à {device.LowerCavity_CavityActualTemp}° ({device.LowerCavity_CavityTargetTemp}° cible)",
+            "PushText": "Préchauffage du four inférieur à {device.LowerCavity_CavityActualTemp}° ({device.LowerCavity_CavityTargetTemp}° cible)",
+            "AlertTitle": "Progression du programme de préchauffage",
+            "Type": "preheat"
+        },
+        {
+            "TemplateId": "Preheat25Upper",
+            "SmsText": "Préchauffage du four supérieur à {device.UpperCavity_CavityActualTemp}° ({device.UpperCavity_CavityTargetTemp}° target)",
+            "EmailText": "Préchauffage du four supérieur à {device.UpperCavity_CavityActualTemp}° ({device.UpperCavity_CavityTargetTemp}° target)",
+            "PushText": "Préchauffage du four supérieur à {device.UpperCavity_CavityActualTemp}° ({device.UpperCavity_CavityTargetTemp}° target)",
+            "AlertTitle": "Progression du programme de préchauffage",
+            "Type": "preheat"
+        },
+        {
+            "TemplateId": "PreheatCompleteLower",
+            "SmsText": "Préchauffage du four inférieur à {device.UpperCavity_CavityActualTemp}° ({device.UpperCavity_CavityTargetTemp}° target)",
+            "EmailText": "Préchauffage du four inférieur à {device.UpperCavity_CavityActualTemp}° ({device.UpperCavity_CavityTargetTemp}° target)",
+            "PushText": "Préchauffage du four inférieur à {device.UpperCavity_CavityActualTemp}° ({device.UpperCavity_CavityTargetTemp}° target)",
+            "AlertTitle": "Progression du programme de préchauffage",
+            "Type": "preheat"
+        },
+        {
+            "TemplateId": "PreheatCompleteUpper",
+            "SmsText": "Préchauffage du four supérieur terminé",
+            "EmailText": "Préchauffage du four supérieur terminé",
+            "PushText": "Préchauffage du four supérieur terminé",
+            "AlertTitle": "Préchauffage terminé",
+            "Type": "preheat"
+        },
+        {
+            "TemplateId": "RemoteStatusDisabled",
+            "SmsText": "Tous – La commande à distance de votre appareil est désactivée",
+            "EmailText": "Tous – La commande à distance de votre appareil est désactivée",
+            "PushText": "Tous – La commande à distance de votre appareil est désactivée",
+            "AlertTitle": "État de commande à distance",
+            "Type": "remoteControl"
+        },
+        {
+            "TemplateId": "RemoteStatusEnabled",
+            "SmsText": "Tous – La commande à distance de votre appareil est activée",
+            "EmailText": "Tous – La commande à distance de votre appareil est activée",
+            "PushText": "Tous – La commande à distance de votre appareil est activée",
+            "AlertTitle": "État de commande à distance",
+            "Type": "remoteControl"
+        },
+        {
+            "TemplateId": "SelfCleanCompleteLower",
+            "SmsText": "Autonettoyage du four inférieur terminé",
+            "EmailText": "Autonettoyage du four inférieur terminé",
+            "PushText": "Autonettoyage du four inférieur terminé",
+            "AlertTitle": "Autonettoyage terminé",
+            "Type": "selfClean"
+        },
+        {
+            "TemplateId": "SelfCleanCompleteUpper",
+            "SmsText": "Autonettoyage du four supérieur terminé",
+            "EmailText": "Autonettoyage du four supérieur terminé",
+            "PushText": "Autonettoyage du four supérieur terminé",
+            "AlertTitle": "Autonettoyage terminé",
+            "Type": "selfClean"
+        }
+    ]
+    }

@@ -1,0 +1,60 @@
+{
+    "NotificationContents": [
+        {
+            "TemplateId": "FrigDoorCloseAlert1",
+            "SmsText": "Refrigerator door has been closed.",
+            "EmailText": "Refrigerator door has been closed.",
+            "PushText": "Refrigerator door has been closed.",
+            "AlertTitle": "Door Closed",
+            "Type": "maxIceDoor"
+        },
+        {
+            "TemplateId": "FrigDoorOpenAlert1",
+            "SmsText": "Refrigerator door alarm is sounding. Check that the door is closed and/or items aren’t blocking the door.",
+            "EmailText": "Refrigerator door alarm is sounding. Check that the door is closed and/or items aren’t blocking the door.",
+            "PushText": "Refrigerator door alarm is sounding. Check that the door is closed and/or items aren’t blocking the door.",
+            "AlertTitle": "Door Open",
+            "Type": "maxIceDoor"
+        },
+        {
+            "TemplateId": "FrigPowerOutAlert",
+            "SmsText": "Refrigerator lost power.",
+            "EmailText": "Refrigerator lost power.",
+            "PushText": "Refrigerator lost power.",
+            "AlertTitle": "Power Outage",
+            "Type": "system"
+        },
+        {
+            "TemplateId": "FrigOverTemp",
+            "SmsText": "Review the contents of your refrigerator - it is over temperature",
+            "EmailText": "Review the contents of your refrigerator - it is over temperature",
+            "PushText": "Review the contents of your refrigerator - it is over temperature",
+            "AlertTitle": "Over Temp Alarm",
+            "Type": "system"
+        },
+        {
+            "TemplateId": "FrigWaterFilter0",
+            "SmsText": "It's just about time to replace your referigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+            "EmailText": "It's just about time to replace your referigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+            "PushText": "It's just about time to replace your referigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+            "AlertTitle": "Order Filter Alert",
+            "Type": "system"
+        },
+        {
+            "TemplateId": "FrigWaterFilter1",
+            "SmsText": "It's just about time to replace your referigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+            "EmailText": "It's just about time to replace your referigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+            "PushText": "It's just about time to replace your referigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+            "AlertTitle": "Order Filter Alert",
+            "Type": "system"
+        },
+        {
+            "TemplateId": "FrigWaterFilter2",
+            "SmsText": "It's just about time to replace your referigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+            "EmailText": "It's just about time to replace your referigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+            "PushText": "It's just about time to replace your referigerator's water filter, order now.Once the water filter is replaced, flush the water system as described in the Use & Care Guide before using the dispenser. You should also discard the initial (3) batches of ice.",
+            "AlertTitle": "Order Filter Alert",
+            "Type": "system"
+        }
+    ]
+    }

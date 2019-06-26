@@ -1,0 +1,36 @@
+{
+    "NotificationContents": [
+        {
+            "TemplateId": "ControlUnlocked",
+            "SmsText": "Control Lock on your appliance is disabled",
+            "EmailText": "Control Lock on your appliance is disabled",
+            "PushText": "Control Lock on your appliance is disabled",
+            "AlertTitle": "Control Lock Alert",
+            "Type": "lock"
+        },
+        {
+            "TemplateId": "ControlLockOn",
+            "EmailText": "Control Lock on your appliance is enabled",
+            "PushText": "Control Lock on your appliance is enabled",
+            "SmsText": "Control Lock on your appliance is enabled",
+            "AlertTitle": "Control Lock Alert",
+            "Type": "lock"
+        },
+        {
+            "TemplateId": "CooktopLeftOn",
+            "SmsText": "Cooktop is turned on for a predefined time you set up.",
+            "EmailText": "Cooktop is turned on for a predefined time you set up.",
+            "PushText": "Cooktop is turned on for a predefined time you set up.",
+            "AlertTitle": "Cooktop Left On Alert",
+            "Type": "cooktopalert"
+        },
+        {
+            "TemplateId": "CookTopTurnedOn",
+            "SmsText": "Your cooktop is turned on.",
+            "EmailText": "Your cooktop is turned on.",
+            "PushText": "Your cooktop is turned on.",
+            "AlertTitle": "Cooktop Turned On Alert",
+            "Type": "cooktopalert"
+        }
+    ]
+    }

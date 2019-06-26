@@ -1,0 +1,137 @@
+{
+    "Manuals": {
+        "FccInformationForm": {
+            "Title": "Fiche informative de la CFC",
+            "FilePath": "NAR/WHIRLPOOL/DDM_REFRIGERATOR_OBERON_FRIDGE_V1/Docs/fre/Freezer_FCC.pdf"
+        },
+        "UseCareGuide": {
+            "Title": "Guide d’utilisation et d’entretien",
+            "FilePath": "NAR/WHIRLPOOL/DDM_REFRIGERATOR_OBERON_FRIDGE_V1/Docs/fre/Freezer_Use_and_Care_Guide.pdf"
+        },
+        "Warranty": {
+            "Title": "Garantie",
+            "FilePath": "NAR/WHIRLPOOL/DDM_REFRIGERATOR_OBERON_FRIDGE_V1/Docs/fre/Freezer_Warranty.pdf"
+        },
+        "InstallationInstructions": {
+            "Title": "Instructions d’installation",
+            "FilePath": "NAR/WHIRLPOOL/DDM_REFRIGERATOR_OBERON_FRIDGE_V1/Docs/fre/Freezer_Installation_Instructions.pdf"
+        }
+    },
+    "NestSettings": {},
+    "SpecialtyCycles": {},
+    "Notifications": {
+        "DoorOpenAlert": {
+            "Name": "Porte ouverte",
+            "Description": "Recevez une notification lorsque la porte a été ouverte pendant plus de 5 minutes"
+        },
+        "DoorCloseAlert": {
+            "Name": "Porte fermée",
+            "Description": "Recevez une notification lorsque la porte a été fermée après avoir été ouverte pendant plus de 5 minutes."
+        },
+        "PowerOutAlert": {
+            "Name": "Panne de courant",
+            "Description": "Recevez une notification pour toute panne d’électricité et de restauration."
+        },
+        "WaterFilter": {
+            "Name": "Commandez un filtre à eau",
+            "Description": "Recevez une notification lorsque vient le temps de commander un filtre à eau pour votre réfrigérateur."
+        },
+        "OverTemp": {
+            "Name": "Alerte de température élevée",
+            "Description": "Recevez une notification si la température de votre réfrigérateur dépasse 50 °F."
+        }
+    },
+    "SupplyItem": {
+        "EveryDropWaterFilter": {
+            "Name": "Filtre à eau et glaçons pour réfrigérateur",
+            "Description": "Votre famille et vous pourrez maintenant profiter des bienfaits vivifiants d’une eau et de glaçons propres et fraîchement filtrés. Pas seulement pour boire, mais aussi pour préparer les repas. Notre génération de filtres à glaçons et eau de pointe pour réfrigérateur d’EveryDrop™ est certifiée pour réduire un maximum de contaminants grâce à la technologie Triple Filtration™. Le filtre 2 réduit 24 contaminants, vous pouvez donc être assuré que votre famille et vous tirerez le maximum de votre eau. N’oubliez pas de remplacer le filtre du réfrigérateur tous les 6 mois pour maximiser la réduction des contaminants. (Remplace W10413645A)",
+            "Disclaimer": "",
+            "Model": "EDR2RXD1",
+            "SupplyLocations": [
+                {
+                    "Merchant": "JennAir",
+                    "Country": "États-Unis",
+                    "url": "https://jennair.com/accessories/details/EDR2RXD1"
+                },
+                {
+                    "Merchant": "JennAir",
+                    "Country": "Canada",
+                    "url": "https://everydropwater.ca/fr/filter2-filtre-%C3%A0-eau-pour-r%C3%A9frig%C3%A9rateur-mod%C3%A8le-%C3%A0-rotation-edr2rxd1b"
+                }
+            ]
+        },
+        "HerbTender": {
+            "Description": "Crée une zone de rangement spécialisée pour aider à optimiser la fraîcheur des herbes. Ce compartiment autonome est munie d’un dessus avec fente, permettant de maintenir pendant de longues périodes la fraîcheur des herbes comme la menthe, le thym, l’origan et l’aneth. Ce contenant sans BPA peut être utilisé dans tous les réfrigérateurs, ce qui le rend parfait pour toutes les maisons.",
+            "Disclaimer": "",
+            "Model": "W10882409",
+            "Name": "Boîte à herbes Herb Tender™",
+            "SupplyLocations": [
+                {
+                    "Country": "États-Unis",
+                    "Merchant": "JennAir",
+                    "url": "https://jennair.com/accessories/details/W10882409"
+                },
+                {
+                    "Country": "Canada",
+                    "Merchant": "JennAir",
+                    "url": "https://whirlpoolparts.ca/POL/partssearch?partsId=W10882409"
+                }
+            ]
+        },
+        "ProducePreserverRefill": {
+            "Description": "Les fruits et légumes produisent naturellement de l’éthylène lorsqu’ils mûrissent. L’absorption de ce gaz les fait mûrir trop vite. Ce conservateur aide à absorber l’éthylène pour que ces aliments restent frais très longtemps!",
+            "Disclaimer": "",
+            "Model": "P1FB6S1",
+            "Name": "Trousse de démarrage pour conservateur FreshFlow",
+            "SupplyLocations": [
+                {
+                    "Country": "États-Unis",
+                    "Merchant": "JennAir",
+                    "url": "https://jennair.com/accessories/details/P1FB6S1"
+                },
+                {
+                    "Country": "Canada",
+                    "Merchant": "JennAir",
+                    "url": "https://whirlpoolparts.ca/POL/partssearch?partsId=P1FB6S1"
+                }
+            ]
+        },
+        "AdditionalRefrigeratorAccessories ": {
+            "Name": "Accessoires supplémentaires pour réfrigérateur",
+            "Description": "Les trousses de poignée, bacs à glaçons et autres pièces et accessoires ajouteront des fonctionnalités à votre réfrigérateur. ",
+            "Disclaimer": "",
+            "Model": "N.D",
+            "SupplyLocations": [
+                {
+                    "Country": "États-Unis",
+                    "Merchant": "JennAir",
+                    "url": "https://jennair.com/accessories/refrigerators"
+                },
+                {
+                    "Merchant": "JennAir",
+                    "Country": "Canada",
+                    "url": "https://www.jennair.ca/fr/electromenager/accessoires-pour-refrigerateurs/"
+                }
+            ]
+        },
+        "ScheduleService": {
+            "Name": "Prendre rendez-vous",
+            "Description": "Prendre rendez-vous",
+            "Disclaimer": "Prendre rendez-vous",
+            "SupplyLocations": [
+                {
+                    "Merchant": "JennAir",
+                    "Country": "États-Unis",
+                    "url": "https://www.servicebench.com/servicebenchv5/consumerApp/consumerRequestForward.action?token=ZHU6Y29uc3VtZXJQb3J0YWxQcm9kdWN0RGVzY3JpcHRpb247c2E6Mjc&cparam="
+                },
+                {
+                    "Merchant": "JennAir",
+                    "Country": "Canada",
+                    "url": "https://www.servicebench.com/servicebenchv5/consumerApp/consumerRequestForward.action?token=ZHU6Y29uc3VtZXJQb3J0YWxQcm9kdWN0RGVzY3JpcHRpb247c2s6V0M7c2E6NDA&cparam"
+                }
+            ]
+        }
+    },
+    "smartTip": [],
+    "Replenishment": {}
+    }

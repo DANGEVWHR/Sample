@@ -73,7 +73,7 @@
         "Cooktop_OperationStatus.State.EnumValues.SimpleStateProgramming.Label": "Programmation",
         "Cooktop_OperationStatus.State.EnumValues.SimpleStateRunning.Label": "Fonctionnement",
         "ControlLock.Label" : "Control lock",
-        "ControlLock.Description": "Permet de verrouiller les commandes pour éviter une utilisation involontaire de l'appareil.",
+        "ControlLock.Description": "Permet de verrouiller les commandes pour éviter une utilisation involontaire de l'appareil",
         "Notifications.Label" : "Notifications",
         "Notifications.Description" : "Start or stop notifications for individual notifications at any time"
     },

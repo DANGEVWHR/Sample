@@ -1,0 +1,279 @@
+{
+    "NotificationContents": [
+        {
+            "TemplateId": "Four en mode absent",
+            "PushText": "Votre maison est en mode absent/absent automatique et votre four fonctionne toujours",
+            "AlertTitle": "Four en marche lorsqu’absent",
+            "Type": "en ligne"
+        },
+        {
+            "TemplateId": "Programme de cuisson annulé",
+            "EmailText": "Le mode de cuisson de votre four a été annulé.",
+            "PushText": "Le mode de cuisson de votre four a été annulé.",
+            "SmsText": "Le mode de cuisson de votre four a été annulé.",
+            "AlertTitle": "Mode de cuisson annulé",
+            "Type": "Mode de cuisson"
+        },
+        {
+            "TemplateId": "Mode de cuisson modifié",
+            "EmailText": "Le mode de cuisson de votre four a été modifié.",
+            "PushText": "Le mode de cuisson de votre four a été modifié.",
+            "AlertTitle": "Mode de cuisson modifiée",
+            "Type": "Mode de cuisson"
+        },
+        {
+            "TemplateId": "Température de cuisson cible modifiée",
+            "EmailText": "La température de votre four a été modifiée.",
+            "PushText": "La température de votre four a été modifiée.",
+            "SmsText": "La température de votre four a été modifiée.",
+            "AlertTitle": "Température du four modifiée",
+            "Type": "Mode de cuisson"
+        },
+        {
+            "TemplateId": "Minuterie de cuisson terminée",
+            "EmailText": "Le temps de cuisson de votre four est terminé.",
+            "PushText": "Le temps de cuisson de votre four est terminé.",
+            "AlertTitle": "Fin de cuisson",
+            "Type": "Minuterie de cuisson"
+        },
+        {
+            "TemplateId": "Minuterie de cuisson modifiée",
+            "EmailText": "Le temps de cuisson de votre four a été modifié.",
+            "PushText": "Le temps de cuisson de votre four a été modifié.",
+            "AlertTitle": "Temps de cuisson modifié",
+            "Type": "Minuterie de cuisson"
+        },
+        {
+            "TemplateId": "Température de sonde atteinte",
+            "EmailText": "La température cible de votre sonde est atteinte.",
+            "PushText": "La température cible de votre sonde est atteinte.",
+            "SmsText": "La température cible de votre sonde est atteinte.",
+            "AlertTitle": "Température de la sonde atteinte",
+            "Type": "Sonde de cuisson"
+        },
+        {
+            "TemplateId": "Préchauffage terminé",
+            "EmailText": "Préchauffage terminé. Appuyer sur START, COOK, TIMER (mise en marche, cuisson, minuterie) pour commencer et insérer les aliments.",
+            "PushText": "Préchauffage terminé. Appuyer sur START, COOK, TIMER (mise en marche, cuisson, minuterie) pour commencer et insérer les aliments.",
+            "SmsText": "Préchauffage terminé. Appuyer sur START, COOK, TIMER (mise en marche, cuisson, minuterie) pour commencer et insérer les aliments.",
+            "AlertTitle": "Préchauffage terminé",
+            "Type": "Préchauffage"
+        },
+        {
+            "TemplateId": "État de la commande à distance désactivée",
+            "EmailText": "La commande à distance de votre four a été désactivée.",
+            "PushText": "La commande à distance de votre four a été désactivée.",
+            "SmsText": "La commande à distance de votre four a été désactivée.",
+            "AlertTitle": "État de commande à distance",
+            "Type": "Commande à distance"
+        },
+        {
+            "TemplateId": "État de la commande à distance activée",
+            "EmailText": "La commande à distance de votre four a été activée.",
+            "PushText": "La commande à distance de votre four a été activée.",
+            "SmsText": "La commande à distance de votre four a été activée.",
+            "AlertTitle": "État de commande à distance",
+            "Type": "Commande à distance"
+        },
+        {
+            "TemplateId": "F1E0",
+            "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F1, E0).",
+            "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F1, E0).",
+            "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F1, E0).",
+            "AlertTitle": "Notification d’erreur",
+            "Type": "défaut"
+        },
+        {
+            "TemplateId": "F1E1",
+            "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F1, E1).",
+            "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F1, E1).",
+            "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F1, E1).",
+            "AlertTitle": "Notification d’erreur",
+            "Type": "défaut"
+        },
+        {
+            "TemplateId": "F2E1",
+            "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F2, E1).",
+            "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F2, E1).",
+            "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F2, E1).",
+            "AlertTitle": "Notification d’erreur",
+            "Type": "défaut"
+        },
+        {
+            "TemplateId": "F2E2",
+            "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F2, E2).",
+            "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F2, E2).",
+            "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F2, E2).",
+            "AlertTitle": "Notification d’erreur",
+            "Type": "défaut"
+        },
+        {
+            "TemplateId": "F3E0",
+            "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F3, E0).",
+            "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F3, E0).",
+            "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F3, E0).",
+            "AlertTitle": "Notification d’erreur",
+            "Type": "défaut"
+        },
+        {
+            "TemplateId": "F3E1",
+            "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F3, E1).",
+            "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F3, E1).",
+            "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F3, E1).",
+            "AlertTitle": "Notification d’erreur",
+            "Type": "défaut"
+        },
+        {
+            "TemplateId": "F3E3",
+            "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F3, E3).",
+            "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F3, E3).",
+            "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F3, E3).",
+            "AlertTitle": "Notification d’erreur",
+            "Type": "défaut"
+        },
+        {
+            "TemplateId": "F3E9",
+            "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F3, E9).",
+            "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F3, E9).",
+            "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F3, E9).",
+            "AlertTitle": "Notification d’erreur",
+            "Type": "défaut"
+        },
+        {
+            "TemplateId": "F5E0",
+            "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F5, E0).",
+            "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F5, E0).",
+            "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F5, E0).",
+            "AlertTitle": "Notification d’erreur",
+            "Type": "défaut"
+        },
+        {
+            "TemplateId": "F5E1",
+            "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F5, E1).",
+            "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F5, E1).",
+            "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F5, E1).",
+            "AlertTitle": "Notification d’erreur",
+            "Type": "défaut"
+        },
+        {
+            "TemplateId": "F5E3",
+            "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F5, E3).",
+            "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F5, E3).",
+            "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F5, E3).",
+            "AlertTitle": "Notification d’erreur",
+            "Type": "défaut"
+        },
+        {
+            "TemplateId": "F5E4",
+            "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F5, E4).",
+            "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F5, E4).",
+            "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F5, E4).",
+            "AlertTitle": "Notification d’erreur",
+            "Type": "défaut"
+        },
+        {
+            "TemplateId": "F6E0",
+            "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F6, E0).",
+            "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F6, E0).",
+            "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F6, E0).",
+            "AlertTitle": "Notification d’erreur",
+            "Type": "défaut"
+        },
+        {
+            "TemplateId": "F6E1",
+            "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F6, E1).",
+            "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F6, E1).",
+            "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F6, E1).",
+            "AlertTitle": "Notification d’erreur",
+            "Type": "défaut"
+        },
+        {
+            "TemplateId": "F6E3",
+            "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F6, E3).",
+            "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F6, E3).",
+            "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F6, E3).",
+            "AlertTitle": "Notification d’erreur",
+            "Type": "défaut"
+        },
+        {
+            "TemplateId": "F6E4",
+            "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F6, E4).",
+            "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F6, E4).",
+            "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F6, E4).",
+            "AlertTitle": "Notification d’erreur",
+            "Type": "défaut"
+        },
+        {
+            "TemplateId": "F6E6",
+            "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F6, E6).",
+            "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F6, E6).",
+            "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F6, E6).",
+            "AlertTitle": "Notification d’erreur",
+            "Type": "défaut"
+        },
+        {
+            "TemplateId": "F6E9",
+            "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F6, E9).",
+            "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F6, E9).",
+            "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F6, E9).",
+            "AlertTitle": "Notification d’erreur",
+            "Type": "défaut"
+        },
+        {
+            "TemplateId": "F7E1",
+            "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F7, E1).",
+            "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F7, E1).",
+            "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F7, E1).",
+            "AlertTitle": "Notification d’erreur",
+            "Type": "défaut"
+        },
+        {
+            "TemplateId": "F7E2",
+            "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F7, E2).",
+            "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F7, E2).",
+            "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F7, E2).",
+            "AlertTitle": "Notification d’erreur",
+            "Type": "défaut"
+        },
+        {
+            "TemplateId": "F8E0",
+            "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F8, E0).",
+            "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F8, E0).",
+            "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F8, E0).",
+            "AlertTitle": "Notification d’erreur",
+            "Type": "défaut"
+        },
+        {
+            "TemplateId": "F8E1",
+            "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F8, E1).",
+            "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F8, E1).",
+            "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F8, E1).",
+            "AlertTitle": "Notification d’erreur",
+            "Type": "défaut"
+        },
+        {
+            "TemplateId": "F8E2",
+            "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F8, E2).",
+            "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F8, E2).",
+            "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F8, E2).",
+            "AlertTitle": "Notification d’erreur",
+            "Type": "défaut"
+        },
+        {
+            "TemplateId": "F8E3",
+            "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F8, E3).",
+            "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F8, E3).",
+            "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F8, E3).",
+            "AlertTitle": "Notification d’erreur",
+            "Type": "défaut"
+        },
+        {
+            "TemplateId": "F9E0",
+            "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F9, E0).",
+            "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F9, E0).",
+            "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F9, E0).",
+            "AlertTitle": "Notification d’erreur",
+            "Type": "défaut"
+        }
+    ]
+    }

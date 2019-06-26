@@ -1,0 +1,36 @@
+{
+    "NotificationContents": [
+        {
+            "TemplateId": "ControlUnlocked",
+            "SmsText": "Le verrouillage des commandes de votre appareil est désactivé.",
+            "EmailText": "Le verrouillage des commandes de votre appareil est désactivé.",
+            "PushText": "Le verrouillage des commandes de votre appareil est désactivé.",
+            "AlertTitle": "Alerte de verrouillage des commandes",
+            "Type": "lock"
+        },
+        {
+            "TemplateId": "ControlLockOn",
+            "EmailText": "Le verrouillage des commandes de votre appareil est activé.",
+            "PushText": "Le verrouillage des commandes de votre appareil est activé.",
+            "SmsText": "Le verrouillage des commandes de votre appareil est activé.",
+            "AlertTitle": "Alerte de verrouillage des commandes",
+            "Type": "lock"
+        },
+        {
+            "TemplateId": "CooktopLeftOn",
+            "SmsText": "La table de cuisson est mise en marche pour la durée de temps que vous avez sélectionnée.",
+            "EmailText": "La table de cuisson est mise en marche pour la durée de temps que vous avez sélectionnée.",
+            "PushText": "La table de cuisson est mise en marche pour la durée de temps que vous avez sélectionnée.",
+            "AlertTitle": "Alerte de table de cuisson laissée en marche",
+            "Type": "cooktopalert"
+        },
+        {
+            "TemplateId": "CookTopTurnedOn",
+            "SmsText": "Table de cuisson mise en marche.",
+            "EmailText": "Table de cuisson mise en marche.",
+            "PushText": "Table de cuisson mise en marche.",
+            "AlertTitle": "Alerte de table de cuisson",
+            "Type": "cooktopalert"
+        }
+    ]
+    }
