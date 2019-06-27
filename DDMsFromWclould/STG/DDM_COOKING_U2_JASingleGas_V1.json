@@ -2266,11 +2266,11 @@
                     "OvenUpperCavity_CycleSetEasyConvectFood": [
                       "EasyConvectFoodMeat"
                     ]
-                  }
-                },
-                "NotAllowed": [
+                  },
+                  "NotAllowed": [
                   "OvenUpperCavity_CycleSetMeatProbeTargetTemp"
                 ]
+                }
               },
               "OvenUpperCavity_CycleSetConvectBakeFoodConvectBakeFoodFrozenPizza": {
                 "Name": "ConvectFrozenPizza",

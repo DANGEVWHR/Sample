@@ -2734,11 +2734,11 @@
                     "OvenUpperCavity_CycleSetEasyConvectFood": [
                       "EasyConvectFoodMeat"
                     ]
-                  }
-                },
-                "NotAllowed": [
-                  "OvenUpperCavity_CycleSetMeatProbeTargetTemp"
-                ]
+                  },
+                  "NotAllowed": [
+                      "OvenUpperCavity_CycleSetMeatProbeTargetTemp"
+                  ]
+                }
               },
               "OvenUpperCavity_CycleSetConvectBakeFoodConvectBakeFoodFrozenPizza": {
                 "Name": "ConvectFrozenPizza",
@@ -3525,11 +3525,11 @@
                     "OvenLowerCavity_CycleSetEasyConvectFood": [
                       "EasyConvectFoodMeat"
                     ]
-                  }
-                },
-                "NotAllowed": [
-                  "OvenLowerCavity_CycleSetMeatProbeTargetTemp"
-                ]
+                  },
+                  "NotAllowed": [
+                      "OvenLowerCavity_CycleSetMeatProbeTargetTemp"
+                  ]
+                }
               },
               "OvenLowerCavity_CycleSetConvectBakeFoodConvectBakeFoodFrozenPizza": {
                 "Name": "ConvectFrozenPizza",
