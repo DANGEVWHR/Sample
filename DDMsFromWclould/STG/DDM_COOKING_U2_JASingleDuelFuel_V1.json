@@ -2183,14 +2183,6 @@
                       "StepF": 25,
                       "Default": 1767
                     }
-                  },
-                  "OvenUpperCavity_OpSetCookTimeCompleteAction": {
-                    "Enumeration": [
-                      "ProcessCmpltActionStayOn",
-                      "ProcessCmpltActionKeepWarm",
-                      "ProcessCmpltActionTurnOff"
-                    ],
-                    "Default": "ProcessCmpltActionStayOn"
                   }
                 },
                 "Optional": {
@@ -2217,6 +2209,14 @@
                       "StepF": 5,
                       "Default": 711
                     }
+                  },
+                  "OvenUpperCavity_OpSetCookTimeCompleteAction": {
+                    "Enumeration": [
+                      "ProcessCmpltActionStayOn",
+                      "ProcessCmpltActionKeepWarm",
+                      "ProcessCmpltActionTurnOff"
+                    ],
+                    "Default": "ProcessCmpltActionStayOn"
                   }
                 },
                 "Incompatible": {
@@ -2225,7 +2225,8 @@
                     "OvenUpperCavity_AlertStatusMeatProbePluggedIn"
                   ],
                   "OvenUpperCavity_CycleSetMeatProbeTargetTemp": [
-                    "OvenUpperCavity_TimeSetCookTimeSet"
+                    "OvenUpperCavity_TimeSetCookTimeSet",
+                    "OvenUpperCavity_OpSetCookTimeCompleteAction"
                   ]
                 }
               },
@@ -2241,14 +2242,6 @@
                       "StepF": 25,
                       "Default": 1627
                     }
-                  },
-                  "OvenUpperCavity_OpSetCookTimeCompleteAction": {
-                    "Enumeration": [
-                      "ProcessCmpltActionStayOn",
-                      "ProcessCmpltActionKeepWarm",
-                      "ProcessCmpltActionTurnOff"
-                    ],
-                    "Default": "ProcessCmpltActionStayOn"
                   }
                 },
                 "Optional": {
@@ -2275,6 +2268,14 @@
                       "StepF": 5,
                       "Default": 711
                     }
+                  },
+                  "OvenUpperCavity_OpSetCookTimeCompleteAction": {
+                    "Enumeration": [
+                      "ProcessCmpltActionStayOn",
+                      "ProcessCmpltActionKeepWarm",
+                      "ProcessCmpltActionTurnOff"
+                    ],
+                    "Default": "ProcessCmpltActionStayOn"
                   }
                 },
                 "Incompatible": {
@@ -2283,7 +2284,8 @@
                     "OvenUpperCavity_AlertStatusMeatProbePluggedIn"
                   ],
                   "OvenUpperCavity_CycleSetMeatProbeTargetTemp": [
-                    "OvenUpperCavity_TimeSetCookTimeSet"
+                    "OvenUpperCavity_TimeSetCookTimeSet",
+                    "OvenUpperCavity_OpSetCookTimeCompleteAction"
                   ]
                 }
               },
@@ -2307,14 +2309,6 @@
                       "Step": 60,
                       "Default": 60
                     }
-                  },
-                  "OvenUpperCavity_OpSetCookTimeCompleteAction": {
-                    "Enumeration": [
-                      "ProcessCmpltActionStayOn",
-                      "ProcessCmpltActionKeepWarm",
-                      "ProcessCmpltActionTurnOff"
-                    ],
-                    "Default": "ProcessCmpltActionStayOn"
                   }
                 },
                 "Optional": {
@@ -2333,6 +2327,14 @@
                       "Step": 60,
                       "Default": 0
                     }
+                  },
+                  "OvenUpperCavity_OpSetCookTimeCompleteAction": {
+                    "Enumeration": [
+                      "ProcessCmpltActionStayOn",
+                      "ProcessCmpltActionKeepWarm",
+                      "ProcessCmpltActionTurnOff"
+                    ],
+                    "Default": "ProcessCmpltActionStayOn"
                   }
                 },
                 "Incompatible": {
@@ -2341,7 +2343,8 @@
                     "OvenUpperCavity_AlertStatusMeatProbePluggedIn"
                   ],
                   "OvenUpperCavity_CycleSetMeatProbeTargetTemp": [
-                    "OvenUpperCavity_TimeSetCookTimeSet"
+                    "OvenUpperCavity_TimeSetCookTimeSet",
+                    "OvenUpperCavity_OpSetCookTimeCompleteAction"
                   ]
                 }
               },
@@ -2357,14 +2360,6 @@
                       "StepF": 25,
                       "Default": 1767
                     }
-                  },
-                  "OvenUpperCavity_OpSetCookTimeCompleteAction": {
-                    "Enumeration": [
-                      "ProcessCmpltActionStayOn",
-                      "ProcessCmpltActionKeepWarm",
-                      "ProcessCmpltActionTurnOff"
-                    ],
-                    "Default": "ProcessCmpltActionStayOn"
                   }
                 },
                 "Optional": {
@@ -2391,6 +2386,14 @@
                       "StepF": 5,
                       "Default": 711
                     }
+                  },
+                  "OvenUpperCavity_OpSetCookTimeCompleteAction": {
+                    "Enumeration": [
+                      "ProcessCmpltActionStayOn",
+                      "ProcessCmpltActionKeepWarm",
+                      "ProcessCmpltActionTurnOff"
+                    ],
+                    "Default": "ProcessCmpltActionStayOn"
                   }
                 },
                 "Incompatible": {
@@ -2399,7 +2402,8 @@
                     "OvenUpperCavity_AlertStatusMeatProbePluggedIn"
                   ],
                   "OvenUpperCavity_CycleSetMeatProbeTargetTemp": [
-                    "OvenUpperCavity_TimeSetCookTimeSet"
+                    "OvenUpperCavity_TimeSetCookTimeSet",
+                    "OvenUpperCavity_OpSetCookTimeCompleteAction"
                   ]
                 }
               },
@@ -2414,6 +2418,24 @@
                       "Max": 2600,
                       "StepF": 25,
                       "Default": 1767
+                    }
+                  }
+                },
+                "Optional": {
+                  "OvenUpperCavity_TimeSetDelayTime": {
+                    "Range": {
+                      "Min": 60,
+                      "Max": 32400,
+                      "Default": 0,
+                      "Step": 60
+                    }
+                  },
+                  "OvenUpperCavity_CycleSetMeatProbeTargetTemp": {
+                    "TempRange": {
+                      "Min": 544,
+                      "Max": 850,
+                      "StepF": 5,
+                      "Default": 711
                     }
                   },
                   "OvenUpperCavity_TimeSetCookTimeSet": {
@@ -2433,31 +2455,14 @@
                     "Default": "ProcessCmpltActionStayOn"
                   }
                 },
-                "Optional": {
-                  "OvenUpperCavity_TimeSetDelayTime": {
-                    "Range": {
-                      "Min": 60,
-                      "Max": 32400,
-                      "Default": 0,
-                      "Step": 60
-                    }
-                  },
-                  "OvenUpperCavity_CycleSetMeatProbeTargetTemp": {
-                    "TempRange": {
-                      "Min": 544,
-                      "Max": 850,
-                      "StepF": 5,
-                      "Default": 711
-                    }
-                  }
-                },
                 "Incompatible": {
                   "OvenUpperCavity_TimeSetCookTimeSet": [
                     "OvenUpperCavity_CycleSetMeatProbeTargetTemp",
                     "OvenUpperCavity_AlertStatusMeatProbePluggedIn"
                   ],
                   "OvenUpperCavity_CycleSetMeatProbeTargetTemp": [
-                    "OvenUpperCavity_TimeSetCookTimeSet"
+                    "OvenUpperCavity_TimeSetCookTimeSet",
+                    "OvenUpperCavity_OpSetCookTimeCompleteAction"
                   ]
                 }
               },

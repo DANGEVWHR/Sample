@@ -1930,6 +1930,7 @@
                 "Cavity_CycleSetOptionSaniRinse",
                 "Cavity_CycleSetOptionSmartHeatedDry",
                 "Cavity_CycleSetOptionLowerRackOnly",
+                "Cavity_CycleSetOptionBottleWashZone",
                 "Cavity_CycleSetOptionSteam",
                 "Cavity_CycleSetOptionHighTemp",
                 "Cavity_CycleSetOptionUpperRackOnly",
