@@ -5761,41 +5761,11 @@
                 "ruleName": "Cancel the Running Cycle",
                 "description": "If Appliance is not idle, we can enable the cancel action",
                 "actions": {
-                  "ActionSetCycleCancelCommand": false
+                  "ActionSetCycleCancelCommand": true
                 },
                 "condition": {
                   "type": "value",
                   "key": "LowerCavity_CavityHeatState",
-                  "valueOperator": "=",
-                  "value": "0"
-                }
-              },
-              {
-                "ruleName": "Enable the Kitchen timer update option when it is running",
-                "description": "Enable the Kitchen timer update option when it is running",
-                "actions": {
-                  "ActionKitchenTimerStart": false,
-                  "ActionKitchenTimerCancel": true,
-                  "ActionKitchenTimerModify": true
-                },
-                "condition": {
-                  "type": "value",
-                  "key": "KitchenTimer1_KitchenTimerState",
-                  "valueOperator": "=",
-                  "value": "1"
-                }
-              },
-              {
-                "ruleName": "Enable the Kitchen timer update option when it is running",
-                "description": "Enable the Kitchen timer update option when it is running",
-                "actions": {
-                  "ActionKitchenTimerStart": true,
-                  "ActionKitchenTimerCancel": false,
-                  "ActionKitchenTimerModify": false
-                },
-                "condition": {
-                  "type": "value",
-                  "key": "KitchenTimer1_KitchenTimerState",
                   "valueOperator": "=",
                   "value": "0"
                 }
@@ -5857,10 +5827,35 @@
                   "ControlLock": false
                 },
                 "condition": {
+                    "type": "operation",
+                    "binaryOperator": "or",
+                    "left": {
+                      "type": "value",
+                      "key": "LowerCavity_CavityHeatState",
+                      "valueOperator": "!=",
+                      "value": "0"
+                    },
+                    "right": {
+                      "type": "value",
+                      "key": "UpperCavity_CavityHeatState",
+                      "valueOperator": "!=",
+                      "value": "0"
+                    }
+                }
+              },
+              {
+                "ruleName": "Enable the Kitchen timer update option when it is running",
+                "description": "Enable the Kitchen timer update option when it is running",
+                "actions": {
+                  "ActionKitchenTimerStart": false,
+                  "ActionKitchenTimerCancel": true,
+                  "ActionKitchenTimerModify": true
+                },
+                "condition": {
                   "type": "value",
-                  "key": "LowerCavity_CavityHeatState",
-                  "valueOperator": "!=",
-                  "value": "0"
+                  "key": "KitchenTimer1_KitchenTimerState",
+                  "valueOperator": "=",
+                  "value": "1"
                 }
               },
               {

@@ -7794,7 +7794,7 @@
                 "ruleName": "Disable the StartCommand button",
                 "description": "Appliance can not be started if the remote is disabled",
                 "actions": {
-                  "ActionSetCycleStartCommand": false
+                  "ActionSetCycleStartCommand": true
                 },
                 "condition": {
                   "type": "value",
@@ -7974,6 +7974,21 @@
                     "valueOperator": "!=",
                     "value": "0"
                   }
+                }
+              },
+              {
+                "ruleName": "Enable the Kitchen timer update option when it is running",
+                "description": "Enable the Kitchen timer update option when it is running",
+                "actions": {
+                  "ActionKitchenTimerStart": false,
+                  "ActionKitchenTimerCancel": true,
+                  "ActionKitchenTimerModify": true
+                },
+                "condition": {
+                  "type": "value",
+                  "key": "KitchenTimer1_KitchenTimerState",
+                  "valueOperator": "=",
+                  "value": "1"
                 }
               },
               {

@@ -4868,6 +4868,21 @@
                 }
               },
               {
+                "ruleName": "Enable the Kitchen timer update option when it is running",
+                "description": "Enable the Kitchen timer update option when it is running",
+                "actions": {
+                  "ActionKitchenTimerStart": false,
+                  "ActionKitchenTimerCancel": true,
+                  "ActionKitchenTimerModify": true
+                },
+                "condition": {
+                  "type": "value",
+                  "key": "KitchenTimer1_KitchenTimerState",
+                  "valueOperator": "=",
+                  "value": "1"
+                }
+              },
+              {
                 "ruleName": "Disable All Features when appliance is offline",
                 "description": "Disable All Features when appliance is offline",
                 "features": {
