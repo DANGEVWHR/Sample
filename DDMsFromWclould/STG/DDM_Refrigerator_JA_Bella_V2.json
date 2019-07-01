@@ -1704,7 +1704,7 @@
                 {
                     "ApplianceAlerts": [
                         {
-                            "alertId": 1222,
+                            "alertId": 950,
                             "name": "DoorOpenAlert",
                             "attribute": "Sys_AlertStatusDoorOpenAlarm",
                             "type": "push",
@@ -1716,7 +1716,7 @@
                             "enable": false
                         },
                         {
-                            "alertId": 1223,
+                            "alertId": 951,
                             "name": "WaterFilter",
                             "attribute": "Sys_OpSetWaterFilter",
                             "type": "push",
@@ -1728,7 +1728,7 @@
                             "enable": false
                         },
                         {
-                            "alertId": 1224,
+                            "alertId": 952,
                             "name": "MaxIce",
                             "attribute": "Sys_OpSetMaxIce",
                             "type": "push",
@@ -1740,7 +1740,7 @@
                             "enable": false
                         },
                         {
-                            "alertId": 1228,
+                            "alertId": 954,
                             "name": "OverTemp",
                             "attribute": "Refrigerator_OpStatusOverTemp,Freezer_OpStatusOverTemp",
                             "type": "push",
@@ -1752,7 +1752,7 @@
                             "enable": false
                         },
                         {
-                            "alertId": 1229,
+                            "alertId": 953,
                             "name": "MaxCool",
                             "attribute": "Sys_OpSetMaxCool",
                             "type": "push",
