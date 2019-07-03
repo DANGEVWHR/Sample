@@ -5761,12 +5761,15 @@
                 "ruleName": "Cancel the Running Cycle",
                 "description": "If Appliance is not idle, we can enable the cancel action",
                 "actions": {
-                  "ActionSetCycleCancelCommand": true
+                  "ActionSetCycleStartCommand": false,
+                  "ActionSetCycleSendCommand": false,
+                  "ActionSetCycleCancelCommand": true,
+                  "ActionSetCycleModifyCommand": true
                 },
                 "condition": {
                   "type": "value",
                   "key": "LowerCavity_CavityHeatState",
-                  "valueOperator": "=",
+                  "valueOperator": "!=",
                   "value": "0"
                 }
               },

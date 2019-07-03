@@ -5008,10 +5008,8 @@
               {
                 "ruleName": "Disable the modify temperature on press start on appliance state",
                 "description": "Disable the modify temperature on press start on appliance state",
-                "features": {
-                  "AssistedCooking": false,
-                  "SetOven": false,
-                  "MeatProbe": false
+                "attributes": {
+                  "OvenUpperCavity_CycleSetTargetTemp": false
                 },
                 "condition": {
                   "type": "operation",
@@ -5020,7 +5018,7 @@
                     "type": "value",
                     "key": "OvenUpperCavity_OpStatusState",
                     "valueOperator": "=",
-                    "value": 0
+                    "value": 3
                   },
                   "right": {
                     "type": "operation",
@@ -5142,10 +5140,8 @@
               {
                 "ruleName": "Disable the modify temperature on press start on appliance state",
                 "description": "Disable the modify temperature on press start on appliance state",
-                "features": {
-                  "AssistedCooking": false,
-                  "SetOven": false,
-                  "MeatProbe": false
+                "attributes": {
+                  "OvenLowerCavity_CycleSetTargetTemp": false
                 },
                 "condition": {
                   "type": "operation",
@@ -5154,7 +5150,7 @@
                     "type": "value",
                     "key": "OvenLowerCavity_OpStatusState",
                     "valueOperator": "=",
-                    "value": 0
+                    "value": 3
                   },
                   "right": {
                     "type": "operation",
