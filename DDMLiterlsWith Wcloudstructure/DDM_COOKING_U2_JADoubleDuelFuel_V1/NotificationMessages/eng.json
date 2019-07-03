@@ -23,7 +23,7 @@
             "Type": "lock"
         },
         {
-            "TemplateId": "CookCycleCancelled",
+            "TemplateId": "CookCycleCanceled",
             "EmailText": "Oven cook cycle cancelled",
             "PushText": "Oven cook cycle cancelled",
             "SmsText": "Oven cook cycle cancelled",

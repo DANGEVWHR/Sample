@@ -19,7 +19,7 @@
             "Name": "Control Lock",
             "Description": "Receive a notification when Control Lock on your oven is enabled or disabled."
         },
-        "CookCycleCancelled": {
+        "CookCycleCanceled": {
             "Name": "Cook Cycle Canceled",
             "Description": "Receive a notification if the cooking cycle for the oven has been cancelled."
         },
@@ -74,7 +74,11 @@
         "SelfCleanComplete": {
             "Name": "Self Clean Complete",
             "Description": "Receive a notification when the self clean cycle is complete."
-        }
+        },
+        "ErrorNotification": {
+                "Name": "Error Notification",
+                "Description": "Receive a notification when an error code is generated. "
+            }
     },
     "SupplyItem": {},
     "SmartTip": [],

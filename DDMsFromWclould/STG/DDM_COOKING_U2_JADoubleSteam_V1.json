@@ -4987,6 +4987,251 @@
             "OvenLowerCavity_CycleSetEasyConvectFoodEasyConvectFoodMeat"
           ]
         },
+        "ApplianceRulesets": {
+          "OvenUpperCavity": {
+            "Runtime": [
+              {
+                "ruleName": "Disable All Features when appliance is offline",
+                "description": "Disable All Features when appliance is offline",
+                "features": {
+                  "AssistedCooking": false,
+                  "SetOven": false,
+                  "MeatProbe": false
+                },
+                "condition": {
+                  "type": "value",
+                  "key": "Online",
+                  "valueOperator": "=",
+                  "value": 0
+                }
+              },
+              {
+                "ruleName": "Disable the modify temperature on press start on appliance state",
+                "description": "Disable the modify temperature on press start on appliance state",
+                "features": {
+                  "AssistedCooking": false,
+                  "SetOven": false,
+                  "MeatProbe": false
+                },
+                "condition": {
+                  "type": "operation",
+                  "binaryOperator": "and",
+                  "left": {
+                    "type": "value",
+                    "key": "OvenUpperCavity_OpStatusState",
+                    "valueOperator": "=",
+                    "value": 0
+                  },
+                  "right": {
+                    "type": "operation",
+                    "binaryOperator": "or",
+                    "left": {
+                      "type": "value",
+                      "key": "OvenUpperCavity_CycleSetCommonMode",
+                      "valueOperator": "!=",
+                      "value": 0
+                    },
+                    "right": {
+                      "type": "operation",
+                      "binaryOperator": "or",
+                      "left": {
+                        "type": "value",
+                        "key": "OvenUpperCavity_CycleSetConvectBakeFood",
+                        "valueOperator": "!=",
+                        "value": 0
+                      },
+                      "right": {
+                        "type": "operation",
+                        "binaryOperator": "or",
+                        "left": {
+                          "type": "value",
+                          "key": "OvenUpperCavity_CycleSetEasyConvectFood",
+                          "valueOperator": "!=",
+                          "value": 0
+                        },
+                        "right": {
+                          "type": "operation",
+                        "binaryOperator": "or",
+                        "left": {
+                          "type": "value",
+                          "key": "OvenUpperCavity_CycleSetEasySteamFood",
+                          "valueOperator": "!=",
+                          "value": 0
+                        },
+                        "right": {
+                          "type": "value",
+                          "key": "OvenUpperCavity_CycleSetBreadProof",
+                          "valueOperator": "!=",
+                          "value": 0
+                        }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "ruleName": "Cancel the Running Cycle",
+                "description": "If Appliance is not idle, we can enable the cancel action",
+                "attributes": {
+                  "OvenUpperCavity_CycleSetCommonMode": false,
+                  "OvenUpperCavity_CycleSetConvectBakeFood": false,
+                  "OvenUpperCavity_CycleSetEasyConvectFood": false,
+                  "OvenUpperCavity_CycleSetBreadProof": false,
+                  "OvenUpperCavity_CycleSetEasySteamFood" : false
+                },
+                "features": {
+                  "AssistedCooking": false
+                },
+                "actions": {
+                  "ActionStartCommand": false,
+                  "ActionCancelCommand": true,
+                  "ActionModifyCommand": true
+                },
+                "condition": {
+                  "type": "value",
+                  "key": "OvenUpperCavity_OpStatusState",
+                  "valueOperator": "!=",
+                  "value": 0
+                }
+              },
+              {
+                "ruleName": "Disable the StartCommand button",
+                "description": "Appliance can not be started if the remote is disabled",
+                "actions": {
+                  "ActionSetCycleStartCommand": false
+                },
+                "condition": {
+                  "type": "value",
+                  "key": "XCat_RemoteSetRemoteControlEnable",
+                  "valueOperator": "=",
+                  "value": 0
+                }
+              }
+            ]
+          },
+          "OvenLowerCavity": {
+            "Runtime": [
+              {
+                "ruleName": "Disable All Features when appliance is offline",
+                "description": "Disable All Features when appliance is offline",
+                "features": {
+                  "SetOven": false,
+                  "MeatProbe": false
+                },
+                "condition": {
+                  "type": "value",
+                  "key": "Online",
+                  "valueOperator": "=",
+                  "value": 0
+                }
+              },
+              {
+                "ruleName": "Disable the StartCommand button",
+                "description": "Appliance can not be started if the remote is disabled",
+                "actions": {
+                  "ActionSetCycleStartCommand": false
+                },
+                "condition": {
+                  "type": "value",
+                  "key": "XCat_RemoteSetRemoteControlEnable",
+                  "valueOperator": "=",
+                  "value": 0
+                }
+              },
+              {
+                "ruleName": "Disable the modify temperature on press start on appliance state",
+                "description": "Disable the modify temperature on press start on appliance state",
+                "features": {
+                  "AssistedCooking": false,
+                  "SetOven": false,
+                  "MeatProbe": false
+                },
+                "condition": {
+                  "type": "operation",
+                  "binaryOperator": "and",
+                  "left": {
+                    "type": "value",
+                    "key": "OvenLowerCavity_OpStatusState",
+                    "valueOperator": "=",
+                    "value": 0
+                  },
+                  "right": {
+                    "type": "operation",
+                    "binaryOperator": "or",
+                    "left": {
+                      "type": "value",
+                      "key": "OvenLowerCavity_CycleSetCommonMode",
+                      "valueOperator": "!=",
+                      "value": 0
+                    },
+                    "right": {
+                      "type": "operation",
+                      "binaryOperator": "or",
+                      "left": {
+                        "type": "value",
+                        "key": "OvenLowerCavity_CycleSetConvectBakeFood",
+                        "valueOperator": "!=",
+                        "value": 0
+                      },
+                      "right": {
+                        "type": "operation",
+                        "binaryOperator": "or",
+                        "left": {
+                          "type": "value",
+                          "key": "OvenLowerCavity_CycleSetEasyConvectFood",
+                          "valueOperator": "!=",
+                          "value": 0
+                        },
+                        "right": {
+                          "type": "operation",
+                        "binaryOperator": "or",
+                        "left": {
+                          "type": "value",
+                          "key": "OvenLowerCavity_CycleSetBreadProof",
+                          "valueOperator": "!=",
+                          "value": 0
+                        },
+                        "right": {
+                          "type": "value",
+                          "key": "OvenLowerCavity_CycleSetEasySteamFood",
+                          "valueOperator": "!=",
+                          "value": 0
+                        }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "ruleName": "Cancel the Running Cycle",
+                "description": "If Appliance is not idle, we can enable the cancel action",
+                "attributes": {
+                  "OvenLowerCavity_CycleSetCommonMode": false,
+                  "OvenLowerCavity_CycleSetConvectBakeFood": false,
+                  "OvenLowerCavity_CycleSetEasyConvectFood": false,
+                  "OvenLowerCavity_CycleSetBreadProof": false,
+                  "OvenLowerCavity_CycleSetEasySteamFood" : false
+                },
+                "features": {
+                  "AssistedCooking": false
+                },
+                "actions": {
+                  "ActionStartCommand": false,
+                  "ActionCancelCommand": true,
+                  "ActionModifyCommand": true
+                },
+                "condition": {
+                  "type": "value",
+                  "key": "OvenLowerCavity_OpStatusState",
+                  "valueOperator": "!=",
+                  "value": 0
+                }
+              }
+            ]
+          }
+        },
         "QueryParams": {
           "OvenUpperCavity": {
             "CycleHistory": {
