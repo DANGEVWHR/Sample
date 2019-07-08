@@ -1328,6 +1328,7 @@
     "Capability": [
       {
         "Compatibility": {
+          "DelayStartRetryCount" : 1,
           "CustomCycles": [
             "Cavity_CycleSetDownloadAndGo"
           ],
