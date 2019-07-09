@@ -1,10 +1,10 @@
 {
-  "_id": "DDM_REFRIGERATOR_OBERON_FREEZER_V1",
-  "_rev": "14-34a6076515af3049c280f63d6c687c3c",
+  "_id": "DDM_REFRIGERATOR_OBERON_FRIDGE_V1",
+  "_rev": "23-c94c6cf83a679c832076c238fcc33132",
   "DDM": {
-    "_id": "DDM_REFRIGERATOR_OBERON_FREEZER_V1",
-    "ddmName": "DDM_REFRIGERATOR_OBERON_FREEZER_V1",
-    "modelNumber": "JBZFL18IGX00,JBZFL18IGX,JBZFL24IGX00,JBZFL24IGX,JBZFL30IGX00,JBZFL30IGX,JBZFR18IGX00,JBZFR18IGX,JBZFR24IGX00,JBZFR24IGX,JBZFR30IGX00,JBZFR30IGX",
+    "_id": "DDM_REFRIGERATOR_OBERON_FRIDGE_V1",
+    "ddmName": "DDM_REFRIGERATOR_OBERON_FRIDGE_V1",
+    "modelNumber": "JBRFL24IGX00,JBRFL24IGX,JBRFL30IGX00,JBRFL30IGX,JBRFL36IGX00,JBRFL36IGX,JBRFR24IGX00,JBRFR24IGX,JBRFR30IGX00,JBRFR30IGX,JBRFR36IGX00,JBRFR36IGX",
     "createdAt": "Mar 20, 2018 6:30:00 PM",
     "createdBy": "Shekhar Dawange",
     "brandName": "JennAir",
@@ -14,7 +14,7 @@
     "ccURI": "API144_FRIG_V11"
   },
   "DataModel": {
-    "Key": "DDM_REFRIGERATOR_OBERON_FREEZER_V1",
+    "Key": "DDM_REFRIGERATOR_OBERON_FRIDGE_V1",
     "attributes": [
       {
         "IsTemplate": false,
@@ -447,8 +447,10 @@
         "EnumValues": {
           "0": "TempPresetOff",
           "1": "TempPresetAssorted",
-          "6": "TempPresetSpirits",
-          "7": "TempPresetDeepFreeze"
+          "2": "TempPresetDeli",
+          "3": "TempPresetProduce",
+          "4": "TempPresetBeverage",
+          "5": "TempPresetMeat"
         },
         "Key": "0x03020002"
       },
@@ -492,6 +494,26 @@
         "MappedAttributeName": "Refrigerator_OpSetTargetTemp",
         "Default": "0",
         "Key": "0x03040001"
+      },
+      {
+        "IsTemplate": false,
+        "M2MAttributeName": "Pantry_OpSetTempPreset",
+        "Instance": "Pantry_OpSet",
+        "IsTimeSeries": false,
+        "DataType": "enum",
+        "AttributeName": "TempPreset",
+        "DeviceIO": "RW",
+        "MappedAttributeName": "Pantry_OpSetTempPreset",
+        "Default": "0",
+        "EnumValues": {
+          "0": "TempPresetOff",
+          "1": "TempPresetAssorted",
+          "2": "TempPresetDeli",
+          "3": "TempPresetProduce",
+          "4": "TempPresetBeverage",
+          "5": "TempPresetMeat"
+        },
+        "Key": "0x03060002"
       },
       {
         "IsTemplate": false,
@@ -574,8 +596,10 @@
         "EnumValues": {
           "0": "TempPresetOff",
           "1": "TempPresetAssorted",
-          "6": "TempPresetSpirits",
-          "7": "TempPresetDeepFreeze"
+          "2": "TempPresetDeli",
+          "3": "TempPresetProduce",
+          "4": "TempPresetBeverage",
+          "5": "TempPresetMeat"
         },
         "Key": "0xF9020005"
       },
@@ -1225,64 +1249,90 @@
     ]
   },
   "Personality": {
-    "Key": "DDM_REFRIGERATOR_OBERON_FREEZER_V1",
+    "Key": "DDM_REFRIGERATOR_OBERON_FRIDGE_V1",
     "Capability": [
       {
         "CavityOrder": [
-          "UpperZone",
-          "LowerZone"
+          "RefrigeratorCavity",
+          "DeliDrawerCavity",
+          "CrisperDrawerCavity"
         ],
         "Capability": {
-          "UpperZone": {
+          "RefrigeratorCavity": {
             "CapabilityData": {
-              "UpperZone_OpSetTempPreset": {
+              "Refrigerator_OpSetTempPreset": {
                 "Required": {
                   "Refrigerator_OpSetTargetTemp": {
                     "TempRange": {
-                      "Min": -222,
-                      "Max": -150,
+                      "Min": 6,
+                      "Max": 56,
                       "StepF": 1,
-                      "Default": -189
+                      "Default": 28
                     }
                   }
                 }
               }
             },
             "SetCycle": {
-              "UpperZone_OpSetTempPreset": {
+              "Refrigerator_OpSetTempPreset": {
                 
               }
             }
           },
-          "LowerZone": {
+          "DeliDrawerCavity": {
             "CapabilityData": {
-              "LowerZone_OpSetTempPreset": {
+              "DeliDrawer_OpSetTempPreset": {
                 "Required": {
                   "Freezer_OpSetTempPreset": {
                     "Enumeration": [
+                      "TempPresetProduce",
                       "TempPresetAssorted",
-                      "TempPresetSpirits",
-                      "TempPresetDeepFreeze"
+                      "TempPresetBeverage",
+                      "TempPresetDeli",
+                      "TempPresetMeat"
                     ],
-                    "Default": "TempPresetAssorted"
+                    "Default": "TempPresetProduce"
                   }
                 }
               }
             },
             "SetCycle": {
-              "LowerZone_OpSetTempPreset": {
+              "DeliDrawer_OpSetTempPreset": {
+                
+              }
+            }
+          },
+          "CrisperDrawerCavity": {
+            "CapabilityData": {
+              "CrisperDrawer_OpSetTempPreset": {
+                "Required": {
+                  "Pantry_OpSetTempPreset": {
+                    "Enumeration": [
+                      "TempPresetProduce",
+                      "TempPresetAssorted"
+                    ],
+                    "Default": "TempPresetProduce"
+                  }
+                }
+              }
+            },
+            "SetCycle": {
+              "CrisperDrawer_OpSetTempPreset": {
                 
               }
             }
           }
         },
         "AttributesMapping": {
-          "UpperZone": {
+          "CrisperDrawerCavity": {
+            "TargetTemp": "Pantry_OpSetTempPreset"
+          },
+          "RefrigeratorCavity": {
             "DoorOpen": "Refrigerator_OpStatusDoorOpen",
             "OverTemp": "Refrigerator_OpStatusOverTemp",
             "TargetTemp": "Refrigerator_OpSetTargetTemp"
           },
-          "LowerZone": {
+          "DeliDrawerCavity": {
             "DoorOpen": "Freezer_OpStatusDoorOpen",
             "TargetTemp": "Freezer_OpSetTempPreset"
           },
@@ -1311,22 +1361,14 @@
                 "State": "Sys_OpSetControlLock"
               }
             },
-            "MaxIce": {
+            "MaxCool": {
               "Visible": true,
               "AvailableIn": [
-                "US"
+                "US",
+                "CA"
               ],
               "StateAttributes": {
-                "State": "Sys_OpSetMaxIce"
-              }
-            },
-            "IceMaker": {
-              "Visible": true,
-              "AvailableIn": [
-                "US"
-              ],
-              "StateAttributes": {
-                "State": "Sys_OpSetIceMakerOn"
+                "State": "Sys_OpSetMaxCool"
               }
             },
             "SabbathMode": {
@@ -1364,8 +1406,8 @@
               }
             }
           },
-          "UpperZone": {
-            "ModifyUpperZone": {
+          "RefrigeratorCavity": {
+            "ModifyRefrigerator": {
               "Visible": true,
               "AvailableIn": [
                 "US",
@@ -1373,8 +1415,17 @@
               ]
             }
           },
-          "LowerZone": {
-            "ModifyLowerZone": {
+          "DeliDrawerCavity": {
+            "ModifyDeliDrawer": {
+              "Visible": true,
+              "AvailableIn": [
+                "US",
+                "CA"
+              ]
+            }
+          },
+          "CrisperDrawerCavity": {
+            "ModifyCrisperDrawer": {
               "Visible": true,
               "AvailableIn": [
                 "US",
@@ -1384,13 +1435,13 @@
           }
         },
         "ApplianceRulesets": {
-          "UpperZone": {
+          "RefrigeratorCavity": {
             "Runtime": [
               {
                 "ruleName": "Disable All Features when appliance is offline",
                 "description": "Disable All Features when appliance is offline",
                 "features": {
-                  "ModifyUpperZone": false
+                  "ModifyRefrigerator": false
                 },
                 "condition": {
                     "type": "operation",
@@ -1411,13 +1462,40 @@
               }
             ]
           },
-          "LowerZone": {
+          "DeliDrawerCavity": {
             "Runtime": [
               {
                 "ruleName": "Disable All Features when appliance is offline",
                 "description": "Disable All Features when appliance is offline",
                 "features": {
-                  "ModifyLowerZone": false
+                  "ModifyDeliDrawer": false
+                },
+                "condition": {
+                    "type": "operation",
+                    "binaryOperator": "or",
+                    "left": {
+                      "type": "value",
+                      "key": "Online",
+                      "valueOperator": "=",
+                      "value": 0
+                    },
+                    "right": {
+                      "type": "value",
+                      "key": "Sys_OpSetControlLock",
+                      "valueOperator": "=",
+                      "value": 1
+                    }
+                }
+              }
+            ]
+          },
+          "CrisperDrawerCavity": {
+            "Runtime": [
+              {
+                "ruleName": "Disable All Features when appliance is offline",
+                "description": "Disable All Features when appliance is offline",
+                "features": {
+                  "ModifyCrisperDrawer": false
                 },
                 "condition": {
                     "type": "operation",
@@ -1447,8 +1525,7 @@
                   "CavityBrightness": false,
                   "SabbathMode": false,
                   "ControlLock": false,
-                  "MaxCool": false,
-                  "IceMaker": false
+                  "MaxCool": false
                 },
                 "condition": {
                   "type": "value",
@@ -1463,8 +1540,7 @@
                 "features": {
                   "CavityBrightness": false,
                   "SabbathMode": false,
-                  "MaxCool": false,
-                  "IceMaker": false
+                  "MaxCool": false
                 },
                 "condition": {
                   "type": "value",
@@ -1486,60 +1562,72 @@
     ]
   },
   "Alerts": {
-    "Key": "DDM_REFRIGERATOR_OBERON_FREEZER_V1",
-    "Alerts": [
-                {
-                    "ApplianceAlerts": [
-                        {
-                            "alertId": 173,
-                            "name": "DoorCloseAlert",
-                            "attribute": "Sys_AlertStatusDoorOpenAlarm",
-                            "type": "push",
-                            "category": "",
-                            "autodelete": false,
-                            "autodisarm": true,
-                            "autodisable": false,
-                            "visible": true,
-                            "enable": false
-                        },
-                        {
-                            "alertId": 164,
-                            "name": "DoorOpenAlert",
-                            "attribute": "Sys_AlertStatusDoorOpenAlarm",
-                            "type": "push",
-                            "category": "",
-                            "autodelete": false,
-                            "autodisarm": true,
-                            "autodisable": false,
-                            "visible": true,
-                            "enable": false
-                        },
-                        {
-                            "alertId": 123,
-                            "name": "PowerOutAlert",
-                            "attribute": "XCat_PowerStatusPowerOutage",
-                            "type": "push",
-                            "category": "",
-                            "autodelete": false,
-                            "autodisarm": true,
-                            "autodisable": false,
-                            "visible": true,
-                            "enable": false
-                        },
-                        {
-                            "alertId": 81,
-                            "name": "WaterFilter",
-                            "attribute": "Sys_OpSetWaterFilter",
-                            "type": "push",
-                            "category": "",
-                            "autodelete": false,
-                            "autodisarm": true,
-                            "autodisable": false,
-                            "visible": false,
-                            "enable": false
-                        }
-                    ]
-                }
-            ]
+    "Key": "DDM_REFRIGERATOR_OBERON_FRIDGE_V1",
+    "Alerts":  [
+      {
+        "ApplianceAlerts": [
+          {
+            "alertId": 1232,
+            "name": "DoorCloseAlert",
+            "attribute": "Sys_AlertStatusDoorOpenAlarm",
+            "type": "push",
+            "category": "Refrigerator",
+            "autodelete": false,
+            "autodisarm": true,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 1233,
+            "name": "DoorOpenAlert",
+            "attribute": "Sys_AlertStatusDoorOpenAlarm",
+            "type": "push",
+            "category": "Refrigerator",
+            "autodelete": false,
+            "autodisarm": true,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 1234,
+            "name": "PowerOutAlert",
+            "attribute": "XCat_PowerStatusPowerOutage",
+            "type": "push",
+            "category": "Refrigerator",
+            "autodelete": false,
+            "autodisarm": true,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 1235,
+            "name": "OverTemp",
+            "attribute": "Refrigerator_OpStatusOverTemp",
+            "type": "push",
+            "category": "Refrigerator",
+            "autodelete": false,
+            "autodisarm": true,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 1236,
+            "name": "WaterFilter",
+            "attribute": "Sys_OpSetWaterFilter",
+            "type": "push",
+            "category": "Refrigerator",
+            "autodelete": false,
+            "autodisarm": true,
+            "autodisable": false,
+            "visible": false,
+            "enable": false
+          }
+        ]
+      }
+    ]
   }
 }

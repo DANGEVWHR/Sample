@@ -1488,58 +1488,58 @@
   "Alerts": {
     "Key": "DDM_REFRIGERATOR_OBERON_FREEZER_V1",
     "Alerts": [
-                {
-                    "ApplianceAlerts": [
-                        {
-                            "alertId": 173,
-                            "name": "DoorCloseAlert",
-                            "attribute": "Sys_AlertStatusDoorOpenAlarm",
-                            "type": "push",
-                            "category": "",
-                            "autodelete": false,
-                            "autodisarm": true,
-                            "autodisable": false,
-                            "visible": true,
-                            "enable": false
-                        },
-                        {
-                            "alertId": 164,
-                            "name": "DoorOpenAlert",
-                            "attribute": "Sys_AlertStatusDoorOpenAlarm",
-                            "type": "push",
-                            "category": "",
-                            "autodelete": false,
-                            "autodisarm": true,
-                            "autodisable": false,
-                            "visible": true,
-                            "enable": false
-                        },
-                        {
-                            "alertId": 123,
-                            "name": "PowerOutAlert",
-                            "attribute": "XCat_PowerStatusPowerOutage",
-                            "type": "push",
-                            "category": "",
-                            "autodelete": false,
-                            "autodisarm": true,
-                            "autodisable": false,
-                            "visible": true,
-                            "enable": false
-                        },
-                        {
-                            "alertId": 81,
-                            "name": "WaterFilter",
-                            "attribute": "Sys_OpSetWaterFilter",
-                            "type": "push",
-                            "category": "",
-                            "autodelete": false,
-                            "autodisarm": true,
-                            "autodisable": false,
-                            "visible": false,
-                            "enable": false
-                        }
-                    ]
-                }
-            ]
+      {
+        "ApplianceAlerts": [
+          {
+            "alertId": 699,
+            "name": "DoorCloseAlert",
+            "attribute": "Sys_AlertStatusDoorOpenAlarm",
+            "type": "push",
+            "category": "Refrigerator",
+            "autodelete": false,
+            "autodisarm": true,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 701,
+            "name": "DoorOpenAlert",
+            "attribute": "Sys_AlertStatusDoorOpenAlarm",
+            "type": "push",
+            "category": "Refrigerator",
+            "autodelete": false,
+            "autodisarm": true,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 703,
+            "name": "WaterFilter",
+            "attribute": "Sys_OpSetWaterFilter",
+            "type": "push",
+            "category": "Refrigerator",
+            "autodelete": false,
+            "autodisarm": true,
+            "autodisable": false,
+            "visible": false,
+            "enable": false
+          },
+          {
+            "alertId": 1230,
+            "name": "PowerOutAlert",
+            "attribute": "XCat_PowerStatusPowerOutage",
+            "type": "push",
+            "category": "Refrigerator",
+            "autodelete": false,
+            "autodisarm": true,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          }
+        ]
+      }
+    ]
   }
 }

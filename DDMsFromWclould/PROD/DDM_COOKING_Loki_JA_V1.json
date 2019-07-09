@@ -1013,46 +1013,46 @@
   "Alerts": {
     "Key": "DDM_COOKING_Loki_JA_V1",
     "Alerts": [
-                {
-                    "ApplianceAlerts": [
-                        {
-                            "alertId": 328,
-                            "name": "ControlLockOn",
-                            "attribute": "Sys_OperationSetControlLock",
-                            "type": "push",
-                            "category": "Cooking",
-                            "autodelete": false,
-                            "autodisarm": false,
-                            "autodisable": false,
-                            "visible": true,
-                            "enable": true
-                        },
-                        {
-                            "alertId": 503,
-                            "name": "CookTopTurnedOn",
-                            "attribute": "Cooktop_OperationStatusCooktopOn",
-                            "type": "push",
-                            "category": "Cooking",
-                            "autodelete": false,
-                            "autodisarm": false,
-                            "autodisable": false,
-                            "visible": true,
-                            "enable": true
-                        },
-                        {
-                            "alertId": 504,
-                            "name": "CooktopLeftOn",
-                            "attribute": "Cooktop_OperationStatusCooktopOn",
-                            "type": "push",
-                            "category": "Cooking",
-                            "autodelete": false,
-                            "autodisarm": false,
-                            "autodisable": false,
-                            "visible": true,
-                            "enable": true
-                        }
-                    ]
-                }
-            ]
+      {
+        "ApplianceAlerts": [
+          {
+            "alertId": 1261,
+            "name": "ControlLockOn",
+            "attribute": "Sys_OperationSetControlLock",
+            "type": "push",
+            "category": "Cooking",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": true
+          },
+          {
+            "alertId": 1262,
+            "name": "CookTopTurnedOn",
+            "attribute": "Cooktop_OperationStatusCooktopOn",
+            "type": "push",
+            "category": "Cooking",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": true
+          },
+          {
+            "alertId": 1263,
+            "name": "CooktopLeftOn",
+            "attribute": "Cooktop_OperationStatusCooktopOn",
+            "type": "push",
+            "category": "Cooking",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": true
+          }
+        ]
+      }
+    ]
   }
 }

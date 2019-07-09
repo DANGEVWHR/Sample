@@ -1623,7 +1623,7 @@
                             "autodelete": false,
                             "autodisarm": true,
                             "autodisable": false,
-                            "visible": true,
+                            "visible": false,
                             "enable": false
                         }
                     ]
