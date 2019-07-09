@@ -4801,7 +4801,7 @@
                 },
                 "condition": {
                   "type": "value",
-                  "key": "UpperCavity_CavityHeatState",
+                  "key": "UpperCavity_CavityModeOven",
                   "valueOperator": "=",
                   "value": "0"
                 }
@@ -4864,7 +4864,7 @@
                 },
                 "condition": {
                   "type": "value",
-                  "key": "UpperCavity_CavityHeatState",
+                  "key": "UpperCavity_CavityModeOven",
                   "valueOperator": "!=",
                   "value": "0"
                 }
