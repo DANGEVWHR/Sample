@@ -2691,6 +2691,39 @@
                 }
               },
               {
+                "ruleName": "Disable the Cook time EDIT for slowroast 4,8,12",
+                "description": "Disable the Cook time EDIT for slowroast 4,8,12",
+                "attributes": {
+                  "OvenUpperCavity_TimeSetCookTimeSet": false
+                },
+                "condition": {
+                  "type": "operation",
+                  "binaryOperator": "or",
+                  "left": {
+                    "type": "value",
+                    "key": "OvenUpperCavity_CycleSetCommonMode",
+                    "valueOperator": "=",
+                    "value": "17"
+                  },
+                  "right": {
+                    "type": "operation",
+                    "binaryOperator": "or",
+                    "left": {
+                      "type": "value",
+                      "key": "OvenUpperCavity_CycleSetCommonMode",
+                      "valueOperator": "=",
+                      "value": "35"
+                    },
+                    "right": {
+                      "type": "value",
+                      "key": "OvenUpperCavity_CycleSetCommonMode",
+                      "valueOperator": "=",
+                      "value": "36"
+                    }
+                  }
+                }
+              },
+              {
                 "ruleName": "Disable the modify temperature on press start on appliance state",
                 "description": "Disable the modify temperature on press start on appliance state",
                 "attributes": {
@@ -2756,9 +2789,9 @@
                   "AssistedCooking": false
                 },
                 "actions": {
-                  "ActionStartCommand": false,
-                  "ActionCancelCommand": true,
-                  "ActionModifyCommand": true
+                  "ActionSetCycleStartCommand": false,
+                  "ActionSetCycleCancelCommand": true,
+                  "ActionSetCycleModifyCommand": true
                 },
                 "condition": {
                   "type": "value",
@@ -2771,7 +2804,8 @@
                 "ruleName": "Disable the StartCommand button",
                 "description": "Appliance can not be started if the remote is disabled",
                 "actions": {
-                  "ActionSetCycleStartCommand": false
+                  "ActionSetCycleStartCommand": false,
+                  "ActionSetCycleModifyCommand" : false
                 },
                 "condition": {
                   "type": "value",
