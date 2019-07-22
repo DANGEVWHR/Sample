@@ -4004,7 +4004,7 @@
               }
             },
             "FavoriteCycles": {
-              "Visible": true,
+              "Visible": false,
               "ReadOnly": false,
               "AvailableIn": [
                 "US",

@@ -4378,7 +4378,7 @@
               }
             },
             "FavoriteCycles": {
-              "Visible": true,
+              "Visible": false,
               "ReadOnly": false,
               "AvailableIn": [
                 "US",
@@ -4592,13 +4592,24 @@
                 "actions": {
                   "ActionSetCycleStartCommand": false,
                   "ActionSetCycleCancelCommand": true,
-                  "ActionSetCycleModifyCommand": true
+                  "ActionSetCycleModifyCommand": true,
+                  "ActionSetCycleSendCommand" : false
                 },
                 "condition": {
-                  "type": "value",
-                  "key": "OvenUpperCavity_OpStatusState",
-                  "valueOperator": "!=",
-                  "value": 0
+                   "type": "operation",
+                        "binaryOperator": "or",
+                        "left": {
+                          "type": "value",
+                          "key": "OvenUpperCavity_OpStatusState",
+                          "valueOperator": "=",
+                          "value": 1
+                        },
+                        "right": {
+                          "type": "value",
+                          "key": "OvenUpperCavity_OpStatusState",
+                          "valueOperator": "=",
+                          "value": 2
+                        }
                 }
               },
               {
@@ -4748,13 +4759,24 @@
                 "actions": {
                   "ActionSetCycleStartCommand": false,
                   "ActionSetCycleCancelCommand": true,
-                  "ActionSetCycleModifyCommand": true
+                  "ActionSetCycleModifyCommand": true,
+                  "ActionSetCycleSendCommand" : false
                 },
                 "condition": {
-                  "type": "value",
-                  "key": "OvenLowerCavity_OpStatusState",
-                  "valueOperator": "!=",
-                  "value": 0
+                   "type": "operation",
+                        "binaryOperator": "or",
+                        "left": {
+                          "type": "value",
+                          "key": "OvenLowerCavity_OpStatusState",
+                          "valueOperator": "=",
+                          "value": 1
+                        },
+                        "right": {
+                          "type": "value",
+                          "key": "OvenLowerCavity_OpStatusState",
+                          "valueOperator": "=",
+                          "value": 2
+                        }
                 }
               }
             ]

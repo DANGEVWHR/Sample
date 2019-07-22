@@ -2259,7 +2259,8 @@
       {
         "Compatibility": {
           "TempExchangeUnits": "F",
-          "MultipliedByTen": false
+          "MultipliedByTen": false,
+          "ResetDelayTime" : 15
         },
         "CavityOrder": [
           "OvenUpperCavity"
@@ -4704,13 +4705,6 @@
                 "TimerOperations": "UpperCavity_OvenTimerOperations",
                 "MyCreationId": "UpperCavity_MyCreationID"
               }
-            },
-            "CyclesHistory": {
-              "Visible": true,
-              "AvailableIn": [
-                "US",
-                "CA"
-              ]
             }
           }
         },
@@ -4796,8 +4790,9 @@
                 "description": "If Appliance is not idle, we can enable the cancel action",
                 "actions": {
                   "ActionSetCycleCancelCommand": false,
-                  "ActionSetCycleModifyCommand": false
-
+                  "ActionSetCycleModifyCommand": false,
+                   "ActionSetCycleSendCommand": true,
+                  "ActionSetCycleStartCommand": true
                 },
                 "condition": {
                   "type": "value",

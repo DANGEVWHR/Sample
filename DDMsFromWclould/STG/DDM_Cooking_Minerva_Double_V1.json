@@ -2953,7 +2953,8 @@
       {
         "Compatibility": {
           "TempExchangeUnits": "F",
-          "MultipliedByTen": false
+          "MultipliedByTen": false,
+          "ResetDelayTime" : 15
         },
         "CavityOrder": [
           "OvenUpperCavity",
@@ -7533,13 +7534,6 @@
                 "TimerOperations": "UpperCavity_OvenTimerOperations",
                 "MyCreationId": "UpperCavity_MyCreationID"
               }
-            },
-            "CyclesHistory": {
-              "Visible": false,
-              "AvailableIn": [
-                "US",
-                "CA"
-              ]
             }
           },
           "OvenLowerCavity": {

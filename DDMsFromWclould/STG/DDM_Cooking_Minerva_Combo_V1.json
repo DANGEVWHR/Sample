@@ -3172,7 +3172,8 @@
       {
         "Compatibility": {
           "TempExchangeUnits": "F",
-          "MultipliedByTen": false
+          "MultipliedByTen": false,
+          "ResetDelayTime" : 15
         },
         "CavityOrder": [
           "MwoCavity",
@@ -5670,13 +5671,6 @@
                 "TimerOperations": "LowerCavity_OvenTimerOperations",
                 "MyCreationId": "LowerCavity_MyCreationID"
               }
-            },
-            "CyclesHistory": {
-              "Visible": true,
-              "AvailableIn": [
-                "US",
-                "CA"
-              ]
             }
           }
         },
