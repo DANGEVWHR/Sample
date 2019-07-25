@@ -3366,6 +3366,12 @@
                 "attributes": {
                   "OvenUpperCavity_CycleSetTargetTemp": false
                 },
+                "actions": {
+                  "ActionSetCycleStartCommand": false,
+                  "ActionSetCycleCancelCommand": true,
+                  "ActionSetCycleModifyCommand": false,
+                  "ActionSetCycleSendCommand" : false
+                },
                 "condition": {
                   "type": "operation",
                   "binaryOperator": "and",
@@ -3432,20 +3438,10 @@
                   "ActionSetCycleSendCommand" : false
                 },
                 "condition": {
-                   "type": "operation",
-                        "binaryOperator": "or",
-                        "left": {
-                          "type": "value",
-                          "key": "OvenUpperCavity_OpStatusState",
-                          "valueOperator": "=",
-                          "value": 1
-                        },
-                        "right": {
-                          "type": "value",
-                          "key": "OvenUpperCavity_OpStatusState",
-                          "valueOperator": "=",
-                          "value": 2
-                        }
+                    "type": "operation",
+                    "binaryOperator": "in",
+                    "key": "OvenUpperCavity_OpStatusState",
+                    "value": [1, 2, 4]   
                 }
               },
               {

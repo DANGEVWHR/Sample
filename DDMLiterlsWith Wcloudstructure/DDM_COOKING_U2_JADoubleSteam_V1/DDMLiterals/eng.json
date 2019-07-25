@@ -323,5 +323,5 @@
     "LocalKitchenTimer.Label" : "Kitchen timer",
     "LocalKitchenTimer.Description" : "Set a timer to measure specific time intervals during the cooking process",
     "LightOnOff.Label" : "Cavity light",
-    "LightOnOff.Description" : "Turn your cavity light on/off any any time"
+    "LightOnOff.Description" : "Turn your cavity light on/off any time"
   }
