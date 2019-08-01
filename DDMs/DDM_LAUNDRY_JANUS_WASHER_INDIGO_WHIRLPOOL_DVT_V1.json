@@ -5171,6 +5171,19 @@
 								}
 							},
 							{
+								"ruleName": "Disable ControlLock when appliance is offline",
+								"description": "Disable ControlLock when appliance is offline",
+								"features": {
+									"ControlLock": false
+								},
+								"condition": {
+									"type": "value",
+									"key": "Cavity_CycleStatusMachineState",
+									"valueOperator": "=",
+									"value": "7"
+								}
+							},
+							{
 								"ruleName": "Cancel the Running Cycle",
 								"description": "If Appliance is not idle, we can enable the cancel action",
 								"actions": {
