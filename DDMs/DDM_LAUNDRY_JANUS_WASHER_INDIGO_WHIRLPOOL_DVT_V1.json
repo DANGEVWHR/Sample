@@ -5206,7 +5206,7 @@
 									"type": "value",
 									"key": "Cavity_CycleStatusMachineState",
 									"valueOperator": "=",
-									"value": "7"
+									"value": 7
 								}
 							},
 							{
@@ -5219,7 +5219,7 @@
 									"type": "value",
 									"key": "Cavity_CycleStatusMachineState",
 									"valueOperator": "=",
-									"value": "7"
+									"value": 7
 								}
 							},
 							{
