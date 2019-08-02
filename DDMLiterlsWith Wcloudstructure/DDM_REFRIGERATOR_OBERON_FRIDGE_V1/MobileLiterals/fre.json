@@ -1,4 +1,4 @@
-{
+﻿{
     "Manuals": {
         "FccInformationForm": {
             "Title": "Fiche informative de la CFC",
@@ -22,11 +22,11 @@
     "Notifications": {
         "DoorOpenAlert": {
             "Name": "Porte ouverte",
-            "Description": "Recevez une notification lorsque la porte a été ouverte pendant plus de 5 minutes"
+            "Description": "Recevez une notification lorsque la porte est restée pendant plus de 5 minutes"
         },
         "DoorCloseAlert": {
             "Name": "Porte fermée",
-            "Description": "Recevez une notification lorsque la porte a été fermée après avoir été ouverte pendant plus de 5 minutes."
+            "Description": "Recevez une notification lorsque la porte a été fermée après être restée ouverte pendant plus de 5 minutes."
         },
         "PowerOutAlert": {
             "Name": "Panne de courant",

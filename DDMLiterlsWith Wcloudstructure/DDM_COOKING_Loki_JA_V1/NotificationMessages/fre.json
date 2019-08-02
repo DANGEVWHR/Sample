@@ -1,4 +1,4 @@
-{
+﻿{
     "NotificationContents": [
         {
             "TemplateId": "ControlUnlocked",
@@ -29,7 +29,7 @@
             "SmsText": "Table de cuisson mise en marche.",
             "EmailText": "Table de cuisson mise en marche.",
             "PushText": "Table de cuisson mise en marche.",
-            "AlertTitle": "Alerte de table de cuisson",
+            "AlertTitle": "Alerte de table de cuisson mise en marche",
             "Type": "cooktopalert"
         }
     ]

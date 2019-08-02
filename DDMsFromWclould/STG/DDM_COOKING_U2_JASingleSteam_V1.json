@@ -3189,7 +3189,8 @@
               "OvenUpperCavity_CycleSetEasyConvectFood",
               "OvenUpperCavity_CycleSetBreadProof",
               "OvenUpperCavity_CycleSetEasySteamFood",
-              "OvenUpperCavity_CulinaryCtrSetId"
+              "OvenUpperCavity_CulinaryCtrSetId",
+              "OvenUpperCavity_CycleSetCleanOvenMode"
             ],
             "TimeElapsed": "OvenUpperCavity_TimeStatusCycleTimeElapsed",
             "DoorOpen": "OvenUpperCavity_OpStatusDoorOpen",
@@ -3486,6 +3487,27 @@
                 }
               },
               {
+                "ruleName": "When self clean is running, we should hide modify temp and edit cook time",
+                "description": "When self clean is running, we should hide modify temp and edit cook time",
+                "features": {
+                  "LightOnOff" : false
+                },
+                "attributes": {
+                  "OvenUpperCavity_TimeSetCookTimeSet": false,
+                  "OvenUpperCavity_CycleSetTargetTemp": false,
+                  "OvenUpperCavity_DisplaySetLightOn": false
+                },
+                "actions": {
+                  "ActionSetCycleModifyCommand": false
+                },
+                "condition": {
+                  "type": "value",
+                  "key": "OvenUpperCavity_CycleSetCleanOvenMode",
+                  "valueOperator": "=",
+                  "value": 1
+                }
+              },
+              {
                 "ruleName": "Disable the Cook time EDIT for slowroast 4,8,12",
                 "description": "Disable the Cook time EDIT for slowroast 4,8,12",
                 "attributes": {
@@ -3522,13 +3544,17 @@
                 "ruleName": "Disable the modify temperature on press start on appliance state",
                 "description": "Disable the modify temperature on press start on appliance state",
                 "attributes": {
-                  "OvenUpperCavity_CycleSetTargetTemp": false
+                  "OvenUpperCavity_CycleSetCommonMode": false,
+                  "OvenUpperCavity_CycleSetConvectBakeFood": false,
+                  "OvenUpperCavity_CycleSetEasyConvectFood": false,
+                  "OvenUpperCavity_CycleSetBreadProof": false
                 },
                 "actions": {
-                  "ActionSetCycleStartCommand": false,
-                  "ActionSetCycleCancelCommand": true,
-                  "ActionSetCycleModifyCommand": false,
-                  "ActionSetCycleSendCommand" : false
+                  "ActionSetCycleModifyCommand": false
+                },
+
+                "features": {
+                  "OvenUpperCavity_CycleSetTargetTemp": false
                 },
                 "condition": {
                   "type": "operation",
@@ -3567,20 +3593,10 @@
                           "value": 0
                         },
                         "right": {
-                          "type": "operation",
-                          "binaryOperator": "or",
-                          "left": {
-                            "type": "value",
-                            "key": "OvenUpperCavity_CycleSetEasySteamFood",
-                            "valueOperator": "!=",
-                            "value": 0
-                          },
-                          "right": {
-                            "type": "value",
-                            "key": "OvenUpperCavity_CycleSetBreadProof",
-                            "valueOperator": "!=",
-                            "value": 0
-                          }
+                          "type": "value",
+                          "key": "OvenUpperCavity_CycleSetBreadProof",
+                          "valueOperator": "!=",
+                          "value": 0
                         }
                       }
                     }
@@ -3594,8 +3610,7 @@
                   "OvenUpperCavity_CycleSetCommonMode": false,
                   "OvenUpperCavity_CycleSetConvectBakeFood": false,
                   "OvenUpperCavity_CycleSetEasyConvectFood": false,
-                  "OvenUpperCavity_CycleSetBreadProof": false,
-                  "OvenUpperCavity_CycleSetEasySteamFood": false
+                  "OvenUpperCavity_CycleSetBreadProof": false
                 },
                 "features": {
                   "AssistedCooking": false
@@ -3603,13 +3618,14 @@
                 "actions": {
                   "ActionSetCycleStartCommand": false,
                   "ActionSetCycleCancelCommand": true,
-                  "ActionSetCycleModifyCommand": true
+                  "ActionSetCycleModifyCommand": true,
+                  "ActionSetCycleSendCommand" : false
                 },
                 "condition": {
-                    "type": "operation",
-                    "binaryOperator": "in",
+                    "type": "value",
                     "key": "OvenUpperCavity_OpStatusState",
-                    "value": [1, 2, 4]   
+                    "valueOperator": "!=",
+                    "value": 0
                 }
               },
               {

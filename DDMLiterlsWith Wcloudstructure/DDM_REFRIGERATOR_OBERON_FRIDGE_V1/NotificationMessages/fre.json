@@ -1,4 +1,4 @@
-{
+﻿{
     "NotificationContents": [
         {
             "TemplateId": "FrigDoorCloseAlert1",
@@ -10,9 +10,9 @@
         },
         {
             "TemplateId": "FrigDoorOpenAlert1",
-            "SmsText": "L’alarme de porte de réfrigérateur ouverte retentit. Vérifiez que la porte est fermée ou qu’aucun article n’entrave la porte.",
-            "EmailText": "L’alarme de porte de réfrigérateur ouverte retentit. Vérifiez que la porte est fermée ou qu’aucun article n’entrave la porte.",
-            "PushText": "L’alarme de porte de réfrigérateur ouverte retentit. Vérifiez que la porte est fermée ou qu’aucun article n’entrave la porte.",
+            "SmsText": "L’alarme de porte de réfrigérateur ouverte sonne. Vérifiez que la porte est fermée ou qu’aucun article n’entrave la porte.",
+            "EmailText": "L’alarme de porte de réfrigérateur ouverte sonne. Vérifiez que la porte est fermée ou qu’aucun article n’entrave la porte.",
+            "PushText": "L’alarme de porte de réfrigérateur ouverte sonne. Vérifiez que la porte est fermée ou qu’aucun article n’entrave la porte.",
             "AlertTitle": "Avertissement de porte ouverte",
             "Type": "maxIceDoor"
         },
@@ -26,41 +26,41 @@
         },
         {
             "TemplateId": "FrigOverTemp1",
-            "SmsText": "Vérifiez le contenu de votre réfrigérateur – la température est élevée",
-            "EmailText": "Vérifiez le contenu de votre réfrigérateur – la température est élevée",
-            "PushText": "Vérifiez le contenu de votre réfrigérateur – la température est élevée",
+            "SmsText": "Vérifiez le contenu de votre réfrigérateur – la température est trop élevée",
+            "EmailText": "Vérifiez le contenu de votre réfrigérateur – la température est trop élevée",
+            "PushText": "Vérifiez le contenu de votre réfrigérateur – la température est trop élevée",
             "AlertTitle": "Alerte de température élevée",
             "Type": "system"
         },
         {
             "TemplateId": "FrigOverTemp2",
-            "SmsText": "Vérifiez le contenu de votre réfrigérateur – la température est élevée",
-            "EmailText": "Vérifiez le contenu de votre réfrigérateur – la température est élevée",
-            "PushText": "Vérifiez le contenu de votre réfrigérateur – la température est élevée",
+            "SmsText": "Vérifiez le contenu de votre réfrigérateur – la température est trop élevée",
+            "EmailText": "Vérifiez le contenu de votre réfrigérateur – la température est trop élevée",
+            "PushText": "Vérifiez le contenu de votre réfrigérateur – la température est trop élevée",
             "AlertTitle": "Alerte de température élevée",
             "Type": "system"
         },
         {
             "TemplateId": "FrigWaterFilter0",
-            "SmsText": "le filtre à eau remplacé, drainez le système d’eau comme décrit dans le guide d’utilisation et d’entretien avant d’utiliser le distributeur. Vous devriez aussi jeter les trois (3) premiers lots de glaçons.",
-            "EmailText": "le filtre à eau remplacé, drainez le système d’eau comme décrit dans le guide d’utilisation et d’entretien avant d’utiliser le distributeur. Vous devriez aussi jeter les trois (3) premiers lots de glaçons.",
-            "PushText": "le filtre à eau remplacé, drainez le système d’eau comme décrit dans le guide d’utilisation et d’entretien avant d’utiliser le distributeur. Vous devriez aussi jeter les trois (3) premiers lots de glaçons.",
+            "SmsText": "Il est temps de remplacer le filtre à eau de votre réfrigérateur; commandez maintenant. Une fois le filtre à eau remplacé, drainez le système d’eau comme décrit dans le guide d’utilisation et d’entretien avant d’utiliser le distributeur. Vous devriez aussi jeter les trois (3) premiers lots de glaçons.",
+            "EmailText": " Il est temps de remplacer le filtre à eau de votre réfrigérateur; commandez maintenant. Une fois le filtre à eau remplacé, drainez le système d’eau comme décrit dans le guide d’utilisation et d’entretien avant d’utiliser le distributeur. Vous devriez aussi jeter les trois (3) premiers lots de glaçons.",
+            "PushText": " Il est temps de remplacer le filtre à eau de votre réfrigérateur; commandez maintenant. Une fois le filtre à eau remplacé, drainez le système d’eau comme décrit dans le guide d’utilisation et d’entretien avant d’utiliser le distributeur. Vous devriez aussi jeter les trois (3) premiers lots de glaçons.",
             "AlertTitle": "Commandez un filtre à eau",
             "Type": "system"
         },
         {
             "TemplateId": "FrigWaterFilter1",
-            "SmsText": "Il est temps de remplacer le filtre à eau de votre réfrigérateur, commandez maintenant.",
-            "EmailText": "Il est temps de remplacer le filtre à eau de votre réfrigérateur, commandez maintenant.",
-            "PushText": "Il est temps de remplacer le filtre à eau de votre réfrigérateur, commandez maintenant.",
+            "SmsText": "Il est temps de remplacer le filtre à eau de votre réfrigérateur; commandez maintenant. Une fois le filtre à eau remplacé, drainez le système d’eau comme décrit dans le guide d’utilisation et d’entretien avant d’utiliser le distributeur. Vous devriez aussi jeter les trois (3) premiers lots de glaçons.",
+            "EmailText": "Il est temps de remplacer le filtre à eau de votre réfrigérateur; commandez maintenant. Une fois le filtre à eau remplacé, drainez le système d’eau comme décrit dans le guide d’utilisation et d’entretien avant d’utiliser le distributeur. Vous devriez aussi jeter les trois (3) premiers lots de glaçons.",
+            "PushText": "Il est temps de remplacer le filtre à eau de votre réfrigérateur; commandez maintenant. Une fois le filtre à eau remplacé, drainez le système d’eau comme décrit dans le guide d’utilisation et d’entretien avant d’utiliser le distributeur. Vous devriez aussi jeter les trois (3) premiers lots de glaçons.",
             "AlertTitle": "Commandez un filtre à eau",
             "Type": "system"
         },
         {
             "TemplateId": "FrigWaterFilter2",
-            "SmsText": "remplacer le filtre à eau de votre réfrigérateur.",
-            "EmailText": "remplacer le filtre à eau de votre réfrigérateur.",
-            "PushText": "remplacer le filtre à eau de votre réfrigérateur.",
+            "SmsText": "Il est temps de remplacer le filtre à eau de votre réfrigérateur; commandez maintenant. Une fois le filtre à eau remplacé, drainez le système d’eau comme décrit dans le guide d’utilisation et d’entretien avant d’utiliser le distributeur. Vous devriez aussi jeter les trois (3) premiers lots de glaçons.",
+            "EmailText": "Il est temps de remplacer le filtre à eau de votre réfrigérateur; commandez maintenant. Une fois le filtre à eau remplacé, drainez le système d’eau comme décrit dans le guide d’utilisation et d’entretien avant d’utiliser le distributeur. Vous devriez aussi jeter les trois (3) premiers lots de glaçons.",
+            "PushText": "Il est temps de remplacer le filtre à eau de votre réfrigérateur; commandez maintenant. Une fois le filtre à eau remplacé, drainez le système d’eau comme décrit dans le guide d’utilisation et d’entretien avant d’utiliser le distributeur. Vous devriez aussi jeter les trois (3) premiers lots de glaçons.",
             "AlertTitle": "Commandez un filtre à eau",
             "Type": "system"
         }

@@ -1,24 +1,24 @@
-{
+﻿{
     "F1,E2": {
         "ErrorCode": "F1E2",
-        "Name": "",
+        "Name": "Défaillance générale",
         "Type": "Défaillance générale",
         "Description": "Votre lave-vaisselle a signalé une défaillance qui nécessite une intervention pour dépanner et diagnostiquer le problème, ainsi qu’effectuer les réparations, si nécessaire.",
         "StepsToRepair": [
-            "Un entretien est requis. Composer le 1 800 JENNAIR pour demander une intervention de dépannage"
+            "Composez le 1 800 JENNAIR pour demander une intervention de dépannage"
         ],
         "HelpPath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_246_V1/AFCSelfHelpPack/fre/F01E02_P1.html",
         "VideoPath": "http://www.kaltura.com/tiny/lnrux"
     },
     "F2,E2": {
         "ErrorCode": "F2E2",
-        "Name": "",
+        "Name": "Défaillance générale",
         "Type": "Défaillance générale",
-        "Description": "Couper puis relancer l’alimentation à partir de la commande pour réinitialiser le lave-vaisselle.",
+        "Description": "Votre lave-vaisselle a rencontré un problème et doit être réinitialisé.",
         "StepsToRepair": [
-            "Couper l’alimentation du lave-vaisselle en fermant le disjoncteur pendant (1) minute.",
-            "Alimenter de nouveau le lave-vaisselle en réarmant le disjoncteur.",
-            "Contrôler le lave-vaisselle pendant (1) minute pour vérifier que le code d’erreur ne s’affiche plus.",
+            "Coupez l’alimentation du lave-vaisselle en fermant le disjoncteur pendant une (1) minute.",
+            "Alimentez de nouveau le lave-vaisselle en réarmant le disjoncteur.",
+            "Surveillez le lave-vaisselle pendant une (1) minute pour vérifier que le code d’erreur ne s’affiche plus.",
             "Vérifiez que le lave-vaisselle fonctionne.  Si le problème continu, composer le 1 800 JENN-AIR pour obtenir de l’aide."
         ],
         "HelpPath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_246_V1/AFCSelfHelpPack/fre/F01E02_P1.html",
@@ -26,13 +26,13 @@
     },
     "F2,E3": {
         "ErrorCode": "F2E3",
-        "Name": "",
+        "Name": "Défaillance générale",
         "Type": "Défaillance générale",
         "Description": "Votre lave-vaisselle a signalé une défaillance qui nécessite une intervention pour dépanner et diagnostiquer le problème, ainsi qu’effectuer les réparations, si nécessaire.",
         "StepsToRepair": [
-            "Un entretien est requis. Composer le 1 800 JENNAIR pour demander une intervention de dépannage"
+            "Composez le 1 800 JENNAIR pour demander une intervention de dépannage"
         ],
         "HelpPath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_246_V1/AFCSelfHelpPack/fre/F01E02_P1.html",
         "VideoPath": "http://www.kaltura.com/tiny/lnrux"
     }
-    }
+}

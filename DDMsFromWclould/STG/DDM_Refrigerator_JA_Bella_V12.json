@@ -1588,10 +1588,20 @@
                   "ModifyRefrigerator": false
                 },
                 "condition": {
-                  "type": "value",
-                  "key": "Online",
-                  "valueOperator": "=",
-                  "value": 0
+                    "type": "operation",
+                    "binaryOperator": "or",
+                    "left": {
+                      "type": "value",
+                      "key": "Online",
+                      "valueOperator": "=",
+                      "value": 0
+                    },
+                    "right": {
+                      "type": "value",
+                      "key": "Sys_OpSetControlLock",
+                      "valueOperator": "=",
+                      "value": 1
+                    }
                 }
               }
             ]
@@ -1605,10 +1615,20 @@
                   "ModifyFreezer": false
                 },
                 "condition": {
-                  "type": "value",
-                  "key": "Online",
-                  "valueOperator": "=",
-                  "value": 0
+                    "type": "operation",
+                    "binaryOperator": "or",
+                    "left": {
+                      "type": "value",
+                      "key": "Online",
+                      "valueOperator": "=",
+                      "value": 0
+                    },
+                    "right": {
+                      "type": "value",
+                      "key": "Sys_OpSetControlLock",
+                      "valueOperator": "=",
+                      "value": 1
+                    }
                 }
               }
             ]
@@ -1622,10 +1642,20 @@
                   "ModifyPantry": false
                 },
                 "condition": {
-                  "type": "value",
-                  "key": "Online",
-                  "valueOperator": "=",
-                  "value": 0
+                    "type": "operation",
+                    "binaryOperator": "or",
+                    "left": {
+                      "type": "value",
+                      "key": "Online",
+                      "valueOperator": "=",
+                      "value": 0
+                    },
+                    "right": {
+                      "type": "value",
+                      "key": "Sys_OpSetControlLock",
+                      "valueOperator": "=",
+                      "value": 1
+                    }
                 }
               }
             ]
@@ -1647,6 +1677,38 @@
                   "key": "Online",
                   "valueOperator": "=",
                   "value": 0
+                }
+              },
+              {
+                "ruleName": "Disable Some Features when ControlLock on the appliance is turned on",
+                "description": "Disable Some Features when ControlLock on the appliance is turned on",
+                "features": {
+                  "AutoNightLight": false,
+                  "SabbathMode": false,
+                  "MaxCool": false,
+                  "MaxIce": false
+                },
+                "condition": {
+                  "type": "value",
+                  "key": "Sys_OpSetControlLock",
+                  "valueOperator": "=",
+                  "value": 1
+                }
+              },
+              {
+                "ruleName": "When Sabbath is active, disable the features",
+                "description": "When Sabbath is active, disable the features",
+                "features": {
+                  "AutoNightLight": false,
+                  "ControlLock": false,
+                  "MaxCool": false,
+                  "MaxIce": false
+                },
+                "condition": {
+                  "type": "value",
+                      "key": "Sys_OpSetSabbathModeEnabled",
+                      "valueOperator": "=",
+                      "value": 1
                 }
               }
             ]

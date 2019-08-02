@@ -1,4 +1,4 @@
-{
+﻿{
         "Manuals": {
             "FccInformationForm": {
                 "Title": "Fiche informative de la CFC",
@@ -12,7 +12,8 @@
         "SpecialtyCycles": {},
         "Notifications": {
             "OvenLeftOnWhileAway": {
-                "Name": "Your oven is still on!"
+                "Name": " Votre four est resté en marche!",
+                 "Description" : "Votre maison est en mode absent/absent automatique et votre four fonctionne toujours."
             },
             "ControlLock": {
                 "Name": "Control Lock (verrouillage des commandes)",
@@ -36,7 +37,7 @@
             },
             "CookTimeCompleteReminder": {
                 "Name": "Rappel de temps de cuisson terminé",
-                "Description": "Recevez une notification toutes les minutes suivant la fin de la minuterie du four et jusqu’à l’arrêt du four ou jusqu’à la modification du programme du four"
+                "Description": "Recevez une notification toutes les minutes suivant la fin de la minuterie du four et jusqu’à ce que le four soit éteint."
             },
             "CookTimerChanged": {
                 "Name": "Temps de cuisson modifié",
@@ -47,7 +48,7 @@
                 "Description": "Recevez une notification à la fin de la minuterie de cuisine ou lorsqu’elle est modifiée."
             },
             "MeatProbeTargetChanged": {
-                "Name": "Cible de la sonde de cuisson atteinte",
+                "Name": "Cible de la sonde de cuisson modifiée",
                 "Description": "Recevez une notification lorsque le réglage de la température de la sonde de cuisson a été modifié."
             },
             "MeatProbeTempAchieved": {
@@ -71,8 +72,8 @@
                 "Description": "Recevez une notification lorsque le programme d’autonettoyage est terminé."
             },
              "CulinaryUserInstructions": {
-                "Name": "Interruptions du centre culinaire",
-                "Description": "Recevez une notification lorsque le programme du four demande une interaction manuelle (c.-à-d., retirer le papier d’aluminium, etc.)."
+                "Name": "Interactions du centre culinaire",
+                "Description": "Recevez une notification lorsque le programme du four demande une intervention manuelle (c.-à-d., retirer le papier d’aluminium, etc.)."
             }
 
         },

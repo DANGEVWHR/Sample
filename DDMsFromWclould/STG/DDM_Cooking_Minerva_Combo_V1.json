@@ -1,6 +1,5 @@
 {
   "_id": "DDM_Cooking_Minerva_Combo_V1",
-  "_rev": "40-fd6666db229b93936ba899fb930278e2",
   "DDM": {
     "_id": "DDM_Cooking_Minerva_Combo_V1",
     "ddmName": "DDM_Cooking_Minerva_Combo_V1",
@@ -5747,7 +5746,7 @@
                 },
                 "condition": {
                   "type": "operation",
-                  "valueOperator": "or",
+                  "binaryOperator": "or",
                    "left": {
                       "type": "value",
                       "key": "Online",
@@ -5779,44 +5778,7 @@
                   "value": [0,3]
                 }
               },
-               {
-                "ruleName": "When Sabbath is active, disable the features",
-                "description": "When Sabbath is active, disable the features",
-                "features": {
-                  "MeatProbeTemp": false,
-                  "MeatProbe": false,
-                  "AssistedCooking": false,
-                  "SetOven": true,
-                  "LightOnOff": false,
-                  "MyCreations": false
-                },
-                "actions": {
-                  "ActionKitchenTimerStart": false,
-                  "ActionKitchenTimerCancel": false,
-                  "ActionKitchenTimerModify": false,
-                  "ActionSetCycleSendCommand": false,
-                  "ActionSetCycleStartCommand": false,
-                  "ActionSetCycleCancelCommand": true,
-                  "ActionSetCycleModifyCommand": false,
-                  "ActionSetCycleCancelCookTimeCommand": false
-                },
-                "condition": {
-                  "type": "operation",
-                  "valueOperator": "or",
-                   "left": {
-                      "type": "value",
-                      "key": "LowerCavity_SabbathModeActive",
-                      "valueOperator": "=",
-                      "value": 1
-                    },
-                    "right": {
-                      "type": "value",
-                      "key": "LowerCavity_SabbathModeEnabled",
-                      "valueOperator": "=",
-                      "value": 1
-                    }
-                }
-              },
+               
               {
                 "ruleName": "Disable the Cook time EDIT for slowroast 4,8,12",
                 "description": "Disable the Cook time EDIT for slowroast 4,8,12",
@@ -5848,6 +5810,51 @@
                       "value": "21"
                     }
                   }
+                }
+              },
+              {
+                "ruleName": "When Sabbath is active, disable the features",
+                "description": "When Sabbath is active, disable the features",
+                "features": {
+                  "MeatProbeTemp": false,
+                  "MeatProbe": false,
+                  "AssistedCooking": false,
+                  "SetOven": false,
+                  "LightOnOff": false,
+                  "MyCreations": false
+                },
+                "attributes" : {
+                  "LowerCavity_CavityTargetTemp" : false,
+                  "LowerCavity_MeatProbeTargetTemp" : false,
+                  "LowerCavity_CookTimeSetTime" : false
+                  },
+                "actions": {
+                  "ActionKitchenTimerStart": false,
+                  "ActionKitchenTimerCancel": false,
+                  "ActionKitchenTimerModify": false,
+                  "ActionSetCycleSendCommand": false,
+                  "ActionSetCycleStartCommand": false,
+                  "ActionSetCycleModifyCommand": false,
+                  "ActionSetCycleCancelCookTimeCommand": false
+                },
+                "condition": {
+                  "type": "value",
+                      "key": "LowerCavity_CavityModeOven",
+                      "valueOperator": "=",
+                      "value": 18
+                }
+              },
+              {
+                "ruleName": "When self clean is running ",
+                "description": "When self clean is running ",
+                "features": {
+                  "LightOnOff": false
+                },
+                "condition": {
+                  "type": "value",
+                      "key": "LowerCavity_CavityModeOven",
+                      "valueOperator": "=",
+                      "value": 16
                 }
               },
               {
@@ -5928,6 +5935,30 @@
                   "key": "Online",
                   "valueOperator": "=",
                   "value": 0
+                }
+              },
+              {
+                "ruleName": "Disable All Features when appliance control lock is on",
+                "description": "Disable All Features when appliance is offline",
+                "features": {
+                  "ChangeTempUnits": false,
+                  "RemoteStatus": false,
+                  "KitchenTimer": false,
+                  "ChangeSoundPowerOnOff": false,
+                  "ChangeNumberEntry": false,
+                  "ChangeClockTheme": false,
+                  "ChangeClockOnOffStatus": false,
+                  "ChangeApplianceLanguage": false,
+                  "ChangeSoundKeyAlert": false,
+                  "ChangeSoundKeyPress": false,
+                  "ChangeDisplayOnOffStatus": false,
+                  "ChangeBrightness": false
+                },
+                "condition": {
+                  "type": "value",
+                  "key": "SystemSettings_ControlLock",
+                  "valueOperator": "=",
+                  "value": 1
                 }
               }
             ]

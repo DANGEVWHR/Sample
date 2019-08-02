@@ -224,8 +224,12 @@
     },
     "Notifications": {
         "OvenOnWhileAway": {
-            "Name": "Four en marche lorsqu’absent",
+            "Name": "Votre four est encore en marche!",
             "Description": "Votre maison est en mode absent/absent automatique et votre four fonctionne toujours."
+        },
+        "ControlLock": {
+            "Name": "Control Lock (verrouillage des commandes)",
+            "Description": "Recevez une notification lorsque le verrouillage des commandes de votre four est activé ou désactivé."
         },
         "CookCycleCanceled": {
             "Name": "Programme de cuisson annulé",
@@ -243,13 +247,29 @@
             "Name": "Fin de cuisson",
             "Description": "Recevez une notification lorsque la minuterie de cuisson du four est terminée. "
         },
+        "CookTimeCompleteReminder": {
+            "Name": "Rappel de temps de cuisson terminé",
+            "Description": "Recevez une notification toutes les minutes suivant la fin de la minuterie du four et jusqu’à ce que le four soit éteint."
+        },
         "CookTimerChanged": {
             "Name": "Temps de cuisson modifié",
             "Description": "Recevez une notification lorsque le temps de cuisson a été modifié."
         },
+        "UpperCavityCulinaryInstructions": {
+            "Name": "Interactions du centre culinaire",
+            "Description": " Recevez une notification lorsque le programme du four demande une intervention manuelle (c.-à-d., retirer le papier d’aluminium, etc.)"
+        },
+        "KitchenTimerEventNotification": {
+            "Name": " Minuterie de cuisine modifiée ",
+            "Description": "Recevez une notification à la fin de la minuterie de cuisine ou lorsqu’elle est modifiée."
+        },
         "MeatProbeTempAchieved": {
             "Name": "Température de la sonde atteinte",
             "Description": "Recevez une notification lorsque la sonde de cuisson atteint la température souhaitée."
+        },
+        "Preheat25": {
+            "Name": "Progression du programme de préchauffage",
+            "Description": "Recevez une notification lorsque le programme de préchauffage est à moins de 25 degrés de la température souhaitée."
         },
         "PreheatComplete": {
             "Name": "Préchauffage terminé",
@@ -259,6 +279,10 @@
             "Name": "État de commande à distance",
             "Description": "Recevez une notification lorsque les commandes à distance sont activées ou désactivées."
         },
+        "SelfCleanComplete": {
+            "Name": "Autonettoyage terminé",
+            "Description": "Recevez une notification lorsque le programme d’autonettoyage est terminé."
+        } ,
         "ErrorNotification": {
             "Name": "Notification d’erreur",
             "Description": "Recevez une notification lorsqu’un code d’erreur se produit."

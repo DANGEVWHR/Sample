@@ -1,4 +1,4 @@
-{
+﻿{
     "Manuals": {
         "UseCareGuide": {
             "Title": "Guide d’utilisation et d’entretien",
@@ -19,16 +19,16 @@
     },
     "Notifications": {
         "ControlLockOn": {
-            "Name": "Control Lock (verrouillage des commandes)",
+            "Name": "Verrouillage des commandes",
             "Description": "Recevez une notification lorsque les commandes à distance sont activées ou désactivées."
         },
         "CookTopTurnedOn": {
-            "Name": "Table de cuisson ouverte",
+            "Name": "Table de cuisson en marche",
             "Description": "Recevez une notification lorsque votre table de cuisson est mise en marche"
         },
         "CooktopLeftOn": {
             "Name": "Table de cuisson laissée en marche",
-            "Description": "Recevez une notification lorsque la table de cuisson est laissée en marche pendant une durée de temps réglée que vous avez sélectionnée"
+            "Description": "Recevez une notification lorsque la table de cuisson est laissée en marche pendant une durée de temps prédéfinie que vous avez sélectionnée"
         }
     },
     "SpecialtyCycles": {

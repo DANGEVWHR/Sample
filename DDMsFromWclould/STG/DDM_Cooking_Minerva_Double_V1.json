@@ -2954,7 +2954,7 @@
         "Compatibility": {
           "TempExchangeUnits": "F",
           "MultipliedByTen": false,
-          "ResetDelayTime" : 15
+          "ResetDelayTime": 15
         },
         "CavityOrder": [
           "OvenUpperCavity",
@@ -7781,31 +7781,39 @@
                 },
                 "condition": {
                   "type": "operation",
-                  "valueOperator": "or",
-                   "left": {
-                      "type": "value",
-                      "key": "Online",
-                      "valueOperator": "=",
-                      "value": 0
-                    },
-                    "right": {
-                      "type": "value",
-                      "key": "SystemSettings_ControlLock",
-                      "valueOperator": "=",
-                      "value": 1
-                    }
-                }              },
+                  "binaryOperator": "or",
+                  "left": {
+                    "type": "value",
+                    "key": "Online",
+                    "valueOperator": "=",
+                    "value": 0
+                  },
+                  "right": {
+                    "type": "value",
+                    "key": "SystemSettings_ControlLock",
+                    "valueOperator": "=",
+                    "value": 1
+                  }
+                }
+              },
               {
-                "ruleName": "Disable the StartCommand button",
-                "description": "Appliance can not be started if the remote is disabled",
+                "ruleName": "Cancel the Running Cycle",
+                "description": "If Appliance is not idle, we can enable the cancel action",
                 "actions": {
-                  "ActionSetCycleStartCommand": false
+                  "ActionSetCycleStartCommand": true,
+                  "ActionSetCycleSendCommand": true,
+                  "ActionSetCycleCancelCommand": false,
+                  "ActionSetCycleModifyCommand": false,
+                  "ActionSetCycleResetDelayCommand": false
                 },
                 "condition": {
                   "type": "value",
-                  "key": "Appliance_RemoteEnabledStatus",
-                  "valueOperator": "=",
-                  "value": 0
+                  "key": "UpperCavity_CavityHeatState",
+                  "valueOperator": "in",
+                  "value": [
+                    0,
+                    3
+                  ]
                 }
               },
               {
@@ -7842,32 +7850,20 @@
                 }
               },
               {
-                "ruleName": "Cancel the Running Cycle",
-                "description": "If Appliance is not idle, we can enable the cancel action",
-                "actions": {
-                  "ActionSetCycleStartCommand": true,
-                  "ActionSetCycleSendCommand": true,
-                  "ActionSetCycleCancelCommand": false,
-                  "ActionSetCycleModifyCommand": false,
-                  "ActionSetCycleResetDelayCommand" : false
-                },
-                "condition": {
-                  "type": "value",
-                  "key": "UpperCavity_CavityHeatState",
-                  "valueOperator": "in",
-                  "value": [0,3]
-                }
-              },
-              {
                 "ruleName": "When Sabbath is active, disable the features",
                 "description": "When Sabbath is active, disable the features",
                 "features": {
                   "MeatProbeTemp": false,
                   "MeatProbe": false,
                   "AssistedCooking": false,
-                  "SetOven": true,
+                  "SetOven": false,
                   "LightOnOff": false,
                   "MyCreations": false
+                },
+                "attributes": {
+                  "UpperCavity_CavityTargetTemp": false,
+                  "UpperCavity_MeatProbeTargetTemp": false,
+                  "UpperCavity_CookTimeSetTime": false
                 },
                 "actions": {
                   "ActionKitchenTimerStart": false,
@@ -7875,25 +7871,40 @@
                   "ActionKitchenTimerModify": false,
                   "ActionSetCycleSendCommand": false,
                   "ActionSetCycleStartCommand": false,
-                  "ActionSetCycleCancelCommand": true,
                   "ActionSetCycleModifyCommand": false,
                   "ActionSetCycleCancelCookTimeCommand": false
                 },
                 "condition": {
-                  "type": "operation",
-                  "valueOperator": "or",
-                   "left": {
-                      "type": "value",
-                      "key": "UpperCavity_SabbathModeActive",
-                      "valueOperator": "=",
-                      "value": 1
-                    },
-                    "right": {
-                      "type": "value",
-                      "key": "UpperCavity_SabbathModeEnabled",
-                      "valueOperator": "=",
-                      "value": 1
-                    }
+                  "type": "value",
+                  "key": "UpperCavity_CavityModeOven",
+                  "valueOperator": "=",
+                  "value": 18
+                }
+              },
+              {
+                "ruleName": "When self clean is running ",
+                "description": "When self clean is running ",
+                "features": {
+                  "LightOnOff": false
+                },
+                "condition": {
+                  "type": "value",
+                  "key": "UpperCavity_CavityModeOven",
+                  "valueOperator": "=",
+                  "value": 16
+                }
+              },
+              {
+                "ruleName": "Disable the StartCommand button",
+                "description": "Appliance can not be started if the remote is disabled",
+                "actions": {
+                  "ActionSetCycleStartCommand": false
+                },
+                "condition": {
+                  "type": "value",
+                  "key": "Appliance_RemoteEnabledStatus",
+                  "valueOperator": "=",
+                  "value": 0
                 }
               }
             ]
@@ -7923,19 +7934,19 @@
                 },
                 "condition": {
                   "type": "operation",
-                  "valueOperator": "or",
-                   "left": {
-                      "type": "value",
-                      "key": "Online",
-                      "valueOperator": "=",
-                      "value": 0
-                    },
-                    "right": {
-                      "type": "value",
-                      "key": "SystemSettings_ControlLock",
-                      "valueOperator": "=",
-                      "value": 1
-                    }
+                  "binaryOperator": "or",
+                  "left": {
+                    "type": "value",
+                    "key": "Online",
+                    "valueOperator": "=",
+                    "value": 0
+                  },
+                  "right": {
+                    "type": "value",
+                    "key": "SystemSettings_ControlLock",
+                    "valueOperator": "=",
+                    "value": 1
+                  }
                 }
               },
               {
@@ -7946,67 +7957,16 @@
                   "ActionSetCycleSendCommand": true,
                   "ActionSetCycleCancelCommand": false,
                   "ActionSetCycleModifyCommand": false,
-                  "ActionSetCycleResetDelayCommand" : false
+                  "ActionSetCycleResetDelayCommand": false
                 },
                 "condition": {
                   "type": "value",
                   "key": "LowerCavity_CavityHeatState",
                   "valueOperator": "in",
-                  "value": [0,3]
-                }
-              },
-               {
-                "ruleName": "When Sabbath is active, disable the features",
-                "description": "When Sabbath is active, disable the features",
-                "features": {
-                  "MeatProbeTemp": false,
-                  "MeatProbe": false,
-                  "AssistedCooking": false,
-                  "SetOven": true,
-                  "LightOnOff": false,
-                  "MyCreations": false
-                },
-                "actions": {
-                  "ActionKitchenTimerStart": false,
-                  "ActionKitchenTimerCancel": false,
-                  "ActionKitchenTimerModify": false,
-                  "ActionSetCycleSendCommand": false,
-                  "ActionSetCycleStartCommand": false,
-                  "ActionSetCycleCancelCommand": true,
-                  "ActionSetCycleModifyCommand": false,
-                  "ActionSetCycleCancelCookTimeCommand": false
-                },
-                "condition": {
-                  "type": "operation",
-                  "valueOperator": "or",
-                   "left": {
-                      "type": "value",
-                      "key": "LowerCavity_SabbathModeActive",
-                      "valueOperator": "=",
-                      "value": 1
-                    },
-                    "right": {
-                      "type": "value",
-                      "key": "LowerCavity_SabbathModeEnabled",
-                      "valueOperator": "=",
-                      "value": 1
-                    }
-                }
-              },
-              {
-                "ruleName": "Cancel the cook time, If it is running",
-                "description": "Cancel the cook time, If it is running",
-                "actions": {
-                  "ActionSetCycleStartCommand": false,
-                  "ActionSetCycleSendCommand": false,
-                  "ActionSetCycleCancelCommand": true,
-                  "ActionSetCycleModifyCommand": true
-                },
-                "condition": {
-                  "type": "value",
-                  "key": "LowerCavity_CavityHeatState",
-                  "valueOperator": "!=",
-                  "value": "0"
+                  "value": [
+                    0,
+                    3
+                  ]
                 }
               },
               {
@@ -8043,6 +8003,51 @@
                 }
               },
               {
+                "ruleName": "When Sabbath is active, disable the features",
+                "description": "When Sabbath is active, disable the features",
+                "features": {
+                  "MeatProbeTemp": false,
+                  "MeatProbe": false,
+                  "AssistedCooking": false,
+                  "SetOven": false,
+                  "LightOnOff": false,
+                  "MyCreations": false
+                },
+                "attributes": {
+                  "LowerCavity_CavityTargetTemp": false,
+                  "LowerCavity_MeatProbeTargetTemp": false,
+                  "LowerCavity_CookTimeSetTime": false
+                },
+                "actions": {
+                  "ActionKitchenTimerStart": false,
+                  "ActionKitchenTimerCancel": false,
+                  "ActionKitchenTimerModify": false,
+                  "ActionSetCycleSendCommand": false,
+                  "ActionSetCycleStartCommand": false,
+                  "ActionSetCycleModifyCommand": false,
+                  "ActionSetCycleCancelCookTimeCommand": false
+                },
+                "condition": {
+                  "type": "value",
+                  "key": "LowerCavity_CavityModeOven",
+                  "valueOperator": "=",
+                  "value": 18
+                }
+              },
+              {
+                "ruleName": "When self clean is running ",
+                "description": "When self clean is running ",
+                "features": {
+                  "LightOnOff": false
+                },
+                "condition": {
+                  "type": "value",
+                  "key": "LowerCavity_CavityModeOven",
+                  "valueOperator": "=",
+                  "value": 16
+                }
+              },
+              {
                 "ruleName": "Disable the StartCommand button",
                 "description": "Appliance can not be started if the remote is disabled",
                 "actions": {
@@ -8051,8 +8056,8 @@
                 "condition": {
                   "type": "value",
                   "key": "Appliance_RemoteEnabledStatus",
-                  "valueOperator": "!=",
-                  "value": 1
+                  "valueOperator": "=",
+                  "value": 0
                 }
               }
             ]
@@ -8121,6 +8126,30 @@
                   "valueOperator": "=",
                   "value": 0
                 }
+              },
+              {
+                "ruleName": "Disable All Features when appliance control lock is on",
+                "description": "Disable All Features when appliance is offline",
+                "features": {
+                  "ChangeTempUnits": false,
+                  "RemoteStatus": false,
+                  "KitchenTimer": false,
+                  "ChangeSoundPowerOnOff": false,
+                  "ChangeNumberEntry": false,
+                  "ChangeClockTheme": false,
+                  "ChangeClockOnOffStatus": false,
+                  "ChangeApplianceLanguage": false,
+                  "ChangeSoundKeyAlert": false,
+                  "ChangeSoundKeyPress": false,
+                  "ChangeDisplayOnOffStatus": false,
+                  "ChangeBrightness": false
+                },
+                "condition": {
+                  "type": "value",
+                  "key": "SystemSettings_ControlLock",
+                  "valueOperator": "=",
+                  "value": 1
+                }
               }
             ]
           }
@@ -8149,203 +8178,203 @@
   "Alerts": {
     "Key": "DDM_Cooking_Minerva_Double_V1",
     "Alerts": [
-                {
-                    "ApplianceAlerts": [
-                        {
-                            "alertId": 64,
-                            "name": "PreheatComplete",
-                            "attribute": "UpperCavity_CavityEventNotification, LowerCavity_CavityEventNotification",
-                            "type": "push",
-                            "category": "",
-                            "autodelete": false,
-                            "autodisarm": false,
-                            "autodisable": false,
-                            "visible": true,
-                            "enable": true
-                        },
-                        {
-                            "alertId": 66,
-                            "name": "Preheat25",
-                            "attribute": "UpperCavity_CavityEventNotification, LowerCavity_CavityEventNotification",
-                            "type": "push",
-                            "category": "",
-                            "autodelete": false,
-                            "autodisarm": false,
-                            "autodisable": false,
-                            "visible": false,
-                            "enable": false
-                        },
-                        {
-                            "alertId": 67,
-                            "name": "CookTimeComplete",
-                            "attribute": "UpperCavity_CavityEventNotification, LowerCavity_CavityEventNotification",
-                            "type": "push",
-                            "category": "",
-                            "autodelete": false,
-                            "autodisarm": false,
-                            "autodisable": false,
-                            "visible": true,
-                            "enable": false
-                        },
-                        {
-                            "alertId": 68,
-                            "name": "MeatProbeTempAchieved",
-                            "attribute": "UpperCavity_CavityEventNotification,LowerCavity_CavityEventNotification",
-                            "type": "push",
-                            "category": "",
-                            "autodelete": false,
-                            "autodisarm": false,
-                            "autodisable": false,
-                            "visible": true,
-                            "enable": true
-                        },
-                        {
-                            "alertId": 69,
-                            "name": "MeatProbeTargetChanged",
-                            "attribute": "UpperCavity_CavityEventNotification,LowerCavity_CavityEventNotification",
-                            "type": "push",
-                            "category": "",
-                            "autodelete": false,
-                            "autodisarm": false,
-                            "autodisable": false,
-                            "visible": false,
-                            "enable": false
-                        },
-                        {
-                            "alertId": 70,
-                            "name": "CookTimerChanged",
-                            "attribute": "UpperCavity_CavityEventNotification,LowerCavity_CavityEventNotification",
-                            "type": "push",
-                            "category": "",
-                            "autodelete": false,
-                            "autodisarm": false,
-                            "autodisable": false,
-                            "visible": false,
-                            "enable": false
-                        },
-                        {
-                            "alertId": 71,
-                            "name": "CookTimeCompleteReminder",
-                            "attribute": "UpperCavity_CavityEventNotification,LowerCavity_CavityEventNotification",
-                            "type": "push",
-                            "category": "",
-                            "autodelete": false,
-                            "autodisarm": false,
-                            "autodisable": false,
-                            "visible": false,
-                            "enable": true
-                        },
-                        {
-                            "alertId": 72,
-                            "name": "CookCycleCancelled",
-                            "attribute": "UpperCavity_CavityEventNotification,LowerCavity_CavityEventNotification",
-                            "type": "push",
-                            "category": "",
-                            "autodelete": false,
-                            "autodisarm": false,
-                            "autodisable": false,
-                            "visible": true,
-                            "enable": false
-                        },
-                        {
-                            "alertId": 73,
-                            "name": "CookModeChanged",
-                            "attribute": "UpperCavity_CavityEventNotification,LowerCavity_CavityEventNotification",
-                            "type": "push",
-                            "category": "",
-                            "autodelete": false,
-                            "autodisarm": false,
-                            "autodisable": false,
-                            "visible": true,
-                            "enable": false
-                        },
-                        {
-                            "alertId": 74,
-                            "name": "CookTargetTempChanged",
-                            "attribute": "UpperCavity_CavityEventNotification,LowerCavity_CavityEventNotification",
-                            "type": "push",
-                            "category": "",
-                            "autodelete": false,
-                            "autodisarm": false,
-                            "autodisable": false,
-                            "visible": false,
-                            "enable": false
-                        },
-                        {
-                            "alertId": 75,
-                            "name": "SelfCleanComplete",
-                            "attribute": "UpperCavity_CavityEventNotification, LowerCavity_CavityEventNotification",
-                            "type": "push",
-                            "category": "",
-                            "autodelete": false,
-                            "autodisarm": false,
-                            "autodisable": false,
-                            "visible": false,
-                            "enable": true
-                        },
-                        {
-                            "alertId": 57,
-                            "name": "ControlLock",
-                            "attribute": "SystemSettings_ControlLock",
-                            "type": "push",
-                            "category": "",
-                            "autodelete": false,
-                            "autodisarm": false,
-                            "autodisable": false,
-                            "visible": true,
-                            "enable": false
-                        },
-                        {
-                            "alertId": 59,
-                            "name": "KitchenTimerEventNotification",
-                            "attribute": "KitchenTimer1_TimerEventNotification",
-                            "type": "push",
-                            "category": "",
-                            "autodelete": false,
-                            "autodisarm": false,
-                            "autodisable": false,
-                            "visible": true,
-                            "enable": false
-                        },
-                        {
-                            "alertId": 60,
-                            "name": "RemoteStatus",
-                            "attribute": "Appliance_RemoteEnabledStatus",
-                            "type": "push",
-                            "category": "",
-                            "autodelete": false,
-                            "autodisarm": false,
-                            "autodisable": false,
-                            "visible": true,
-                            "enable": false
-                        },
-                        {
-                            "alertId": 62,
-                            "name": "CulinaryUserInstructions",
-                            "attribute": "UpperCavity_CulinaryCenterUserInstruction, LowerCavity_CulinaryCenterUserInstruction",
-                            "type": "push",
-                            "category": "",
-                            "autodelete": false,
-                            "autodisarm": false,
-                            "autodisable": false,
-                            "visible": false,
-                            "enable": true
-                        },
-                        {
-                            "alertId": 492,
-                            "name": "OvenOnWhileAway",
-                            "attribute": "Online",
-                            "type": "push",
-                            "category": "Cooking",
-                            "autodelete": false,
-                            "autodisarm": false,
-                            "autodisable": false,
-                            "visible": false,
-                            "enable": false
-                        }
-                    ]
-                }
-            ]
+      {
+        "ApplianceAlerts": [
+          {
+            "alertId": 64,
+            "name": "PreheatComplete",
+            "attribute": "UpperCavity_CavityEventNotification, LowerCavity_CavityEventNotification",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": true
+          },
+          {
+            "alertId": 66,
+            "name": "Preheat25",
+            "attribute": "UpperCavity_CavityEventNotification, LowerCavity_CavityEventNotification",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": false,
+            "enable": false
+          },
+          {
+            "alertId": 67,
+            "name": "CookTimeComplete",
+            "attribute": "UpperCavity_CavityEventNotification, LowerCavity_CavityEventNotification",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 68,
+            "name": "MeatProbeTempAchieved",
+            "attribute": "UpperCavity_CavityEventNotification,LowerCavity_CavityEventNotification",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": true
+          },
+          {
+            "alertId": 69,
+            "name": "MeatProbeTargetChanged",
+            "attribute": "UpperCavity_CavityEventNotification,LowerCavity_CavityEventNotification",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": false,
+            "enable": false
+          },
+          {
+            "alertId": 70,
+            "name": "CookTimerChanged",
+            "attribute": "UpperCavity_CavityEventNotification,LowerCavity_CavityEventNotification",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": false,
+            "enable": false
+          },
+          {
+            "alertId": 71,
+            "name": "CookTimeCompleteReminder",
+            "attribute": "UpperCavity_CavityEventNotification,LowerCavity_CavityEventNotification",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": false,
+            "enable": true
+          },
+          {
+            "alertId": 72,
+            "name": "CookCycleCancelled",
+            "attribute": "UpperCavity_CavityEventNotification,LowerCavity_CavityEventNotification",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 73,
+            "name": "CookModeChanged",
+            "attribute": "UpperCavity_CavityEventNotification,LowerCavity_CavityEventNotification",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 74,
+            "name": "CookTargetTempChanged",
+            "attribute": "UpperCavity_CavityEventNotification,LowerCavity_CavityEventNotification",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": false,
+            "enable": false
+          },
+          {
+            "alertId": 75,
+            "name": "SelfCleanComplete",
+            "attribute": "UpperCavity_CavityEventNotification, LowerCavity_CavityEventNotification",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": false,
+            "enable": true
+          },
+          {
+            "alertId": 57,
+            "name": "ControlLock",
+            "attribute": "SystemSettings_ControlLock",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 59,
+            "name": "KitchenTimerEventNotification",
+            "attribute": "KitchenTimer1_TimerEventNotification",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 60,
+            "name": "RemoteStatus",
+            "attribute": "Appliance_RemoteEnabledStatus",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": true,
+            "enable": false
+          },
+          {
+            "alertId": 62,
+            "name": "CulinaryUserInstructions",
+            "attribute": "UpperCavity_CulinaryCenterUserInstruction, LowerCavity_CulinaryCenterUserInstruction",
+            "type": "push",
+            "category": "",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": false,
+            "enable": true
+          },
+          {
+            "alertId": 492,
+            "name": "OvenOnWhileAway",
+            "attribute": "Online",
+            "type": "push",
+            "category": "Cooking",
+            "autodelete": false,
+            "autodisarm": false,
+            "autodisable": false,
+            "visible": false,
+            "enable": false
+          }
+        ]
+      }
+    ]
   },
   "Services": {
     "_id": "DDM_Cooking_Minerva_Double_V1",

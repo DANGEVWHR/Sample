@@ -1,4 +1,4 @@
-{
+﻿{
     "F1E0": {
         "ErrorCode": "F1E0",
         "Name": "Carte de l’interface utilisateur.",
@@ -10,7 +10,7 @@
             "Alimenter de nouveau l’appareil en réarmant le disjoncteur.",
             "Remettre en marche le programme et surveiller la table de cuisson pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
             "Vérifier le fonctionnement de la table de cuisson.",
-            "Si le problème continu, composer le 1 800 JENN-AIR pour obtenir de l’aide."
+            "Si le problème continue, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
         ],
         "HelpPath": "À déterminer"
     },
@@ -25,7 +25,7 @@
             "Alimenter de nouveau l’appareil en réarmant le disjoncteur.",
             "Remettre en marche le programme et surveiller la table de cuisson pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
             "Vérifier le fonctionnement de la table de cuisson.",
-            "Si le problème continu, composer le 1 800 JENN-AIR pour obtenir de l’aide."
+            "Si le problème continue, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
         ],
         "HelpPath": "À déterminer"
     },
@@ -40,7 +40,7 @@
             "Alimenter de nouveau l’appareil en réarmant le disjoncteur.",
             "Remettre en marche le programme et surveiller la table de cuisson pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
             "Vérifier le fonctionnement de la table de cuisson.",
-            "Si le problème continu, composer le 1 800 JENN-AIR pour obtenir de l’aide."
+            "Si le problème continue, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
         ],
         "HelpPath": "À déterminer"
     },
@@ -55,7 +55,7 @@
             "Alimenter de nouveau l’appareil en réarmant le disjoncteur.",
             "Remettre en marche le programme et surveiller la table de cuisson pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
             "Vérifier le fonctionnement de la table de cuisson.",
-            "Si le problème continu, composer le 1 800 JENN-AIR pour obtenir de l’aide."
+            "Si le problème continue, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
         ],
         "HelpPath": "À déterminer"
     },
@@ -70,7 +70,7 @@
             "Alimenter de nouveau l’appareil en réarmant le disjoncteur.",
             "Remettre en marche le programme et surveiller la table de cuisson pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
             "Vérifier le fonctionnement de la table de cuisson.",
-            "Si le problème continu, composer le 1 800 JENN-AIR pour obtenir de l’aide."
+            "Si le problème continue, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
         ],
         "HelpPath": "À déterminer"
     },
@@ -85,7 +85,7 @@
             "Alimenter de nouveau l’appareil en réarmant le disjoncteur.",
             "Remettre en marche le programme et surveiller la table de cuisson pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
             "Vérifier le fonctionnement de la table de cuisson.",
-            "Si le problème continu, composer le 1 800 JENN-AIR pour obtenir de l’aide."
+            "Si le problème continue, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
         ],
         "HelpPath": "À déterminer"
     },
@@ -100,14 +100,14 @@
             "Alimenter de nouveau l’appareil en réarmant le disjoncteur.",
             "Remettre en marche le programme et surveiller la table de cuisson pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
             "Vérifier le fonctionnement de la table de cuisson.",
-            "Si le problème continu, composer le 1 800 JENN-AIR pour obtenir de l’aide."
+            "Si le problème continue, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
         ],
         "HelpPath": "À déterminer"
     },
     "F6EA": {
         "ErrorCode": "F6EA",
-        "Name": "Dépassement de température – Interface utilisateur.",
-        "Type": "Dépassement de température – Interface utilisateur.",
+        "Name": "Dépassement de température de l’interface utilisateur.",
+        "Type": "Dépassement de température de l’interface utilisateur.",
         "Description": "Il peut y avoir un problème avec la carte de l’interface utilisateur.",
         "StepsToRepair": [
             "Si le problème persiste, réinitialiser l’alimentation du produit.",
@@ -115,7 +115,7 @@
             "Alimenter de nouveau l’appareil en réarmant le disjoncteur.",
             "Remettre en marche le programme et surveiller la table de cuisson pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
             "Vérifier le fonctionnement de la table de cuisson.",
-            "Si le problème continu, composer le 1 800 JENN-AIR pour obtenir de l’aide."
+            "Si le problème continue, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
         ],
         "HelpPath": "À déterminer"
     },
@@ -130,7 +130,7 @@
             "Alimenter de nouveau l’appareil en réarmant le disjoncteur.",
             "Remettre en marche l’appareil et surveiller la table de cuisson pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
             "Vérifier le fonctionnement de la table de cuisson.",
-            "Si le problème continu, composer le 1 800 JENN-AIR pour obtenir de l’aide."
+            "Si le problème continue, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
         ],
         "HelpPath": "À déterminer"
     }

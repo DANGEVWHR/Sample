@@ -1,15 +1,15 @@
-{
+﻿{
     "F1,E0": {
         "ErrorCode": "F1E0",
         "Name": "Carte de l’interface utilisateur",
-        "Description": "Il peut y avoir un problème avec la commande du four, la carte de l’interface utilisateur ou leur câblage.",
+        "Description": "Il peut y avoir un problème avec la commande du four, la carte de l’interface utilisateur ou le câblage.",
         "StepsToRepair": [
-            "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit. ",
-            "Si le problème persiste, réinitialiser l’alimentation du produit :",
-            "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
-            "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
-            " Vérifier le fonctionnement du four.",
-            "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+            "Tournez le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit. ",
+            "Si le problème persiste, réinitialisez l’alimentation du produit :",
+            "Coupez l’alimentation de l’appareil en fermant le disjoncteur pendant une (1) minute.",
+            "Remettez en marche le programme et surveillez le four pendant une (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+            " Vérifiez le fonctionnement du four.",
+            "Si le problème continue, composez le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
         ],
         "HelpPath": ""
     },
@@ -18,12 +18,12 @@
         "Name": "Contrôler le tableau de relais",
         "Description": "Il peut y avoir un problème avec la commande du four ou son câblage.",
         "StepsToRepair": [
-            "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit. ",
-            "Si le problème persiste, réinitialiser l’alimentation du produit :",
-            "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
-            "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus",
-            "Vérifier le fonctionnement du four.",
-            "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+            "Tournez le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit. ",
+            "Si le problème persiste, réinitialisez l’alimentation du produit :",
+            "Coupez l’alimentation de l’appareil en fermant le disjoncteur pendant une (1) minute.",
+            "Remettez en marche le programme et surveillez le four pendant une (1) minute pour s’assurer que le code d’erreur ne s’affiche plus",
+            "Vérifiez le fonctionnement du four.",
+            "Si le problème continue, composez le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
         ],
         "HelpPath": ""
     },
@@ -32,12 +32,12 @@
         "Name": "Touche bloquée",
         "Description": "Il peut y avoir un problème avec la carte de l’interface utilisateur.",
         "StepsToRepair": [
-            "ourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit. ",
-            "Si le problème persiste, réinitialiser l’alimentation du produit :",
-            "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
-            "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
-            "Vérifier le fonctionnement du four.",
-            "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+            "Tournez le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit. ",
+            "Si le problème persiste, réinitialisez l’alimentation du produit :",
+            "Coupez l’alimentation de l’appareil en fermant le disjoncteur pendant une (1) minute.",
+            "Remettez en marche le programme et surveillez le four pendant une (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+            "Vérifiez le fonctionnement du four.",
+            "Si le problème continue, composez le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
         ],
         "HelpPath": ""
     },
@@ -46,82 +46,82 @@
         "Name": "Bouton du four",
         "Description": "Il peut y avoir un problème avec la carte de l’interface utilisateur.",
         "StepsToRepair": [
-            "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit. ",
-            "Si le problème persiste, réinitialiser l’alimentation du produit :",
-            "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
-            "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
-            "Vérifier le fonctionnement du four.",
-            "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+            "Tournez le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit. ",
+            "Si le problème persiste, réinitialisez l’alimentation du produit :",
+            "Coupez l’alimentation de l’appareil en fermant le disjoncteur pendant une (1) minute.",
+            "Remettez en marche le programme et surveillez le four pendant une (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+            "Vérifiez le fonctionnement du four.",
+            "Si le problème continue, composez le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
         ],
         "HelpPath": ""
     },
     "F3,E0": {
         "ErrorCode": "F3E0",
         "Name": "Capteur du four principal",
-        "Description": "Il peut y avoir un problème avec le capteur de température du four principal, la commande ou leur câblage.",
+        "Description": "Il peut y avoir un problème avec le capteur de température du four principal, la commande ou le câblage.",
         "StepsToRepair": [
-            "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
-            "Si le problème persiste, réinitialiser l’alimentation du produit :",
-            "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
-            "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
-            "Vérifier le fonctionnement du four.",
-            " Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+            "Tournez le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+            "Si le problème persiste, réinitialisez l’alimentation du produit :",
+            "Coupez l’alimentation de l’appareil en fermant le disjoncteur pendant une (1) minute.",
+            "Remettez en marche le programme et surveillez le four pendant une (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+            "Vérifiez le fonctionnement du four.",
+            " Si le problème continue, composez le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
         ],
         "HelpPath": ""
     },
     "F3,E1": {
         "ErrorCode": "F3E1",
         "Name": "Capteur du four de gauche",
-        "Description": "Il peut y avoir un problème avec le capteur de température du four de gauche, la commande ou leur câblage.",
+        "Description": "Il peut y avoir un problème avec le capteur de température du four de gauche, la commande ou le câblage.",
         "StepsToRepair": [
-            "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
-            "Si le problème persiste, réinitialiser l’alimentation du produit :",
-            "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
-            "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
-            "Vérifier le fonctionnement du four.",
-            "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+            "Tournez le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+            "Si le problème persiste, réinitialisez l’alimentation du produit :",
+            "Coupez l’alimentation de l’appareil en fermant le disjoncteur pendant une (1) minute.",
+            "Remettez en marche le programme et surveillez le four pendant une (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+            "Vérifiez le fonctionnement du four.",
+            "Si le problème continue, composez le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
         ],
         "HelpPath": ""
     },
     "F3,E3": {
         "ErrorCode": "F3E3",
         "Name": "Sonde de cuisson – pour le four principal seulement",
-        "Description": "Il peut y avoir un problème avec le capteur de la sonde de cuisson du four principal, la carte de l’interface utilisateur associée ou leur câblage.",
+        "Description": "Il peut y avoir un problème avec le capteur de la sonde de cuisson du four principal, la carte de l’interface utilisateur associée ou le câblage.",
         "StepsToRepair": [
-            "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
-            "Si le problème persiste, réinitialiser l’alimentation du produit :",
-            "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
-            "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
-            "Vérifier le fonctionnement du four.",
-            "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+            "Tournez le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+            "Si le problème persiste, réinitialisez l’alimentation du produit :",
+            "Coupez l’alimentation de l’appareil en fermant le disjoncteur pendant une (1) minute.",
+            "Remettez en marche le programme et surveillez le four pendant une (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+            "Vérifiez le fonctionnement du four.",
+            "Si le problème continue, composez le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
         ],
         "HelpPath": ""
     },
     "F3,E9": {
         "ErrorCode": "F3E9",
         "Name": "Capteur de la sonde de cuisson du four de gauche court-circuité",
-        "Description": "Il peut y avoir un problème avec le capteur de la sonde de cuisson du four de gauche, la carte de l’interface utilisateur associée ou leur câblage.",
+        "Description": "Il peut y avoir un problème avec le capteur de la sonde de cuisson du four de gauche, la carte de l’interface utilisateur associée ou le câblage.",
         "StepsToRepair": [
-            "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
-            "Si le problème persiste, réinitialiser l’alimentation du produit :",
-            "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
-            "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
-            "Vérifier le fonctionnement du four.",
-            "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+            "Tournez le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+            "Si le problème persiste, réinitialisez l’alimentation du produit :",
+            "Coupez l’alimentation de l’appareil en fermant le disjoncteur pendant une (1) minute.",
+            "Remettez en marche le programme et surveillez le four pendant une (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+            "Vérifiez le fonctionnement du four.",
+            "Si le problème continue, composez le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
         ],
         "HelpPath": ""
     },
     "F5,E0": {
         "ErrorCode": "F5E0",
         "Name": "Contacteur de loquet de la porte du four principal",
-        "Description": "Il peut y avoir un problème avec le loquet de porte, le commutateur de porte du four principal ou leur câblage.",
+        "Description": "Il peut y avoir un problème avec le loquet de porte, le commutateur de porte du four principal ou le câblage.",
         "StepsToRepair": [
-            "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
-            "Si le problème persiste, réinitialiser l’alimentation du produit :",
-            "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
-            "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
-            "Vérifier le fonctionnement du four.",
-            "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+            "Tournez le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+            "Si le problème persiste, réinitialisez l’alimentation du produit :",
+            "Coupez l’alimentation de l’appareil en fermant le disjoncteur pendant une (1) minute.",
+            "Remettez en marche le programme et surveillez le four pendant une (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+            "Vérifiez le fonctionnement du four.",
+            "Si le problème continue, composez le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
         ],
         "HelpPath": ""
     },
@@ -130,26 +130,26 @@
         "Name": "Moteur de loquet de la porte du four principal",
         "Description": "Il peut y avoir un problème avec le loquet de porte ou son câblage.",
         "StepsToRepair": [
-            "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
-            "Si le problème persiste, réinitialiser l’alimentation du produit :",
-            "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
-            "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
-            "Vérifier le fonctionnement du four.",
-            "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+            "Tournez le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+            "Si le problème persiste, réinitialisez l’alimentation du produit :",
+            "Coupez l’alimentation de l’appareil en fermant le disjoncteur pendant une (1) minute.",
+            "Remettez en marche le programme et surveillez le four pendant une (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+            "Vérifiez le fonctionnement du four.",
+            "Si le problème continue, composez le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
         ],
         "HelpPath": ""
     },
     "F5,E3": {
         "ErrorCode": "F5E3",
         "Name": "Contacteur de loquet de la porte du four de gauche ",
-        "Description": "Il peut y avoir un problème avec le loquet de porte, le commutateur de porte du four de gauche ou leur câblage.",
+        "Description": "Il peut y avoir un problème avec le loquet de porte, le commutateur de porte du four de gauche ou le câblage.",
         "StepsToRepair": [
-            "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
-            "Si le problème persiste, réinitialiser l’alimentation du produit :",
-            "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
-            "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
-            "Vérifier le fonctionnement du four.",
-            "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+            "Tournez le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+            "Si le problème persiste, réinitialisez l’alimentation du produit :",
+            "Coupez l’alimentation de l’appareil en fermant le disjoncteur pendant une (1) minute.",
+            "Remettez en marche le programme et surveillez le four pendant une (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+            "Vérifiez le fonctionnement du four.",
+            "Si le problème continue, composez le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
         ],
         "HelpPath": ""
     },
@@ -158,54 +158,54 @@
         "Name": "Moteur de loquet de la porte du four de gauche",
         "Description": "Il peut y avoir un problème avec le loquet de porte du four de gauche ou son câblage.",
         "StepsToRepair": [
-            "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
-            "Si le problème persiste, réinitialiser l’alimentation du produit :",
-            "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
-            "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
-            "Vérifier le fonctionnement du four.",
-            "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+            "Tournez le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+            "Si le problème persiste, réinitialisez l’alimentation du produit :",
+            "Coupez l’alimentation de l’appareil en fermant le disjoncteur pendant une (1) minute.",
+            "Remettez en marche le programme et surveillez le four pendant une (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+            "Vérifiez le fonctionnement du four.",
+            "Si le problème continue, composez le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
         ],
         "HelpPath": ""
     },
     "F6,E0": {
         "ErrorCode": "F6E0",
         "Name": "Connexion de l’interface utilisateur",
-        "Description": "Il peut y avoir un problème avec la commande du four, la carte de l’interface utilisateur ou leur câblage.",
+        "Description": "Il peut y avoir un problème avec la commande du four, la carte de l’interface utilisateur ou le câblage.",
         "StepsToRepair": [
-            "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
-            "Si le problème persiste, réinitialiser l’alimentation du produit :",
-            "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
-            "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
-            "Vérifier le fonctionnement du four.",
-            "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+            "Tournez le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+            "Si le problème persiste, réinitialisez l’alimentation du produit :",
+            "Coupez l’alimentation de l’appareil en fermant le disjoncteur pendant une (1) minute.",
+            "Remettez en marche le programme et surveillez le four pendant une (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+            "Vérifiez le fonctionnement du four.",
+            "Si le problème continue, composez le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
         ],
         "HelpPath": ""
     },
     "F6,E1": {
         "ErrorCode": "F6E1",
         "Name": "Limite de température supérieure du four principal",
-        "Description": "Il peut y avoir un problème avec le capteur de température du four principal, la commande du four principal ou leur câblage.",
+        "Description": "Il peut y avoir un problème avec le capteur de température du four principal, la commande du four principal ou le câblage.",
         "StepsToRepair": [
-            "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
-            "Si le problème persiste, réinitialiser l’alimentation du produit :",
-            "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
-            "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
-            "Vérifier le fonctionnement du four.",
-            "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+            "Tournez le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+            "Si le problème persiste, réinitialisez l’alimentation du produit :",
+            "Coupez l’alimentation de l’appareil en fermant le disjoncteur pendant une (1) minute.",
+            "Remettez en marche le programme et surveillez le four pendant une (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+            "Vérifiez le fonctionnement du four.",
+            "Si le problème continue, composez le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
         ],
         "HelpPath": ""
     },
     "F6,E3": {
         "ErrorCode": "F6E3",
         "Name": "Limite de température supérieure du four de gauche",
-        "Description": "Il peut y avoir un problème avec le capteur de température du four de gauche, la commande du four de gauche ou leur câblage.",
+        "Description": "Il peut y avoir un problème avec le capteur de température du four de gauche, la commande du four de gauche ou le câblage.",
         "StepsToRepair": [
-            "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
-            "Si le problème persiste, réinitialiser l’alimentation du produit :",
-            "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
-            "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
-            "Vérifier le fonctionnement du four.",
-            "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+            "Tournez le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+            "Si le problème persiste, réinitialisez l’alimentation du produit :",
+            "Coupez l’alimentation de l’appareil en fermant le disjoncteur pendant une (1) minute.",
+            "Remettez en marche le programme et surveillez le four pendant une (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+            "Vérifiez le fonctionnement du four.",
+            "Si le problème continue, composez le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
         ],
         "HelpPath": ""
     },
@@ -214,12 +214,12 @@
         "Name": "État des commandes",
         "Description": "Il peut y avoir un problème avec la commande du four principal.",
         "StepsToRepair": [
-            "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
-            "Si le problème persiste, réinitialiser l’alimentation du produit :",
-            "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
-            "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
-            "Vérifier le fonctionnement du four.",
-            "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+            "Tournez le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+            "Si le problème persiste, réinitialisez l’alimentation du produit :",
+            "Coupez l’alimentation de l’appareil en fermant le disjoncteur pendant une (1) minute.",
+            "Remettez en marche le programme et surveillez le four pendant une (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+            "Vérifiez le fonctionnement du four.",
+            "Si le problème continue, composez le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
         ],
         "HelpPath": ""
     },
@@ -228,12 +228,12 @@
         "Name": "Connexion de la commande du four principal",
         "Description": "Il peut y avoir un problème avec la commande principale ou son câblage.",
         "StepsToRepair": [
-            "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
-            "Si le problème persiste, réinitialiser l’alimentation du produit :",
-            "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
-            "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
-            " Vérifier le fonctionnement du four.",
-            "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+            "Tournez le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+            "Si le problème persiste, réinitialisez l’alimentation du produit :",
+            "Coupez l’alimentation de l’appareil en fermant le disjoncteur pendant une (1) minute.",
+            "Remettez en marche le programme et surveillez le four pendant une (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+            " Vérifiez le fonctionnement du four.",
+            "Si le problème continue, composez le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
         ],
         "HelpPath": ""
     },
@@ -242,96 +242,96 @@
         "Name": "Connexion de la commande du four de gauche",
         "Description": "Il peut y avoir un problème avec la commande du four de gauche ou son câblage.",
         "StepsToRepair": [
-            "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
-            "Si le problème persiste, réinitialiser l’alimentation du produit :",
-            "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
-            "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
-            "Vérifier le fonctionnement du four.",
-            "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+            "Tournez le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+            "Si le problème persiste, réinitialisez l’alimentation du produit :",
+            "Coupez l’alimentation de l’appareil en fermant le disjoncteur pendant une (1) minute.",
+            "Remettez en marche le programme et surveillez le four pendant une (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+            "Vérifiez le fonctionnement du four.",
+            "Si le problème continue, composez le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
         ],
         "HelpPath": ""
     },
     "F7,E1": {
         "ErrorCode": "F7E1",
         "Name": "Température du chauffe-eau supérieure à limite",
-        "Description": "Il peut y avoir un problème avec le capteur de température d’ébullition, la commande du four principal ou leur câblage.",
+        "Description": "Il peut y avoir un problème avec le capteur de température d’ébullition, la commande du four principal ou le câblage.",
         "StepsToRepair": [
-            "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
-            "Si le problème persiste, réinitialiser l’alimentation du produit :",
-            "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
-            "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
-            "Vérifier le fonctionnement du four.",
-            "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+            "Tournez le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+            "Si le problème persiste, réinitialisez l’alimentation du produit :",
+            "Coupez l’alimentation de l’appareil en fermant le disjoncteur pendant une (1) minute.",
+            "Remettez en marche le programme et surveillez le four pendant une (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+            "Vérifiez le fonctionnement du four.",
+            "Si le problème continue, composez le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
         ],
         "HelpPath": ""
     },
     "F7,E2": {
         "ErrorCode": "F7E2",
         "Name": "Température de chauffe-eau hors plage",
-        "Description": "Il peut y avoir un problème avec le capteur de température d’ébullition, la commande du four principal ou leur câblage.",
+        "Description": "Il peut y avoir un problème avec le capteur de température d’ébullition, la commande du four principal ou le câblage.",
         "StepsToRepair": [
-            "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
-            "Si le problème persiste, réinitialiser l’alimentation du produit :",
-            "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
-            "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
-            "Vérifier le fonctionnement du four.",
-            "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+            "Tournez le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+            "Si le problème persiste, réinitialisez l’alimentation du produit :",
+            "Coupez l’alimentation de l’appareil en fermant le disjoncteur pendant une (1) minute.",
+            "Remettez en marche le programme et surveillez le four pendant une (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+            "Vérifiez le fonctionnement du four.",
+            "Si le problème continue, composez le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
         ],
         "HelpPath": ""
     },
     "F8,E0": {
         "ErrorCode": "F8E0",
         "Name": "Vitesse trop lente du ventilateur de refroidissement du four principal",
-        "Description": "Il peut y avoir un problème avec la restriction du débit d’air, le ventilateur de refroidissement du four principal, la commande du four principale ou leur câblage.",
+        "Description": "Il peut y avoir un problème avec la restriction du débit d’air, le ventilateur de refroidissement du four principal, la commande du four principale ou le câblage.",
         "StepsToRepair": [
-            "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
-            "Si le problème persiste, réinitialiser l’alimentation du produit :",
-            "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
-            "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
-            "Vérifier le fonctionnement du four.",
-            " Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+            "Tournez le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+            "Si le problème persiste, réinitialisez l’alimentation du produit :",
+            "Coupez l’alimentation de l’appareil en fermant le disjoncteur pendant une (1) minute.",
+            "Remettez en marche le programme et surveillez le four pendant une (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+            "Vérifiez le fonctionnement du four.",
+            " Si le problème continue, composez le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
         ],
         "HelpPath": ""
     },
     "F8,E1": {
         "ErrorCode": "F8E1",
         "Name": "Vitesse trop lente du ventilateur de refroidissement du four de gauche",
-        "Description": "Il peut y avoir un problème avec la restriction du débit d’air, le ventilateur de refroidissement du four de gauche, la commande du four de gauche ou leur câblage.",
+        "Description": "Il peut y avoir un problème avec la restriction du débit d’air, le ventilateur de refroidissement du four de gauche, la commande du four de gauche ou le câblage.",
         "StepsToRepair": [
-            "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
-            "Si le problème persiste, réinitialiser l’alimentation du produit :",
-            "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
-            "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
-            "Vérifier le fonctionnement du four.",
-            "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+            "Tournez le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+            "Si le problème persiste, réinitialisez l’alimentation du produit :",
+            "Coupez l’alimentation de l’appareil en fermant le disjoncteur pendant une (1) minute.",
+            "Remettez en marche le programme et surveillez le four pendant une (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+            "Vérifiez le fonctionnement du four.",
+            "Si le problème continue, composez le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
         ],
         "HelpPath": ""
     },
     "F8,E2": {
         "ErrorCode": "F8E2",
         "Name": "Vitesse trop élevée du ventilateur de refroidissement du four principal",
-        "Description": "Il peut y avoir un problème avec la restriction du débit d’air, le ventilateur de refroidissement du four principal, la commande du four principale ou leur câblage.",
+        "Description": "Il peut y avoir un problème avec la restriction du débit d’air, le ventilateur de refroidissement du four principal, la commande du four principale ou le câblage.",
         "StepsToRepair": [
-            "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
-            "Si le problème persiste, réinitialiser l’alimentation du produit :",
-            "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
-            "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
-            "Vérifier le fonctionnement du four.",
-            "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+            "Tournez le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+            "Si le problème persiste, réinitialisez l’alimentation du produit :",
+            "Coupez l’alimentation de l’appareil en fermant le disjoncteur pendant une (1) minute.",
+            "Remettez en marche le programme et surveillez le four pendant une (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+            "Vérifiez le fonctionnement du four.",
+            "Si le problème continue, composez le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
         ],
         "HelpPath": ""
     },
     "F8,E3": {
         "ErrorCode": "F8E3",
         "Name": "Vitesse trop élevée du ventilateur de refroidissement du four de gauche",
-        "Description": "Il peut y avoir un problème avec la restriction du débit d’air, le ventilateur de refroidissement du four de gauche, la commande du four de gauche ou leur câblage.",
+        "Description": "Il peut y avoir un problème avec la restriction du débit d’air, le ventilateur de refroidissement du four de gauche, la commande du four de gauche ou le câblage.",
         "StepsToRepair": [
-            "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit. ",
-            "Si le problème persiste, réinitialiser l’alimentation du produit :",
-            "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
-            "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
-            "Vérifier le fonctionnement du four.",
-            "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+            "Tournez le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit. ",
+            "Si le problème persiste, réinitialisez l’alimentation du produit :",
+            "Coupez l’alimentation de l’appareil en fermant le disjoncteur pendant une (1) minute.",
+            "Remettez en marche le programme et surveillez le four pendant une (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+            "Vérifiez le fonctionnement du four.",
+            "Si le problème continue, composez le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
         ],
         "HelpPath": ""
     },
@@ -340,7 +340,7 @@
         "Name": "Entrée d’alimentation",
         "Description": "Le câblage de la prise électrique du domicile est peut-être défectueux.",
         "StepsToRepair": [
-            "Demander à un électricien qualifié d’inspecter le circuit d’alimentation électrique."
+            "Demandez à un électricien qualifié d’inspecter le circuit d’alimentation électrique."
         ],
         "HelpPath": ""
     }

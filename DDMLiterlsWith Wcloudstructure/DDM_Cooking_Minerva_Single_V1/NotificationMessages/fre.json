@@ -1,4 +1,4 @@
-{
+﻿{
     "NotificationContents": [
         {
             "TemplateId": "OvenOnWhileAway",
@@ -8,17 +8,17 @@
         },
         {
             "TemplateId": "ControlLockLocked",
-            "SmsText": "Tous – le verrouillage des commandes est activé",
-            "EmailText": "Tous – le verrouillage des commandes est activé",
-            "PushText": "Tous – le verrouillage des commandes est activé",
+            "SmsText": "Le verrouillage des commandes est activé",
+            "EmailText": "Le verrouillage des commandes est activé",
+            "PushText": "Le verrouillage des commandes est activé",
             "AlertTitle": "verrouillage des commandes",
             "Type": "lock"
         },
         {
             "TemplateId": "ControlLockOpen",
-            "SmsText": "Tous – le verrouillage des commandes est désactivé",
-            "EmailText": "Tous – le verrouillage des commandes est désactivé",
-            "PushText": "Tous – le verrouillage des commandes est désactivé",
+            "SmsText": "Le verrouillage des commandes est désactivé",
+            "EmailText": "Le verrouillage des commandes est désactivé",
+            "PushText": "Le verrouillage des commandes est désactivé",
             "AlertTitle": "verrouillage des commandes",
             "Type": "lock"
         },
@@ -125,16 +125,16 @@
         },
         {
             "TemplateId": "RemoteStatusDisabled",
-            "EmailText": "Tous – La commande à distance de votre appareil est désactivée",
-            "PushText": "Tous – La commande à distance de votre appareil est désactivée",
+            "EmailText": "La commande à distance de votre appareil est désactivée",
+            "PushText": "La commande à distance de votre appareil est désactivée",
             "AlertTitle": "État de commande à distance",
             "Type": "remoteControl"
         },
         {
             "TemplateId": "RemoteStatusEnabled",
-            "EmailText": "Tous – La commande à distance de votre appareil est activée",
-            "PushText": "Tous – La commande à distance de votre appareil est activée",
-            "SmsText": "Tous – La commande à distance de votre appareil est activée",
+            "EmailText": "La commande à distance de votre appareil est activée",
+            "PushText": "La commande à distance de votre appareil est activée",
+            "SmsText": "La commande à distance de votre appareil est activée",
             "AlertTitle": "État de commande à distance",
             "Type": "remoteControl"
         },

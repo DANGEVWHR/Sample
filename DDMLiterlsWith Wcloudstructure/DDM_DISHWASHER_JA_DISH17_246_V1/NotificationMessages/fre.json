@@ -1,4 +1,4 @@
-{
+﻿{
     "NotificationContents": [
         {
             "TemplateId": "CycleComplete",
@@ -34,17 +34,17 @@
         },
         {
             "TemplateId": "RemoteStatusEnabled",
-            "SmsText": "La commande à distance du lave-vaisselle est activée. Vous pouvez maintenant commander votre lave-vaisselle à distance.",
-            "EmailText": "La commande à distance du lave-vaisselle est activée. Vous pouvez maintenant commander votre lave-vaisselle à distance.",
-            "PushText": "La commande à distance du lave-vaisselle est activée. Vous pouvez maintenant commander votre lave-vaisselle à distance.",
+            "SmsText": "La commande à distance du lave-vaisselle est activée. Vous pouvez maintenant contrôler à distance votre lave-vaisselle.",
+            "EmailText": "La commande à distance du lave-vaisselle est activée. Vous pouvez maintenant contrôler à distance votre lave-vaisselle.",
+            "PushText": "La commande à distance du lave-vaisselle est activée. Vous pouvez maintenant contrôler à distance votre lave-vaisselle.",
             "AlertTitle": "État de commande à distance",
             "Type": "remoteControl"
         },
         {
             "TemplateId": "RemoteStatusDisabled",
-            "SmsText": "La commande à distance du lave-vaisselle est désactivée. Vous pouvez réactiver la commande sur votre appareil pour le commander à distance.",
-            "EmailText": "La commande à distance du lave-vaisselle est désactivée. Vous pouvez réactiver la commande sur votre appareil pour le commander à distance.",
-            "PushText": "La commande à distance du lave-vaisselle est désactivée. Vous pouvez réactiver la commande sur votre appareil pour le commander à distance.",
+            "SmsText": "La commande à distance du lave-vaisselle est désactivée. Vous pouvez réactiver la commande sur votre appareil pour le contrôler à distance.",
+            "EmailText": "La commande à distance du lave-vaisselle est désactivée. Vous pouvez réactiver la commande sur votre appareil pour le contrôler à distance.",
+            "PushText": "La commande à distance du lave-vaisselle est désactivée. Vous pouvez réactiver la commande sur votre appareil pour le contrôler à distance.",
             "AlertTitle": "État de commande à distance",
             "Type": "remoteControl"
         }

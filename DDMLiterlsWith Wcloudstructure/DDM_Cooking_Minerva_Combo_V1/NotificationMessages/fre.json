@@ -1,4 +1,4 @@
-{
+﻿{
     "NotificationContents": [
         {
             "TemplateId": "OvenOnWhileAway",
@@ -8,25 +8,25 @@
         },
         {
             "TemplateId": "ControlLockLocked",
-            "SmsText": "Tous – le verrouillage des commandes est activé",
-            "EmailText": "Tous – le verrouillage des commandes est activé",
-            "PushText": "Tous – le verrouillage des commandes est activé",
-            "AlertTitle": "verrouillage des commandes",
+            "SmsText": "Le verrouillage des commandes est activé",
+            "EmailText": "Le verrouillage des commandes est activé",
+            "PushText": "Le verrouillage des commandes est activé",
+            "AlertTitle": "Alerte de verrouillage des commandes",
             "Type": "lock"
         },
         {
             "TemplateId": "ControlLockOpen",
-            "SmsText": "Tous – le verrouillage des commandes est désactivé",
-            "EmailText": "Tous – le verrouillage des commandes est désactivé",
-            "PushText": "Tous – le verrouillage des commandes est désactivé",
-            "AlertTitle": "Verrouillage des commandes",
+            "SmsText": "Le verrouillage des commandes est désactivé",
+            "EmailText": "Le verrouillage des commandes est désactivé",
+            "PushText": "Le verrouillage des commandes est désactivé",
+            "AlertTitle": "Alerte de verrouillage des commandes",
             "Type": "lock"
         },
         {
             "TemplateId": "CookCycleCancelled",
-            "SmsText": "Programme de cuisson du four inférieur supprimé",
-            "EmailText": "Programme de cuisson du four inférieur supprimé",
-            "PushText": "Programme de cuisson du four inférieur supprimé",
+            "SmsText": "Programme de cuisson du four inférieur annulé",
+            "EmailText": "Programme de cuisson du four inférieur annulé",
+            "PushText": "Programme de cuisson du four inférieur annulé",
             "AlertTitle": "Programme de cuisson annulé",
             "Type": "cookMode"
         },
@@ -40,65 +40,65 @@
         },
         {
             "TemplateId": "CookTargetTempChanged",
-            "SmsText": "La température de cuisson du four inférieur a été modifiée pour {device.UpperCavity_CavityTargetTemp}°",
-            "EmailText": "La température de cuisson du four inférieur a été modifiée pour {device.UpperCavity_CavityTargetTemp}°",
-            "PushText": "La température de cuisson du four inférieur a été modifiée pour {device.UpperCavity_CavityTargetTemp}°",
+            "SmsText": "La température de cuisson du four inférieur a été changée à {device.UpperCavity_CavityTargetTemp}°",
+            "EmailText": "La température de cuisson du four inférieur a été changée à {device.UpperCavity_CavityTargetTemp}°",
+            "PushText": "La température de cuisson du four inférieur a été changée à {device.UpperCavity_CavityTargetTemp}°",
             "AlertTitle": "Température du four modifiée",
             "Type": "cookMode"
         },
         {
             "TemplateId": "CookTimeComplete",
-            "SmsText": "Temps de cuisson du four inférieur terminé",
-            "EmailText": "Temps de cuisson du four inférieur terminé",
-            "PushText": "Temps de cuisson du four inférieur terminé",
+            "SmsText": "Durée de cuisson du four inférieur terminée",
+            "EmailText": "Durée de cuisson du four inférieur terminée",
+            "PushText": "Durée de cuisson du four inférieur terminée",
             "AlertTitle": "Fin de cuisson",
             "Type": "cookTimer"
         },
         {
             "TemplateId": "CookTimeCompleteReminder",
-            "SmsText": "Temps de cuisson du four inférieur terminé. Vous pouvez éteindre le four ou modifier le programme.",
-            "EmailText": "Temps de cuisson du four inférieur terminé. Vous pouvez éteindre le four ou modifier le programme.",
-            "PushText": "Temps de cuisson du four inférieur terminé. Vous pouvez éteindre le four ou modifier le programme.",
+            "SmsText": "Durée de cuisson du four inférieur terminée. Vous pouvez éteindre le four ou modifier le programme.",
+            "EmailText": "Durée de cuisson du four inférieur terminée. Vous pouvez éteindre le four ou modifier le programme.",
+            "PushText": "Durée de cuisson du four inférieur terminée. Vous pouvez éteindre le four ou modifier le programme.",
             "AlertTitle": "Rappel de temps de cuisson terminé",
             "Type": "cookTimer"
         },
         {
             "TemplateId": "CookTimerChanged",
-            "SmsText": "Temps de cuisson du four inférieur modifié",
-            "EmailText": "Temps de cuisson du four inférieur modifié",
-            "PushText": "Temps de cuisson du four inférieur modifié",
-            "AlertTitle": "Temps de cuisson modifié",
+            "SmsText": "Minuterie de cuisson du four inférieur modifiée",
+            "EmailText": "Minuterie de cuisson du four inférieur modifiée",
+            "PushText": "Minuterie de cuisson du four inférieur modifiée",
+            "AlertTitle": "Minuterie de cuisson modifiée",
             "Type": "cookTimer"
         },
         {
             "TemplateId": "LowerCavityCulinaryInstructions",
-            "SmsText": "Le programme culinaire du four inférieur fonctionne. Consultez l’affichage du four pour obtenir des instructions",
-            "EmailText": "Le programme culinaire du four inférieur fonctionne. Consultez l’affichage du four pour obtenir des instructions",
-            "PushText": "Le programme culinaire du four inférieur fonctionne. Consultez l’affichage du four pour obtenir des instructions",
+            "SmsText": "Le programme culinaire du four inférieur a commencé. Consultez l’affichage du four pour obtenir des instructions",
+            "EmailText": "Le programme culinaire du four inférieur a commencé. Consultez l’affichage du four pour obtenir des instructions",
+            "PushText": "Le programme culinaire du four inférieur a commencé. Consultez l’affichage du four pour obtenir des instructions",
             "AlertTitle": "Interruptions du centre culinaire",
             "Type": "userInstruction"
         },
         {
             "TemplateId": "KitchenTimerEventNotificationChanged",
-            "SmsText": "La minuterie de cuisine du four inférieur a été modifiée",
-            "EmailText": "La minuterie de cuisine du four inférieur a été modifiée",
-            "PushText": "La minuterie de cuisine du four inférieur a été modifiée",
+            "SmsText": "La minuterie de cuisine a été modifiée",
+            "EmailText": "La minuterie de cuisine a été modifiée",
+            "PushText": "La minuterie de cuisine a été modifiée",
             "AlertTitle": "Minuterie de cuisine modifiée",
             "Type": "kitchenTimer"
         },
         {
             "TemplateId": "KitchenTimerEventNotificationComplete",
-            "SmsText": "Minuterie de votre four inférieur terminée",
-            "EmailText": "Minuterie de votre four inférieur terminée",
-            "PushText": "Minuterie de votre four inférieur terminée",
-            "AlertTitle": "Minuterie de cuisine terminée",
+            "SmsText": "Minuterie du four terminée",
+            "EmailText": "Minuterie du four terminée",
+            "PushText": "Minuterie du four terminée",
+            "AlertTitle": "Minuterie du four terminée",
             "Type": "kitchenTimer"
         },
         {
             "TemplateId": "MeatProbeTargetChanged",
-            "SmsText": "La température de la sonde de cuisson du four inférieur a été modifiée pour {device.UpperCavity_MeatProbeTargetTemp}°",
-            "EmailText": "La température de la sonde de cuisson du four inférieur a été modifiée pour {device.UpperCavity_MeatProbeTargetTemp}°",
-            "PushText": "La température de la sonde de cuisson du four inférieur a été modifiée pour {device.UpperCavity_MeatProbeTargetTemp}°",
+            "SmsText": "La température de la sonde de cuisson du four inférieur a été changée à {device.UpperCavity_MeatProbeTargetTemp}°",
+            "EmailText": "La température de la sonde de cuisson du four inférieur a été changée à {device.UpperCavity_MeatProbeTargetTemp}°",
+            "PushText": "La température de la sonde de cuisson du four inférieur a été changée à {device.UpperCavity_MeatProbeTargetTemp}°",
             "AlertTitle": "Cible de la sonde de cuisson atteinte",
             "Type": "meatProbe"
         },
@@ -112,9 +112,9 @@
         },
         {
             "TemplateId": "MicrowaveUserInstruction",
-            "SmsText": "S'il vous plaît voir affichage Four pour la cuisson des instructions détaillées",
-            "EmailText": "S'il vous plaît voir affichage Four pour la cuisson des instructions détaillées",
-            "PushText": "S'il vous plaît voir affichage Four pour la cuisson des instructions détaillées",
+            "SmsText": "Veuillez consulter l’affichage sur le four pour les instructions de cuisson détaillées",
+            "EmailText": "Veuillez consulter l’affichage sur le four pour les instructions de cuisson détaillées",
+            "PushText": "Veuillez consulter l’affichage sur le four pour les instructions de cuisson détaillées",
             "AlertTitle": "User Instruction Alert",
             "Type": "userInstruction"
         },
@@ -136,18 +136,18 @@
         },
         {
             "TemplateId": "RemoteStatusDisabled",
-            "SmsText": "Tous – La commande à distance de votre appareil est désactivée",
-            "EmailText": "Tous – La commande à distance de votre appareil est désactivée",
-            "PushText": "Tous – La commande à distance de votre appareil est désactivée",
-            "AlertTitle": "État de commande à distance",
+            "SmsText": "La commande à distance de votre appareil est désactivée",
+            "EmailText": "La commande à distance de votre appareil est désactivée",
+            "PushText": "La commande à distance de votre appareil est désactivée",
+            "AlertTitle": "Alerte de commande à distance",
             "Type": "remoteControl"
         },
         {
             "TemplateId": "RemoteStatusEnabled",
-            "SmsText": "Tous – La commande à distance de votre appareil est activée",
-            "EmailText": "Tous – La commande à distance de votre appareil est activée",
-            "PushText": "Tous – La commande à distance de votre appareil est activée",
-            "AlertTitle": "État de commande à distance",
+            "SmsText": "La commande à distance de votre appareil est activée",
+            "EmailText": "La commande à distance de votre appareil est activée",
+            "PushText": "La commande à distance de votre appareil est activée",
+            "AlertTitle": "Alerte de commande à distance",
             "Type": "remoteControl"
         },
         {
