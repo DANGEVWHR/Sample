@@ -4918,20 +4918,10 @@
                   "ControlLock": false
                 },
                 "condition": {
-                  "type": "operation",
-                  "binaryOperator": "or",
-                  "left": {
-                    "type": "value",
-                    "key": "LowerCavity_CavityHeatState",
-                    "valueOperator": "!=",
-                    "value": "0"
-                  },
-                  "right": {
                     "type": "value",
                     "key": "UpperCavity_CavityHeatState",
                     "valueOperator": "!=",
                     "value": "0"
-                  }
                 }
               },
               {

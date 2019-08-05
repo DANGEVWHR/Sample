@@ -6063,18 +6063,6 @@
                             "enable": false
                         },
                         {
-                            "alertId": 67,
-                            "name": "CookTimeCompleteReminder",
-                            "attribute": "LowerCavity_CavityEventNotification",
-                            "type": "push",
-                            "category": "",
-                            "autodelete": false,
-                            "autodisarm": false,
-                            "autodisable": false,
-                            "visible": false,
-                            "enable": true
-                        },
-                        {
                             "alertId": 72,
                             "name": "CookCycleCancelled",
                             "attribute": "LowerCavity_CavityEventNotification",

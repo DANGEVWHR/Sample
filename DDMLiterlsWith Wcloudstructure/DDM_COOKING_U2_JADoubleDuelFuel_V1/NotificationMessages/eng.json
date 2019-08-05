@@ -16,9 +16,9 @@
         },
         {
             "TemplateId": "CookModeChanged",
-            "EmailText": "Oven cooking is changed.",
-            "PushText": "Oven cooking is changed.",
-            "AlertTitle": "Cooking Mode Changed",
+            "EmailText": "Oven cook mode is changed.",
+            "PushText": "Oven cook mode is changed.",
+            "AlertTitle": "Oven cook mode is changed.",
             "Type": "cookMode"
         },
         {
@@ -33,6 +33,7 @@
             "TemplateId": "CookTimeComplete",
             "EmailText": "Oven cook time is complete.",
             "PushText": "Oven cook time is complete.",
+            "SmsText": "Oven cook time is complete.",
             "AlertTitle": "Cook Time Complete",
             "Type": "cookTimer"
         },
@@ -40,38 +41,39 @@
             "TemplateId": "CookTimerChanged",
             "EmailText": "Oven cook time is changed.",
             "PushText": "Oven cook time is changed.",
+            "SmsText": "Oven cook time is changed.",
             "AlertTitle": "Cook Time Changed",
             "Type": "cookTimer"
         },
         {
             "TemplateId": "MeatProbeTempAchieved",
-            "EmailText": "Oven meat probe temperature achieved",
-            "PushText": "Oven meat probe temperature achieved",
+            "EmailText": "Oven meat probe temperature achieved.",
+            "PushText": "Oven meat probe temperature achieved.",
             "SmsText": "Your meal is ready.  Enjoy!  Please leave feedback.",
             "AlertTitle": "Probe Temperature Reached",
             "Type": "meatProbe"
         },
         {
             "TemplateId": "PreheatComplete",
-            "EmailText": "Oven preheat complete",
-            "PushText": "Oven preheat complete",
-            "SmsText": "Oven preheat complete",
+            "EmailText": "Oven preheat is complete",
+            "PushText": "Oven preheat is complete",
+            "SmsText": "Oven preheat is complete",
             "AlertTitle": "Preheat Complete",
             "Type": "preheat"
         },
         {
             "TemplateId": "RemoteStatusDisabled",
-            "EmailText": "Remote Control has been disabled on your oven.",
-            "PushText": "Remote Control has been disabled on your oven.",
-            "SmsText": "Remote Control has been disabled on your oven.",
+            "EmailText": "Remote control for your applaince is disabled.",
+            "PushText": "Remote control for your applaince is disabled.",
+            "SmsText": "Remote control for your applaince is disabled.",
             "AlertTitle": "Remote Control Status",
             "Type": "remoteControl"
         },
         {
             "TemplateId": "RemoteStatusEnabled",
-            "EmailText": "Remote Control of your appliance is enabled.",
-            "PushText": "Remote Control of your appliance is enabled.",
-            "SmsText": "Remote Control of your appliance is enabled.",
+            "EmailText": "Remote control for your applaince is enabled.",
+            "PushText": "Remote control for your applaince is enabled.",
+            "SmsText": "Remote control for your applaince is enabled.",
             "AlertTitle": "Remote Control Status",
             "Type": "remoteControl"
         },

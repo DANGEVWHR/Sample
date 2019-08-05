@@ -1,4 +1,4 @@
-﻿{
+{
         "CapabilityCavity_SetCavitySelect.EnumValues.FreezerZone2.Label": "Zone 2 congélateur",
         "CapabilityCavity_SetCavitySelect.EnumValues.PantryZone3.Label": "Zone 3 garde-manger",
         "CapabilityCavity_SetCavitySelect.EnumValues.RefrigeratorZone1.Label": "Zone 1 réfrigérateur",
@@ -23,6 +23,13 @@
         "Generic_UtilityId.Label": "ID de l’utilitaire",
         "Generic_Zip.Label": "Code postal",
         "online.Label": "En ligne",
+        "Pantry_OpSetTempPreset.EnumValues.TempPresetAssorted.Label": "Articles variés",
+        "Pantry_OpSetTempPreset.EnumValues.TempPresetBeverage.Label": "Boissons",
+        "Pantry_OpSetTempPreset.EnumValues.TempPresetDeli.Label": "Charcuterie",
+        "Pantry_OpSetTempPreset.EnumValues.TempPresetMeat.Label": "Viande",
+        "Pantry_OpSetTempPreset.EnumValues.TempPresetOff.Label": "Arrêt",
+        "Pantry_OpSetTempPreset.EnumValues.TempPresetProduce.Label": "Produits frais",
+        "Pantry_OpSetTempPreset.Label": "Préréglages de température",
         "Refrigerator_OpSetTargetTemp.Label": "Temp. cible",
         "Refrigerator_OpStatusDoorOpen.Label": "État de fonctionnement Porte ouverte",
         "Refrigerator_OpStatusOverTemp.Label": "Température excessive",
