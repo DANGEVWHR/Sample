@@ -15,6 +15,14 @@
             "Type": "cookMode"
         },
         {
+            "TemplateId": "CookCycleCanceledLower",
+            "EmailText": "Le mode de cuisson de votre four a été annulé.",
+            "PushText": "Le mode de cuisson de votre four a été annulé.",
+            "SmsText": "Le mode de cuisson de votre four a été annulé.",
+            "AlertTitle": "Mode de cuisson annulé",
+            "Type": "cookMode"
+        },
+        {
             "TemplateId": "CookModeChanged",
             "EmailText": "Le mode de cuisson de votre four a été modifié.",
             "PushText": "Le mode de cuisson de votre four a été modifié.",
@@ -31,6 +39,13 @@
         },
         {
             "TemplateId": "CookTimeComplete",
+            "EmailText": "Le temps de cuisson de votre four est terminé.",
+            "PushText": "Le temps de cuisson de votre four est terminé.",
+            "AlertTitle": "Fin de cuisson",
+            "Type": "cookTimer"
+        },
+        {
+            "TemplateId": "CookTimeCompleteLower",
             "EmailText": "Le temps de cuisson de votre four est terminé.",
             "PushText": "Le temps de cuisson de votre four est terminé.",
             "AlertTitle": "Fin de cuisson",

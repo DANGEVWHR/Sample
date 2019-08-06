@@ -520,6 +520,10 @@
         "DeviceIO": "RW",
         "MappedAttributeName": "Cavity_OperationSetStartCommand",
         "Default": "0",
+         "EnumValues": {
+          "0": "StopCancel",
+          "1": "Start"
+        },
         "Key": "0x03050001"
       },
       {
@@ -1239,13 +1243,13 @@
       },
       {
         "IsTemplate": false,
-        "M2MAttributeName": "online",
+        "M2MAttributeName": "Online",
         "Instance": "",
         "IsTimeSeries": false,
         "DataType": "Boolean",
-        "AttributeName": "online",
+        "AttributeName": "Online",
         "DeviceIO": "RO",
-        "MappedAttributeName": "online",
+        "MappedAttributeName": "Online",
         "Default": "0",
         "Key": "0x00000000"
       },
@@ -1933,20 +1937,10 @@
                   "SetDishWasher": true
                 },
                 "condition": {
-                  "type": "operation",
-                  "binaryOperator": "or",
-                  "left": {
-                    "type": "value",
-                    "key": "online",
-                    "valueOperator": "=",
-                    "value": 1
-                  },
-                  "right": {
                     "type": "value",
                     "key": "Online",
                     "valueOperator": "=",
                     "value": 1
-                  }
                 }
               },
               {

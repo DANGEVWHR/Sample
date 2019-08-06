@@ -7804,7 +7804,7 @@
                   "ActionSetCycleSendCommand": true,
                   "ActionSetCycleCancelCommand": false,
                   "ActionSetCycleModifyCommand": false,
-                  "ActionSetCycleResetDelayCommand": false
+                  "ActionSetCycleResetDelayCommand": true
                 },
                 "condition": {
                   "type": "value",
@@ -7957,7 +7957,7 @@
                   "ActionSetCycleSendCommand": true,
                   "ActionSetCycleCancelCommand": false,
                   "ActionSetCycleModifyCommand": false,
-                  "ActionSetCycleResetDelayCommand": false
+                  "ActionSetCycleResetDelayCommand": true
                 },
                 "condition": {
                   "type": "value",
@@ -8214,7 +8214,7 @@
             "autodisarm": false,
             "autodisable": false,
             "visible": true,
-            "enable": false
+            "enable": true
           },
           {
             "alertId": 68,

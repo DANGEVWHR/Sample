@@ -5,8 +5,8 @@
         "Type": "Défaillance générale",
         "Description": "Votre lave-vaisselle a signalé une défaillance qui nécessite une intervention pour dépanner et diagnostiquer le problème, ainsi qu’effectuer les réparations, si nécessaire.",
         "StepsToRepair": [
-            "Composez le 1 800 JENNAIR pour demander une intervention de dépannage.",
-                    ],
+            "Composez le 1 800 JENNAIR pour demander une intervention de dépannage."
+        ],
         "HelpPath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/AFCSelfHelpPack/fre/F01E02_P1.html",
         "VideoPath": "http://www.kaltura.com/tiny/lnrux"
     },
@@ -19,7 +19,7 @@
             "Coupez l’alimentation du lave-vaisselle en fermant le disjoncteur pendant une (1) minute.",
             "Alimentez de nouveau le lave-vaisselle en réarmant le disjoncteur.",
             "Surveillez le lave-vaisselle pendant une (1) minute pour vérifier que le code d’erreur ne s’affiche plus.",
-            "Vérifiez que le lave-vaisselle fonctionne.",
+            "Vérifiez que le lave-vaisselle fonctionne."
         ],
         "HelpPath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/AFCSelfHelpPack/fre/F01E02_P1.html",
         "VideoPath": "http://www.kaltura.com/tiny/lnrux"
@@ -30,9 +30,9 @@
         "Type": "Défaillance générale",
         "Description": "Votre lave-vaisselle a signalé une défaillance qui nécessite une intervention pour dépanner et diagnostiquer le problème, ainsi qu’effectuer les réparations, si nécessaire.",
         "StepsToRepair": [
-            "Composez le 1 800 JENNAIR pour demander une intervention de dépannage",
-                    ],
+            "Composez le 1 800 JENNAIR pour demander une intervention de dépannage"
+        ],
         "HelpPath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/AFCSelfHelpPack/fre/F01E02_P1.html",
         "VideoPath": "http://www.kaltura.com/tiny/lnrux"
     }
-    }
+}

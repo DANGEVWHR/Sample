@@ -5769,7 +5769,11 @@
                   "ActionSetCycleSendCommand": true,
                   "ActionSetCycleCancelCommand": false,
                   "ActionSetCycleModifyCommand": false,
-                  "ActionSetCycleResetDelayCommand" : false
+                  "ActionSetCycleResetDelayCommand" : true
+                },
+                "attributes" : 
+                {
+                  "LowerCavity_MeatProbeTargetTemp" : false
                 },
                 "condition": {
                   "type": "value",

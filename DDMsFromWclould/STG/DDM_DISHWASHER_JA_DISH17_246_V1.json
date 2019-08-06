@@ -1249,11 +1249,11 @@
       },
       {
         "IsTemplate": false,
-        "M2MAttributeName": "online",
+        "M2MAttributeName": "Online",
         "Instance": "",
         "IsTimeSeries": false,
         "DataType": "Boolean",
-        "AttributeName": "online",
+        "AttributeName": "Online",
         "DeviceIO": "RO",
         "MappedAttributeName": "Online",
         "Default": "0",
@@ -1972,20 +1972,12 @@
                   "SetDishWasher": true
                 },
                 "condition": {
-                  "type": "operation",
-                  "binaryOperator": "or",
-                  "left": {
-                    "type": "value",
-                    "key": "online",
-                    "valueOperator": "=",
-                    "value": 1
-                  },
-                  "right": {
+                 
                     "type": "value",
                     "key": "Online",
                     "valueOperator": "=",
                     "value": 1
-                  }
+                  
                 }
               },
               {

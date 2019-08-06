@@ -15,6 +15,14 @@
             "Type": "cookMode"
         },
         {
+            "TemplateId": "CookCycleCanceledLower",
+            "EmailText": "Oven cook mode is cancelled.",
+            "PushText": "Oven cook mode is cancelled.",
+            "SmsText": "Oven cook mode is cancelled.",
+            "AlertTitle": "Cooking Mode Cancelled",
+            "Type": "cookMode"
+        },
+        {
             "TemplateId": "CookModeChanged",
             "EmailText": "Oven cook mode is changed.",
             "PushText": "Oven cook mode is changed.",
@@ -31,6 +39,14 @@
         },
         {
             "TemplateId": "CookTimeComplete",
+            "EmailText": "Oven cook time is complete.",
+            "PushText": "Oven cook time is complete.",
+            "SmsText": "Oven cook time is complete.",
+            "AlertTitle": "Cook Time Complete",
+            "Type": "cookTimer"
+        },
+        {
+            "TemplateId": "CookTimeCompleteLower",
             "EmailText": "Oven cook time is complete.",
             "PushText": "Oven cook time is complete.",
             "SmsText": "Oven cook time is complete.",
