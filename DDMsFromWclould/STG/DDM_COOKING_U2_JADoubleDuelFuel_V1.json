@@ -4858,8 +4858,10 @@
                     "key": "OvenLowerCavity_OpStatusState",
                     "valueOperator": "!=",
                     "value": 0
+                    },
                     "right": {
                       "type": "value",
+                      "key": "OvenLowerCavity_TimeStatusDelayTimeRemaining",
                       "valueOperator": ">",
                       "value": 0
                     }
