@@ -2448,30 +2448,7 @@
             "SabbathModeEnabled": "Sys_OperationSetSabbathModeEnabled",
             "SysAlertStatusNotification" : "Sys_AlertStatusNotification"
           }
-        },
-        "CycleOrder": {
-          "OvenUpperCavity": [
-            "OvenUpperCavity_CycleSetCommonModeCommonModeBake",
-            "ConvectBake",
-            "OvenUpperCavity_CycleSetCommonModeCommonModeConvectBake",
-            "OvenUpperCavity_CycleSetEasyConvectFoodEasyConvectFoodBakedGoods",
-            "ConvectRoast",
-            "OvenUpperCavity_CycleSetCommonModeCommonModeConvectRoast",
-            "OvenUpperCavity_CycleSetEasyConvectFoodEasyConvectFoodMeat",
-            "OvenUpperCavity_CycleSetConvectBakeFoodConvectBakeFoodFrozenPizza",
-            "OvenUpperCavity_CycleSetConvectBakeFoodConvectBakeFoodPastry",
-            "OvenUpperCavity_CycleSetCommonModeCommonModeBroil",
-            "OvenUpperCavity_CycleSetBreadProofBreadProofStandard",
-            "OvenUpperCavity_CycleSetBreadProofBreadProofRapid",
-            "OvenUpperCavity_CycleSetCommonModeCommonModeKeepWarm",
-            "OvenUpperCavity_CycleSetCommonModeCommonModeConvectSlowRoast1",
-            "OvenUpperCavity_CycleSetCommonModeCommonModeConvectSlowRoast2",
-            "OvenUpperCavity_CycleSetCommonModeCommonModeConvectSlowRoast3",
-            "ProbeCook",
-            "Manual",
-            "Auto"
-          ]
-        },
+        }, 
         "Features": {
           "Common": {
             "LocalKitchenTimer": {
@@ -2533,7 +2510,6 @@
                 "OvenUpperCavity_CulinaryCtrSetId",
                 "OvenUpperCavity_CycleSetTargetTemp",
                 "OvenUpperCavity_TimeSetCookTimeSet",
-                "OvenUpperCavity_CycleSetMeatProbeTargetTemp",
                 "OvenUpperCavity_OpSetOperations"
               ],
               "SetOperationsMapping": {
@@ -2553,6 +2529,7 @@
               ],
               "StateAttributes": {
                 "State": "OvenUpperCavity_OpStatusState",
+                "MeatProbeStatus": "OvenUpperCavity_AlertStatusMeatProbePluggedIn",
                 "MeatProbeTargetTemp": "OvenUpperCavity_CycleSetMeatProbeTargetTemp"
               },
               "StatusAttributes": [
@@ -2581,6 +2558,7 @@
                 "OvenUpperCavity_CycleSetMeatProbeTargetTemp",
                 "OvenUpperCavity_TimeSetDelayTime",
                 "OvenUpperCavity_OpSetCookTimeCompleteAction",
+                "OvenUpperCavity_AlertStatusMeatProbePluggedIn",
                 "OvenUpperCavity_OpSetOperations",
                 "OvenUpperCavity_TimeSetCookTimeOperations"
               ],
@@ -2588,7 +2566,8 @@
                 "Operation": "OvenUpperCavity_OpSetOperations",
                 "TimerOperations": "OvenUpperCavity_TimeSetCookTimeOperations",
                 "CookTime": "OvenUpperCavity_TimeSetCookTimeSet",
-                "CookTemp": "OvenUpperCavity_CycleSetTargetTemp"
+                "CookTemp": "OvenUpperCavity_CycleSetTargetTemp",
+                "MeatProbeTargetTemp": "OvenUpperCavity_CycleSetMeatProbeTargetTemp"
               }
             },
             "MeatProbe": {
@@ -2619,6 +2598,7 @@
                 "OvenUpperCavity_CycleSetMeatProbeTargetTemp",
                 "OvenUpperCavity_TimeSetDelayTime",
                 "OvenUpperCavity_OpSetCookTimeCompleteAction",
+                "OvenUpperCavity_AlertStatusMeatProbePluggedIn",
                 "OvenUpperCavity_OpSetOperations",
                 "OvenUpperCavity_TimeSetCookTimeOperations"
               ],
@@ -2653,6 +2633,7 @@
                 "OvenUpperCavity_CycleSetMeatProbeTargetTemp",
                 "OvenUpperCavity_TimeSetDelayTime",
                 "OvenUpperCavity_OpSetCookTimeCompleteAction",
+                "OvenUpperCavity_AlertStatusMeatProbePluggedIn",
                 "OvenUpperCavity_OpSetOperations",
                 "OvenUpperCavity_TimeSetCookTimeOperations"
               ],
@@ -2672,6 +2653,29 @@
               }
             }
           }
+        },
+        "CycleOrder": {
+          "OvenUpperCavity": [
+            "OvenUpperCavity_CycleSetCommonModeCommonModeBake",
+            "ConvectBake",
+            "OvenUpperCavity_CycleSetCommonModeCommonModeConvectBake",
+            "OvenUpperCavity_CycleSetEasyConvectFoodEasyConvectFoodBakedGoods",
+            "ConvectRoast",
+            "OvenUpperCavity_CycleSetCommonModeCommonModeConvectRoast",
+            "OvenUpperCavity_CycleSetEasyConvectFoodEasyConvectFoodMeat",
+            "OvenUpperCavity_CycleSetConvectBakeFoodConvectBakeFoodFrozenPizza",
+            "OvenUpperCavity_CycleSetConvectBakeFoodConvectBakeFoodPastry",
+            "OvenUpperCavity_CycleSetCommonModeCommonModeBroil",
+            "OvenUpperCavity_CycleSetBreadProofBreadProofStandard",
+            "OvenUpperCavity_CycleSetBreadProofBreadProofRapid",
+            "OvenUpperCavity_CycleSetCommonModeCommonModeKeepWarm",
+            "OvenUpperCavity_CycleSetCommonModeCommonModeConvectSlowRoast1",
+            "OvenUpperCavity_CycleSetCommonModeCommonModeConvectSlowRoast2",
+            "OvenUpperCavity_CycleSetCommonModeCommonModeConvectSlowRoast3",
+            "ProbeCook",
+            "Manual",
+            "Auto"
+          ]
         },
         "ApplianceRulesets": {
           "OvenUpperCavity": {
@@ -2824,13 +2828,39 @@
                   "ActionSetCycleStartCommand": false,
                   "ActionSetCycleCancelCommand": true,
                   "ActionSetCycleModifyCommand": true,
-                  "ActionSetCycleSendCommand" : false
+                  "ActionSetCycleSendCommand" : false,
+                  "ActionSetCycleResetDelayCommand" : true
                 },
                 "condition": {
                     "type": "value",
                     "key": "OvenUpperCavity_OpStatusState",
                     "valueOperator": "!=",
                     "value": 0
+                }
+              },
+              {
+                "ruleName": "When Delay Cycle is running, Disable probe temp edit ",
+                "description": "When Delay Cycle is running, Disable probe temp edit",
+                "attributes": {
+                  "OvenUpperCavity_TimeSetDelayTime" : false,
+                  "OvenUpperCavity_CycleSetTargetTemp" : false,
+                  "OvenUpperCavity_CycleSetMeatProbeTargetTemp": false
+                },
+                "condition": {
+                    "type": "operation",
+                      "binaryOperator": "and",
+                  "left": {
+                      "type": "value",
+                    "key": "OvenUpperCavity_OpStatusState",
+                    "valueOperator": "!=",
+                    "value": 0
+                    },
+                    "right": {
+                      "type": "value",
+                      "key": "OvenUpperCavity_TimeStatusDelayTimeRemaining",
+                      "valueOperator": ">",
+                      "value": 0
+                    }
                 }
               },
               {
@@ -2972,7 +3002,7 @@
                             "autodisarm": false,
                             "autodisable": false,
                             "visible": false,
-                            "enable": true
+                            "enable": false
                         },
                         {
                             "alertId": 445,
@@ -3031,8 +3061,8 @@
                             "autodelete": false,
                             "autodisarm": false,
                             "autodisable": false,
-                            "visible": true,
-                            "enable": true
+                            "visible": false,
+                            "enable": false
                         },
                         {
                             "alertId": 438,

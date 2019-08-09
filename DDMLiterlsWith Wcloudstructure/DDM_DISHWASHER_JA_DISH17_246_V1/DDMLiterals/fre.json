@@ -1,4 +1,4 @@
-﻿{
+{
     "Cavity_CycleSetCycleId.EnumValues.CycleCancelDrain.Label": "Annuler",
     "Cavity_CycleSetCycleId.EnumValues.CycleFactoryTest.Label": "Programme Test usine",
     "Cavity_CycleSetCycleId.EnumValues.CycleLightChina.Label": "Cristal",
@@ -72,6 +72,7 @@
     "Cavity_OperationSetAffreshCycleNeeded.Label": "État affresh®",
     "Cavity_OperationSetStartCommand.EnumValues.Start.Label": "Start (mise en marche)",
     "Cavity_OperationSetStartCommand.EnumValues.StopCancel.Label": "Arrêter l'annulation",
+    "Cavity_OperationSetStartCommand.EnumValues.SetOnDisplay.Label": "Réglage de l’affichage en marche",
     "Cavity_OperationSetStartCommand.Label": "Programme prêt pour commande de mise en marche",
     "Cavity_OperationStatusCleanFilter.Label": "État du filtre",
     "Cavity_OperationStatusDoorOpen.Label": "État de fonctionnement Porte ouverte",

@@ -4659,7 +4659,6 @@
                 "OvenUpperCavity_CulinaryCtrSetId",
                 "OvenUpperCavity_CycleSetTargetTemp",
                 "OvenUpperCavity_TimeSetCookTimeSet",
-                "OvenUpperCavity_CycleSetMeatProbeTargetTemp",
                 "OvenUpperCavity_OpSetOperations"
               ],
               "SetOperationsMapping": {
@@ -4679,6 +4678,7 @@
               ],
               "StateAttributes": {
                 "State": "OvenUpperCavity_OpStatusState",
+                "MeatProbeStatus": "OvenUpperCavity_AlertStatusMeatProbePluggedIn",
                 "MeatProbeTargetTemp": "OvenUpperCavity_CycleSetMeatProbeTargetTemp"
               },
               "StatusAttributes": [
@@ -4709,6 +4709,7 @@
                 "OvenUpperCavity_CycleSetMeatProbeTargetTemp",
                 "OvenUpperCavity_TimeSetDelayTime",
                 "OvenUpperCavity_OpSetCookTimeCompleteAction",
+                "OvenUpperCavity_AlertStatusMeatProbePluggedIn",
                 "OvenUpperCavity_OpSetOperations",
                 "OvenUpperCavity_TimeSetCookTimeOperations"
               ],
@@ -4716,7 +4717,8 @@
                 "Operation": "OvenUpperCavity_OpSetOperations",
                 "TimerOperations": "OvenUpperCavity_TimeSetCookTimeOperations",
                 "CookTime": "OvenUpperCavity_TimeSetCookTimeSet",
-                "CookTemp": "OvenUpperCavity_CycleSetTargetTemp"
+                "CookTemp": "OvenUpperCavity_CycleSetTargetTemp",
+                "MeatProbeTargetTemp": "OvenUpperCavity_CycleSetMeatProbeTargetTemp"
               }
             },
             "MeatProbe": {
@@ -4748,6 +4750,7 @@
                 "OvenUpperCavity_CycleSetMeatProbeTargetTemp",
                 "OvenUpperCavity_TimeSetDelayTime",
                 "OvenUpperCavity_OpSetCookTimeCompleteAction",
+                "OvenUpperCavity_AlertStatusMeatProbePluggedIn",
                 "OvenUpperCavity_OpSetOperations",
                 "OvenUpperCavity_TimeSetCookTimeOperations"
               ],
@@ -4773,7 +4776,20 @@
                 
               },
               "SendCommandAttributes": [
-                
+                "OvenUpperCavity_CycleSetCommonMode",
+                "OvenUpperCavity_CycleSetConvectBakeFood",
+                "OvenUpperCavity_CycleSetEasyConvectFood",
+                "OvenUpperCavity_CycleSetBreadProof",
+                "OvenUpperCavity_CycleSetEasySteamFood",
+                "OvenUpperCavity_CycleSetTargetTemp",
+                "OvenUpperCavity_TimeSetCookTimeSet",
+                "OvenUpperCavity_CycleSetMeatProbeTargetTemp",
+                "OvenUpperCavity_TimeSetDelayTime",
+                "OvenUpperCavity_OpSetCookTimeCompleteAction",
+                "OvenUpperCavity_AlertStatusMeatProbePluggedIn",
+                "OvenUpperCavity_OpSetOperations",
+                "OvenUpperCavity_TimeSetCookTimeOperations"
+
               ],
               "SetOperationsMapping": {
                 "Operation": "OvenUpperCavity_OpSetOperations",
@@ -4800,6 +4816,7 @@
               ],
               "StateAttributes": {
                 "State": "OvenLowerCavity_OpStatusState",
+                "MeatProbeStatus": "OvenLowerCavity_AlertStatusMeatProbePluggedIn",
                 "MeatProbeTargetTemp": "OvenLowerCavity_CycleSetMeatProbeTargetTemp"
               },
               "StatusAttributes": [
@@ -4829,6 +4846,7 @@
                 "OvenLowerCavity_TimeSetDelayTime",
                 "OvenLowerCavity_OpSetCookTimeCompleteAction",
                 "OvenLowerCavity_TimeSetCookTimeSet",
+                "OvenLowerCavity_AlertStatusMeatProbePluggedIn",
                 "OvenLowerCavity_OpSetOperations",
                 "OvenLowerCavity_TimeSetCookTimeOperations"
               ],
@@ -4836,7 +4854,8 @@
                 "Operation": "OvenLowerCavity_OpSetOperations",
                 "TimerOperations": "OvenLowerCavity_TimeSetCookTimeOperations",
                 "CookTime": "OvenLowerCavity_TimeSetCookTimeSet",
-                "CookTemp": "OvenLowerCavity_CycleSetTargetTemp"
+                "CookTemp": "OvenLowerCavity_CycleSetTargetTemp",
+                "MeatProbeTargetTemp": "OvenLowerCavity_CycleSetMeatProbeTargetTemp"
               }
             },
             "MeatProbe": {
@@ -4868,12 +4887,14 @@
                 "OvenLowerCavity_TimeSetDelayTime",
                 "OvenLowerCavity_OpSetCookTimeCompleteAction",
                 "OvenLowerCavity_TimeSetCookTimeSet",
+                "OvenLowerCavity_AlertStatusMeatProbePluggedIn",
                 "OvenLowerCavity_OpSetOperations",
                 "OvenLowerCavity_TimeSetCookTimeOperations"
               ],
               "SetOperationsMapping": {
                 "Operation": "OvenLowerCavity_OpSetOperations",
-                "TimerOperations": "OvenLowerCavity_TimeSetCookTimeOperations"
+                "TimerOperations": "OvenLowerCavity_TimeSetCookTimeOperations",
+                "MeatProbeTargetTemp": "OvenLowerCavity_CycleSetMeatProbeTargetTemp"
               },
               "StateAttributes": {
                 
@@ -4903,6 +4924,7 @@
                 "OvenLowerCavity_TimeSetDelayTime",
                 "OvenLowerCavity_OpSetCookTimeCompleteAction",
                 "OvenLowerCavity_TimeSetCookTimeSet",
+                "OvenLowerCavity_AlertStatusMeatProbePluggedIn",
                 "OvenLowerCavity_OpSetOperations",
                 "OvenLowerCavity_TimeSetCookTimeOperations"
               ],
@@ -5140,13 +5162,39 @@
                   "ActionSetCycleStartCommand": false,
                   "ActionSetCycleCancelCommand": true,
                   "ActionSetCycleModifyCommand": true,
-                  "ActionSetCycleSendCommand" : false
+                  "ActionSetCycleSendCommand" : false,
+                  "ActionSetCycleResetDelayCommand" : true
                 },
                 "condition": {
                     "type": "value",
                     "key": "OvenUpperCavity_OpStatusState",
                     "valueOperator": "!=",
                     "value": 0
+                }
+              },
+              {
+                "ruleName": "When Delay Cycle is running, Disable probe temp edit ",
+                "description": "When Delay Cycle is running, Disable probe temp edit",
+                "attributes": {
+                  "OvenUpperCavity_TimeSetDelayTime" : false,
+                  "OvenUpperCavity_CycleSetTargetTemp" : false,
+                  "OvenUpperCavity_CycleSetMeatProbeTargetTemp": false
+                },
+                "condition": {
+                    "type": "operation",
+                      "binaryOperator": "and",
+                  "left": {
+                      "type": "value",
+                    "key": "OvenUpperCavity_OpStatusState",
+                    "valueOperator": "!=",
+                    "value": 0
+                    },
+                    "right": {
+                      "type": "value",
+                      "key": "OvenUpperCavity_TimeStatusDelayTimeRemaining",
+                      "valueOperator": ">",
+                      "value": 0
+                    }
                 }
               },
               {
@@ -5338,13 +5386,40 @@
                   "ActionSetCycleStartCommand": false,
                   "ActionSetCycleCancelCommand": true,
                   "ActionSetCycleModifyCommand": true,
-                  "ActionSetCycleSendCommand" : false
+                  "ActionSetCycleSendCommand" : false,
+                   "ActionSetCycleResetDelayCommand" : true
                 },
                 "condition": {
                     "type": "value",
                     "key": "OvenLowerCavity_OpStatusState",
                     "valueOperator": "!=",
                     "value": 0
+  
+                }
+              },
+              {
+                "ruleName": "When Delay Cycle is running, Disable probe temp edit ",
+                "description": "When Delay Cycle is running, Disable probe temp edit",
+                "attributes": {
+                 "OvenLowerCavity_TimeSetDelayTime" : false,
+                  "OvenLowerCavity_CycleSetTargetTemp" : false,
+                  "OvenLowerCavity_CycleSetMeatProbeTargetTemp": false
+                },
+                "condition": {
+                    "type": "operation",
+                      "binaryOperator": "and",
+                  "left": {
+                      "type": "value",
+                    "key": "OvenLowerCavity_OpStatusState",
+                    "valueOperator": "!=",
+                    "value": 0
+                    },
+                    "right": {
+                      "type": "value",
+                      "key": "OvenLowerCavity_TimeStatusDelayTimeRemaining",
+                      "valueOperator": ">",
+                      "value": 0
+                    }
   
                 }
               }
@@ -5522,7 +5597,7 @@
                             "autodisarm": false,
                             "autodisable": false,
                             "visible": false,
-                            "enable": true
+                            "enable": false
                         },
                         {
                             "alertId": 1017,
@@ -5569,8 +5644,8 @@
                             "autodelete": false,
                             "autodisarm": false,
                             "autodisable": false,
-                            "visible": true,
-                            "enable": true
+                            "visible": false,
+                            "enable": false
                         },
                         {
                             "alertId": 1184,
