@@ -9,33 +9,33 @@
     },
     {
         "TemplateId": "MaxCool1",
-        "SmsText": "Refrigerator started Max Cool temporarily reducing the refrigerator set temperature.Refrigerator exited Max Cool returning the refrigerator temperature to the prior set temperature.",
-        "EmailText": "Refrigerator started Max Cool temporarily reducing the refrigerator set temperature.Refrigerator exited Max Cool returning the refrigerator temperature to the prior set temperature.",
-        "PushText": "Refrigerator started Max Cool temporarily reducing the refrigerator set temperature.Refrigerator exited Max Cool returning the refrigerator temperature to the prior set temperature.",
+        "SmsText": "Refrigerator started Max Cool temporarily reducing the refrigerator set temperature.",
+        "EmailText": "Refrigerator started Max Cool temporarily reducing the refrigerator set temperature.",
+        "PushText": "Refrigerator started Max Cool temporarily reducing the refrigerator set temperature.",
         "AlertTitle": "System Alert",
         "Type": "system"
     },
     {
         "TemplateId": "MaxCool2",
-        "SmsText": "Refrigerator started Max Cool temporarily reducing the refrigerator set temperature.Refrigerator exited Max Cool returning the refrigerator temperature to the prior set temperature.",
-        "EmailText": "Refrigerator started Max Cool temporarily reducing the refrigerator set temperature.Refrigerator exited Max Cool returning the refrigerator temperature to the prior set temperature.",
-        "PushText": "Refrigerator started Max Cool temporarily reducing the refrigerator set temperature.Refrigerator exited Max Cool returning the refrigerator temperature to the prior set temperature.",
+        "SmsText": "Refrigerator exited Max Cool returning the refrigerator temperature to the prior set temperature.",
+        "EmailText": "Refrigerator exited Max Cool returning the refrigerator temperature to the prior set temperature.",
+        "PushText": "Refrigerator exited Max Cool returning the refrigerator temperature to the prior set temperature.",
         "AlertTitle": "System Alert",
         "Type": "system"
     },
     {
         "TemplateId": "MaxIce1",
-        "SmsText": "Refrigerator started Max Ice temporarily reducing the freezer set temperature.Refrigerator exited Max Ice returning the freezer temperature to the prior set temperature.",
-        "EmailText": "Refrigerator started Max Ice temporarily reducing the freezer set temperature.Refrigerator exited Max Ice returning the freezer temperature to the prior set temperature.",
-        "PushText": "Refrigerator started Max Ice temporarily reducing the freezer set temperature.Refrigerator exited Max Ice returning the freezer temperature to the prior set temperature.",
+        "SmsText": "Refrigerator started Max Ice temporarily reducing the freezer set temperature.",
+        "EmailText": "Refrigerator started Max Ice temporarily reducing the freezer set temperature.",
+        "PushText": "Refrigerator started Max Ice temporarily reducing the freezer set temperature.",
         "AlertTitle": "System Alert",
         "Type": "system"
     },
     {
         "TemplateId": "MaxIce2",
-        "SmsText": "Refrigerator started Max Ice temporarily reducing the freezer set temperature.Refrigerator exited Max Ice returning the freezer temperature to the prior set temperature.",
-        "EmailText": "Refrigerator started Max Ice temporarily reducing the freezer set temperature.Refrigerator exited Max Ice returning the freezer temperature to the prior set temperature.",
-        "PushText": "Refrigerator started Max Ice temporarily reducing the freezer set temperature.Refrigerator exited Max Ice returning the freezer temperature to the prior set temperature.",
+        "SmsText": "Refrigerator exited Max Ice returning the freezer temperature to the prior set temperature.",
+        "EmailText": "Refrigerator exited Max Ice returning the freezer temperature to the prior set temperature.",
+        "PushText": "Refrigerator exited Max Ice returning the freezer temperature to the prior set temperature.",
         "AlertTitle": "System Alert",
         "Type": "system"
     },
