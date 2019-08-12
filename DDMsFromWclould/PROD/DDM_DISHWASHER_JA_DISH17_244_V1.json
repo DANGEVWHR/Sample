@@ -520,6 +520,10 @@
         "DeviceIO": "RW",
         "MappedAttributeName": "Cavity_OperationSetStartCommand",
         "Default": "0",
+        "EnumValues": {
+          "0": "StopCancel",
+          "1": "Start"
+        },
         "Key": "0x03050001"
       },
       {
@@ -1239,13 +1243,13 @@
       },
       {
         "IsTemplate": false,
-        "M2MAttributeName": "online",
+        "M2MAttributeName": "Online",
         "Instance": "",
         "IsTimeSeries": false,
         "DataType": "Boolean",
-        "AttributeName": "online",
+        "AttributeName": "Online",
         "DeviceIO": "RO",
-        "MappedAttributeName": "online",
+        "MappedAttributeName": "Online",
         "Default": "0",
         "Key": "0x00000000"
       },
@@ -1790,7 +1794,7 @@
             ],
             "TimeRemaining": "Cavity_TimeStatusEstTimeRemaining",
             "MachineState": "Cavity_OperationStatusMachineState",
-            "DoorOpenStatus": "Cavity_OperationStatusDoorOpen",
+            "DoorOpen": "Cavity_OperationStatusDoorOpen",
             "FilterStatus": "Cavity_OperationStatusCleanFilter",
             "CycleState": "Cavity_CycleStatusCycleState",
             "OdometerStatus": "Cavity_CycleStatusOdometer",
@@ -1928,22 +1932,22 @@
                 "ruleName": "Disable All Features when appliance is offline",
                 "description": "Disable All Features when appliance is offline",
                 "features": {
-                  "QuietMode": false,
-                  "SabbathMode": false,
-                  "SetDishWasher": false
+                  "QuietMode": true,
+                  "SabbathMode": true,
+                  "SetDishWasher": true
                 },
                 "condition": {
-                  "type": "value",
-                  "key": "Online",
-                  "valueOperator": "=",
-                  "value": 0
+                    "type": "value",
+                    "key": "Online",
+                    "valueOperator": "=",
+                    "value": 1
                 }
               },
               {
                 "ruleName": "Cancel the Running Cycle",
                 "description": "If Appliance is not idle, we can enable the cancel action",
                 "actions": {
-                  "ActionCancelCommand": true
+                  "ActionSetCycleCancelCommand": true
                 },
                 "condition": {
                   "type": "value",
@@ -1956,7 +1960,7 @@
                 "ruleName": "Enable Cancel option if, An istruction already entered in Appliance",
                 "description": "Cavity_OperationStatusMachineState ==Standby, this is instruction sent to appliance",
                 "actions": {
-                  "ActionCancelCommand": true
+                  "ActionSetCycleCancelCommand": true
                 },
                 "condition": {
                   "type": "value",
@@ -1969,9 +1973,9 @@
                 "ruleName": "Disable Cancel, Mofidy, Start options if appliance is draining",
                 "description": "Cavity_OperationStatusMachineState ==Drain, this is instruction sent to appliance",
                 "actions": {
-                  "ActionCancelCommand": false,
-                  "ActionStartCommand": false,
-                  "ActionModifyCommand": false,
+                  "ActionSetCycleCancelCommand": false,
+                  "ActionSetCycleStartCommand": false,
+                  "ActionSetCycleModifyCommand": false,
                   "ActionSendToApplianceCommand": false
                 },
                 "condition": {
@@ -1985,7 +1989,7 @@
                 "ruleName": "Enable Cancel option if, Cycle is delaying",
                 "description": "A command can be started if the device is online and remote is enbled",
                 "actions": {
-                  "ActionCancelCommand": true
+                  "ActionSetCycleCancelCommand": true
                 },
                 "condition": {
                   "type": "operation",
@@ -2031,6 +2035,23 @@
                   "key": "Cavity_TimeSetDelayTime",
                   "valueOperator": ">",
                   "value": 0
+                }
+              }
+            ]
+          },
+          "Common": {
+            "Runtime": [
+              {
+                "ruleName": "Disable quitemode when appliance is on Sabbath",
+                "description": "Disable quitemode when appliance is on Sabbath",
+                "features": {
+                  "QuietMode" : false
+                },
+                "condition": {
+                  "type": "value",
+                  "key": "Sys_OperationSetSabbathModeEnabled",
+                  "valueOperator": "=",
+                  "value": 1
                 }
               }
             ]

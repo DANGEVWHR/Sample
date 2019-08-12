@@ -5117,7 +5117,7 @@
             "autodisarm": false,
             "autodisable": false,
             "visible": false,
-            "enable": true
+            "enable": false
           },
           {
             "alertId": 53,

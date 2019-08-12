@@ -1548,6 +1548,21 @@
                   "valueOperator": "=",
                   "value": 1
                 }
+              },
+              {
+                "ruleName": "When Sabbath is active, disable the features",
+                "description": "When Sabbath is active, disable the features",
+                "features": {
+                  "CavityBrightness": false,
+                  "ControlLock": false,
+                  "MaxCool": false
+                },
+                "condition": {
+                  "type": "value",
+                      "key": "Sys_OpSetSabbathModeEnabled",
+                      "valueOperator": "=",
+                      "value": 1
+                }
               }
             ]
           }

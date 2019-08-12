@@ -1507,7 +1507,8 @@
             "MaxIce": {
               "Visible": true,
               "AvailableIn": [
-                "US"
+                "US",
+                "CA"
               ],
               "StateAttributes": {
                 "State": "Sys_OpSetMaxIce"
@@ -1685,6 +1686,22 @@
                   "valueOperator": "=",
                   "value": 1
                 }
+              },
+              {
+                "ruleName": "When Sabbath is active, disable the features",
+                "description": "When Sabbath is active, disable the features",
+                "features": {
+                  "AutoNightLight": false,
+                  "ControlLock": false,
+                  "MaxCool": false,
+                  "MaxIce": false
+                },
+                "condition": {
+                  "type": "value",
+                      "key": "Sys_OpSetSabbathModeEnabled",
+                      "valueOperator": "=",
+                      "value": 1
+                }
               }
             ]
           }
@@ -1713,7 +1730,7 @@
             "autodisarm": true,
             "autodisable": false,
             "visible": true,
-            "enable": false
+            "enable": true
           },
           {
             "alertId": 1223,

@@ -1740,7 +1740,7 @@
             "autodelete": false,
             "autodisarm": true,
             "autodisable": false,
-            "enable": false,
+            "enable": true,
             "visible": true
           },
           {
@@ -1753,7 +1753,7 @@
             "autodisarm": true,
             "autodisable": false,
             "enable": false,
-            "visible": true
+            "visible": false
           },
           {
             "alertId": 83,
@@ -1764,8 +1764,8 @@
             "autodelete": false,
             "autodisarm": true,
             "autodisable": false,
-            "enable": false,
-            "visible": true
+            "enable": true,
+            "visible": false
           },
           {
             "alertId": 84,
@@ -1776,8 +1776,8 @@
             "autodelete": false,
             "autodisarm": true,
             "autodisable": false,
-            "enable": false,
-            "visible": true
+            "enable": true,
+            "visible": false
           },
           {
             "alertId": 87,
@@ -1788,8 +1788,8 @@
             "autodelete": false,
             "autodisarm": true,
             "autodisable": false,
-            "enable": false,
-            "visible": true
+            "enable": true,
+            "visible": false
           }
         ]
       }

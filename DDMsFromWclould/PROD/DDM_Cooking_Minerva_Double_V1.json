@@ -2953,7 +2953,8 @@
       {
         "Compatibility": {
           "TempExchangeUnits": "F",
-          "MultipliedByTen": false
+          "MultipliedByTen": false,
+          "ResetDelayTime": 15
         },
         "CavityOrder": [
           "OvenUpperCavity",
@@ -7198,7 +7199,8 @@
             "DelayTimeSetTime": "UpperCavity_DelayTimeSetTime",
             "CookTimeRemaining": "UpperCavity_CookTimeRemaining",
             "CulinaryCtrSetId": "UpperCavity_CulinaryCenterID",
-            "CavityOperations": "UpperCavity_CavityOperations"
+            "CavityOperations": "UpperCavity_CavityOperations",
+            "CulinaryVersion": "UpperCavity_CulinaryCenterVersionNumber"
           },
           "OvenLowerCavity": {
             "CycleName": [
@@ -7226,7 +7228,8 @@
             "DelayTimeSetTime": "LowerCavity_DelayTimeSetTime",
             "CookTimeRemaining": "LowerCavity_CookTimeRemaining",
             "CulinaryCtrSetId": "LowerCavity_CulinaryCenterID",
-            "CavityOperations": "LowerCavity_CavityOperations"
+            "CavityOperations": "LowerCavity_CavityOperations",
+            "CulinaryVersion": "LowerCavity_CulinaryCenterVersionNumber"
           },
           "Common": {
             "DisplayOnOff": "SystemSettings_DisplayOnOff",
@@ -7533,13 +7536,6 @@
                 "TimerOperations": "UpperCavity_OvenTimerOperations",
                 "MyCreationId": "UpperCavity_MyCreationID"
               }
-            },
-            "CyclesHistory": {
-              "Visible": false,
-              "AvailableIn": [
-                "US",
-                "CA"
-              ]
             }
           },
           "OvenLowerCavity": {
@@ -7784,23 +7780,43 @@
                   "ActionSetCycleCancelCookTimeCommand": false
                 },
                 "condition": {
-                  "type": "value",
-                  "key": "Online",
-                  "valueOperator": "=",
-                  "value": 0
+                  "type": "operation",
+                  "binaryOperator": "or",
+                  "left": {
+                    "type": "value",
+                    "key": "Online",
+                    "valueOperator": "=",
+                    "value": 0
+                  },
+                  "right": {
+                    "type": "value",
+                    "key": "SystemSettings_ControlLock",
+                    "valueOperator": "=",
+                    "value": 1
+                  }
                 }
               },
               {
-                "ruleName": "Disable the StartCommand button",
-                "description": "Appliance can not be started if the remote is disabled",
+                "ruleName": "Cancel the Running Cycle",
+                "description": "If Appliance is not idle, we can enable the cancel action",
                 "actions": {
-                  "ActionSetCycleStartCommand": false
+                  "ActionSetCycleStartCommand": true,
+                  "ActionSetCycleSendCommand": true,
+                  "ActionSetCycleCancelCommand": false,
+                  "ActionSetCycleModifyCommand": false,
+                  "ActionSetCycleResetDelayCommand": true
+                },
+                "attributes": {
+                  "UpperCavity_MeatProbeTargetTemp": true
                 },
                 "condition": {
                   "type": "value",
-                  "key": "Appliance_RemoteEnabledStatus",
-                  "valueOperator": "=",
-                  "value": 0
+                  "key": "UpperCavity_CavityHeatState",
+                  "valueOperator": "in",
+                  "value": [
+                    0,
+                    3
+                  ]
                 }
               },
               {
@@ -7837,19 +7853,75 @@
                 }
               },
               {
-                "ruleName": "Cancel the Running Cycle",
-                "description": "If Appliance is not idle, we can enable the cancel action",
+                "ruleName": "When Sabbath is active, disable the features",
+                "description": "When Sabbath is active, disable the features",
+                "features": {
+                  "MeatProbeTemp": false,
+                  "MeatProbe": false,
+                  "AssistedCooking": false,
+                  "SetOven": false,
+                  "LightOnOff": false,
+                  "MyCreations": false
+                },
+                "attributes": {
+                  "UpperCavity_CavityTargetTemp": false,
+                  "UpperCavity_MeatProbeTargetTemp": false,
+                  "UpperCavity_CookTimeSetTime": false
+                },
                 "actions": {
-                  "ActionSetCycleStartCommand": false,
+                  "ActionKitchenTimerStart": false,
+                  "ActionKitchenTimerCancel": false,
+                  "ActionKitchenTimerModify": false,
                   "ActionSetCycleSendCommand": false,
-                  "ActionSetCycleCancelCommand": true,
-                  "ActionSetCycleModifyCommand": true
+                  "ActionSetCycleStartCommand": false,
+                  "ActionSetCycleModifyCommand": false,
+                  "ActionSetCycleCancelCookTimeCommand": false
                 },
                 "condition": {
                   "type": "value",
-                  "key": "UpperCavity_CavityHeatState",
-                  "valueOperator": "!=",
-                  "value": "0"
+                  "key": "UpperCavity_CavityModeOven",
+                  "valueOperator": "=",
+                  "value": 18
+                }
+              },
+              {
+                "ruleName": "When self clean is running ",
+                "description": "When self clean is running ",
+                "features": {
+                  "MeatProbeTemp": false,
+                  "MeatProbe": false,
+                  "AssistedCooking": false,
+                  "LightOnOff": false,
+                  "MyCreations": false
+                },
+                "attributes": {
+                  "UpperCavity_CavityTargetTemp": false,
+                  "UpperCavity_MeatProbeTargetTemp": false,
+                  "UpperCavity_CookTimeSetTime": false,
+                  "UpperCavity_DelayTimeSetTime": false
+                },
+                "actions": {
+                  "ActionKitchenTimerCancel": true,
+                  "ActionSetCycleModifyCommand": false
+                },
+                "condition": {
+                  "type": "value",
+                  "key": "UpperCavity_CavityModeOven",
+                  "valueOperator": "=",
+                  "value": 16
+                }
+              },
+              {
+                "ruleName": "Disable the StartCommand button",
+                "description": "Appliance can not be started if the remote is disabled",
+                "actions": {
+                  "ActionSetCycleStartCommand": false
+                },
+                "condition": {
+                  "type": "value",
+                  "key": "Appliance_RemoteEnabledStatus",
+                  "valueOperator": "=",
+                  "value": 0
                 }
               }
             ]
@@ -7867,43 +7939,54 @@
                   "LightOnOff": false,
                   "MyCreations": false
                 },
+                "actions": {
+                  "ActionKitchenTimerStart": false,
+                  "ActionKitchenTimerCancel": false,
+                  "ActionKitchenTimerModify": false,
+                  "ActionSetCycleSendCommand": false,
+                  "ActionSetCycleStartCommand": false,
+                  "ActionSetCycleCancelCommand": false,
+                  "ActionSetCycleModifyCommand": false,
+                  "ActionSetCycleCancelCookTimeCommand": false
+                },
                 "condition": {
-                  "type": "value",
-                  "key": "Online",
-                  "valueOperator": "=",
-                  "value": 0
+                  "type": "operation",
+                  "binaryOperator": "or",
+                  "left": {
+                    "type": "value",
+                    "key": "Online",
+                    "valueOperator": "=",
+                    "value": 0
+                  },
+                  "right": {
+                    "type": "value",
+                    "key": "SystemSettings_ControlLock",
+                    "valueOperator": "=",
+                    "value": 1
+                  }
                 }
               },
               {
                 "ruleName": "Cancel the Running Cycle",
                 "description": "If Appliance is not idle, we can enable the cancel action",
                 "actions": {
-                  "ActionSetCycleStartCommand": false,
-                  "ActionSetCycleSendCommand": false,
-                  "ActionSetCycleCancelCommand": true,
-                  "ActionSetCycleModifyCommand": true
+                  "ActionSetCycleStartCommand": true,
+                  "ActionSetCycleSendCommand": true,
+                  "ActionSetCycleCancelCommand": false,
+                  "ActionSetCycleModifyCommand": false,
+                  "ActionSetCycleResetDelayCommand": true
+                },
+                "attributes": {
+                  "LowerCavity_MeatProbeTargetTemp": true
                 },
                 "condition": {
                   "type": "value",
                   "key": "LowerCavity_CavityHeatState",
-                  "valueOperator": "!=",
-                  "value": "0"
-                }
-              },
-              {
-                "ruleName": "Cancel the cook time, If it is running",
-                "description": "Cancel the cook time, If it is running",
-                "actions": {
-                  "ActionSetCycleStartCommand": false,
-                  "ActionSetCycleSendCommand": false,
-                  "ActionSetCycleCancelCommand": true,
-                  "ActionSetCycleModifyCommand": true
-                },
-                "condition": {
-                  "type": "value",
-                  "key": "LowerCavity_CavityHeatState",
-                  "valueOperator": "!=",
-                  "value": "0"
+                  "valueOperator": "in",
+                  "value": [
+                    0,
+                    3
+                  ]
                 }
               },
               {
@@ -7940,6 +8023,65 @@
                 }
               },
               {
+                "ruleName": "When Sabbath is active, disable the features",
+                "description": "When Sabbath is active, disable the features",
+                "features": {
+                  "MeatProbeTemp": false,
+                  "MeatProbe": false,
+                  "AssistedCooking": false,
+                  "SetOven": false,
+                  "LightOnOff": false,
+                  "MyCreations": false
+                },
+                "attributes": {
+                  "LowerCavity_CavityTargetTemp": false,
+                  "LowerCavity_MeatProbeTargetTemp": false,
+                  "LowerCavity_CookTimeSetTime": false
+                },
+                "actions": {
+                  "ActionKitchenTimerStart": false,
+                  "ActionKitchenTimerCancel": false,
+                  "ActionKitchenTimerModify": false,
+                  "ActionSetCycleSendCommand": false,
+                  "ActionSetCycleStartCommand": false,
+                  "ActionSetCycleModifyCommand": false,
+                  "ActionSetCycleCancelCookTimeCommand": false
+                },
+                "condition": {
+                  "type": "value",
+                  "key": "LowerCavity_CavityModeOven",
+                  "valueOperator": "=",
+                  "value": 18
+                }
+              },
+              {
+                "ruleName": "When self clean is running ",
+                "description": "When self clean is running ",
+                "features": {
+                  "MeatProbeTemp": false,
+                  "MeatProbe": false,
+                  "AssistedCooking": false,
+                  "LightOnOff": false,
+                  "MyCreations": false
+                },
+                "attributes": {
+                  "LowerCavity_CavityTargetTemp": false,
+                  "LowerCavity_MeatProbeTargetTemp": false,
+                  "LowerCavity_CookTimeSetTime": false,
+                  "LowerCavity_DelayTimeSetTime": false
+                },
+                "actions": {
+                  "ActionKitchenTimerCancel": true,
+                  "ActionSetCycleModifyCommand": false
+                },
+                "condition": {
+                  "type": "value",
+                  "key": "LowerCavity_CavityModeOven",
+                  "valueOperator": "=",
+                  "value": 16
+                }
+              },
+              {
                 "ruleName": "Disable the StartCommand button",
                 "description": "Appliance can not be started if the remote is disabled",
                 "actions": {
@@ -7948,8 +8090,8 @@
                 "condition": {
                   "type": "value",
                   "key": "Appliance_RemoteEnabledStatus",
-                  "valueOperator": "!=",
-                  "value": 1
+                  "valueOperator": "=",
+                  "value": 0
                 }
               }
             ]
@@ -8017,6 +8159,30 @@
                   "key": "Online",
                   "valueOperator": "=",
                   "value": 0
+                }
+              },
+              {
+                "ruleName": "Disable All Features when appliance control lock is on",
+                "description": "Disable All Features when appliance is offline",
+                "features": {
+                  "ChangeTempUnits": false,
+                  "RemoteStatus": false,
+                  "KitchenTimer": false,
+                  "ChangeSoundPowerOnOff": false,
+                  "ChangeNumberEntry": false,
+                  "ChangeClockTheme": false,
+                  "ChangeClockOnOffStatus": false,
+                  "ChangeApplianceLanguage": false,
+                  "ChangeSoundKeyAlert": false,
+                  "ChangeSoundKeyPress": false,
+                  "ChangeDisplayOnOffStatus": false,
+                  "ChangeBrightness": false
+                },
+                "condition": {
+                  "type": "value",
+                  "key": "SystemSettings_ControlLock",
+                  "valueOperator": "=",
+                  "value": 1
                 }
               }
             ]
@@ -8130,7 +8296,7 @@
             "autodisarm": false,
             "autodisable": false,
             "visible": false,
-            "enable": true
+            "enable": false
           },
           {
             "alertId": 586,
@@ -8178,7 +8344,7 @@
             "autodisarm": false,
             "autodisable": false,
             "visible": false,
-            "enable": true
+            "enable": false
           },
           {
             "alertId": 590,
@@ -8226,7 +8392,7 @@
             "autodisarm": false,
             "autodisable": false,
             "visible": false,
-            "enable": true
+            "enable": false
           },
           {
             "alertId": 594,
