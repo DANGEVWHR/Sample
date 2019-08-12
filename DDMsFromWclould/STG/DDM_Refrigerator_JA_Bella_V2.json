@@ -1730,7 +1730,7 @@
                             "autodisarm": true,
                             "autodisable": false,
                             "visible": true,
-                            "enable": false
+                            "enable": true
                         },
                         {
                             "alertId": 951,
@@ -1766,7 +1766,7 @@
                             "autodisarm": true,
                             "autodisable": false,
                             "visible": true,
-                            "enable": false
+                            "enable": true
                         },
                         {
                             "alertId": 953,
