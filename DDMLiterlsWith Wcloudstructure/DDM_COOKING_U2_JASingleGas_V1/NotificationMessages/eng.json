@@ -15,6 +15,14 @@
             "Type": "cookMode"
         },
         {
+            "TemplateId": "CookCycleCanceledLower",
+            "EmailText": "Oven cook mode is cancelled.",
+            "PushText": "Oven cook mode is cancelled.",
+            "SmsText": "Oven cook mode is cancelled.",
+            "AlertTitle": "Cooking Mode Cancelled",
+            "Type": "cookMode"
+        },
+        {
             "TemplateId": "CookModeChanged",
             "EmailText": "Oven cook mode is changed.",
             "PushText": "Oven cook mode is changed.",
@@ -38,6 +46,14 @@
             "Type": "cookTimer"
         },
         {
+            "TemplateId": "CookTimeCompleteLower",
+            "EmailText": "Oven cook time is complete.",
+            "PushText": "Oven cook time is complete.",
+            "SmsText": "Oven cook time is complete.",
+            "AlertTitle": "Cook Time Complete",
+            "Type": "cookTimer"
+        },
+        {
             "TemplateId": "CookTimerChanged",
             "EmailText": "Oven cook time is changed.",
             "PushText": "Oven cook time is changed.",
@@ -49,7 +65,7 @@
             "TemplateId": "MeatProbeTempAchieved",
             "EmailText": "Oven meat probe temperature achieved.",
             "PushText": "Oven meat probe temperature achieved.",
-            "SmsText": "Your meal is ready.  Enjoy!  Please leave feedback.",
+            "SmsText": "Oven meat probe temperature achieved.",
             "AlertTitle": "Probe Temperature Reached",
             "Type": "meatProbe"
         },

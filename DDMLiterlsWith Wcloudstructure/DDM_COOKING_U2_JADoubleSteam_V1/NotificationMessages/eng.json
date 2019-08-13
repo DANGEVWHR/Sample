@@ -65,7 +65,7 @@
             "TemplateId": "MeatProbeTempAchieved",
             "EmailText": "Oven meat probe temperature achieved.",
             "PushText": "Oven meat probe temperature achieved.",
-            "SmsText": "Your meal is ready.  Enjoy!  Please leave feedback.",
+            "SmsText": "Oven meat probe temperature achieved.",
             "AlertTitle": "Probe Temperature Reached",
             "Type": "meatProbe"
         },
