@@ -1788,7 +1788,7 @@
             "autodelete": false,
             "autodisarm": true,
             "autodisable": false,
-            "enable": true,
+            "enable": false,
             "visible": false
           }
         ]

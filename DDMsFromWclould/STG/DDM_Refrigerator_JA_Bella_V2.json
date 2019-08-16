@@ -1765,8 +1765,8 @@
                             "autodelete": false,
                             "autodisarm": true,
                             "autodisable": false,
-                            "visible": true,
-                            "enable": true
+                            "visible": false,
+                            "enable": false
                         },
                         {
                             "alertId": 953,
