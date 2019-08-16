@@ -1,4 +1,4 @@
-﻿{
+{
     "NotificationContents": [
         {
             "TemplateId": "OvenOnWhileAway",
@@ -51,7 +51,7 @@
             "SmsText": "Temps de cuisson du four terminé",
             "EmailText": "Temps de cuisson du four terminé",
             "PushText": "Temps de cuisson du four terminé",
-            "AlertTitle": "Fin de cuisson",
+            "AlertTitle": "Temps de cuisson terminé. Bon appétit",
             "Type": "cookTimer"
         },
         {
@@ -105,7 +105,7 @@
             "EmailText": "Température de la sonde de cuisson du four atteinte",
             "PushText": "Température de la sonde de cuisson du four atteinte",
             "SmsText": "Température de la sonde de cuisson du four atteinte",
-            "AlertTitle": " Température de la sonde atteinte",
+            "AlertTitle": "Température de la sonde atteinte. Bon appétit",
             "Type": "meatProbe"
         },
         {

@@ -41,14 +41,14 @@
             "TemplateId": "CookTimeComplete",
             "EmailText": "Le temps de cuisson de votre four est terminé.",
             "PushText": "Le temps de cuisson de votre four est terminé.",
-            "AlertTitle": "Fin de cuisson",
+            "AlertTitle": "Temps de cuisson terminé. Bon appétit",
             "Type": "cookTimer"
         },
         {
             "TemplateId": "CookTimeCompleteLower",
             "EmailText": "Le temps de cuisson de votre four est terminé.",
             "PushText": "Le temps de cuisson de votre four est terminé.",
-            "AlertTitle": "Fin de cuisson",
+            "AlertTitle": "Temps de cuisson terminé. Bon appétit",
             "Type": "cookTimer"
         },
         {
@@ -63,7 +63,7 @@
             "EmailText": "La température cible de votre sonde est atteinte.",
             "PushText": "La température cible de votre sonde est atteinte.",
             "SmsText": "La température cible de votre sonde est atteinte.",
-            "AlertTitle": "Température de la sonde atteinte",
+            "AlertTitle": "Température de la sonde atteinte. Bon appétit",
             "Type": "meatProbe"
         },
         {
