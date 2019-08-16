@@ -51,7 +51,7 @@
             "SmsText": "Lower Oven Cook Time Complete",
             "EmailText": "Lower Oven Cook Time Complete",
             "PushText": "Lower Oven Cook Time Complete",
-            "AlertTitle": "Cook Time Complete",
+            "AlertTitle": "Cook Time Complete. Enjoy your meal",
             "Type": "cookTimer"
         },
         {
@@ -107,7 +107,7 @@
             "SmsText": "Lower Oven Meat probe temperature achieved",
             "EmailText": "Lower Oven Meat probe temperature achieved",
             "PushText": "Lower Oven Meat probe temperature achieved",
-            "AlertTitle": "Meat Probe Temp Achieved",
+            "AlertTitle": "Meat Probe Temp Achieved. Enjoy your meal",
             "Type": "meatProbe"
         },
         {

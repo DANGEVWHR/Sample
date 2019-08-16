@@ -42,7 +42,7 @@
             "EmailText": "Oven cook time is complete.",
             "PushText": "Oven cook time is complete.",
             "SmsText": "Oven cook time is complete.",
-            "AlertTitle": "Cook Time Complete",
+            "AlertTitle": "Cook Time Complete. Enjoy your meal",
             "Type": "cookTimer"
         },
         {
@@ -50,7 +50,7 @@
             "EmailText": "Oven cook time is complete.",
             "PushText": "Oven cook time is complete.",
             "SmsText": "Oven cook time is complete.",
-            "AlertTitle": "Cook Time Complete",
+            "AlertTitle": "Cook Time Complete. Enjoy your meal",
             "Type": "cookTimer"
         },
         {
@@ -66,7 +66,7 @@
             "EmailText": "Oven meat probe temperature achieved.",
             "PushText": "Oven meat probe temperature achieved.",
             "SmsText": "Oven meat probe temperature achieved.",
-            "AlertTitle": "Probe Temperature Reached",
+            "AlertTitle": "Probe Temperature Reached. Enjoy your meal",
             "Type": "meatProbe"
         },
         {
