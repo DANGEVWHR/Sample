@@ -37,15 +37,15 @@
             "SmsText": "Dishwasher Remote control is enabled. You can now control your dishwasher remotely.",
             "EmailText": "Dishwasher Remote control is enabled. You can now control your dishwasher remotely.",
             "PushText": "Dishwasher Remote control is enabled. You can now control your dishwasher remotely.",
-            "AlertTitle": "Remote Enabled",
+            "AlertTitle": "Remote Control Status",
             "Type": "remoteControl"
         },
         {
             "TemplateId": "RemoteStatusDisabled",
-            "SmsText": "Dishwasher Remote control on is disabled. You can re-enable on the appliance if you would like to control your appliance remotely.",
-            "EmailText": "Dishwasher Remote control on is disabled. You can re-enable on the appliance if you would like to control your appliance remotely.",
-            "PushText": "Dishwasher Remote control on is disabled. You can re-enable on the appliance if you would like to control your appliance remotely.",
-            "AlertTitle": "Remote Enabled",
+            "SmsText": "Dishwasher Remote control is disabled. You can re-enable on the appliance to control your appliance remotely.",
+            "EmailText": "Dishwasher Remote control is disabled. You can re-enable on the appliance to control your appliance remotely.",
+            "PushText": "Dishwasher Remote control is disabled. You can re-enable on the appliance to control your appliance remotely.",
+            "AlertTitle": "Remote Control Status",
             "Type": "remoteControl"
         }
     ]
