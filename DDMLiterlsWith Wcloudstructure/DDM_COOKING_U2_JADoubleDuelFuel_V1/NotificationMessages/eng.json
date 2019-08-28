@@ -66,7 +66,7 @@
             "EmailText": "Oven meat probe temperature achieved.",
             "PushText": "Oven meat probe temperature achieved.",
             "SmsText": "Oven meat probe temperature achieved.",
-            "AlertTitle": "Probe Temperature Reached. Enjoy your meal",
+            "AlertTitle": "Probe Temperature Achieved. Enjoy your meal",
             "Type": "meatProbe"
         },
         {
@@ -79,17 +79,17 @@
         },
         {
             "TemplateId": "RemoteStatusDisabled",
-            "EmailText": "Remote control for your applaince is disabled.",
-            "PushText": "Remote control for your applaince is disabled.",
-            "SmsText": "Remote control for your applaince is disabled.",
+            "EmailText": "Remote control for your appliance is disabled",
+            "PushText": "Remote control for your appliance is disabled",
+            "SmsText": "Remote control for your appliance is disabled",
             "AlertTitle": "Remote Control Status",
             "Type": "remoteControl"
         },
         {
             "TemplateId": "RemoteStatusEnabled",
-            "EmailText": "Remote control for your applaince is enabled.",
-            "PushText": "Remote control for your applaince is enabled.",
-            "SmsText": "Remote control for your applaince is enabled.",
+            "EmailText": "Remote control for your appliance is enabled",
+            "PushText": "Remote control for your appliance is enabled",
+            "SmsText": "Remote control for your appliance is enabled",
             "AlertTitle": "Remote Control Status",
             "Type": "remoteControl"
         },

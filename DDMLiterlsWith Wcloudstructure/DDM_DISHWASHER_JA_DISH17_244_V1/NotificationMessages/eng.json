@@ -26,9 +26,9 @@
         },
         {
             "TemplateId": "SaniRinse",
-            "SmsText": "Dishwasher sanitize rinse cycle complete. ",
-            "EmailText": "Dishwasher sanitize rinse cycle complete. ",
-            "PushText": "Dishwasher sanitize rinse cycle complete. ",
+            "SmsText": "Dishwasher sanitize rinse cycle complete.",
+            "EmailText": "Dishwasher sanitize rinse cycle complete.",
+            "PushText": "Dishwasher sanitize rinse cycle complete.",
             "AlertTitle": "Sanitize Rinse",
             "Type": "saniRinse"
         },

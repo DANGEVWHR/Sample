@@ -13,7 +13,7 @@
             "SmsText": "Freezer door alarm is sounding. Check that the door is closed and/or items aren’t blocking the door.",
             "EmailText": "Freezer door alarm is sounding. Check that the door is closed and/or items aren’t blocking the door.",
             "PushText": "Freezer door alarm is sounding. Check that the door is closed and/or items aren’t blocking the door.",
-            "AlertTitle": "Door Open",
+            "AlertTitle": "Door Open Alert",
             "Type": "maxIceDoor"
         },
         {
@@ -21,7 +21,7 @@
             "SmsText": "freezer lost power.",
             "EmailText": "freezer lost power.",
             "PushText": "freezer lost power.",
-            "AlertTitle": "Power Outage",
+            "AlertTitle": "Power Outage Alert",
             "Type": "system"
         },
         {

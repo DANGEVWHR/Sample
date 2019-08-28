@@ -5,7 +5,7 @@
             "SmsText": "Refrigerator door alarm is sounding. Check that the door is closed and/or items aren’t blocking the door.",
             "EmailText": "Refrigerator door alarm is sounding. Check that the door is closed and/or items aren’t blocking the door.",
             "PushText": "Refrigerator door alarm is sounding. Check that the door is closed and/or items aren’t blocking the door.",
-            "AlertTitle": "Door Alert",
+            "AlertTitle": "Door Open Alert",
             "Type": "maxIceDoor"
         },
         {
@@ -13,7 +13,7 @@
             "SmsText": "Refrigerator started Max Cool temporarily reducing the refrigerator set temperature.",
             "EmailText": "Refrigerator started Max Cool temporarily reducing the refrigerator set temperature.",
             "PushText": "Refrigerator started Max Cool temporarily reducing the refrigerator set temperature.",
-            "AlertTitle": "System Alert",
+            "AlertTitle": "Max Cool Alert",
             "Type": "system"
         },
         {
@@ -21,7 +21,7 @@
             "SmsText": "Refrigerator exited Max Cool returning the refrigerator temperature to the prior set temperature.",
             "EmailText": "Refrigerator exited Max Cool returning the refrigerator temperature to the prior set temperature.",
             "PushText": "Refrigerator exited Max Cool returning the refrigerator temperature to the prior set temperature.",
-            "AlertTitle": "System Alert",
+            "AlertTitle": "Max Cool Alert",
             "Type": "system"
         },
         {
@@ -29,7 +29,7 @@
             "SmsText": "Refrigerator started Max Ice temporarily reducing the freezer set temperature.",
             "EmailText": "Refrigerator started Max Ice temporarily reducing the freezer set temperature.",
             "PushText": "Refrigerator started Max Ice temporarily reducing the freezer set temperature.",
-            "AlertTitle": "System Alert",
+            "AlertTitle": "Max Ice Alert",
             "Type": "system"
         },
         {
@@ -37,7 +37,7 @@
             "SmsText": "Refrigerator exited Max Ice returning the freezer temperature to the prior set temperature.",
             "EmailText": "Refrigerator exited Max Ice returning the freezer temperature to the prior set temperature.",
             "PushText": "Refrigerator exited Max Ice returning the freezer temperature to the prior set temperature.",
-            "AlertTitle": "System Alert",
+            "AlertTitle": "Max Ice Alert",
             "Type": "system"
         },
         {

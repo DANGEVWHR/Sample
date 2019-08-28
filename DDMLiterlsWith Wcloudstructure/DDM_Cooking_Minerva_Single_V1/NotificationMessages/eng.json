@@ -11,15 +11,15 @@
             "EmailText": "Oven control is 'Enabled",
             "PushText": "Oven control is 'Enabled",
             "SmsText": "Oven control is 'Enabled",
-            "AlertTitle": "Control Lock Alert",
+            "AlertTitle": "Control Lock",
             "Type": "lock"
         },
         {
             "TemplateId": "ControlLockOpen",
-            "EmailText": "Oven control is 'Disabled",
-            "PushText": "Oven control is 'Disabled",
-            "SmsText": "Oven control is 'Disabled",
-            "AlertTitle": "Control Lock Alert",
+            "EmailText": "Oven control lock is 'disabled'",
+            "PushText": "Oven control lock is 'disabled'",
+            "SmsText": "Oven control lock is 'disabled'",
+            "AlertTitle": "Control Lock",
             "Type": "lock"
         },
         {
@@ -102,7 +102,7 @@
             "EmailText": "Oven Meat probe temperature achieved",
             "PushText": "Oven Meat probe temperature achieved",
             "SmsText": "Oven Meat probe temperature achieved",
-            "AlertTitle": "Meat Probe Temp Achieved. Enjoy your meal",
+            "AlertTitle": "Probe Temperature Achieved. Enjoy your meal",
             "Type": "meatProbe"
         },
         {
@@ -114,25 +114,25 @@
         },
         {
             "TemplateId": "PreheatComplete",
-            "EmailText": "Oven pre-heat complete",
-            "PushText": "Oven pre-heat complete",
-            "SmsText": "Oven pre-heat complete",
+            "EmailText": "Oven preheat complete",
+            "PushText": "Oven preheat complete",
+            "SmsText": "Oven preheat complete",
             "AlertTitle": "Preheat Complete",
             "Type": "preheat"
         },
         {
             "TemplateId": "RemoteStatusDisabled",
-            "EmailText": "Oven remote control is set to 'disabled'",
-            "PushText": "Oven remote control is set to 'disabled'",
-            "AlertTitle": "Remote Control Alert",
+            "EmailText": "Remote control for your appliance is disabled",
+            "PushText": "Remote control for your appliance is disabled",
+            "AlertTitle": "Remote Control Status",
             "Type": "remoteControl"
         },
         {
             "TemplateId": "RemoteStatusEnabled",
-            "EmailText": "Oven remote control is set to 'enabled'",
-            "PushText": "Oven remote control is set to 'enabled'",
-            "SmsText": "Oven remote control is set to 'enabled'",
-            "AlertTitle": "Remote Control Alert",
+            "EmailText": "Remote control for your appliance is enabled",
+            "PushText": "Remote control for your appliance is enabled",
+            "SmsText": "Remote control for your appliance is enabled",
+            "AlertTitle": "Remote Control Status",
             "Type": "remoteControl"
         },
         {

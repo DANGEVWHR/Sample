@@ -26,10 +26,10 @@
         },
         {
             "TemplateId": "CookTopTurnedOn",
-            "SmsText": "Your cooktop is turned on.",
-            "EmailText": "Your cooktop is turned on.",
-            "PushText": "Your cooktop is turned on.",
-            "AlertTitle": "Cooktop Turned On Alert",
+            "SmsText": "Cooktop is turned on",
+            "EmailText": "Cooktop is turned on",
+            "PushText": "Cooktop is turned on",
+            "AlertTitle": "Cooktop On Alert",
             "Type": "cooktopalert"
         }
     ]

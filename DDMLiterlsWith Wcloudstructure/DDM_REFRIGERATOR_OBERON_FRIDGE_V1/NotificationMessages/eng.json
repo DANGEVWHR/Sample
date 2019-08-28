@@ -13,7 +13,7 @@
             "SmsText": "Refrigerator door alarm is sounding. Check that the door is closed and/or items aren’t blocking the door.",
             "EmailText": "Refrigerator door alarm is sounding. Check that the door is closed and/or items aren’t blocking the door.",
             "PushText": "Refrigerator door alarm is sounding. Check that the door is closed and/or items aren’t blocking the door.",
-            "AlertTitle": "Door Open",
+            "AlertTitle": "Door Open Alert",
             "Type": "maxIceDoor"
         },
         {
@@ -21,7 +21,7 @@
             "SmsText": "Refrigerator lost power.",
             "EmailText": "Refrigerator lost power.",
             "PushText": "Refrigerator lost power.",
-            "AlertTitle": "Power Outage",
+            "AlertTitle": "Power Outage Alert",
             "Type": "system"
         },
         {
