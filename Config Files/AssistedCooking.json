@@ -1,0 +1,37 @@
+{
+    "Header": {
+        "title": "AssistedCooking",
+        "version": "1.0",
+        "createdAt": "Oct 22, 2018 6:30:00 PM",
+        "modifiedDate": "Oct 22, 2018 6:30:00 PM",
+        "createdBy": "Venkat Boddapati",
+        "Description": ""
+    },
+    "Data": {
+        "culinaryCenterId": 22,
+        "dbVersion": "03.00.00",
+        "sequence": {
+            "category": 0,
+            "food": 1,
+            "doneness": 2,
+            "pan": 3,
+            "probeTemp": 4,
+            "cookTemp": 5,
+            "cookTime": 6,
+            "probeTips": 7,
+            "cookingTips": 8,
+            "summary": 9
+        },
+        "units": {
+            "temperature": {
+                "stepC": 15,
+                "stepF": 25
+            },
+            "time": {
+                "min": 0,
+                "max": 43140,
+                "step": 60
+            }
+        }
+    }
+}

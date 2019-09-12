@@ -1,0 +1,23 @@
+{
+    "Header": {
+        "title": "ServiceAndSupport_CAfre",
+        "version": "1.5",
+        "createdAt": "June 4, 2019 6:30:00 PM",
+        "modifiedDate": "Aug 07, 2019 5:30:00 PM",
+        "createdBy": "Venkat Boddapati",
+        "Description": ""
+    },
+    "Data": {
+        "CXCDetail": {
+            "Country": "CA",
+            "Email": "NAR_JennAirCustomerExperience@JennAir.com",
+            "Phone": "1-800-536-6247",
+            "Hours": "Lun–ven, de 8 h à 20 h HE"
+            
+        },
+        "TermsofService" : "https://www.jennair.com/connectivity/smart-appliances-terms-of-service.html",
+        "PrivacyNotice" : "https://www.jennair.com/connectivity/smart-appliances-privacy-notice.html",
+        "ScheduleService" : "https://www.jennair.ca/fr/prenez-rendez-vous/"
+        
+    }
+}

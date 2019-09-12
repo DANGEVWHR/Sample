@@ -1,0 +1,31 @@
+{
+  "Header": {
+    "title": "FeaturesInfo_CAfre",
+    "version": "1.3",
+    "createdAt": "Oct 22, 2018 6:30:00 PM",
+    "modifiedDate": "July 25, 2019 4:30:00 PM",
+    "createdBy": "Venkat Boddapati",
+    "Description": ""
+  },
+  "Data": {
+  "features": [
+    {
+      "featureName": "Accès à distance",
+      "featureImage":  "NAR/JENNAIR/MOBILEAPP/Images/LearnMore/RemoteAccessFrench@{size}.png",
+      "featureDescription": "Numérisation facile pour connecter les appareils sélectionnés et connexion à un réseau Wi-Fi pour obtenir des notifications en temps réel, accéder à des guides et manuels, personnaliser les réglages ou commander les appareils de partout. Fonctions compatibles sur les appareils iOS et Android."
+    },
+    {
+      "featureName": "Intelligence culinaire",
+      "featureImage": "NAR/JENNAIR/MOBILEAPP/Images/LearnMore/CulinaryIntelligenceFrench@{size}.png",
+      "featureDescription":"Vous pourrez profiter d’une aventure culinaire conçue sur mesure selon vos préférences grâce aux recettes avec cuisson assistée étape par étape, à la fonction Mes créations, aux minuteries et aux autres options des appareils sélectionnés."
+
+    },
+    {
+      "featureName": "Experts sur demande",
+      "featureImage": "NAR/JENNAIR/MOBILEAPP/Images/LearnMore/OnDemandExpertsFrench@{size}.png",
+      "featureDescription": "Communiquer avec l’épicentre de JennAir par téléphone pour accéder aux brillants esprits des experts qui connaissent tous les aspects des appareils JennAir®. Recevez des codes de diagnostic sur l’application, ils proposeront des services ciblés qui répondront aux besoins de votre appareil. Accès rapide au lien de service d’horaire"
+    }
+  ]
+  
+  }
+  }

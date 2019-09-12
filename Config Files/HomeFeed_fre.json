@@ -1,0 +1,4343 @@
+﻿{
+  "Header": {
+    "title": "HomeFeed_fre",
+    "version": "1.13",
+    "createdAt": "Oct 22, 2018 6:30:00 PM",
+    "modifiedDate": " Aug 07, 2019 4:30:00 PM",
+    "createdBy": "Venkat Boddapati",
+    "Description": ""
+  },
+  "Data": {
+    "customRecipes": [
+      {
+        "_id": "1000101",
+        "recipeTitle": "Vinaigrette épicée au piment poblano",
+        "recipeCategory": "Sauces et vinaigrettes",
+        "eligibleForHomeFeed": 0,
+        "order": 0,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/ZestyPablanoDressing_P180402_44z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/ZestyPablanoDressing_P180402_44z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/ZestyPablanoDressing_P180402_44z@{size}.png",
+        "eligibleForAssistedCooking": 0,
+        "assistedCookingInfo": {
+          "category": "S.O.",
+          "cycleName": "S.O.",
+          "foodId": 0
+        },
+        "noOfServings": "2 tasses",
+        "preparationTime": "15 minutes",
+        "cookingTime": "S.O.",
+        "levelOfDifficulty": "Facile",
+        "cuisine": "Sud-ouest",
+        "diet": "Végétarien, sans gluten",
+        "typeOfDish": "Sauces et vinaigrettes",
+        "proTips": [
+          "Cette vinaigrette se conserve pendant une semaine dans un contenant scellé. Elle est parfaite pour les salades ou comme sauce sur les viandes comme le poulet et le bifteck. "
+        ],
+        "ingredients": [
+          {
+            "section": "Ingrédients pour la vinaigrette épicée au piment poblano",
+            "items": [
+              {
+                "item": " gousses d'ail",
+                "quantity": "2",
+                "unit": ""
+              },
+              {
+                "item": "piments poblano rôtis",
+                "quantity": "4",
+                "unit": ""
+              },
+              {
+                "item": "jus de lime frais",
+                "quantity": "1/4",
+                "unit": "tasse de"
+              },
+              {
+                "item": "d’oignons verts hachés grossièrement",
+                "quantity": "1/4",
+                "unit": "tasse"
+              },
+              {
+                "item": "mayonnaise",
+                "quantity": "1 1/2",
+                "unit": "tasses de"
+              },
+              {
+                "item": "crème sure",
+                "quantity": "1/2",
+                "unit": "tasse de"
+              },
+              {
+                "item": "cumin moulu",
+                "quantity": "2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "sauce Tabasco® Chipotle",
+                "quantity": "1",
+                "unit": "c. à table de"
+              },
+              {
+                "item": "paprika fumé",
+                "quantity": "1/4",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "poivre de Cayenne",
+                "quantity": "1",
+                "unit": "une pincée de"
+              },
+              {
+                "item": "sel et poivre",
+                "quantity": "Au goût",
+                "unit": ""
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préparation de la vinaigrette épicée au piment poblano",
+            "directions": [
+              "Émincer l’ail dans un robot culinaire. ",
+              "Éteindre le robot, racler les côtés du bol et ajouter les autres ingrédients.",
+              "Mettre en marche jusqu’à ce que les ingrédients soient crémeux."
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000102",
+        "recipeTitle": "Salsa de tomatille",
+        "recipeCategory": "Sauces et vinaigrettes",
+        "eligibleForHomeFeed": 0,
+        "order": 0,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/TomatilloSalsa_P180402_43z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/TomatilloSalsa_P180402_43z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/TomatilloSalsa_P180402_43z@{size}.png",
+        "eligibleForAssistedCooking": 0,
+        "assistedCookingInfo": {
+          "category": "S.O.",
+          "cycleName": "S.O.",
+          "foodId": 0
+        },
+        "noOfServings": "S.O.",
+        "preparationTime": "15 minutes",
+        "cookingTime": "S.O.",
+        "levelOfDifficulty": "Facile",
+        "cuisine": "Sud-ouest",
+        "diet": "Végétarien, sans gluten",
+        "typeOfDish": "Sauces et vinaigrettes",
+        "proTips": [
+          "Cette salsa est très pratique et peut être servie avec des croustilles ou utilisée comme sauce sur de la viande ou d’autres entrées."
+        ],
+        "ingredients": [
+          {
+            "section": "Ingrédients de la salsa de tomatille",
+            "items": [
+              {
+                "item": "tomatilles coupées en moitiés",
+                "quantity": "6",
+                "unit": "oz de"
+              },
+              {
+                "item": "oignons verts",
+                "quantity": "2",
+                "unit": ""
+              },
+              {
+                "item": "avocat mûr, coupé en moitiés et dénoyauté",
+                "quantity": "1",
+                "unit": ""
+              },
+              {
+                "item": "coriandre fraîche, tassée",
+                "quantity": "1/2",
+                "unit": "tasse de"
+              },
+              {
+                "item": "lime (jus)",
+                "quantity": "1",
+                "unit": ""
+              },
+              {
+                "item": "paprika fumé",
+                "quantity": "1/2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "cumin moulu",
+                "quantity": "1/2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "sel cachère",
+                "quantity": "1",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "poivre moulu",
+                "quantity": "1/2",
+                "unit": "c. à thé de"
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préparation de la salsa de tomatille",
+            "directions": [
+              "Placer les ingrédients dans le bol d’un robot culinaire. Fixer le couvercle au bol et le verrouiller en place.",
+              "Mélanger les ingrédients à vitesse élevée jusqu’à produire une purée.",
+              "Retirer la salsa du robot culinaire et la verser dans un plat pour service. "
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000103",
+        "recipeTitle": "Salsa à la cerise et au chili",
+        "recipeCategory": "Sauces et vinaigrettes",
+        "eligibleForHomeFeed": 0,
+        "order": 0,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/CherryChiliSalsa_P180402_42z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/CherryChiliSalsa_P180402_42z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/CherryChiliSalsa_P180402_42z@{size}.png",
+        "eligibleForAssistedCooking": 0,
+        "assistedCookingInfo": {
+          "category": "S.O.",
+          "cycleName": "S.O.",
+          "foodId": 0
+        },
+        "noOfServings": "3 tasses",
+        "preparationTime": "10 minutes",
+        "cookingTime": "30 minutes",
+        "levelOfDifficulty": "Facile",
+        "cuisine": "Sud-ouest",
+        "diet": "Végétarien, sans gluten",
+        "typeOfDish": "Sauces et vinaigrettes",
+        "proTips": [
+          "Cette salsa accompagne à merveille le porc effiloché, le bœuf et le poulet."
+        ],
+        "ingredients": [
+          {
+            "section": "Ingrédients de la salsa à la cerise et au chili",
+            "items": [
+              {
+                "item": "jus de cerise",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "gelée de piment fort",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "cassonade",
+                "quantity": "1/4",
+                "unit": "tasse de"
+              },
+              {
+                "item": "cerises acides, séchées et coupées en morceaux moyens",
+                "quantity": "2",
+                "unit": "tasses de"
+              },
+              {
+                "item": "pacanes rôties, hachées",
+                "quantity": "1/4",
+                "unit": "tasse de"
+              },
+              {
+                "item": "poivron rouge rôti, coupé en petits dés",
+                "quantity": "1",
+                "unit": ""
+              },
+              {
+                "item": "piment poblano rôti, coupé en petits dés",
+                "quantity": "1",
+                "unit": ""
+              },
+              {
+                "item": "lime et son zeste pour ajouter à la salsa",
+                "quantity": "1",
+                "unit": ""
+              },
+              {
+                "item": "sauce Tabasco® Chipotle",
+                "quantity": "1",
+                "unit": "c. à table de"
+              },
+              {
+                "item": "noix de muscade fraîchement râpée",
+                "quantity": "1/4",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "clou de girofle moulu",
+                "quantity": "1",
+                "unit": "une pincée de"
+              },
+              {
+                "item": "sel et poivre",
+                "quantity": "au goût",
+                "unit": ""
+              },
+              {
+                "item": "coriandre fraîche, hachée (ajouter après la cuisson)",
+                "quantity": "1/4",
+                "unit": "tasse de"
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préparation de la salsa à la cerise et au chili",
+            "directions": [
+              "Dans une casserole de taille moyenne, verser le jus, la cassonade, la gelée et les cerises acides coupées.",
+              "Chauffer le contenu à feu moyen élevé et surveiller attentivement, mélanger occasionnellement pour faire fondre et mélanger les ingrédients.",
+              "Baisser la température et laisser mijoter environ 20 minutes.",
+              "Retirer la casserole du feu.",
+              "Ajouter le reste des ingrédients.",
+              "Si la salsa est trop liquide, remettre sur un feu à température moyenne à élevée et cuire environ 10 minutes. ",
+              "Retirer du feu et laisser refroidir à température de la pièce. En refroidissant, la sauce épaissira et formera une gelée.",
+              "Ajouter la coriandre hachée.",
+              "Goûter pour évaluer l’assaisonnement, ajouter au besoin du sel et du poivre. "
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000104",
+        "recipeTitle": "Sauce à la noix de coco et au cari",
+        "recipeCategory": "Sauces et vinaigrettes",
+        "eligibleForHomeFeed": 1,
+        "order": 8,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/CoconutCurrySauce_P180402_41z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/CoconutCurrySauce_P180402_41z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/CoconutCurrySauce_P180402_41z@{size}.png",
+        "eligibleForAssistedCooking": 0,
+        "assistedCookingInfo": {
+          "category": "S.O.",
+          "cycleName": "S.O.",
+          "foodId": 0
+        },
+        "noOfServings": "2 tasses",
+        "preparationTime": "10 minutes",
+        "cookingTime": "S.O.",
+        "levelOfDifficulty": "Facile",
+        "cuisine": "Vietnamienne",
+        "diet": "Végétarien, sans gluten",
+        "typeOfDish": "Sauces et vinaigrettes",
+        "proTips": [
+          "Cette sauce est très pratique et peut accompagner des viandes comme le poulet, le porc et les crevettes. Elle peut être utilisée pour les plats de légumes et de riz pour offrir une option végétarienne.",
+          "Essayer de varier la quantité de cari ou de sauce au chili et à l’ail pour modifier la profondeur de la sauce."
+        ],
+        "ingredients": [
+          {
+            "section": "Ingrédients de la sauce à la noix de coco et au cari",
+            "items": [
+              {
+                "item": "crème de noix de coco Coco Lopex® (pas de lait)",
+                "quantity": "15",
+                "unit": "oz de"
+              },
+              {
+                "item": "sauce au chili et à l’ail vietnamienne",
+                "quantity": "2",
+                "unit": "c. à table de"
+              },
+              {
+                "item": "sel et poivre",
+                "quantity": "au goût",
+                "unit": ""
+              },
+              {
+                "item": "poudre de cari",
+                "quantity": "1",
+                "unit": "c. à table de"
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préparation de la sauce à la noix de coco et au cari",
+            "directions": [
+              "Placer les ingrédients dans un bol et bien mélanger. Faire refroidir au réfrigérateur."
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000105",
+        "recipeTitle": "Sauce au raifort",
+        "recipeCategory": "Sauces et vinaigrettes",
+        "eligibleForHomeFeed": 0,
+        "order": 0,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/HorseradishSauce_P180402_40z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/HorseradishSauce_P180402_40z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/HorseradishSauce_P180402_40z@{size}.png",
+        "eligibleForAssistedCooking": 0,
+        "assistedCookingInfo": {
+          "category": "S.O.",
+          "cycleName": "S.O.",
+          "foodId": 0
+        },
+        "noOfServings": "2 tasses",
+        "preparationTime": "15 minutes",
+        "cookingTime": "S.O.",
+        "levelOfDifficulty": "Facile",
+        "cuisine": "Américaine",
+        "diet": "Végétarien, sans gluten",
+        "typeOfDish": "Sauces et vinaigrettes",
+        "proTips": [
+          "Cette sauce accompagne bien les filets de bœuf ou les cocktails de crevettes."
+        ],
+        "ingredients": [
+          {
+            "section": "Ingrédients de la sauce au raifort",
+            "items": [
+              {
+                "item": "crème sure",
+                "quantity": "2",
+                "unit": "tasses de"
+              },
+              {
+                "item": "raifort préparé, égoutté (pas en crème)",
+                "quantity": "2/3",
+                "unit": "tasse de"
+              },
+              {
+                "item": "d’échalotes, hachées finement",
+                "quantity": "1",
+                "unit": "c. à table"
+              },
+              {
+                "item": "sauce Worcestershire",
+                "quantity": "3",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "sauce Tabasco®",
+                "quantity": "1/2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "jus de citron",
+                "quantity": "1",
+                "unit": "c. à table de"
+              },
+              {
+                "item": "sel cachère",
+                "quantity": "1",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "poivre noir moulu",
+                "quantity": "1/4",
+                "unit": "c. à thé de"
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préparation de la sauce au raifort",
+            "directions": [
+              "Placer les ingrédients dans un bol et bien mélanger. Faire refroidir au réfrigérateur."
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000106",
+        "recipeTitle": "Crème glacée à la crème fraîche et à la cannelle",
+        "recipeCategory": "Desserts",
+        "eligibleForHomeFeed": 1,
+        "order": 10,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/CinnamonCremeFraicheIceCream_P180402_38z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/CinnamonCremeFraicheIceCream_P180402_38z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/CinnamonCremeFraicheIceCream_P180402_38z@{size}.png",
+        "eligibleForAssistedCooking": 0,
+        "assistedCookingInfo": {
+          "category": "S.O.",
+          "cycleName": "S.O.",
+          "foodId": 0
+        },
+        "noOfServings": "1 pinte",
+        "preparationTime": "10 minutes",
+        "cookingTime": "30 minutes",
+        "levelOfDifficulty": "Facile",
+        "cuisine": "Européenne",
+        "diet": "Végétarien, sans gluten",
+        "typeOfDish": "Dessert",
+        "proTips": [
+          "Cette crème glacée accompagne parfaitement les pommes et les fruits pour créer un dessert d’automne succulent. "
+        ],
+        "ingredients": [
+          {
+            "section": "Ingrédients de la crème glacée à la crème fraîche et à la cannelle",
+            "items": [
+              {
+                "item": "crème sure",
+                "quantity": "1 1/2",
+                "unit": "tasses de"
+              },
+              {
+                "item": "crème 35 % à fouetter",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "crème 10 %",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "sucre",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "sel",
+                "quantity": "1",
+                "unit": "une pincée de"
+              },
+              {
+                "item": "pâte de gousse de vanille",
+                "quantity": "2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "cannelle moulue",
+                "quantity": "2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "piment de la Jamaïque",
+                "quantity": "1/2",
+                "unit": "c. à thé de"
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préparation de la crème glacée à la crème fraîche et à la cannelle",
+            "directions": [
+              "Placer tous les ingrédients dans un bol et fouetter jusqu’à ce que le liquide soit soyeux.",
+              "Verser la préparation dans une machine à crème glacée ou utiliser la sorbetière KitchenAid®.",
+              "Laisser la machine baratter environ 30 minutes ou jusqu’à ce que la préparation soit crémeuse et épaisse.",
+              "Laisser refroidir pendant une heure dans le congélateur. Remuer la préparation avant de servir.",
+              "REMARQUE : Cette crème glacée devrait être consommée le jour de sa préparation. "
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000107",
+        "recipeTitle": "Macaroni au fromage amélioré",
+        "recipeCategory": "Entrée",
+        "eligibleForHomeFeed": 0,
+        "order": 0,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/MacCheese_P180402_36z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/MacCheese_P180402_36z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/MacCheese_P180402_36z@{size}.png",
+        "eligibleForAssistedCooking": 0,
+        "assistedCookingInfo": {
+          "category": "S.O.",
+          "cycleName": "S.O.",
+          "foodId": 0
+        },
+        "noOfServings": "8",
+        "preparationTime": "15 minutes",
+        "cookingTime": "30 minutes",
+        "levelOfDifficulty": "Facile",
+        "cuisine": "Américaine",
+        "diet": "S.O.",
+        "typeOfDish":"Plat Principal",
+        "proTips": [],
+        "ingredients": [
+          {
+            "section": "Ingrédients du macaroni au fromage amélioré",
+            "items": [
+              {
+                "item": "nouilles en spirale",
+                "quantity": "1",
+                "unit": "lb de"
+              },
+              {
+                "item": "chorizo",
+                "quantity": "8",
+                "unit": "oz de"
+              },
+              {
+                "item": "petit oignon haché",
+                "quantity": "1",
+                "unit": ""
+              },
+              {
+                "item": "d’ail émincé",
+                "quantity": "2",
+                "unit": "gousses"
+              },
+              {
+                "item": "œufs",
+                "quantity": "8",
+                "unit": ""
+              },
+              {
+                "item": "fromage gruyère",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "fromage gouda fumé",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "fromage de chèvre",
+                "quantity": "4",
+                "unit": "oz de"
+              },
+              {
+                "item": "sel et poivre",
+                "quantity": "Au goût",
+                "unit": ""
+              },
+              {
+                "item": "flocons de piment fort",
+                "quantity": "2",
+                "unit": "c. à thé de"
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préparation du macaroni au fromage amélioré",
+            "directions": [
+              "Cuire les nouilles en spirale dans de l’eau salée en respectant les directives de l’emballage. ",
+              "Lorsqu’elles sont cuites, les égoutter sans les rincer. Garder les pâtes cuites pour plus tard. ",
+              "Placer une grande poêle à sauter de 12 po sur le plus grand feu de la surface de cuisson. Mettre le feu à intensité maximale pour faire chauffer la poêle. Ajouter de l’huile d’olive dans la poêle pour couvrir légèrement le fond.",
+              "Ajouter les oignons et cuire pendant 3 minutes, jusqu’à ce que les oignons soient translucides.",
+              "Ajouter le chorizo et cuire environ 5 minutes, remuer pour bien mélanger avec les oignons. ",
+              "Ajouter l’ail et cuire environ 2 minutes, baisser le feu à moyen si la poêle est trop chaude.",
+              "Garder la poêle sur le feu, ajouter les pâtes cuites et égouttées dans la poêle avec le chorizo et les oignons. ",
+              "Remuer pour recouvrir les pâtes. Placer le feu entre moyen et élevé et assaisonner de sel et de poivre. ",
+              "Ajouter 2 œufs à la fois, mélanger vigoureusement pour brouiller et combiner les œufs aux pâtes. Continuer d’ajouter les œufs jusqu’à ce qu’ils soient tous intégrés aux pâtes. ",
+              "Une fois tous les œufs brouillés et cuits, ajouter les fromages gruyère, gouda et de chèvre, mélanger pour faire fondre les fromages. ",
+              "Goûter pour évaluer l’assaisonnement et ajouter les flocons de piments forts. "
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000108",
+        "recipeTitle": "Crème glacée à la crème fraîche et aux framboises",
+        "recipeCategory": "Desserts",
+        "eligibleForHomeFeed": 0,
+        "order": 0,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/RaspberryCreamFraicheIceCream_P180402_37z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/RaspberryCreamFraicheIceCream_P180402_37z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/RaspberryCreamFraicheIceCream_P180402_37z@{size}.png",
+        "eligibleForAssistedCooking": 0,
+        "assistedCookingInfo": {
+          "category": "S.O.",
+          "cycleName": "S.O.",
+          "foodId": 0
+        },
+        "noOfServings": "4",
+        "preparationTime": "10 minutes",
+        "cookingTime": "30 minutes",
+        "levelOfDifficulty": "Facile",
+        "cuisine": "Européenne",
+        "diet": "Végétarien, sans gluten",
+        "typeOfDish": "Dessert",
+        "proTips": [
+          "Ajouter la menthe comme garniture à cette douceur incroyable."
+        ],
+        "ingredients": [
+          {
+            "section": "Ingrédients de la crème glacée à la crème fraîche et aux framboises",
+            "items": [
+              {
+                "item": "crème sure",
+                "quantity": "1 1/2",
+                "unit": "tasses de"
+              },
+              {
+                "item": "crème 35 % à fouetter",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "crème 10 %",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "sucre",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "sel",
+                "quantity": "1",
+                "unit": "une pincée de"
+              },
+              {
+                "item": "pâte de gousse de vanille",
+                "quantity": "2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "framboises fraîches",
+                "quantity": "1",
+                "unit": "tasse de"
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préparation de la crème glacée à la crème fraîche et aux framboises",
+            "directions": [
+              "Placer tous les ingrédients (sauf les framboises) dans un bol et fouetter vigoureusement. ",
+              "Verser la préparation dans une machine à crème glacée ou utiliser la sorbetière KitchenAid®.",
+              "Ajouter les framboises et laisser la machine baratter environ 30 minutes ou jusqu’à ce que la préparation soit crémeuse et épaisse.",
+              "Laisser refroidir pendant une heure dans le congélateur. Remuer la préparation avant de servir.",
+              "REMARQUE : Cette crème glacée devrait être consommée le jour de sa préparation. "
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000109",
+        "recipeTitle": "Crème anglaise",
+        "recipeCategory": "Sauces et vinaigrettes",
+        "eligibleForHomeFeed": 0,
+        "order": 0,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/CremeAnglaise_P180402_35z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/CremeAnglaise_P180402_35z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/CremeAnglaise_P180402_35z@{size}.png",
+        "eligibleForAssistedCooking": 0,
+        "assistedCookingInfo": {
+          "category": "S.O.",
+          "cycleName": "S.O.",
+          "foodId": 0
+        },
+        "noOfServings": "4",
+        "preparationTime": "10 minutes",
+        "cookingTime": "15 minutes",
+        "levelOfDifficulty": "Moyenne",
+        "cuisine": "Européenne",
+        "diet": "Sans gluten",
+        "typeOfDish": "Sauces et vinaigrettes",
+        "proTips": [
+          "Utiliser le mode de refroidissement maximum de votre réfrigérateur JennAir® pour abaisser la température et aider à refroidir votre crème anglaise.",
+          "Cette sauce représente une crème très pratique qui peut être ajoutée à des fruits, un shortcake… Ou les deux!"
+        ],
+        "ingredients": [
+          {
+            "section": "Ingrédients de la crème anglaise",
+            "items": [
+              {
+                "item": "glaçons",
+                "quantity": "1",
+                "unit": "grand bol de"
+              },
+              {
+                "item": "crème 35 % à fouetter",
+                "quantity": "2",
+                "unit": "tasses de"
+              },
+              {
+                "item": "pâte de gousse de vanille",
+                "quantity": "2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "jaunes d’œufs",
+                "quantity": "4",
+                "unit": ""
+              },
+              {
+                "item": "sucre",
+                "quantity": "1/3",
+                "unit": "tasse de"
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préparation de la crème anglaise",
+            "directions": [
+              "Remplir un grand bol de glaçons. Placer la crème fouettée et la pâte de gousse de vanille dans une grande casserole. Faire chauffer à température moyenne à élevée.",
+              "Lorsque de petites bulles se forment autour du rebord de la casserole, la crème est prête.",
+              "Pendant que la crème chauffe, verser les jaunes d’œufs dans un bol de taille moyenne placé sur un chiffon humide, sur le comptoir. Le chiffon sert à empêcher le bol de bouger pendant que les ingrédients se font fouetter. ",
+              "Fouetter les jaunes d’œufs et ajouter le sucre sur les jaunes d’œufs tout en fouettant vigoureusement. Fouetter jusqu’à ce que les œufs deviennent jaune pâle. ",
+              "Lorsque la crème est chauffée, ajouter lentement 2 cuillères à table de crème chauffée dans les jaunes d’œufs et le sucre, puis mélanger rapidement. Ajouter lentement la crème chaude pour éviter de brouiller les jaunes d’œufs – cette méthode est appelée tempérage.",
+              "Continuer à ajouter lentement la crème jusqu’à ce qu’il en reste la moitié. Ensuite, ajouter les jaunes d’œufs et le sucre dans la casserole avec le restant de crème et replacer la casserole sur le feu. ",
+              "Chauffer l’ensemble à une température moyenne et remuer constamment à l’aide d’une cuillère en bois jusqu’à ce que le mélange épaississe et recouvre le dos de la cuillère. Ne pas trop faire cuire pour que les œufs ne tombent pas. ",
+              "Lorsque la crème anglaise a épaissi, transférer la casserole sur le bol avec de la glace. Remuer la crème anglaise dans le bol jusqu’à ce qu’elle soit refroidie. ",
+              "Verser dans un bol en verre et placer une pellicule en plastique directement sur le dessus de la crème anglaise.",
+              "Placer au réfrigérateur jusqu’au moment de son utilisation. La préparation se conserve trois jours. "
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000110",
+        "recipeTitle": "Riz à la coriandre et à la lime",
+        "recipeCategory": "Plat d’accompagnement",
+        "eligibleForHomeFeed": 1,
+        "order": 9,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/CilantroLimeRice_P180402_34z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/CilantroLimeRice_P180402_34z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/CilantroLimeRice_P180402_34z@{size}.png",
+        "eligibleForAssistedCooking": 0,
+        "assistedCookingInfo": {
+          "category": "S.O.",
+          "cycleName": "S.O.",
+          "foodId": 0
+        },
+        "noOfServings": "6",
+        "preparationTime": "10 minutes",
+        "cookingTime": "30 minutes",
+        "levelOfDifficulty": "Facile",
+        "cuisine": "Sud-ouest",
+        "diet": "Végétarien, sans gluten",
+        "typeOfDish":"Accompagnement",
+        "proTips": [
+          "Préparer plus de purée de coriandre et de lime pour ajouter sur le poulet ou utiliser comme vinaigrette. "
+        ],
+        "ingredients": [
+          {
+            "section": "Riz",
+            "items": [
+              {
+                "item": "riz blanc à grains longs",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "fond ou bouillon de poulet",
+                "quantity": "2",
+                "unit": "tasses de"
+              },
+              {
+                "item": "beurre",
+                "quantity": "2",
+                "unit": "c. à table de"
+              },
+              {
+                "item": "sel cachère",
+                "quantity": "1",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "poivre noir moulu",
+                "quantity": "1/2",
+                "unit": "c. à thé de"
+              }
+            ]
+          },
+          {
+            "section": "Purée de coriandre et de lime",
+            "items": [
+              {
+                "item": "limes (jus)",
+                "quantity": "2",
+                "unit": ""
+              },
+              {
+                "item": "oignons verts coupés en quartiers",
+                "quantity": "3",
+                "unit": ""
+              },
+              {
+                "item": "coriandre fraîche, tassée",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "sel cachère",
+                "quantity": "1/2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "poivre",
+                "quantity": "1",
+                "unit": "une pincée de"
+              }
+            ]
+          },
+          {
+            "section": "Garniture",
+            "items": [
+              {
+                "item": "coriandre fraîche hachée",
+                "quantity": "au goût",
+                "unit": ""
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préparation du riz",
+            "directions": [
+              "Placer les ingrédients dans une casserole de 2 pintes et porter le riz et l’eau à ébullition.",
+              "Abaisser immédiatement le feu pour laisser mijoter, couvrir et cuire pendant 20 minutes à feu moyen faible."
+            ]
+          },
+          {
+            "recipeSection": "Préparation de la purée",
+            "directions": [
+              "Placer les ingrédients dans le bol d’un robot culinaire et mélanger à grande vitesse jusqu’à ce que l’ensemble devienne une purée.",
+              "Placer la purée dans un bol et garder de côté à température de la pièce pour ajouter au riz cuit."
+            ]
+          },
+          {
+            "recipeSection": "Ajouter la purée au riz",
+            "directions": [
+              "Lorsque le riz est cuit, retirer la casserole du feu.",
+              "Remuer le riz avec une fourchette et ajouter la purée de coriandre et de lime.",
+              "Bien mélanger.",
+              "Placer le riz dans des bols et servir immédiatement. Garnir de coriandre fraîche."
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000111",
+        "recipeTitle": "Riz sauvage avec courge Butternut et cerises séchées",
+        "recipeCategory": "Entrée",
+        "eligibleForHomeFeed": 0,
+        "order": 0,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/WildRiceWithButternutSquash_P180402_32z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/WildRiceWithButternutSquash_P180402_32z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/WildRiceWithButternutSquash_P180402_32z@{size}.png",
+        "eligibleForAssistedCooking": 0,
+        "assistedCookingInfo": {
+          "category": "S.O.",
+          "cycleName": "S.O.",
+          "foodId": 0
+        },
+        "noOfServings": "10",
+        "preparationTime": "20 minutes",
+        "cookingTime": "1 heure",
+        "levelOfDifficulty": "Moyenne",
+        "cuisine": "Américaine",
+        "diet": "Végétarien",
+        "typeOfDish":"Plat Principal",
+        "proTips": [],
+        "ingredients": [
+          {
+            "section": "Riz sauvage",
+            "items": [
+              {
+                "item": "riz sauvage rincé",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "d’échalotes émincées",
+                "quantity": "1/2",
+                "unit": "tasse"
+              },
+              {
+                "item": "sel",
+                "quantity": "2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "poivre",
+                "quantity": "1/2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "d’huile d’olive",
+                "quantity": "1",
+                "unit": "c. à table"
+              }
+            ]
+          },
+          {
+            "section": "Courge Butternut",
+            "items": [
+              {
+                "item": "courge Butternut coupée en cubes de 1 po",
+                "quantity": "2 1/2",
+                "unit": "lb de"
+              },
+              {
+                "item": "champignons de Paris coupés en quartiers",
+                "quantity": "1",
+                "unit": "lb de"
+              },
+              {
+                "item": "oignon rouge coupé en deux, puis en fines tranches",
+                "quantity": "1",
+                "unit": ""
+              },
+              {
+                "item": "sel cachère et poivre",
+                "quantity": "au goût",
+                "unit": ""
+              },
+              {
+                "item": "sirop d’érable pur",
+                "quantity": "2/3",
+                "unit": "tasse de"
+              },
+              {
+                "item": "d’huile d’olive",
+                "quantity": "2",
+                "unit": "c. à table"
+              },
+              {
+                "item": "cerises séchées",
+                "quantity": "1 1/2 ",
+                "unit": "tasses de"
+              }
+            ]
+          },
+          {
+            "section": "Mélange de sirop d’érable",
+            "items": [
+              {
+                "item": "sirop d’érable pur",
+                "quantity": "1/3",
+                "unit": "tasse de"
+              },
+              {
+                "item": "piment de la Jamaïque",
+                "quantity": "2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "sel cachère",
+                "quantity": "1",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "poivre",
+                "quantity": "1/2",
+                "unit": "c. à thé de"
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préparation du riz sauvage",
+            "directions": [
+              "Faire cuire le riz avant de préparer la courge. ",
+              "Préchauffer le four à 400 degrés Fahrenheit en mode rôtissage par convection.",
+              "Placer tous les ingrédients pour le riz sauvage dans une casserole de taille moyenne sur un élément à feu élevé.",
+              "Porter à ébullition, puis baisser immédiatement le feu pour faire mijoter. ",
+              "Faire mijoter le riz environ 45 minutes, jusqu’à ce que les pointes aient éclaté, le fond ait été absorbé et le riz soit tendre. Faire attention à ne pas faire brûler le riz au fond de la casserole.",
+              "Retirer du feu et garder le couvercle sur la casserole jusqu’au moment de mélanger le riz et la courge Butternut."
+            ]
+          },
+          {
+            "recipeSection": "Préparation de la courge Butternut",
+            "directions": [
+              "Placer la courge Butternut dans un bol avec les oignons et les champignons. ",
+              "Verser l’huile d’olive sur les ingrédients et assaisonner de sel et de poivre. Remuer pour mélanger.",
+              "Placer du papier aluminium dans 2 plaques et vaporiser d’huile végétale.",
+              "Déposer la courge, les champignons et les oignons en une couche sur les plaques. ",
+              "Placer les plaques dans le four et cuire 20 minutes.",
+              "Retirer du four et vérifier la cuisson. Les courges doivent être molles lorsqu’on pique avec une fourchette.",
+              "Lorsqu’elles sont molles, verser du sirop d’érable sur la courge, les champignons et les oignons, puis remuer pour couvrir de façon égale. Replacer la plaque dans le four et laisser caraméliser environ 10 à 15 minutes. "
+            ]
+          },
+          {
+            "recipeSection": "Préparation du mélange de sirop d’érable",
+            "directions": [
+              "Mélanger tous les ingrédients secs dans le sirop et mélanger vigoureusement. Mettre de côté. "
+            ]
+          },
+          {
+            "recipeSection": "Mélanger le riz et la courge",
+            "directions": [
+              "Lorsque la courge est cuite, la retirer du four et verser le contenu dans un grand bol. ",
+              "Ajouter le riz sauvage à la courge. ",
+              "Ajouter les cerises séchées au riz sauvage et à la courge et bien incorporer les ingrédients.",
+              "Verser le mélange de sirop d’érable sur la préparation et remuer pour couvrir les ingrédients. Goûter pour vérifier l’assaisonnement et servir."
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000112",
+        "recipeTitle": "Casserole d’œufs au jambon",
+        "recipeCategory": "Déjeuner",
+        "eligibleForHomeFeed": 0,
+        "order": 0,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/HamEggCasseroleBake_P180402_31z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/HamEggCasseroleBake_P180402_31z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/HamEggCasseroleBake_P180402_31z@{size}.png",
+        "eligibleForAssistedCooking": 0,
+        "assistedCookingInfo": {
+          "category": "S.O.",
+          "cycleName": "S.O.",
+          "foodId": 0
+        },
+        "noOfServings": "6",
+        "preparationTime": "10 minutes",
+        "cookingTime": "1 heure",
+        "levelOfDifficulty": "Facile",
+        "cuisine": "Américaine",
+        "diet": "S.O.",
+        "typeOfDish": "Déjeuner",
+        "proTips": [],
+        "ingredients": [
+          {
+            "section": "Casserole d’œufs au jambon",
+            "items": [
+              {
+                "item": "œufs",
+                "quantity": "8",
+                "unit": ""
+              },
+              {
+                "item": "crème 10 %",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "jambon finement haché",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "poivron rouge rôti et coupé en petits morceaux",
+                "quantity": "1/2",
+                "unit": "tasse de"
+              },
+              {
+                "item": "oignons verts coupés minces et émincés",
+                "quantity": "5",
+                "unit": ""
+              },
+              {
+                "item": "sel cachère",
+                "quantity": "1",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "poivre noir moulu",
+                "quantity": "1/2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "fromage aux piments râpé (la moitié dans les œufs et l’autre pour garnir)",
+                "quantity": "1",
+                "unit": "tasse de"
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préparation de la casserole",
+            "directions": [
+              "Préchauffer le four à 350 degrés Fahrenheit en mode cuisson par convection.",
+              "Vaporiser un plat de cuisson au four de 9 x 13 po d’huile végétale.",
+              "Dans un grand bol, fouetter les œufs, la crème à 10 %, le sel et le poivre.",
+              "Ajouter le jambon, le poivron rouge, les oignons verts et la moitié du fromage aux piments dans les œufs.",
+              "Placer au centre de la grille et cuire pendant 1 heure."
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000113",
+        "recipeTitle": "Crème brûlée",
+        "recipeCategory": "Desserts",
+        "eligibleForHomeFeed": 0,
+        "order": 0,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/ClassicCremeBrulee_P180402_30z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/ClassicCremeBrulee_P180402_30z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/ClassicCremeBrulee_P180402_30z@{size}.png",
+        "eligibleForAssistedCooking": 0,
+        "assistedCookingInfo": {
+          "category": "S.O.",
+          "cycleName": "S.O.",
+          "foodId": 0
+        },
+        "noOfServings": "12",
+        "preparationTime": "20 minutes",
+        "cookingTime": "25 minutes",
+        "levelOfDifficulty": "Moyenne",
+        "cuisine": "Européenne",
+        "diet": "S.O.",
+        "typeOfDish": "Dessert",
+        "proTips": [
+          "Cette recette est plus facile à préparer dans un four à injection de vapeur JennAir®."
+        ],
+        "ingredients": [
+          {
+            "section": "Ingrédients de la crème brûlée",
+            "items": [
+              {
+                "item": "crème 35 % à fouetter",
+                "quantity": "4",
+                "unit": "tasses de"
+              },
+              {
+                "item": "pâte de gousse de vanille",
+                "quantity": "2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "jaunes d’œufs",
+                "quantity": "8",
+                "unit": ""
+              },
+              {
+                "item": "sucre",
+                "quantity": "1/2",
+                "unit": "tasse de"
+              },
+              {
+                "item": "sucre blanc (pour la croûte du dessus)",
+                "quantity": "1/2",
+                "unit": "tasse de"
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préparation de la crème brûlée",
+            "directions": [
+              "Dans une casserole de taille moyenne, faire monter la crème jusqu’à ce que des bulles se forment sur le contour de la casserole. Retirer la casserole du feu.",
+              "Dans un bol de taille moyenne, fouetter les jaunes d’œufs et ajouter le sucre tout en fouettant rapidement. Continuer à fouetter est essentiel.",
+              "Ajouter lentement la crème chaude au mélange sucre/œufs, à raison de quelques c. à table à la fois. Fouetter. Ne pas ajouter d’un seul coup la préparation chaude dans les œufs, la chaleur fera cuire les œufs.",
+              "Ajouter la pâte de gousse de vanille à la crème et mélanger. Verser dans un pichet de taille moyenne ou une tasse à mesurer pour qu’il soit facile de diviser la préparation dans 12 ramequins.",
+              "Remplir jusqu’à environ 1/2 po du haut de chaque plat.",
+              "Placer les ramequins sur une grille au centre du four. Cuire pendant 25 minutes en utilisant le mode avec injection de vapeur. Une fois cuits, retirer du four et laisser refroidir ou placer au réfrigérateur.",
+              "Saupoudrer une petite quantité de sucre sur le dessus des crèmes brûlées.",
+              "À l’aide d’une petite torche de cuisine, passer la flamme sur le dessus de la crème pour faire fondre le sucre. Éviter de trop s’approcher du sucre pour ne pas le faire brûler. Essayer d’obtenir une couleur brun doré."
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000114",
+        "recipeTitle": "Poulet rôti au citron et au thym",
+        "recipeCategory": "Entrée",
+        "eligibleForHomeFeed": 0,
+        "order": 0,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/LemonThymeRoastedChicken_P180402_28z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/LemonThymeRoastedChicken_P180402_28z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/LemonThymeRoastedChicken_P180402_28z@{size}.png",
+        "eligibleForAssistedCooking": 1,
+        "assistedCookingInfo": {
+          "category": "Volaille",
+          "cycleName": "Poulet à rôtir",
+          "foodId": "21"
+        },
+        "noOfServings": "8",
+        "preparationTime": "10 minutes",
+        "cookingTime": "1 heure 20 minutes, plus 15 minutes de repos",
+        "levelOfDifficulty": "Facile",
+        "cuisine": "Fusion américaine",
+        "diet": "S.O.",
+        "typeOfDish":"Plat Principal",
+        "proTips": [],
+        "ingredients": [
+          {
+            "section": "Ingrédients pour le poulet rôti au citron et au thym",
+            "items": [
+              {
+                "item": "poulets entiers à rôtir",
+                "quantity": "2",
+                "unit": ""
+              },
+              {
+                "item": "citrons coupés en tranches de 1/4 po",
+                "quantity": "2",
+                "unit": ""
+              },
+              {
+                "item": "thym frais",
+                "quantity": "1/4",
+                "unit": "tasse de"
+              },
+              {
+                "item": "sel cachère et poivre moulu",
+                "quantity": "Au goût",
+                "unit": ""
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préparation du poulet rôti au citron et au thym",
+            "directions": [
+              "Préchauffer le four à 375 degrés Fahrenheit en mode cuisson par convection, ou sélectionner et utiliser le mode volaille, avec le programme préréglé pour poulet à rôtir indiqué ci-dessous jusqu’à ce que la viande atteigne au moins 165 degrés avec la sonde de cuisson.",
+              "Placer le poulet à rôtir la poitrine vers le bas. Placer les doigts sous la peau en commençant par le haut et en les déplaçant vers l’arrière et l’avant pour créer une cavité. Répéter des deux côtés de la poitrine de poulet.",
+              "Placer les tranches de citron et le thym en une seule couche dans ces cavités. Il est habituellement possible de placer 4 tranches de citron de chaque côté.",
+              "Saler et poivrer généreusement tous les côtés du poulet.",
+              "Placer sur une plaque, sur la grille du milieu du four. Le poulet est cuit à la perfection après 1 heure 20 minutes.",
+              "Retirer du four une fois cuit et laisser reposer 15 minutes. Couper le poulet en portions prêtes à servir. "
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000115",
+        "recipeTitle": "Casserole de patates douces",
+        "recipeCategory": "Plat d’accompagnement",
+        "eligibleForHomeFeed": 1,
+        "order": 7,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/SweetPotatoHashbrownCasserole_P180402_27z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/SweetPotatoHashbrownCasserole_P180402_27z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/SweetPotatoHashbrownCasserole_P180402_27z@{size}.png",
+        "eligibleForAssistedCooking": 1,
+        "assistedCookingInfo": {
+          "category": "Mets en sauce",
+          "cycleName": "Casserole de patates douces",
+          "foodId": "5"
+        },
+        "noOfServings": "12",
+        "preparationTime": "15 minutes",
+        "cookingTime": "25 minutes",
+        "levelOfDifficulty": "Moyenne",
+        "cuisine": "À la mode du Sud",
+        "diet": "Végétarien",
+        "typeOfDish":"Accompagnement",
+        "proTips": [
+          "Du bacon ou de la saucisse peut être ajouté à ce plat pour créer le parfait déjeuner."
+        ],
+        "ingredients": [
+          {
+            "section": "Ingrédients pour la casserole de patates douces",
+            "items": [
+              {
+                "item": "patates douces râpées",
+                "quantity": "3",
+                "unit": "tasses de"
+              },
+              {
+                "item": "pommes de terre râpées",
+                "quantity": "32",
+                "unit": "oz de"
+              },
+              {
+                "item": "oignons verts hachés finement",
+                "quantity": "6",
+                "unit": ""
+              },
+              {
+                "item": "beurre fondu",
+                "quantity": "1/2",
+                "unit": "tasse de"
+              },
+              {
+                "item": "fromage aux piments râpé",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "fromage gruyère râpé",
+                "quantity": "1/2",
+                "unit": "tasse de"
+              },
+              {
+                "item": "crème sure",
+                "quantity": "8",
+                "unit": "oz de"
+              },
+              {
+                "item": "crème riche en matière grasse",
+                "quantity": "1/4",
+                "unit": "tasse de"
+              },
+              {
+                "item": "d’ail émincé",
+                "quantity": "2",
+                "unit": "gousses"
+              },
+              {
+                "item": "sel",
+                "quantity": "2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "poivre",
+                "quantity": "1/2",
+                "unit": "c. à thé de"
+              }
+            ]
+          },
+          {
+            "section": "Garniture",
+            "items": [
+              {
+                "item": "fromage aux piments",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "chapelure panko",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "thym frais",
+                "quantity": "2",
+                "unit": "c. à table de"
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préparation de la casserole",
+            "directions": [
+              "Vaporiser un plat de cuisson au four de 9 x 13 po d’huile végétale",
+              "Préchauffer le four à 375 degrés Fahrenheit en mode cuisson par convection, ou sélectionner et utiliser le mode casserole, avec le programme préréglé pour casserole de patates douces indiqué ci-dessous."
+            ]
+          },
+          {
+            "recipeSection": "Préparation de l’appareil",
+            "directions": [
+              "Mélanger les patates douces, les pommes de terre et les oignons verts dans un grand bol.",
+              "Verser la crème sure sur l’appareil et mélanger jusqu’à ce que tout soit bien mélangé.",
+              "Transférer dans une casserole."
+            ]
+          },
+          {
+            "recipeSection": "Préparation de la garniture",
+            "directions": [
+              "Mélanger dans un bol séparé.",
+              "Placer de façon uniforme sur le dessus de la préparation de patates douces et de pommes de terre, dans la casserole."
+            ]
+          },
+          {
+            "recipeSection": "Terminer la casserole",
+            "directions": [
+              "Placer sur la grille du centre dans le four et cuire environ 25 minutes."
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000116",
+        "recipeTitle": "Croustade aux pommes et mûres",
+        "recipeCategory": "Desserts",
+        "eligibleForHomeFeed": 0,
+        "order": 0,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/BlackberryAppleCrisp_P180402_26z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/BlackberryAppleCrisp_P180402_26z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/BlackberryAppleCrisp_P180402_26z@{size}.png",
+        "eligibleForAssistedCooking": 0,
+        "assistedCookingInfo": {
+          "category": "S.O.",
+          "cycleName": "S.O.",
+          "foodId": 0
+        },
+        "noOfServings": "6",
+        "preparationTime": "20 minutes",
+        "cookingTime": "30 à 45 minutes",
+        "levelOfDifficulty": "Moyenne",
+        "cuisine": "À la mode du Sud",
+        "diet": "S.O.",
+        "typeOfDish": "Dessert",
+        "proTips": [
+          "Une crème glacée à la vanille accompagnera à la perfection ce dessert."
+        ],
+        "ingredients": [
+          {
+            "section": "Remplissage",
+            "items": [
+              {
+                "item": "pommes Honeycrisp pelées, évidées et coupées en tranches de 1/4 po",
+                "quantity": "4",
+                "unit": ""
+              },
+              {
+                "item": "mûres fraîches",
+                "quantity": "2",
+                "unit": "tasses de"
+              },
+              {
+                "item": "citron réduit en jus, versé sur les pommes pelées",
+                "quantity": "1",
+                "unit": ""
+              },
+              {
+                "item": "farine tout usage",
+                "quantity": "2",
+                "unit": "c. à table de"
+              },
+              {
+                "item": "sucre",
+                "quantity": "1/4",
+                "unit": "tasse de"
+              },
+              {
+                "item": "noix de muscade fraîchement râpée",
+                "quantity": "1/2",
+                "unit": "c. à thé de"
+              }
+            ]
+          },
+          {
+            "section": "Garniture",
+            "items": [
+              {
+                "item": "farine",
+                "quantity": "1/2",
+                "unit": "tasse de"
+              },
+              {
+                "item": "d’avoine à cuisson rapide",
+                "quantity": "2/3",
+                "unit": "tasse"
+              },
+              {
+                "item": "cassonade tassée",
+                "quantity": "1/4",
+                "unit": "tasse de"
+              },
+              {
+                "item": "d’amandes rôties effilées",
+                "quantity": "1/2",
+                "unit": "tasse"
+              },
+              {
+                "item": "cannelle",
+                "quantity": "1",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "piment de la Jamaïque",
+                "quantity": "1/2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "sel",
+                "quantity": "1/2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "beurre fondu",
+                "quantity": "1",
+                "unit": "bâtonnet de"
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préparation de la croustade aux pommes et mûres",
+            "directions": [
+              "Préchauffer le four à 375 degrés Fahrenheit en mode cuisson par convection.",
+              "Vaporiser légèrement d’huile végétale 6 ramequins de 8 oz."
+            ]
+          },
+          {
+            "recipeSection": "Préparation de l’appareil",
+            "directions": [
+              "Après avoir ajouté le citron aux pommes, bien mélanger les pommes et les mûres. Mettre le bol de côté.",
+              "Mélanger les ingrédients restant dans un autre bol et verser sur les pommes et les mûres. Remuer pour mélanger.",
+              "Couvrir de la préparation sucrée."
+            ]
+          },
+          {
+            "recipeSection": "Préparation de la garniture",
+            "directions": [
+              "Mélanger les ingrédients secs, puis ajouter le beurre fondu.",
+              "Mélanger jusqu’à ce que le tout ressemble à une garniture croustillante.",
+              "Verser de façon uniforme sur le dessus des pommes/mûres sucrées déjà ajoutées aux ramequins.",
+              "Placer les ramequins sur une plaque à biscuits et faire cuire pendant 20 à 30 minutes ou jusqu’à ce que le dessus devienne brun doré (et qu’il y ait production de bulles).",
+              "Retirer les ramequins du four et laisser refroidir."
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000117",
+        "recipeTitle": "Gâteau moelleux au chocolat",
+        "recipeCategory": "Desserts",
+        "eligibleForHomeFeed": 0,
+        "order": 0,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/MoltonChocolateCake_P180402_25z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/MoltonChocolateCake_P180402_25z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/MoltonChocolateCake_P180402_25z@{size}.png",
+        "eligibleForAssistedCooking": 0,
+        "assistedCookingInfo": {
+          "category": "S.O.",
+          "cycleName": "S.O.",
+          "foodId": 0
+        },
+        "noOfServings": "4",
+        "preparationTime": "20 minutes",
+        "cookingTime": "8 minutes",
+        "levelOfDifficulty": "Moyenne",
+        "cuisine": "Américaine",
+        "diet": "S.O.",
+        "typeOfDish": "Dessert",
+        "proTips": [
+          "Servir avec de la crème glacée à la vanille, une sauce aux framboises et des feuilles de menthe pour ajouter une touche savoureuse.",
+          "Utiliser de la farine tout usage sans gluten pour en faire une recette sans gluten."
+        ],
+        "ingredients": [
+          {
+            "section": "Ingrédients pour le gâteau moelleux au chocolat",
+            "items": [
+              {
+                "item": "sucre glace",
+                "quantity": "2",
+                "unit": "c. à table de"
+              },
+              {
+                "item": "poudre de cacao",
+                "quantity": "2",
+                "unit": "c. à table de"
+              },
+              {
+                "item": "beurre non salé",
+                "quantity": "8",
+                "unit": "c. à table de"
+              },
+              {
+                "item": "chocolat mi-sucré de grande qualité",
+                "quantity": "4",
+                "unit": "oz de"
+              },
+              {
+                "item": "poudre à expresso",
+                "quantity": "1",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "œufs",
+                "quantity": "2",
+                "unit": ""
+              },
+              {
+                "item": "jaunes d’œufs",
+                "quantity": "2",
+                "unit": ""
+              },
+              {
+                "item": "sucre",
+                "quantity": "1/4",
+                "unit": "tasse de"
+              },
+              {
+                "item": "farine tout usage",
+                "quantity": "2",
+                "unit": "c. à thé de"
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préparation du gâteau moelleux au chocolat",
+            "directions": [
+              "Préchauffer le four à 425 degrés Fahrenheit en mode cuisson par convection.",
+              "Graisser de beurre ramolli ou à vaporiser quatre coupes à crème pâtissière ou ramequins de 4 oz.",
+              "Saupoudrer chaque moule de poudre de cacao et taper les moules pour enlever l’excès.",
+              "Placer les plats sur une plaque à biscuit.",
+              "Ajouter le chocolat et le beurre non salé dans une petite casserole et faire fondre sur une cuisinière.",
+              "Une fois le chocolat fondu, retirer la casserole de la surface de cuisson et ajouter la poudre à expresso.",
+              "Laisser le chocolat refroidir pendant quelques minutes.",
+              "Battre ensemble les œufs et jaunes d’œufs dans un bol à l’aide d’un fouet.",
+              "Ajouter le sucre et continuer à battre rapidement jusqu’à obtention d’un résultat épais et jaune pâle.",
+              "Ajouter les œufs battus au chocolat et mélanger. Ne pas trop mélanger.",
+              "Ajouter la farine et verser la pâte dans une tasse à mesurer pour permettre de facilement verser la pâte dans les ramequins.",
+              "Séparer la pâte dans les moules pour les remplir au 3/4.",
+              "Placer la plaque dans le four et faire cuire de 7 à 8 minutes. De petites fissures se formeront sur le dessus des gâteaux, le centre restera très doux et s’enfoncera un peu. Ne pas trop cuire.",
+              "Surveiller attentivement pour vérifier si du temps de cuisson supplémentaire est nécessaire. ",
+              "Lorsque les gâteaux sont cuits, laisser refroidir pendant quelques minutes. En utilisant un article isolant, inverser les ramequins ou moules sur quatre assiettes à dessert individuelles et laisser reposer pendant 1 minute.",
+              "Incliner les ramequins ou moules sur un côté pour dégager les gâteaux et laisser reposer quelques minutes. ",
+              "Saupoudrer les gâteaux de sucre glace."
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000118",
+        "recipeTitle": "Pain au citron et aux graines de pavot",
+        "recipeCategory": "Pain",
+        "eligibleForHomeFeed": 0,
+        "order": 0,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/LemonPoppySeedBread_P180402_24z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/LemonPoppySeedBread_P180402_24z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/LemonPoppySeedBread_P180402_24z@{size}.png",
+        "eligibleForAssistedCooking": 1,
+        "assistedCookingInfo": {
+          "category": "Produits de boulangerie",
+          "cycleName": "Pain",
+          "foodId": "8"
+        },
+        "noOfServings": "1 pain",
+        "preparationTime": "20 minutes",
+        "cookingTime": "1 heure",
+        "levelOfDifficulty": "Moyenne",
+        "cuisine": "Américaine",
+        "diet": "Sans gluten, végétalien, sans produits laitiers",
+        "typeOfDish": "Pain",
+        "proTips": [],
+        "ingredients": [
+          {
+            "section": "Ingrédients pour le pain au citron et aux graines de pavot",
+            "items": [
+              {
+                "item": "farine tout usage sans gluten",
+                "quantity": "420",
+                "unit": "grammes de"
+              },
+              {
+                "item": "sucre",
+                "quantity": "3/4",
+                "unit": "tasse de"
+              },
+              {
+                "item": "graines de pavot",
+                "quantity": "3",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "poudre à pâte",
+                "quantity": "3",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "bicarbonate de sodium",
+                "quantity": "1",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "piment de la Jamaïque moulu",
+                "quantity": "2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "cardamome moulue",
+                "quantity": "1",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "sel",
+                "quantity": "1",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "graines de lin dorées moulues dans lesquelles ont été ajoutées 6 c. à table d’eau",
+                "quantity": "2",
+                "unit": "c. à table de"
+              },
+              {
+                "item": "jus de citron",
+                "quantity": "1/4",
+                "unit": "tasse de"
+              },
+              {
+                "item": "zeste de citron",
+                "quantity": "au goût",
+                "unit": ""
+              },
+              {
+                "item": "lait de coco",
+                "quantity": "1 1/2",
+                "unit": "tasses de"
+              },
+              {
+                "item": "d’huile de noix de coco à température de la pièce et fondue",
+                "quantity": "1/4",
+                "unit": "tasse"
+              },
+              {
+                "item": "sucre cristallisé",
+                "quantity": "au goût",
+                "unit": ""
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préparation du pain au citron et aux graines de pavot",
+            "directions": [
+              "Utiliser le mode pain ou préchauffer le four à 350 degrés Fahrenheit en mode cuisson par convection.",
+              "Vaporiser un moule à pain de 9 x 5 po d’huile végétale.",
+              "Mélanger tous les ingrédients secs dans un grand bol.",
+              "Dans un autre bol, battre les graines de lin, le zeste de citron, le jus de citron, le lait de coco et l’huile de noix de coco. ",
+              "Ajouter les ingrédients liquides aux ingrédients secs et mélanger jusqu’à ce que les ingrédients secs soient humides."
+            ]
+          },
+          {
+            "recipeSection": "Terminer la préparation du pain au citron et aux graines de pavot",
+            "directions": [
+              "Placer la pâte dans le moule à pain.",
+              "Saupoudrer le dessus de la pâte de sucre cristallisé.",
+              "Cuire le pain pendant 50 à 60 minutes dans un four à convection. ",
+              "Vérifier la cuisson à l’aide d’un cure-dents en bois. Si le cure-dents ressort propre, le pain est cuit.",
+              "Si non, laisser cuire un autre 10 minutes et vérifier de nouveau. ",
+              "Laisser refroidir le pain environ 10 minutes, puis retirer le pain du moule et le déposer sur une grille pour le laisser refroidir. ",
+              "Laisser le pain refroidir avant de le trancher."
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000119",
+        "recipeTitle": "Haricots verts à la vapeur avec vinaigrette balsamique",
+        "recipeCategory": "Plat d’accompagnement",
+        "eligibleForHomeFeed": 0,
+        "order": 0,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/SteamedGreenBeans_P180402_22z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/SteamedGreenBeans_P180402_22z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/SteamedGreenBeans_P180402_22z@{size}.png",
+        "eligibleForAssistedCooking": 0,
+        "assistedCookingInfo": {
+          "category": "S.O.",
+          "cycleName": "S.O.",
+          "foodId": 0
+        },
+        "noOfServings": "4",
+        "preparationTime": "10 minutes",
+        "cookingTime": "20 minutes",
+        "levelOfDifficulty": "Facile",
+        "cuisine": "Fusion américaine",
+        "diet": "Végétarien",
+        "typeOfDish":"Accompagnement",
+        "proTips": [
+          "Cette recette utilise un four à injection de vapeur JennAir®. Elle peut aussi être préparée au four à micro-ondes en utilisant un plat à vapeur ou sur une cuisinière avec un plat de cuisson à la vapeur."
+        ],
+        "ingredients": [
+          {
+            "section": "Vinaigrette balsamique",
+            "items": [
+              {
+                "item": "vinaigre balsamique (vieilli si possible)",
+                "quantity": "1",
+                "unit": "c. à table de"
+              },
+              {
+                "item": "jus de citron",
+                "quantity": "2",
+                "unit": "c. à table de"
+              },
+              {
+                "item": "miel",
+                "quantity": "1",
+                "unit": "c. à table de"
+              },
+              {
+                "item": "moutarde de Dijon",
+                "quantity": "2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "sel et poivre",
+                "quantity": "au goût",
+                "unit": ""
+              },
+              {
+                "item": "d’huile d’olive avec ail",
+                "quantity": "2",
+                "unit": "c. à table"
+              },
+              {
+                "item": "d’amandes effilées",
+                "quantity": "1",
+                "unit": "c. à table"
+              }
+            ]
+          },
+          {
+            "section": "Légumes",
+            "items": [
+              {
+                "item": "haricots verts frais sans queue",
+                "quantity": "1",
+                "unit": "lb de"
+              },
+              {
+                "item": "d’huile d’olive avec ail",
+                "quantity": "1",
+                "unit": "c. à table"
+              },
+              {
+                "item": "sel et poivre",
+                "quantity": "au goût",
+                "unit": ""
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préparation de la vinaigrette",
+            "directions": [
+              "Fouetter ensemble le vinaigre, le jus de citron, le miel et la moutarde de Dijon.",
+              "Ajouter du sel et du poivre à votre convenance. ",
+              "Verser lentement l’huile d’olive avec ail et fouetter pour incorporer à la préparation.",
+              "Garder de côté pour plus tard."
+            ]
+          },
+          {
+            "recipeSection": "Préparation des haricots verts",
+            "directions": [
+              "Placer les haricots verts dans un grand plat. ",
+              "Vaporiser de l’huile d’olive avec ail sur les haricots verts et mélanger pour couvrir.",
+              "Assaisonner de sel et de poivre.",
+              "Transférer les haricots dans le plateau perforé pour four à injection de vapeur et placer sur la grille du centre du four à injection de vapeur JennAir®. Utiliser les réglages pour légumes du mode aliments préréglé du four à injection de vapeur."
+            ]
+          },
+          {
+            "recipeSection": "Servir les haricots verts avec la vinaigrette balsamique",
+            "directions": [
+              "Lorsque les haricots verts sont cuits, les placer dans un grand bol et verser une fine couche de vinaigrette pour les couvrir. ",
+              "Saupoudrer d’amandes effilées et servir."
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000120",
+        "recipeTitle": "Légumes rôtis et sauce au beurre et à la lime",
+        "recipeCategory": "Plat d’accompagnement",
+        "eligibleForHomeFeed": 0,
+        "order": 0,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/RoastedVegetablesWithButterLimeSauce@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/RoastedVegetablesWithButterLimeSauce@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/RoastedVegetablesWithButterLimeSauce@{size}.png",
+        "eligibleForAssistedCooking": 0,
+        "assistedCookingInfo": {
+          "category": "S.O.",
+          "cycleName": "S.O.",
+          "foodId": 0
+        },
+        "noOfServings": "4",
+        "preparationTime": "15 minutes",
+        "cookingTime": "30 minutes",
+        "levelOfDifficulty": "Facile",
+        "cuisine": "Sud-ouest",
+        "diet": "Végétarien",
+        "typeOfDish":"Accompagnement",
+        "proTips": [
+          "Faire rôtir les légumes au four en utilisant le mode pour légumes rôtis. "
+        ],
+        "ingredients": [
+          {
+            "section": "Mélange de légumes",
+            "items": [
+              {
+                "item": "huile d’olive",
+                "quantity": "au goût",
+                "unit": ""
+              },
+              {
+                "item": "pommes de terre rouges",
+                "quantity": "12",
+                "unit": ""
+              },
+              {
+                "item": "maïs frais",
+                "quantity": "2",
+                "unit": "tasses de"
+              },
+              {
+                "item": "poivron rouge sans graines et coupé en petits morceaux",
+                "quantity": "1",
+                "unit": ""
+              },
+              {
+                "item": "oignon rouge haché mince",
+                "quantity": "1/4",
+                "unit": ""
+              },
+              {
+                "item": "tomates cerises ou raisins, coupées en deux",
+                "quantity": "20",
+                "unit": ""
+              },
+              {
+                "item": "d’ail émincé",
+                "quantity": "1",
+                "unit": "gousse"
+              },
+              {
+                "item": "sel et poivre",
+                "quantity": "au goût",
+                "unit": ""
+              }
+            ]
+          },
+          {
+            "section": "Sauce au beurre et à la lime",
+            "items": [
+              {
+                "item": "beurre",
+                "quantity": "2",
+                "unit": "c. à table de"
+              },
+              {
+                "item": "limes (jus)",
+                "quantity": "2",
+                "unit": ""
+              },
+              {
+                "item": "coriandre fraîche émincée",
+                "quantity": "2",
+                "unit": "c. à table de"
+              },
+              {
+                "item": "menthe fraîche émincée",
+                "quantity": "2",
+                "unit": "c. à table de"
+              },
+              {
+                "item": "poivre de Cayenne",
+                "quantity": "1",
+                "unit": "pincée de"
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préparation de la sauce au beurre et à la lime",
+            "directions": [
+              "Dans une petite poêle à sauter, faire fondre le beurre à faible température. Lorsque le beurre est fondu, retirer du feu.",
+              "Ajouter la lime, la coriandre, la menthe et le poivre de Cayenne avec le beurre dans la poêle. Mélanger."
+            ]
+          },
+          {
+            "recipeSection": "Mélange de légumes",
+            "directions": [
+              "Cuire les petites pommes de terre rouges dans l’eau bouillante environ 10 minutes. Retirer de l’eau et laisser refroidir pendant 10 minutes avant de les couper en quartiers. ",
+              "Chauffer une grande poêle à sauter à température moyenne. Ajouter de l’huile d’olive pour couvrir légèrement le fond de la poêle.",
+              "Assaisonner légèrement les légumes à chaque ajout dans la poêle.",
+              "Placer les quartiers de pommes de terre dans la poêle et assaisonner de sel et de poivre. ",
+              "Cuire pendant 4 minutes, puis ajouter le maïs. Mélanger.",
+              "Cuire pendant 5 minutes, puis ajouter le poivron rouge et l’oignon rouge. ",
+              "Cuire pendant 1 minute, puis ajouter l’ail.",
+              "Ajouter en dernier les tomates et cuire pendant un autre 3 minutes.",
+              "Retirer la poêle du feu et déposer les légumes dans un plat à servir. Verser la sauce au beurre et à la lime sur les légumes avant de servir. "
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000121",
+        "recipeTitle": "Asperges rôties",
+        "recipeCategory": "Plat d’accompagnement",
+        "eligibleForHomeFeed": 0,
+        "order": 0,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/RoastedAsparagus_P180402_21z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/RoastedAsparagus_P180402_21z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/RoastedAsparagus_P180402_21z@{size}.png",
+        "eligibleForAssistedCooking": 1,
+        "assistedCookingInfo": {
+          "category": "Légumes",
+          "cycleName": "Légumes rôtis",
+          "foodId": "2"
+        },
+        "noOfServings": "4",
+        "preparationTime": "5 minutes",
+        "cookingTime": "10 minutes",
+        "levelOfDifficulty": "Très facile",
+        "cuisine": "Américaine",
+        "diet": "Végétarien",
+        "typeOfDish":"Accompagnement",
+        "proTips": [],
+        "ingredients": [
+          {
+            "section": "Ingrédients pour les asperges",
+            "items": [
+              {
+                "item": "d’asperges parées",
+                "quantity": "2",
+                "unit": "lb"
+              },
+              {
+                "item": "huile d’olive",
+                "quantity": "au goût",
+                "unit": ""
+              },
+              {
+                "item": "jus de citron",
+                "quantity": "1",
+                "unit": "c. à table de"
+              },
+              {
+                "item": "sel et poivre",
+                "quantity": "au goût",
+                "unit": ""
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préparation des asperges",
+            "directions": [
+              "Couvrir 2 plaques à biscuits de papier aluminium.",
+              "Placer les asperges dans un bol et vaporiser d’huile d’olive. Saler et poivrer à votre convenance.",
+              "Déposer les asperges en une seule couche dans les plaques.",
+              "Placer les plaques dans le four en utilisant le mode légumes rôtis et cuire environ 10 minutes, jusqu’à ce qu’elles soient tendres sans devenir molles.",
+              "Retirer les asperges de la plaque et les placer dans un bol. Verser une c. à table de jus de citron sur les asperges rôties et mélanger.",
+              "Placer les asperges dans un plat en les faisant pointer dans la même direction, puis servir immédiatement."
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000122",
+        "recipeTitle": "Casserole de pommes de terre",
+        "recipeCategory": "Déjeuner",
+        "eligibleForHomeFeed": 0,
+        "order": 0,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/CrunchypotatoCasserole_P180402_20z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/CrunchypotatoCasserole_P180402_20z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/CrunchypotatoCasserole_P180402_20z@{size}.png",
+        "eligibleForAssistedCooking": 0,
+        "assistedCookingInfo": {
+          "category": "S.O.",
+          "cycleName": "S.O.",
+          "foodId": 0
+        },
+        "noOfServings": "12",
+        "preparationTime": "15 minutes",
+        "cookingTime": "25 à 45 minutes",
+        "levelOfDifficulty": "Moyenne",
+        "cuisine": "Américaine",
+        "diet": "Végétarien",
+        "typeOfDish": "Déjeuner",
+        "proTips": [
+          "Ce plat peut aussi bien servir d’accompagnement que de déjeuner. Ajouter du bacon et garnir d’oignons verts."
+        ],
+        "ingredients": [
+          {
+            "section": "Mélange de crème sure",
+            "items": [
+              {
+                "item": "beurre fondu",
+                "quantity": "1/2",
+                "unit": "tasse de"
+              },
+              {
+                "item": "fromage aux piments râpé",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "crème sure",
+                "quantity": "8",
+                "unit": "oz de"
+              },
+              {
+                "item": "crème 35 % à fouetter",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "d’ail émincé",
+                "quantity": "2",
+                "unit": "gousses"
+              },
+              {
+                "item": "sel",
+                "quantity": "2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "poivre",
+                "quantity": "1",
+                "unit": "c. à thé de"
+              }
+            ]
+          },
+          {
+            "section": "Garniture pour pommes de terre",
+            "items": [
+              {
+                "item": "fromage aux piments râpé",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "céréales de riz",
+                "quantity": "1",
+                "unit": "tasse de"
+              }
+            ]
+          },
+          {
+            "section": "Mélange de pommes de terre",
+            "items": [
+              {
+                "item": "morceaux de pommes de terre rissolées ou pommes de terre fraîchement râpées",
+                "quantity": "24",
+                "unit": "oz de"
+              },
+              {
+                "item": "oignons verts émincés",
+                "quantity": "8",
+                "unit": ""
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préparation de la casserole",
+            "directions": [
+              "Vaporiser un plat de cuisson au four de 9 x 13 po d’huile végétale.",
+              "Mélanger les pommes de terre et les oignons verts dans un bol.",
+              "Verser le mélange de crème sure sur les pommes de terre rissolées et les oignons. Bien mélanger et verser dans le plat de cuisson.",
+              "Saupoudrer de façon égale la garniture sur les pommes de terre.",
+              "Faire cuire à 350 degrés Fahrenheit en mode convection dans un four JennAir® pendant 35 à 45 minutes ou dans un four à micro-ondes à haute vitesse JennAir® pendant 25 minutes en sélectionnant le mode de mets en sauce frais (plat en verre seulement avec le mode de cuisson rapide)."
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000123",
+        "recipeTitle": "Strudel aux légumes",
+        "recipeCategory": "Plat d’accompagnement",
+        "eligibleForHomeFeed": 0,
+        "order": 0,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/VegetableStrudel_P180402_19z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/VegetableStrudel_P180402_19z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/VegetableStrudel_P180402_19z@{size}.png",
+        "eligibleForAssistedCooking": 0,
+        "assistedCookingInfo": {
+          "category": "S.O.",
+          "cycleName": "S.O.",
+          "foodId": 0
+        },
+        "noOfServings": "1 strudel",
+        "preparationTime": "20 minutes",
+        "cookingTime": "45 minutes",
+        "levelOfDifficulty": "Moyenne",
+        "cuisine": "Européenne",
+        "diet": "Végétarien",
+        "typeOfDish":"Accompagnement",
+        "proTips": [
+          "Utiliser le mode de cuisson par convection de pâtisseries qui utilise les éléments supérieur, inférieur et de convection pour produire une croûte incroyablement feuilletée."
+        ],
+        "ingredients": [
+          {
+            "section": "Ingrédients pour le strudel aux légumes",
+            "items": [
+              {
+                "item": "beurre non salé",
+                "quantity": "1",
+                "unit": "c. à table de"
+              },
+              {
+                "item": "d’huile d’olive",
+                "quantity": "2",
+                "unit": "c. à table"
+              },
+              {
+                "item": "échalote émincée",
+                "quantity": "1",
+                "unit": ""
+              },
+              {
+                "item": "champignons de Paris tranchés minces",
+                "quantity": "4",
+                "unit": "oz de"
+              },
+              {
+                "item": "d’ail émincé",
+                "quantity": "1",
+                "unit": "gousse"
+              },
+              {
+                "item": "thym frais émincé",
+                "quantity": "2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "noix de muscade fraîchement râpée",
+                "quantity": "1/2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "sel et poivre",
+                "quantity": "au goût",
+                "unit": ""
+              },
+              {
+                "item": "d’asperges coupées en trois",
+                "quantity": "8",
+                "unit": "tiges"
+              },
+              {
+                "item": "vin de Madère ou votre vin rouge sec préféré",
+                "quantity": "2",
+                "unit": "c. à table de"
+              },
+              {
+                "item": "gruyère râpé",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "pâte feuilletée",
+                "quantity": "1",
+                "unit": ""
+              },
+              {
+                "item": "œuf légèrement battu",
+                "quantity": "1",
+                "unit": ""
+              },
+              {
+                "item": "d’eau, battre ensemble l’eau et l’œuf",
+                "quantity": "1",
+                "unit": "c. à table"
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préparation de l’appareil",
+            "directions": [
+              "Chauffer une grande poêle à température moyenne-élevée.",
+              "Chauffer le beurre et l’huile d’olive dans la poêle jusqu’à ce que le beurre soit fondu. ",
+              "Ajouter les échalotes et laisser cuire environ 1 minute, jusqu’à ce qu’elles soient transparentes.",
+              "Assaisonner de sel et de poivre.",
+              "Ajouter les champignons dans la poêle et mélanger jusqu’à ce qu’ils soient couverts de beurre et d’huile.",
+              "Continuer à chauffer pendant 2 minutes, jusqu’à ce que les champignons soient cuits.",
+              "Ajouter l’ail, le thym et la noix de muscade. ",
+              "Cuire pendant encore 1 minute. ",
+              "Assaisonner de sel et de poivre.",
+              "Ajouter les asperges aux champignons.",
+              "Ajouter le vin aux champignons et cuire environ 3 minutes, jusqu’à ce que le liquide soit entièrement absorbé. ",
+              "Retirer la poêle du feu et placer les aliments sur une plaque recouverte d’un papier parchemin, laisser refroidir à température de la pièce. ",
+              "REMARQUE : Peut être mis au réfrigérateur pour accélérer le refroidissement. "
+            ]
+          },
+          {
+            "recipeSection": "Assembler le strudel",
+            "directions": [
+              "Placer la pâte feuilletée sur une plaque à biscuit recouverte d’un papier parchemin. ",
+              "Déposer les légumes refroidis au milieu des pâtes feuilletées sur une largeur d’environ 3 po, de façon verticale, en allant du haut vers le bas. ",
+              "Les légumes feront environ 1 po de hauteur. Lasser un espace de 2 po de pâte aux parties supérieure et inférieure pour pouvoir replier la pâte.",
+              "Saupoudrer les légumes de fromage gruyère. ",
+              "Couper en angle les coins de la partie supérieure de la pâte.",
+              "Il devrait y avoir environ 4 po de pâtes de chaque côté des légumes. ",
+              "Du côté gauche en commençant par la partie supérieure, prendre un couteau et couper la pâte en angle pour créer des lisières de 1 po jusqu’à atteindre la partie inférieure. Chaque lisière devrait faire environ 4 po de long. Répéter la procédure sur le côté droit de la pâte feuilletée. ",
+              "En commençant par la partie du haut de la pâtisserie, replier la partie supérieure, puis prendre une lisière du côté gauche et la faire passer par dessus pour l’amener du côté droit. Répéter avec le côté droit. Continuer cette procédure de chaque côté en tressant les lisières sur le dessus pour enfermer les légumes dans la pâte.",
+              "Avant d’atteindre le bas, s’assurer que les deux bouts sont repliés sous le tressage. Glisser les restants de pâte sous le strudel pour bien enfermer les légumes.",
+              "Utiliser un pinceau pour recouvrir entièrement le dessus de la pâte avec le mélange d’eau et d’œuf. Sa surface deviendra ainsi lustrée pendant la cuisson.",
+              "REMARQUE : Ajouter aussi du gros sel de mer sur le dessus de la pâtisserie.",
+              "Placer dans un four préchauffé pendant environ 30 minutes à 350 degrés Fahrenheit en utilisant le mode cuisson par convection de pâtisserie ou cuisson par convection jusqu’à ce que la pâtisserie soit dorée. ",
+              "Couper en tranches de 2 po ou moins pour en faire un plat d’accompagnement ou un repas principal. Servir immédiatement."
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000124",
+        "recipeTitle": "Bacon praliné",
+        "recipeCategory": "Déjeuner",
+        "eligibleForHomeFeed": 0,
+        "order": 0,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/PralineBacon@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/PralineBacon@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/PralineBacon@{size}.png",
+        "eligibleForAssistedCooking": 0,
+        "assistedCookingInfo": {
+          "category": "S.O.",
+          "cycleName": "S.O.",
+          "foodId": 0
+        },
+        "noOfServings": "6",
+        "preparationTime": "10 minutes",
+        "cookingTime": "20 minutes",
+        "levelOfDifficulty": "Facile",
+        "cuisine": "Américaine",
+        "diet": "S.O.",
+        "typeOfDish": "Déjeuner",
+        "proTips": [
+          "Le mélange de pacane ne sera pas entièrement utilisé, garder le restant dans un sac refermable et le ranger au congélateur pour utilisation future."
+        ],
+        "ingredients": [
+          {
+            "section": "Ingrédients pour le bacon praliné",
+            "items": [
+              {
+                "item": "bacon épais",
+                "quantity": "1",
+                "unit": "lb de"
+              },
+              {
+                "item": "pacanes",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "cassonade",
+                "quantity": "2",
+                "unit": "tasses de"
+              },
+              {
+                "item": "poudre de chili",
+                "quantity": "1/4",
+                "unit": "tasse de"
+              },
+              {
+                "item": "poivre de Cayenne (selon le goût)",
+                "quantity": "2",
+                "unit": "c. à thé de"
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préparation du bacon praliné",
+            "directions": [
+              "Préchauffer le four encastré JennAir® à 350 degrés Fahrenheit en mode cuisson par convection en utilisant le système de convection à double ventilateur V2.",
+              "Placer les ingrédients qui serviront de garniture dans un robot culinaire et mélanger jusqu’à ce que les pacanes soient broyées et que les ingrédients soient pulvérisés.",
+			  "Couvrir une plaque à biscuit de papier aluminium. ",
+			  "Déposer le bacon sur la plaque (2 plaques pourraient être nécessaires).",
+			  "Placer le bacon au four environ 17 minutes ou jusqu’à ce qu’il soit presque cuit.",
+              "Retirer le bacon du four et déposer une fine couche de la garniture pralinée sur le dessus du bacon pour le couvrir entièrement. Ne pas faire une couche trop épaisse.",
+              "Replacer la plaque dans le four et cuire jusqu’à ce que le bacon devienne brun doré. Faire attention de ne pas le brûler.",
+              "Retirer le bacon du four et le placer sur des essuie-tout pour absorber une partie du gras. Ne pas toucher le dessus du bacon pour ne pas enlever la garniture.",
+              "Transférer des essuie-tout au plat de service. Servir immédiatement."
+            ]
+			  }
+			 ]
+          },
+         
+      {
+        "_id": "1000125",
+        "recipeTitle": "Crêpes de pommes de terre et salsa épicée",
+        "recipeCategory": "Plat d’accompagnement",
+        "eligibleForHomeFeed": 0,
+        "order": 0,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/SouthwesternPotatoCrepesWithSalsa_P180402_17z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/SouthwesternPotatoCrepesWithSalsa_P180402_17z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/SouthwesternPotatoCrepesWithSalsa_P180402_17z@{size}.png",
+        "eligibleForAssistedCooking": 0,
+        "assistedCookingInfo": {
+          "category": "S.O.",
+          "cycleName": "S.O.",
+          "foodId": 0
+        },
+        "noOfServings": "10",
+        "preparationTime": "15 minutes",
+        "cookingTime": "30 minutes",
+        "levelOfDifficulty": "Difficile",
+        "cuisine": "Sud-ouest",
+        "diet": "S.O.",
+        "typeOfDish":"Accompagnement",
+        "proTips": [
+          "Cette recette se réalise bien dans une poêle, mais c’est une recette parfaite pour la plaque à frire en chrome de JennAir.",
+          "Un robot culinaire ou un mélangeur permettra de rapidement préparer la salsa épicée. S’assurer de suivre les directives et d’utiliser l’option de pulsation pour assurer une texture fine.",
+          "Les crêpes peuvent être cuites à l’avance et réchauffées plus tard. Elles peuvent être accompagnées de votre garniture préférée. Une fois les crêpes prêtes, les empiler en plaçant du papier ciré entre chaque crêpe pour les empêcher de coller. Emballer les crêpes dans une pellicule plastique. Elles peuvent être conservées pendant des jours."
+        ],
+        "ingredients": [
+          {
+            "section": "Garniture des crêpes de pommes de terre",
+            "items": [
+              {
+                "item": "chorizo haché",
+                "quantity": "8",
+                "unit": "oz de"
+              },
+              {
+                "item": "pommes de terre Russet tranchées fin",
+                "quantity": "2",
+                "unit": "grandes"
+              },
+              {
+                "item": "d’oignon rouge haché mince",
+                "quantity": "1",
+                "unit": "tasse"
+              },
+              {
+                "item": "poivron rouge haché fin",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "sel cachère et poivre",
+                "quantity": "au goût",
+                "unit": ""
+              },
+              {
+                "item": "fromage aux piments râpé",
+                "quantity": "2",
+                "unit": "tasses de"
+              },
+              {
+                "item": "oignons verts (pour le dessus)",
+                "quantity": "au goût",
+                "unit": ""
+              }
+            ]
+          },
+          {
+            "section": "Salsa épicée",
+            "items": [
+              {
+                "item": "tomates Roma",
+                "quantity": "8",
+                "unit": ""
+              },
+              {
+                "item": "d’oignons verts tranchés minces",
+                "quantity": "3/4",
+                "unit": "tasse"
+              },
+              {
+                "item": "piments jalapenos sans graines et coupés en petits morceaux",
+                "quantity": "2",
+                "unit": ""
+              },
+              {
+                "item": "coriandre fraîche hachée",
+                "quantity": "2/3",
+                "unit": "tasse de"
+              },
+              {
+                "item": "sel",
+                "quantity": "1",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "sauce Tabasco® Chipotle",
+                "quantity": "2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "lime (jus)",
+                "quantity": "1",
+                "unit": ""
+              }
+            ]
+          },
+          {
+            "section": "Crêpes",
+            "items": [
+              {
+                "item": "farine tout usage",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "cumin moulu",
+                "quantity": "1",
+                "unit": "c. à table de"
+              },
+              {
+                "item": "sel",
+                "quantity": "1/4",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "lait",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "œufs",
+                "quantity": "3",
+                "unit": ""
+              },
+              {
+                "item": "beurre fondu",
+                "quantity": "3",
+                "unit": "c. à table de"
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préchauffer la surface de cuisson",
+            "directions": [
+              "Si une poêle antiadhésive est utilisée, la chauffer jusqu’à ce qu’elle soit chaude. ",
+              "Si une plaque à frire est utilisée, la préchauffer à 375 degrés Fahrenheit. "
+            ]
+          },
+          {
+            "recipeSection": "Préparation de l’appareil",
+            "directions": [
+              "Placer les pommes de terre dans la poêle et cuire pendant 15 minutes.",
+              "Ajouter les oignons et le poivron rouge et cuire environ 5 minutes à feu moyen-élevé. Assaisonner de sel et de poivre pendant la cuisson.",
+              "Pendant la cuisson des légumes, placer le chorizo dans une poêle à sauter de taille moyenne et cuire à feu moyen-élevé. ",
+              "Pendant la cuisson du chorizo, défaire la viande en petits morceaux.",
+              "Après environ 10 minutes de cuisson, ajouter le chorizo cuit aux pommes de terre et bien mélanger. ",
+              "Cuire tous les ingrédients ensemble jusqu’à ce que les pommes de terre soient tendres. ",
+              "REMARQUE : Cet appareil sera placé dans les crêpes cuites sur lesquelles on aura déposé le fromage aux piments."
+            ]
+          },
+          {
+            "recipeSection": "Préparation de la salsa épicée",
+            "directions": [
+              "Combiner tous les ingrédients et placer une heure au réfrigérateur."
+            ]
+          },
+          {
+            "recipeSection": "Préparation des crêpes",
+            "directions": [
+              "Mettre la farine, le sucre et le sel dans un bol et fouetter.",
+              "Dans un autre bol, fouetter les œufs et le lait.",
+              "Ajouter les ingrédients liquides à la farine et fouetter jusqu’à ce que le mélange soit soyeux. Verser le beurre fondu dans la préparation pour l’incorporer.",
+              "S’assurer que la surface (poêle antiadhésive ou plaque à frire) est chaude.",
+              "Verser 3 c. à table de la pâte en utilisant une louche, déposer ensuite délicatement la louche sur la pâte et effectuer un mouvement lent de vrille de l’intérieur vers l’extérieur. Ceci aidera à obtenir des crêpes minces.",
+              "Retourner la crêpe lorsque la pâte devient mate. Retourner la crêpe et cuire une autre minute.",
+              "Saupoudrer la crêpe de fromage aux piments râpé, puis ajouter environ 2 C à table de garniture de pommes de terre et de chorizo sur le fromage, sur la moitié de la surface de la crêpe.",
+              "Replier l’autre moitié de la crêpe sur la garniture et enlever de la plaque à frire à l’aide d’une spatule.",
+              "Déposer sur un plat et garnir de salsa et d’oignons. Servir immédiatement."
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000126",
+        "recipeTitle": "Pain éclair à l’oignon et à l’ail",
+        "recipeCategory": "Pain",
+        "eligibleForHomeFeed": 0,
+        "order": 0,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/GarlicOnionBread_P180402_16z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/GarlicOnionBread_P180402_16z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/GarlicOnionBread_P180402_16z@{size}.png",
+        "eligibleForAssistedCooking": 1,
+        "assistedCookingInfo": {
+          "category": "Produits de boulangerie",
+          "cycleName": "Pain",
+          "foodId": "8"
+        },
+        "noOfServings": "1 pain",
+        "preparationTime": "15 minutes",
+        "cookingTime": "1 heure",
+        "levelOfDifficulty": "Facile",
+        "cuisine": "Américaine",
+        "diet": "S.O.",
+        "typeOfDish": "Pain",
+        "proTips": [
+          "Ce pain est délicieux avec du beurre ou de l’huile à la ciboulette.",
+          "Utiliser de la farine tout usage sans gluten pour en faire un pain sans gluten."
+        ],
+        "ingredients": [
+          {
+            "section": "Ingrédients secs",
+            "items": [
+              {
+                "item": "farine tout usage",
+                "quantity": "3",
+                "unit": "tasses de"
+              },
+              {
+                "item": "sucre",
+                "quantity": "1/4",
+                "unit": "tasse de"
+              },
+              {
+                "item": "poudre à pâte",
+                "quantity": "2 1/2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "bicarbonate de sodium",
+                "quantity": "1/2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "d’ail haché finement",
+                "quantity": "3",
+                "unit": "grosses gousses"
+              },
+              {
+                "item": "oignons verts tranchés minces",
+                "quantity": "3",
+                "unit": ""
+              },
+              {
+                "item": "poudre d’ail",
+                "quantity": "3",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "moutarde sèche",
+                "quantity": "1/2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "sel",
+                "quantity": "1 1/2 ",
+                "unit": "c. à thé de"
+              }
+            ]
+          },
+          {
+            "section": "Ingrédients liquides",
+            "items": [
+              {
+                "item": "œufs battus",
+                "quantity": "3",
+                "unit": ""
+              },
+              {
+                "item": "babeurre",
+                "quantity": "1 1/2",
+                "unit": "tasses de"
+              },
+              {
+                "item": "d’huile végétale (ne pas utiliser d’huile d’olive)",
+                "quantity": "1/3",
+                "unit": "tasse"
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préparation du pain éclair à l’oignon et à l’ail",
+            "directions": [
+              "Utiliser le programme pour pain ou préchauffer le four à 350 degrés Fahrenheit en mode cuisson par convection.",
+              "Mélanger tous les ingrédients secs dans un grand bol. ",
+              "Dans un autre bol, fouetter ensemble les œufs, le babeurre et l’huile. ",
+              "Verser les ingrédients liquides dans les ingrédients secs et mélanger jusqu’à ce que les ingrédients secs soient humides. Ne pas trop mélanger."
+            ]
+          },
+          {
+            "recipeSection": "Terminer la préparation du pain éclair à l’oignon et à l’ail",
+            "directions": [
+              "Verser la pâte dans le moule à pain et cuire de 50 minutes à 1 heure.",
+              "Vérifier la cuisson à l’aide d’un cure-dents en bois. Si le cure-dents ressort propre, le pain est cuit.",
+              "Si non, laisser cuire un autre 10 minutes et vérifier de nouveau. ",
+              "Laisser refroidir dans le moule environ 10 minutes. Retirer ensuite le pain du moule et le déposer sur une grille pour le laisser refroidir. "
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000127",
+        "recipeTitle": "Pain à l’orange et aux bleuets",
+        "recipeCategory": "Pain",
+        "eligibleForHomeFeed": 1,
+        "order": 6,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/BlueberryOrangeBread_P180402_15z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/BlueberryOrangeBread_P180402_15z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/BlueberryOrangeBread_P180402_15z@{size}.png",
+        "eligibleForAssistedCooking": 1,
+        "assistedCookingInfo": {
+          "category": "Produits de boulangerie",
+          "cycleName": "Pain",
+          "foodId": "8"
+        },
+        "noOfServings": "1 pain",
+        "preparationTime": "25 minutes",
+        "cookingTime": "1 heure",
+        "levelOfDifficulty": "Moyenne",
+        "cuisine": "Américaine",
+        "diet": "S.O.",
+        "typeOfDish": "Pain",
+        "proTips": [
+          "Servir avec des fruits de saison frais.",
+          "Utiliser de la farine tout usage sans gluten pour en faire un pain sans gluten."
+        ],
+        "ingredients": [
+          {
+            "section": "Pain à l’orange et aux bleuets",
+            "items": [
+              {
+                "item": "farine tout usage",
+                "quantity": "3",
+                "unit": "tasses de"
+              },
+              {
+                "item": "sucre",
+                "quantity": "1/4",
+                "unit": "tasse de"
+              },
+              {
+                "item": "poudre à pâte",
+                "quantity": "2 1/2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "bicarbonate de sodium",
+                "quantity": "1/2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "piment de la Jamaïque moulu",
+                "quantity": "2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "cardamome moulue",
+                "quantity": "1",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "sel",
+                "quantity": "2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "bleuets surgelés",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "œufs battus",
+                "quantity": "3",
+                "unit": ""
+              },
+              {
+                "item": "zeste d’orange",
+                "quantity": "1",
+                "unit": ""
+              },
+              {
+                "item": "babeurre",
+                "quantity": "1 1/2 ",
+                "unit": "tasses de"
+              },
+              {
+                "item": "d’huile végétale (ne pas utiliser d’huile d’olive)",
+                "quantity": "1/3",
+                "unit": "tasse"
+              }
+            ]
+          },
+          {
+            "section": "Beurre à la vanille et au miel",
+            "items": [
+              {
+                "item": "beurre à température de la pièce",
+                "quantity": "1",
+                "unit": "bâtonnet de"
+              },
+              {
+                "item": "miel",
+                "quantity": "2",
+                "unit": "c. à table de"
+              },
+              {
+                "item": "pâte de gousse de vanille",
+                "quantity": "2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "sel",
+                "quantity": "1",
+                "unit": "pincée de"
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préparation du pain à l’orange et aux bleuets",
+            "directions": [
+              "Utiliser le mode pain ou préchauffer le four à 350 degrés Fahrenheit en mode cuisson par convection.",
+              "Vaporiser un moule à pain de 9 x 5 po d’huile végétale.",
+              "Dans un grand bol, mélanger les ingrédients secs (de la farine au sel), puis ajouter les bleuets surgelés. Mélanger et couvrir.",
+              "Dans un autre bol, fouetter ensemble les œufs, le zeste d’orange, le babeurre et l’huile. ",
+              "Verser les ingrédients liquides dans les ingrédients secs et mélanger jusqu’à ce que les ingrédients secs soient humides. Ne pas trop mélanger."
+            ]
+          },
+          {
+            "recipeSection": "Terminer la préparation du pain à l’orange et aux bleuets",
+            "directions": [
+              "Verser la pâte dans le moule à pain et cuire pendant 1 heure.",
+              "Vérifier la cuisson à l’aide d’un cure-dents en bois. Si le cure-dents ressort propre, le pain est cuit.",
+              "Si non, laisser cuire un autre 10 minutes et vérifier de nouveau.",
+              "Laisser refroidir le moule environ 10 minutes, puis retirer le pain du moule et le déposer sur une grille pour le laisser refroidir. ",
+              "Bien mélanger les ingrédients du beurre à la vanille et au miel pour que le tout devienne crémeux. Servir avec le pain."
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000128",
+        "recipeTitle": "Pain à l’oignon",
+        "recipeCategory": "Pain",
+        "eligibleForHomeFeed": 0,
+        "order": 0,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/OnionBread_P180402_13z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/OnionBread_P180402_13z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/OnionBread_P180402_13z@{size}.png",
+        "eligibleForAssistedCooking": 1,
+        "assistedCookingInfo": {
+          "category": "Produits de boulangerie",
+          "cycleName": "Pain",
+          "foodId": "8"
+        },
+        "noOfServings": "1 pain",
+        "preparationTime": "20 minutes",
+        "cookingTime": "S.O.",
+        "levelOfDifficulty": "Moyenne",
+        "cuisine": "Américaine",
+        "diet": "S.O.",
+        "typeOfDish": "Pain",
+        "proTips": [
+          "Ce pain est délicieux tartiné de beurre à l’ail rôti.",
+          "Utiliser de la farine tout usage sans gluten pour en faire un pain sans gluten."
+        ],
+        "ingredients": [
+          {
+            "section": "Ingrédients secs",
+            "items": [
+              {
+                "item": "farine tout usage",
+                "quantity": "3",
+                "unit": "tasses de"
+              },
+              {
+                "item": "sucre",
+                "quantity": "1/4",
+                "unit": "tasse de"
+              },
+              {
+                "item": "poudre à pâte",
+                "quantity": "2 1/2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "bicarbonate de sodium",
+                "quantity": "1/2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "d’oignons séchés",
+                "quantity": "3",
+                "unit": "c. à table"
+              },
+              {
+                "item": "poudre d’ail",
+                "quantity": "3",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "moutarde sèche",
+                "quantity": "1/2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "sel",
+                "quantity": "1 1/2",
+                "unit": "c. à thé de"
+              }
+            ]
+          },
+          {
+            "section": "Ingrédients liquides",
+            "items": [
+              {
+                "item": "œufs battus",
+                "quantity": "3",
+                "unit": ""
+              },
+              {
+                "item": "babeurre",
+                "quantity": "1 1/2 ",
+                "unit": "tasses de"
+              },
+              {
+                "item": "d’huile végétale (ne pas utiliser d’huile d’olive)",
+                "quantity": "1/3",
+                "unit": "tasse"
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préparation du pain à l’oignon",
+            "directions": [
+              "Utiliser le mode pain ou préchauffer le four à 350 degrés Fahrenheit en mode cuisson par convection.",
+              "Vaporiser un moule à pain de 9 x 5 po d’huile végétale.",
+              "Mélanger tous les ingrédients secs dans un grand bol. ",
+              "Dans un autre bol, fouetter ensemble les œufs, le babeurre et l’huile."
+            ]
+          },
+          {
+            "recipeSection": "Terminer le pain à l’oignon",
+            "directions": [
+              "Verser les ingrédients liquides dans les ingrédients secs et mélanger jusqu’à ce que les ingrédients secs soient humides. Ne pas trop mélanger.",
+              "Verser la pâte dans le moule à pain et cuire pendant 1 heure. ",
+              "Vérifier la cuisson à l’aide d’un cure-dents en bois. Si le cure-dents ressort propre, le pain est cuit.",
+              "Si non, laisser cuire un autre 10 minutes et vérifier de nouveau.",
+              "Laisser refroidir le pain environ 10 minutes, puis retirer le pain du moule et le déposer sur une grille pour le laisser refroidir."
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000129",
+        "recipeTitle": "Gâteaux au maïs et aux oignons verts avec crème fraîche à l’aneth",
+        "recipeCategory": "Plat d’accompagnement",
+        "eligibleForHomeFeed": 1,
+        "order": 5,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/GreenOnionCornCakewithDillCreme_P180402_12z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/GreenOnionCornCakewithDillCreme_P180402_12z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/GreenOnionCornCakewithDillCreme_P180402_12z@{size}.png",
+        "eligibleForAssistedCooking": 0,
+        "assistedCookingInfo": {
+          "category": "S.O.",
+          "cycleName": "S.O.",
+          "foodId": 0
+        },
+        "noOfServings": "6 (2 gâteaux chacun)",
+        "preparationTime": "25 minutes",
+        "cookingTime": "1 heure",
+        "levelOfDifficulty": "Moyenne",
+        "cuisine": "Fusion à l’américaine",
+        "diet": "S.O.",
+        "typeOfDish":"Accompagnement",
+        "proTips": [
+          "Cette recette se réalise bien dans une poêle, mais c’est une recette parfaite pour la plaque à frire en chrome de JennAir.",
+          "Surveiller le temps de cuisson pour que les gâteaux de maïs ne sèchent pas."
+        ],
+        "ingredients": [
+          {
+            "section": "Gâteaux de maïs",
+            "items": [
+              {
+                "item": "farine de maïs",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "farine tout usage",
+                "quantity": "1/2",
+                "unit": "tasse de"
+              },
+              {
+                "item": "sel",
+                "quantity": "1/2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "poudre à pâte",
+                "quantity": "1/2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "œuf",
+                "quantity": "1",
+                "unit": ""
+              },
+              {
+                "item": "lait",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "beurre fondu",
+                "quantity": "2",
+                "unit": "c. à table de"
+              },
+              {
+                "item": "maïs frais",
+                "quantity": "2/3",
+                "unit": "tasse de"
+              },
+              {
+                "item": "oignons verts émincés",
+                "quantity": "2",
+                "unit": ""
+              },
+              {
+                "item": "sel",
+                "quantity": "1",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "poivre de Cayenne",
+                "quantity": "1",
+                "unit": "pincée de"
+              }
+            ]
+          },
+          {
+            "section": "Crème fraîche à l’aneth",
+            "items": [
+              {
+                "item": "crème fraîche",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "d’aneth émincé",
+                "quantity": "1/2",
+                "unit": "tasse"
+              },
+              {
+                "item": "citron (jus)",
+                "quantity": "1/2",
+                "unit": ""
+              },
+              {
+                "item": "d’oignons rouges émincés",
+                "quantity": "3",
+                "unit": "c. à thé"
+              },
+              {
+                "item": "sel et poivre",
+                "quantity": "au goût",
+                "unit": ""
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préchauffer la surface de cuisson",
+            "directions": [
+              "Si une poêle antiadhésive est utilisée, la chauffer jusqu’à ce qu’elle soit chaude. ",
+              "Si une plaque à frire est utilisée, la préchauffer à 375 degrés Fahrenheit. "
+            ]
+          },
+          {
+            "recipeSection": "Préparation des gâteaux de maïs",
+            "directions": [
+              "Dans un bol de taille moyenne, mélanger la farine de maïs, la farine, le sel, la poudre à pâte, la poudre de Cayenne et les oignons verts.",
+              "Fouetter ensemble les œufs, le lait et le beurre.",
+              "Ajouter les ingrédients liquides aux ingrédients secs et bien mélanger.",
+              "Mélanger pour créer une pâte."
+            ]
+          },
+          {
+            "recipeSection": "Cuisson des gâteaux de maïs",
+            "directions": [
+              "Verser 1 C. à table de pâte dans une poêle ou sur une plaque à frire chauffée. Les gâteaux devraient avoir environ 2 po de diamètre.",
+              "Cuire les gâteaux de maïs jusqu’à ce que des bulles apparaissent, puis les retourner et continuer la cuisson pendant 2 autres minutes."
+            ]
+          },
+          {
+            "recipeSection": "Crème fraîche à l’aneth",
+            "directions": [
+              "Placer les ingrédients dans un robot culinaire et utiliser la pulsation pour mélanger.",
+              "Placer le mélange dans un flacon souple.",
+              "REMARQUE : La crème fraîche à l’aneth peut être conservée au réfrigérateur pendant une semaine.",
+              "Servir sur le dessus des gâteaux de maïs aux oignons verts."
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000130",
+        "recipeTitle": "Filet de saumon avec sauce à l’aneth",
+        "recipeCategory": "Entrée",
+        "eligibleForHomeFeed": 0,
+        "order": 0,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/SalmonFilletWithMayoDillSauce_P180402_11z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/SalmonFilletWithMayoDillSauce_P180402_11z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/SalmonFilletWithMayoDillSauce_P180402_11z@{size}.png",
+        "eligibleForAssistedCooking": 1,
+        "assistedCookingInfo": {
+          "category": "Fruits de mer",
+          "cycleName": "Darne de saumon/thon",
+          "foodId": "27"
+        },
+        "noOfServings": "8",
+        "preparationTime": "10 minutes",
+        "cookingTime": "15 à 20 minutes",
+        "levelOfDifficulty": "Facile",
+        "cuisine": "Américaine",
+        "diet": "S.O.",
+        "typeOfDish":"Plat Principal",
+        "proTips": [
+          "Cette recette peut être préparée dans un four à convection V2 standard de JennAir ou dans un four à convection avec injection de vapeur de JennAir. La cuisson par convection avec vapeur représente une façon rapide et douce de préparer des aliments comme des fruits de mer délicats."
+        ],
+        "ingredients": [
+          {
+            "section": "Saumon",
+            "items": [
+              {
+                "item": "darne de saumon",
+                "quantity": "2",
+                "unit": "lb de"
+              },
+              {
+                "item": "sel cachère et poivre noir moulu",
+                "quantity": "au goût",
+                "unit": ""
+              }
+            ]
+          },
+          {
+            "section": "Sauce mayonnaise et aneth",
+            "items": [
+              {
+                "item": "mayonnaise",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "oignon vert émincé fin",
+                "quantity": "1",
+                "unit": ""
+              },
+              {
+                "item": "citron (jus et zeste)",
+                "quantity": "1",
+                "unit": ""
+              },
+              {
+                "item": "d’aneth frais émincé fin",
+                "quantity": "1",
+                "unit": "tasse"
+              },
+              {
+                "item": "poivre de Cayenne",
+                "quantity": "1",
+                "unit": "une pincée de"
+              },
+              {
+                "item": "sel cachère et poivre noir moulu",
+                "quantity": "au goût",
+                "unit": ""
+              }
+            ]
+          },
+          {
+            "section": "Garniture",
+            "items": [
+              {
+                "item": "citron tranché mince",
+                "quantity": "1",
+                "unit": ""
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préparation du saumon",
+            "directions": [
+              "Placer le saumon dans un plat de cuisson au four et assaisonner de sel et de poivre.",
+              "Placer au four sur la grille du milieu. ",
+              "Suivre les instructions à l’écran ou sur l’application pour les fruits de mer, les darnes de saumon/thon ou les poissons entiers (four à injection de vapeur)."
+            ]
+          },
+          {
+            "recipeSection": "Monter le plat",
+            "directions": [
+              "Mélanger tous les ingrédients pour la sauce mayonnaise et aneth.",
+              "Retirer le saumon du four et le laisser reposer environ 3 minutes avant de servir. ",
+              "Le saumon devrait être opaque au centre. Pour un saumon plus cuit, ajouter 2 minutes de cuisson. ",
+              "Placer le saumon cuit sur une assiette de service et garnir de citron. ",
+              "Ajouter une fine couche de sauce mayonnaise et aneth sur le dessus du saumon cuit. La sauce peut aussi être servie à côté.",
+              "Servir immédiatement."
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000131",
+        "recipeTitle": "Crêpes burritos",
+        "recipeCategory": "Plat d’accompagnement",
+        "eligibleForHomeFeed": 0,
+        "order": 0,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/BurritoCrepe_P180402_10z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/BurritoCrepe_P180402_10z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/BurritoCrepe_P180402_10z@{size}.png",
+        "eligibleForAssistedCooking": 0,
+        "assistedCookingInfo": {
+          "category": "S.O.",
+          "cycleName": "S.O.",
+          "foodId": 0
+        },
+        "noOfServings": "8",
+        "preparationTime": "25 minutes",
+        "cookingTime": "1 heure",
+        "levelOfDifficulty": "Difficile",
+        "cuisine": "Fusion américaine",
+        "diet": "S.O.",
+        "typeOfDish":"Accompagnement",
+        "proTips": [
+          "Facultatif – pour des crêpes plus sucrées, ne pas utiliser de cumin et ajouter 1 c. à table de sucre et 2 c. à table de paprika fumé.",
+          "Les crêpes peuvent être cuites à l’avance et réchauffées plus tard. Elles peuvent être accompagnées de votre garniture préférée. Une fois les crêpes prêtes, les empiler en plaçant du papier ciré entre chaque crêpe pour les empêcher de coller. Emballer les crêpes dans une pellicule plastique. Elles peuvent être conservées pendant des jours.",
+          "Cette recette se réalise bien dans une poêle, mais c’est une recette parfaite pour la plaque à frire en chrome de JennAir."
+        ],
+        "ingredients": [
+          {
+            "section": "Crêpes",
+            "items": [
+              {
+                "item": "farine tout usage",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "cumin moulu",
+                "quantity": "3",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "sel",
+                "quantity": "1/4",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "lait",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "œufs",
+                "quantity": "3",
+                "unit": ""
+              },
+              {
+                "item": "beurre fondu",
+                "quantity": "3",
+                "unit": "c. à table de"
+              }
+            ]
+          },
+          {
+            "section": "Garniture de haricots noirs",
+            "items": [
+              {
+                "item": "d’oignon rouge haché mince",
+                "quantity": "1",
+                "unit": "tasse"
+              },
+              {
+                "item": "poivron rouge coupé en fines tranches",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "piments poblano rôtis coupés en fines tranches",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "haricots noirs égouttés",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "maïs frais",
+                "quantity": "1",
+                "unit": "tasse de"
+              },
+              {
+                "item": "fromage râpé (pepper jack ou queso mexicain frais)",
+                "quantity": "2",
+                "unit": "tasses de"
+              },
+              {
+                "item": "sel et poivre",
+                "quantity": "au goût",
+                "unit": ""
+              },
+              {
+                "item": "huile d’olive",
+                "quantity": "au goût",
+                "unit": ""
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préparation des crêpes",
+            "directions": [
+              "Fouetter dans un bol la farine, le cumin (ou remplacer le cumin par du sucre et du paprika fumé pour obtenir des crêpes plus sucrées) et le sel.",
+              "Dans un autre bol, fouetter le lait et les œufs.",
+              "Ajouter les ingrédients liquides à la farine et fouetter jusqu’à ce que le mélange soit soyeux. Verser le beurre fondu dans la préparation et fouetter pour l’incorporer. ",
+              "REMARQUE : S’assurer que le beurre est à température de la pièce avant de l’ajouter à la pâte. Ne pas ajouter de beurre chaud dans la pâte.\t\t",
+              "REMARQUE : Toujours préparer la pâte le même jour que les crêpes et seulement quelques heures avant la cuisson."
+            ]
+          },
+          {
+            "recipeSection": "Préparation de la garniture de haricots noirs (à cuire en premier)",
+            "directions": [
+              "Chauffer une grande poêle à température moyenne-élevée. Ajouter une couche épaisse d’huile d’olive à la poêle chauffée.",
+              "Ajouter les oignons et faire cuire environ 1 minute.",
+              "Ajouter les poivrons, les piments les haricots noirs et le maïs et cuire 3 autres minutes. ",
+              "REMARQUE : Assaisonner pendant la cuisson de sel et de poivre. ",
+              "Garder au chaud jusqu’au moment de garnir les crêpes."
+            ]
+          },
+          {
+            "recipeSection": "Préchauffer la surface de cuisson",
+            "directions": [
+              "Si une poêle antiadhésive est utilisée, la chauffer jusqu’à ce qu’elle soit chaude. ",
+              "Si une plaque à frire est utilisée, la préchauffer à 375 degrés Fahrenheit. "
+            ]
+          },
+          {
+            "recipeSection": "Cuire les crêpes",
+            "directions": [
+              "Verser environ 3 c. à table de pâte sur la plaque à frire en utilisant une louche, déposer ensuite délicatement la louche sur la pâte et effectuer un mouvement lent de vrille de l’intérieur vers l’extérieur. Ceci aidera à obtenir des crêpes minces. ",
+              "Retourner la crêpe lorsque la pâte devient mate. Retourner la crêpe et cuire une autre minute."
+            ]
+          },
+          {
+            "recipeSection": "Garnir les crêpes avec la préparation de haricots noirs",
+            "directions": [
+              "Saupoudrer la crêpe d’un peu de fromage, puis ajouter environ 2 c. à table de garniture de haricots noirs et de poivrons sur le fromage, au centre de la crêpe.",
+              "Plier la moitié de la crêpe sur la garniture, puis l’autre moitié vers le centre. ",
+              "Retirer de la plaque à frire ou de la poêle avec une spatule.",
+              "Mettre dans un plat à servir et servir avec de la salsa."
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000132",
+        "recipeTitle": "Gâteaux de maïs aux haricots noirs",
+        "recipeCategory": "Plat d’accompagnement",
+        "eligibleForHomeFeed": 0,
+        "order": 0,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/BlackBeanCornCakes_P180402_9z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/BlackBeanCornCakes_P180402_9z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/BlackBeanCornCakes_P180402_9z@{size}.png",
+        "eligibleForAssistedCooking": 0,
+        "assistedCookingInfo": {
+          "category": "S.O.",
+          "cycleName": "S.O.",
+          "foodId": 0
+        },
+        "noOfServings": "6",
+        "preparationTime": "20 minutes",
+        "cookingTime": "8 minutes par gâteau",
+        "levelOfDifficulty": "Moyenne",
+        "cuisine": "À la mode du Sud",
+        "diet": "Sans gluten",
+        "typeOfDish":"Accompagnement",
+        "proTips": [
+          "Ne pas proposer que des accompagnements connus, essayer une variété de sauces comme une salsa de tomatilles ou d’ananas pour offrir à vos invités la possibilité de personnaliser leur expérience.",
+          "Cette recette se réalise bien dans une poêle, mais c’est une recette parfaite pour la plaque à frire en chrome de JennAir."
+        ],
+        "ingredients": [
+          {
+            "section": "Ingrédients pour les gâteaux de maïs aux haricots noirs",
+            "items": [
+              {
+                "item": "haricots noirs cuits ou en boîte et égouttés",
+                "quantity": "2",
+                "unit": "tasses de"
+              },
+              {
+                "item": "patates douces crues finement râpées",
+                "quantity": "1/2",
+                "unit": "tasse de"
+              },
+              {
+                "item": "d’oignon rouge haché mince",
+                "quantity": "1/2",
+                "unit": "tasse"
+              },
+              {
+                "item": "d’ail émincé",
+                "quantity": "2",
+                "unit": "gousses"
+              },
+              {
+                "item": "piments jalapenos au vinaigre hachés finement",
+                "quantity": "1",
+                "unit": "c. à table de"
+              },
+              {
+                "item": "maïs frais",
+                "quantity": "3/4",
+                "unit": "tasse de"
+              },
+              {
+                "item": "œuf battu",
+                "quantity": "1",
+                "unit": ""
+              },
+              {
+                "item": "farine de riz",
+                "quantity": "3",
+                "unit": "c. à table de"
+              },
+              {
+                "item": "cumin",
+                "quantity": "1",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "paprika fumé",
+                "quantity": "1/2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "clous de girofle moulus",
+                "quantity": "1/4",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "sel cachère",
+                "quantity": "1/2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "poivre noir moulu",
+                "quantity": "1/4",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "huile d’olive",
+                "quantity": "au goût",
+                "unit": ""
+              },
+              {
+                "item": "salsa",
+                "quantity": "au goût",
+                "unit": ""
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préparation des gâteaux de maïs aux haricots noirs",
+            "directions": [
+              "Placer les haricots dans un grand bol et les écraser avec une fourchette. Écraser grossièrement les haricots pour être en mesure de toujours les distinguer, ne pas transformer en purée!",
+              "Ajouter les patates douces, les oignons, l’ail, les jalapenos, le maïs et l’œuf. ",
+              "Mélanger la farine de riz, le cumin, le paprika fumé, le clou de girofle moulu, le sel et le poivre. ",
+              "Verser le mélange d’épices dans les haricots et mélanger à la main ou avec une cuillère.",
+              "Rouler les haricots pour obtenir une boule de la taille d’une balle de baseball, puis écraser. Appuyer sur les coins du gâteau pour les aplatir."
+            ]
+          },
+          {
+            "recipeSection": "Cuire les gâteaux de maïs aux haricots noirs",
+            "directions": [
+              "Faire chauffer une grande poêle à sauter ou la plaque à frire en chrome de JennAir à feu moyen.",
+              "Ajouter une fine couche d’huile d’olive dans la poêle; la plaque à frire en chrome de JennAir n’a pas besoin d’huile.",
+              "Placer le gâteau aux haricots dans la poêle ou sur la plaque et faire cuire de chaque côté jusqu’à ce qu’ils deviennent brun doré. Environ 4 minutes par côté.",
+              "Servir immédiatement avec de la salsa."
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000133",
+        "recipeTitle": "Casserole grecque",
+        "recipeCategory": "Déjeuner",
+        "eligibleForHomeFeed": 0,
+        "order": 0,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/GreekEggCasserole_P180402_33z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/GreekEggCasserole_P180402_33z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/GreekEggCasserole_P180402_33z@{size}.png",
+        "eligibleForAssistedCooking": 0,
+        "assistedCookingInfo": {
+          "category": "S.O.",
+          "cycleName": "S.O.",
+          "foodId": 0
+        },
+        "noOfServings": "12",
+        "preparationTime": "15 minutes",
+        "cookingTime": "30 à 40 minutes",
+        "levelOfDifficulty": "Facile",
+        "cuisine": "Grecque",
+        "diet": "S.O.",
+        "typeOfDish": "Déjeuner",
+        "proTips": [
+          "Extraire un peu d’huile des tomates séchées au soleil et couper en petits morceaux pour ajouter une touche de saveur."
+        ],
+        "ingredients": [
+          {
+            "section": "Ingrédients de la casserole",
+            "items": [
+              {
+                "item": "œufs",
+                "quantity": "16",
+                "unit": ""
+              },
+              {
+                "item": "crème 10 %",
+                "quantity": "2",
+                "unit": "tasses de"
+              },
+              {
+                "item": "d’origan séché",
+                "quantity": "3",
+                "unit": "c. à thé"
+              },
+              {
+                "item": "sel cachère",
+                "quantity": "3",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "poivre noir moulu",
+                "quantity": "1",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "roquette",
+                "quantity": "2",
+                "unit": "tasses de"
+              },
+              {
+                "item": "champignons tranchés",
+                "quantity": "2",
+                "unit": "tasses de"
+              },
+              {
+                "item": "fromage feta râpé (la moitié dans les œufs et l’autre pour garnir)",
+                "quantity": "2",
+                "unit": "tasses de"
+              },
+              {
+                "item": "tomates séchées au soleil dans l’huile",
+                "quantity": "1",
+                "unit": "tasse de"
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préparation de la casserole",
+            "directions": [
+              "Vaporiser une casserole de 13 x 9 po d’huile végétale.",
+              "Préchauffer le four à 400 degrés Fahrenheit en utilisant le mode de cuisson par convection.",
+              "Dans un grand bol, fouetter les œufs, la crème 10 %, l’origan, le sel et le poivre. ",
+              "Ajouter la roquette, les champignons, 1 tasse de fromage feta et les tomates séchées au soleil.",
+              "Déposer la préparation dans un plat de cuisson et placer sur le dessus la tasse de fromage feta restante. ",
+              "Cuire environ 30 à 40 minutes, jusqu’à ce que le centre soit gonflé et qu’il ne semble plus humide."
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000134",
+        "recipeTitle": "Couronne d’agneau",
+        "recipeCategory": "Entrée",
+        "eligibleForHomeFeed": 1,
+        "order": 1,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/CrownRackLamb_P180402_6z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/CrownRackLamb_P180402_6z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/CrownRackLamb_P180402_6z@{size}.png",
+        "eligibleForAssistedCooking": 1,
+        "assistedCookingInfo": {
+          "category": "Rôtis",
+          "cycleName": "Agneau",
+          "foodId": "15"
+        },
+        "noOfServings": "8",
+        "preparationTime": "15 minutes",
+        "cookingTime": "Utiliser la sonde",
+        "levelOfDifficulty": "Facile",
+        "cuisine": "Américaine",
+        "diet": "S.O.",
+        "typeOfDish":"Plat Principal",
+        "proTips": [
+          "Astuces d’experts : Ajouter des herbes fraîches peut faire ressortir de nouveaux parfums. Essayer de faire rôtir en utilisant une tige de romarin ou de thym frais. "
+        ],
+        "ingredients": [
+          {
+            "section": "Préparation de l’agneau",
+            "items": [
+              {
+                "item": "couronnes d’agneau",
+                "quantity": "2",
+                "unit": ""
+              },
+              {
+                "item": "huile avec ail",
+                "quantity": "au goût",
+                "unit": ""
+              },
+              {
+                "item": "sel cachère",
+                "quantity": "au goût",
+                "unit": ""
+              },
+              {
+                "item": "poivre moulu",
+                "quantity": "au goût",
+                "unit": ""
+              },
+              {
+                "item": "persil haché",
+                "quantity": "au goût",
+                "unit": ""
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préparation de la couronne d’agneau",
+            "directions": [
+              "Préparer la couronne « à la française » en enlevant la viande se trouvant sur la partie supérieure de l’os.",
+              "Astuces d’experts : Demander à votre boucher de préparer l’agneau « à la française » pour vous.",
+              "Enrouler l’agneau pour que les deux bouts se touchent, en plaçant le côté gras vers l’intérieur. Les os devraient pointer vers le haut pour prendre l’apparence d’une fontaine d’eau. ",
+              "À l’aide d’une ficelle de boucher, attacher la viande pour qu’elle reste en place pendant la cuisson au four. ",
+              "Frotter généreusement d’huile avec ail les côtés et la base. ",
+              "Assaisonner généreusement les côtés de sel et de poivre. ",
+              "Placer l’agneau sur une plaque à biscuit avec grille pour viande. ",
+              "Suivre le lien suivant pour apprendre comment régler le four pour cuire l’agneau. "
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000135",
+        "recipeTitle": "Bifteck de style carne asada avec marinade",
+        "recipeCategory": "Entrée",
+        "eligibleForHomeFeed": 0,
+        "order": 0,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/CarneAsadaForSteakMarinade_P180402_39z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/CarneAsadaForSteakMarinade_P180402_39z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/CarneAsadaForSteakMarinade_P180402_39z@{size}.png",
+        "eligibleForAssistedCooking": 0,
+        "assistedCookingInfo": {
+          "category": "S.O.",
+          "cycleName": "S.O.",
+          "foodId": 0
+        },
+        "noOfServings": "8-12",
+        "preparationTime": "30 à 60 minutes",
+        "cookingTime": "Utiliser la sonde",
+        "levelOfDifficulty": "Moyenne",
+        "cuisine": "Mexicaine",
+        "diet": "S.O.",
+        "typeOfDish":"Plat Principal",
+        "proTips": [
+          "Ne pas laisser mariner plus d’une heure puisque la viande séchera à cause de l’acidité du jus de lime. Une fois la viande marinée, jeter la marinade. Ne pas réutiliser."
+        ],
+        "ingredients": [
+          {
+            "section": "Steak",
+            "items": [
+              {
+                "item": " lb de bifteck de hampe ou bavette",
+                "quantity": "2 à 3",
+                "unit": ""
+              }
+            ]
+          },
+          {
+            "section": "Marinade",
+            "items": [
+              {
+                "item": "oignon blanc moyen sans tige, pelé et coupé en quartiers",
+                "quantity": "1",
+                "unit": ""
+              },
+              {
+                "item": "oignons verts sans racine",
+                "quantity": "3",
+                "unit": ""
+              },
+              {
+                "item": "gousses d’ail",
+                "quantity": "3",
+                "unit": ""
+              },
+              {
+                "item": "coriandre fraîche",
+                "quantity": "1/2",
+                "unit": "bouquet de"
+              },
+              {
+                "item": "d’origan",
+                "quantity": "2",
+                "unit": "c. à thé"
+              },
+              {
+                "item": "cumin moulu",
+                "quantity": "2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "sel cachère",
+                "quantity": "2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "Adobo Goya ou paprika",
+                "quantity": "2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "sauce Tabasco chipotle",
+                "quantity": "2",
+                "unit": "c. à table de"
+              },
+              {
+                "item": "vin rouge",
+                "quantity": "3",
+                "unit": "tasses de"
+              },
+              {
+                "item": "lime (jus)",
+                "quantity": "4/6",
+                "unit": ""
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préparation de la marinade et de la viande",
+            "directions": [
+              "Mélanger tous les ingrédients dans un robot culinaire ou un mélangeur.",
+              "Faire mariner la viande pendant 30 à 60 minutes.",
+              "Retirer la viande et enlever l’excès de marinade.",
+              "Assaisonner généreusement de sel cachère et de poivre moulu. "
+            ]
+          },
+          {
+            "recipeSection": "Terminer la préparation de la carne asada",
+            "directions": [
+              "Faire griller ou saisir chaque côté, puis placer au four pour faire rôtir et obtenir une cuisson mi-saignante.",
+              "Trancher la viande et servir garnie de coriandre fraîche et de tranches de lime comme entrée principale."
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000136",
+        "recipeTitle": "Tacos au porc rôti lentement",
+        "recipeCategory": "Entrée",
+        "eligibleForHomeFeed": 0,
+        "order": 0,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/PulledPorkTacos_P180402_2z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/PulledPorkTacos_P180402_2z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/PulledPorkTacos_P180402_2z@{size}.png",
+        "eligibleForAssistedCooking": 0,
+        "assistedCookingInfo": {
+          "category": "S.O.",
+          "cycleName": "S.O.",
+          "foodId": 0
+        },
+        "noOfServings": "14",
+        "preparationTime": "15 minutes",
+        "cookingTime": "6 heures",
+        "levelOfDifficulty": "Facile",
+        "cuisine": "Mexicaine",
+        "diet": "S.O.",
+        "typeOfDish":"Plat Principal",
+        "proTips": [
+          "Ajouter des herbes fraîches à la place d’herbes sèches fait ressortir les parfums. Essayer de l’origan frais, du poivre et du sel en grains, et de l’ail. Utiliser un mortier et un pilon pour broyer les herbes et faire ressortir encore plus les parfums.",
+          "Utiliser des accompagnements frais et colorés permet de donner vie à la présentation de vos aliments. "
+        ],
+        "ingredients": [
+          {
+            "section": "Frotter",
+            "items": [
+              {
+                "item": "gousses d’ail",
+                "quantity": "6",
+                "unit": ""
+              },
+              {
+                "item": "sel cachère",
+                "quantity": "1",
+                "unit": "c. à table de"
+              },
+              {
+                "item": "poivre noir",
+                "quantity": "2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "poudre d’ail",
+                "quantity": "2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "chili en poudre",
+                "quantity": "3",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "d’origan séché",
+                "quantity": "2",
+                "unit": "c. à thé"
+              },
+              {
+                "item": "cumin moulu",
+                "quantity": "3",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "paprika fumé",
+                "quantity": "2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "Téquila Patron (ou votre marque préférée)",
+                "quantity": "1/3",
+                "unit": "tasse de"
+              },
+              {
+                "item": "bière foncée",
+                "quantity": "1",
+                "unit": "bouteille de"
+              }
+            ]
+          },
+          {
+            "section": "Épaule de porc",
+            "items": [
+              {
+                "item": "limes",
+                "quantity": "3",
+                "unit": ""
+              },
+              {
+                "item": "d’épaule de porc désossée",
+                "quantity": "5",
+                "unit": "lb"
+              }
+            ]
+          },
+          {
+            "section": "Ingrédients supplémentaires",
+            "items": [
+              {
+                "item": "coriandre fraîche",
+                "quantity": "au goût",
+                "unit": ""
+              },
+              {
+                "item": "chou rouge",
+                "quantity": "au goût",
+                "unit": ""
+              },
+              {
+                "item": "laitue",
+                "quantity": "au goût",
+                "unit": ""
+              },
+              {
+                "item": "tomates",
+                "quantity": "au goût",
+                "unit": ""
+              },
+              {
+                "item": "salsa",
+                "quantity": "au goût",
+                "unit": ""
+              },
+              {
+                "item": "fromage de votre choix",
+                "quantity": "au goût",
+                "unit": ""
+              },
+              {
+                "item": "tortillas de maïs ou de farine",
+                "quantity": "au goût",
+                "unit": ""
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préparation des épices à frotter",
+            "directions": [
+              "Placer les épices dans un bol et bien les mélanger. Lorsque les épices sont mélangées, verser la moitié des épices sur plaque. ",
+              "Rouler chaque filet de porc dans les épices et les placer sur une plaque avec grille pour viande. Ajouter des épices au besoin. "
+            ]
+          },
+          {
+            "recipeSection": "Préparation des filets de porc",
+            "directions": [
+              "Chauffer une grande poêle à sauter à température moyenne-élevée.",
+              "Ajouter une couche épaisse d’huile d’olive pour couvrir le fond de la poêle.",
+              "Placer les filets dans la poêle et faire griller chaque côté jusqu’à ce qu’ils soient dorés et caramélisés. ",
+              "Cette étape ne devrait pas prendre plus de 5 minutes. Ne pas oublier de griller rapidement la viande pour capturer les jus à l’intérieur.",
+              "Retirer la poêle du feu et placer les filets grillés sur la plaque avec grille à viande. ",
+              "Suivre le lien suivant pour apprendre comment régler le four pour cuire les filets de porc.",
+              "Verser du jus de lime frais sur le porc et répartir pour couvrir entièrement.",
+              "Servir avec des légumes frais comme du chou, de la laitue et des tomates. Des tortillas de maïs ou de farine réchauffés servis avec du fromage et de la salsa constituent aussi un accompagnement parfait."
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000137",
+        "recipeTitle": "Filet de saumon à la moutarde et à l’érable",
+        "recipeCategory": "Entrée",
+        "eligibleForHomeFeed": 0,
+        "order": 0,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/MapleMustardSalmonFillet_P180402_5z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/MapleMustardSalmonFillet_P180402_5z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/MapleMustardSalmonFillet_P180402_5z@{size}.png",
+        "eligibleForAssistedCooking": 1,
+        "assistedCookingInfo": {
+          "category": "Fruits de mer",
+          "cycleName": "Darne de saumon/thon",
+          "foodId": "27"
+        },
+        "noOfServings": "8",
+        "preparationTime": "15 minutes",
+        "cookingTime": "Environ 15 à 20 minutes, utiliser la sonde",
+        "levelOfDifficulty": "Facile",
+        "cuisine": "Américaine",
+        "diet": "S.O.",
+        "typeOfDish":"Plat Principal",
+        "proTips": [
+          "Laisser le saumon reposer pendant 3 minutes avant de servir. "
+        ],
+        "ingredients": [
+          {
+            "section": "Saumon",
+            "items": [
+              {
+                "item": "darne de saumon",
+                "quantity": "2",
+                "unit": "lb de"
+              },
+              {
+                "item": "sel cachère",
+                "quantity": "au goût",
+                "unit": ""
+              },
+              {
+                "item": "poivre moulu",
+                "quantity": "au goût",
+                "unit": ""
+              },
+              {
+                "item": "citron pour la garniture",
+                "quantity": "1",
+                "unit": ""
+              },
+              {
+                "item": "ciboulette émincée",
+                "quantity": "2",
+                "unit": "c. à table de"
+              }
+            ]
+          },
+          {
+            "section": "Sauce à la moutarde et à l’érable",
+            "items": [
+              {
+                "item": "moutarde moulue sur pierre",
+                "quantity": "1/3",
+                "unit": "tasse de"
+              },
+              {
+                "item": "sirop d’érable pur",
+                "quantity": "2",
+                "unit": "c. à table de"
+              },
+              {
+                "item": "vinaigre balsamique",
+                "quantity": "2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "sel cachère",
+                "quantity": "au goût",
+                "unit": ""
+              },
+              {
+                "item": "poivre moulu",
+                "quantity": "au goût",
+                "unit": ""
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préparation et cuisson du saumon",
+            "directions": [
+              "Placer le saumon sur une plaque à biscuit.",
+              "Placer sur la grille, au centre du four. "
+            ]
+          },
+          {
+            "recipeSection": "Sauce à la moutarde et à l’érable",
+            "directions": [
+              "Mélanger les ingrédients dans un bol et garder de côté pour plus tard.",
+              "Suivre le lien suivant pour apprendre comment régler le four pour cuire le saumon."
+            ]
+          },
+          {
+            "recipeSection": "Assembler et servir",
+            "directions": [
+              "Retirer le saumon du four et le laisser reposer environ 3 minutes avant de servir.",
+              "Placer le saumon cuit sur une assiette de service et garnir de citron. Ajouter une couche de sauce à la moutarde et à l’érable sur le dessus du saumon cuit. ",
+              "Saupoudrer de ciboulette émincée. "
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000138",
+        "recipeTitle": "Poulet barbecue à l’érable au four",
+        "recipeCategory": "Entrée",
+        "eligibleForHomeFeed": 1,
+        "order": 4,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/OvenBarbecuedGrilledChicken_P180402_7z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/OvenBarbecuedGrilledChicken_P180402_7z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/OvenBarbecuedGrilledChicken_P180402_7z@{size}.png",
+        "eligibleForAssistedCooking": 1,
+        "assistedCookingInfo": {
+          "category": "Volaille",
+          "cycleName": "Poulet avec ou sans os",
+          "foodId": "19"
+        },
+        "noOfServings": "6",
+        "preparationTime": "15 minutes",
+        "cookingTime": "Environ 30 minutes, utiliser la sonde",
+        "levelOfDifficulty": "Moyenne",
+        "cuisine": "Américaine",
+        "diet": "S.O.",
+        "typeOfDish":"Plat Principal",
+        "proTips": [
+          "Vérifier la qualité des ingrédients. Utiliser du ketchup organique sans sucre ajouté, de l’huile d’olive de qualité et du vrai sirop d’érable améliorera le parfum de votre sauce.",
+          "Astuce : Utiliser des accompagnements frais et colorés permet de donner vie à la présentation de vos aliments. "
+        ],
+        "ingredients": [
+          {
+            "section": "Poulet",
+            "items": [
+              {
+                "item": "poulet rôti en quartier et désossé de préférence",
+                "quantity": "1",
+                "unit": ""
+              },
+              {
+                "item": "oignon blanc coupé en tranches de 1/4 po",
+                "quantity": "1",
+                "unit": "grand"
+              },
+              {
+                "item": "sel cachère",
+                "quantity": "au goût",
+                "unit": ""
+              },
+              {
+                "item": "poivre moulu",
+                "quantity": "au goût",
+                "unit": ""
+              }
+            ]
+          },
+          {
+            "section": "Sauce barbecue",
+            "items": [
+              {
+                "item": "ketchup",
+                "quantity": "1/2",
+                "unit": "tasse de"
+              },
+              {
+                "item": "d’huile d’olive",
+                "quantity": "1/2",
+                "unit": "tasse"
+              },
+              {
+                "item": "sirop d’érable pur",
+                "quantity": "1/2",
+                "unit": "tasse de"
+              },
+              {
+                "item": "vinaigre",
+                "quantity": "1/4",
+                "unit": "tasse de"
+              },
+              {
+                "item": "moutarde préparée",
+                "quantity": "2",
+                "unit": "c. à table de"
+              },
+              {
+                "item": "poudre d’ail",
+                "quantity": "2",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "fumée liquide",
+                "quantity": "1",
+                "unit": "c. à thé de"
+              },
+              {
+                "item": "sel cachère",
+                "quantity": "au goût",
+                "unit": ""
+              },
+              {
+                "item": "poivre moulu",
+                "quantity": "au goût",
+                "unit": ""
+              },
+              {
+                "item": "fromage de votre choix",
+                "quantity": "au goût",
+                "unit": ""
+              },
+              {
+                "item": "tortillas de maïs ou de farine",
+                "quantity": "au goût",
+                "unit": ""
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Sauce",
+            "directions": [
+              "Placer les ingrédients pour la sauce barbecue dans un bol et fouetter."
+            ]
+          },
+          {
+            "recipeSection": "Poulet",
+            "directions": [
+              "Placer le poulet sur une plaque à frire, une grille ou une poêle préchauffée à feu moyen.",
+              "Cuire chaque côté environ 5 minutes, ne retourner le poulet qu’une seule fois.",
+              "Retirer le poulet et le placer dans un plat de cuisson allant au four de 13 x 9.",
+              "Placer l’oignon autour et sur le poulet.",
+              "Saupoudrer du sel et du poivre à votre convenance.",
+              "Verser de façon égale la sauce barbecue sur le poulet.",
+              "Suivre le lien suivant pour apprendre comment régler le four pour cuire le poulet."
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "1000139",
+        "recipeTitle": "Filet de porc frotté aux épices",
+        "recipeCategory": "Entrée",
+        "eligibleForHomeFeed": 1,
+        "order": 3,
+        "homeFeedCardImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/HomeFeedCard/SpiceRubbedPorkTenderloin_P180402_8z@{size}.png",
+        "recipeListingImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeListing/SpiceRubbedPorkTenderloin_P180402_8z@{size}.png",
+        "recipeDetailPageImage": "NAR/JENNAIR/MOBILEAPP/Images/CulinaryCenter/JACustomRecipe/RecipeDetail/SpiceRubbedPorkTenderloin_P180402_8z@{size}.png",
+        "eligibleForAssistedCooking": 1,
+        "assistedCookingInfo": {
+          "category": "Rôtis",
+          "cycleName": "Porc, filet de porc",
+          "foodId": "25"
+        },
+        "noOfServings": "14",
+        "preparationTime": "15 minutes",
+        "cookingTime": "6 heures",
+        "levelOfDifficulty": "Facile",
+        "cuisine": "Mexicaine",
+        "diet": "S.O.",
+        "typeOfDish":"Plat Principal",
+        "proTips": [
+          "Ajouter des herbes fraîches à la place d’herbes sèches fait ressortir les parfums. Essayer de l’origan frais, du poivre, du sel en grains et de l’ail. Utiliser un mortier et un pilon pour broyer les herbes et faire ressortir encore plus les parfums."
+        ],
+        "ingredients": [
+          {
+            "section": "MARINADE SÈCHE",
+            "items": [
+              {
+                "item": "poivre grossièrement moulu",
+                "quantity": "4",
+                "unit": "c. à table de"
+              },
+              {
+                "item": "cumin moulu",
+                "quantity": "4",
+                "unit": "c. à table de"
+              },
+              {
+                "item": "sel cachère",
+                "quantity": "4",
+                "unit": "c. à table de"
+              },
+              {
+                "item": "marjolaine",
+                "quantity": "1",
+                "unit": "c. à table de"
+              },
+              {
+                "item": "cassonade",
+                "quantity": "1",
+                "unit": "c. à table de"
+              },
+              {
+                "item": "paprika doux",
+                "quantity": "2",
+                "unit": "c. à table de"
+              },
+              {
+                "item": "poudre d’ail",
+                "quantity": "2",
+                "unit": "c. à table de"
+              },
+              {
+                "item": "huile d’olive",
+                "quantity": "au goût",
+                "unit": ""
+              }
+            ]
+          },
+          {
+            "section": "FILET DE PORC",
+            "items": [
+              {
+                "item": "filets de porc désossés",
+                "quantity": "2",
+                "unit": ""
+              }
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "recipeSection": "Préparation des épices à frotter",
+            "directions": [
+              "Placer les épices dans un bol et bien les mélanger. Lorsque les épices sont mélangées, verser la moitié des épices sur plaque. ",
+              "Rouler chaque filet de porc dans les épices et les placer sur une plaque avec grille pour viande. Ajouter des épices au besoin. "
+            ]
+          },
+          {
+            "recipeSection": "Préparation des filets de porc",
+            "directions": [
+              "Chauffer une grande poêle à sauter à température moyenne-élevée.",
+              "Ajouter une couche épaisse d’huile d’olive pour couvrir le fond de la poêle.",
+              "Placer les filets dans la poêle et faire griller chaque côté jusqu’à ce qu’ils soient dorés et caramélisés. ",
+              "Cette étape ne devrait pas prendre plus de 5 minutes. Ne pas oublier de griller rapidement la viande pour capturer les jus à l’intérieur.",
+              "Retirer la poêle du feu et placer les filets grillés sur la plaque avec grille à viande. ",
+              "Suivre le lien suivant pour apprendre comment régler le four pour cuire les filets de porc.",
+              "Verser du jus de lime frais sur le porc et répartir pour couvrir entièrement.",
+              "Servir avec des légumes frais comme du chou, de la laitue et des tomates. Des tortillas de maïs ou de farine réchauffés servis avec du fromage et de la salsa constituent aussi un accompagnement parfait."
+            ]
+          }
+        ]
+      }
+    ],
+    "lifeStyleArticles": [
+      
+    ],
+    "assistedCooking": [
+      "8",
+      "14",
+      "24",
+      "28",
+      "1"
+    ]
+  }
+}

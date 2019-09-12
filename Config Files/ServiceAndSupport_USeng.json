@@ -1,0 +1,22 @@
+{
+    "Header": {
+        "title": "ServiceAndSupport_USeng",
+        "version": "1.3",
+        "createdAt": "June 4, 2019 6:30:00 PM",
+        "modifiedDate": "July 17, 2019 5:30:00 PM",
+        "createdBy": "Venkat Boddapati",
+        "Description": ""
+    },
+    "Data": {
+        "CXCDetail": {
+            "Country": "US",
+            "Email": "NAR_JennAirCustomerExperience@JennAir.com",
+            "Phone": "1-800-536-6247",
+            "Hours": "Mon–Fri 8am–8pm EST"
+        },
+        "TermsofService" : "https://www.jennair.com/connectivity/smart-appliances-terms-of-service.html",
+        "PrivacyNotice" : "https://www.jennair.com/connectivity/smart-appliances-privacy-notice.html",
+        "ScheduleService" : "https://v1.jennair.com/customer-care/schedule-repair"
+
+    }
+}

@@ -1,0 +1,1112 @@
+{
+  "Header": {
+    "title": "Eng Localization",										
+    "version": "1.43",
+    "createdAt": "Oct 22, 2018 6:30:00 PM",
+    "modifiedDate": "Sep 12, 2019 5:30:00 PM",
+    "createdBy": "Venkat Boddapati",
+    "Description": ""
+  },
+  "Data": {
+      "kCookTop": "Cooktop",
+      "KProductNameLoki": "Loki Cooktop",
+      "kFindSaidInfoLoki": "The SAID is a unique identification number for your appliance. Please see image to locate the position of your SAID.",
+      "kFindConnectButtonDescriptionLoki": "Find the Wi-Fi Symbol located on your appliance surface as shown in the image and press it.",
+      "KClearNetworkInstructionsLoki": "On your appliance, please follow these instructions:{step} Press and hold Wi-Fi Symbol for 3 seconds to clear the network settings.{step}Wait until Wi-Fi indicator goes off.{step} After that, press on NEXT. ",
+      "kFreezer": "Freezer",
+      "KProductNameOberonFreezer": "Oberon Freezer",
+      "kFindSaidInfoOberonFreezer": "The SAID is a unique identification number for your appliance. Please see image to locate the position of your SAID.",
+      "kFindConnectButtonDescriptionOberonFreezer": "Find the 'Connect' button on the user interface inside the product as shown in the image and press it",
+      "KClearNetworkInstructionsOberonFreezer":" On your appliance, please follow these instructions:{step}If Wi-Fi indicator is blinking, then press and hold CONNECT button on the panel for 15 seconds. {step}Wait until Wi-Fi indicator goes off.{step} After that, press on NEXT.\n If Wi-Fi indicator is off, then press NEXT.",
+      "kRefrigerator": "Refrigerator",
+      "KProductNameOberonRefrigerator": "Oberon Refrigerator",
+      "kFindSaidInfoOberonRefrigerator": "The SAID is a unique identification number for your appliance. Please see image to locate the position of your SAID.",
+      "kFindConnectButtonDescriptionOberonRefrigerator": "Find the 'Connect' button on the user interface inside the product as shown in the image and press it",
+      "KClearNetworkInstructionsOberonRefrigerator":" On your appliance, please follow these instructions:{step}If Wi-Fi indicator is blinking, then press and hold CONNECT button on the panel for 15 seconds. {step}Wait until Wi-Fi indicator goes off.{step} After that, press on NEXT.\n If Wi-Fi indicator is off, then press NEXT.",
+      "kWallOven": "Wall Oven",
+      "KProductNameMinervaOven": "Minerva Oven",
+      "kFindSaidInfoMinervaOven": "{step} As this product doesn't have the QR code, kindly use the Manual Method to enter the SAID and MAC ID.{step} To locate SAID and MAC ID, follow the path on the Appliance Display: Tools > Wireless Features > SAID Code.",
+
+      "kFindConnectButtonDescriptionMinervaOven":"{step} Tap the \"Tools\" button on the display {step} Scroll down to \"Wireless Features\" {step} Find \"Connect Network\" on the screen and then tap \"Edit\" {step} Tap the \"Search Network\" button {step} Select your home network name {step} Enter the password",
+      "KClearNetworkInstructionsMinervaOven": "To clear the network settings, follow these instructions on your appliance LCD screen. {step}Tap the \"Tools\" button on the display {step} Scroll down to \"Wireless Features\" {step} Select \"Disble Wi-Fi\"",
+      "kFreeStandingOven": "Free Standing Oven",
+      "KProductNameU2Oven": "U2 Oven",
+      "kFindSaidInfoU2Oven": "The SAID is a unique identification number for your appliance. Please see image to locate the position of your SAID.",
+      "kFindConnectButtonDescriptionU2": "On your appliance, please follow these instructions: Set all knobs to the \"Wi-Fi\" setting. Once the knobs are in position, press the \"Start\" button on your appliance.",
+      "KClearNetworkInstructionsU2Oven": "On your appliance, please follow these instructions: {step} Set all knobs to the \"Wi-Fi\" setting. {step} Once the knobs are in position, hold the \"Start\" button on your appliance for 15 seconds.",
+      "kDishawasher": "Dishwasher",
+      "KProductNameJADish": "Ja Dishwasher",
+      "KProductNameProluxDish": "Prolux Dishwasher",
+      "kFindSaidInfoJADish": "The SAID Label is a unique identification number for your appliance. It is located on the inside panel of the dishwasher door.",
+      "kFindConnectButtonDescriptionJADish": "On your appliance, please follow these instructions: Press Connect Button. The Wi-Fi icon will start blinking",
+      "KClearNetworkInstructionsJADish": "On your appliance, please follow these instructions: {step} Press and hold the Connect button for 15 seconds to clear the network settings",
+      "kRefrigeratorAllinone": "Refrigerator All-In-One",
+      "KProductNameBellaRefrigerator": "Bella Refrigerator",
+      "kFindSaidInfoBellaRefrigerator": "The SAID is a unique identification number for your appliance. Please see image to locate the position of your SAID.",
+      "kFindConnectButtonDescriptionBella": "Find the 'Connect' button on the user interface inside the product as shown in the image and press it",
+      "KClearNetworkInstructionsBella":" On your appliance, please follow these instructions:{step}If Wi-Fi indicator is blinking, then press and hold CONNECT button on the panel for 30 seconds. {step}Wait until Wi-Fi indicator goes off.{step} After that, press on NEXT.\n If Wi-Fi indicator is off, then press NEXT.",
+     
+	 "settings.settings" : "SETTINGS",
+      "settings.account_settings" : "ACCOUNT SETTINGS",
+      "settings.account_settings_description" : "View/Edit settings for your account",
+      "settings.service_support" : "SERVICE AND SUPPORT",
+      "settings.service_support_description" : "Engage with the JennAir Epicenter agents or schedule service",
+      "settings.smart_home_integrations" : "SMART HOME INTEGRATIONS",
+      "settings.smart_home_integrations_description" : "Connect your appliances with other smart home devices",
+      "settings.guest_user" : "ADDITIONAL USERS",
+      "settings.guest_user_description" : "Add multiple guests to your account",
+      "settings.give_us_feedback" : "GIVE US FEEDBACK",
+      "settings.give_us_feedback_description" : "Rate your experience and report bugs",
+      "settings.about" : "ABOUT",
+      "settings.about_description" : "View Privacy Notice and Terms of Service",
+      "settings.account_settings.settings" : "Settings",
+	  
+      "settings.account_settings.account_settings" : "ACCOUNT SETTINGS",
+	  
+      "settings.account_settings.edit_user_details" : "EDIT USER DETAILS",
+	  "settings.account_settings.edit_user_desc":"Change name, email, phone",
+	  
+      "settings.account_settings.manage_locations" : "MANAGE LOCATIONS",
+	  "settings.account_settings.manage_locations_desc":"Add, edit, delete locations",
+	  
+      "settings.account_settings.change_password" :"CHANGE PASSWORD",
+	  "settings.account_settings.change_password_desc":"Change password at any time",
+	  
+      "settings.account_settings.accounts_i_belong":"ACCOUNTS I BELONG TO",
+	  "settings.account_settings.accounts_belong_desc":"View accounts on which you are an additional user",
+	  
+      "settings.account_settings.sign_out":"SIGN OUT",
+	  "settings.account_settings.sign_out_desc":"Signing out stops status and notification updates",
+	  
+      "settings.edit_user_details.account_settings":"Account Settings",
+      "settings.edit_user_details.edit_user_details":"EDIT USER DETAILS",
+      "settings.edit_user_details.first_name":"First Name",
+      "settings.edit_user_details.last_name":"Last Name",
+      "settings.edit_user_details.phone_number":"Phone Number",
+      "settings.edit_user_details.email_address":"Email Address",
+      "settings.edit_user_details.save_changes":"SAVE CHANGES",
+      "settings.edit_user_details.delete_account":"DELETE ACCOUNT",
+      "settings.account_saved.account_saved":"ACCOUNT SAVED",
+      "settings.account_saved.account_saved_details":"Your account changes have been successfully saved.",
+      "settings.account_saved.done":"DONE",
+	  
+      "settings.account_deleted.account_deleted":"ACCOUNT DELETED",
+      "settings.account_deleted.account_deleted_details":"Your account has been successfully deleted.",
+      "settings.account_deleted.done":"DONE",
+	  
+      "settings.manage_locations1.account_settings":"Account Settings",
+      "settings.manage_locations1.manage_locations":"MANAGE LOCATIONS",
+      "settings.manage_locations1.add_location":"ADD LOCATION",
+	  
+      "settings.manage_locations2.account_settings":"Account Settings",
+      "settings.manage_locations2.manage_locations":"ADD LOCATION",
+	  "settings.manage_locations2.home_name":"Home Name",
+	  "settings.manage_locations2.address_line_1":"Address Line 1",
+	  "settings.manage_locations2.address_line_2":"Address Line 2",
+      "settings.manage_locations2.country":"Country",
+      "settings.manage_locations2.state":"State",
+	  "settings.manage_locations2.city":"City",
+	  "settings.manage_locations2.zip_code":"Zip Code",
+      "settings.manage_locations2.save":"Save",
+	  "settings.manage_locations2.delete":"Delete",
+	  
+	  "settings.manage_locations2.edit_location":"EDIT LOCATION",
+     
+      "settings.password_changed.password_changed":"PASSWORD CHANGED",
+      "settings.password_changed.password_changed_details":"Your password has been successfully changed.",
+      "settings.password_changed.done":"DONE",
+	  
+      "settings.change_your_password.account.settings":"Account Settings",
+      "settings.change_your_password.change_your_password":"CHANGE YOUR PASSWORD",
+      "settings.change_your_password.change_your_password_details":" Must be a length of 8 or more characters \n Must include lower case characters \n Must include upper case characters \n Must include atleast one number",
+      "settings.change_your_password.old_password":"Current Password",
+      "settings.change_your_password.new_password":"New Password",
+      "settings.change_your_password.confirm_password":"Confirm Password",
+      "settings.change_your_password.show_password":"Show Password",
+      "settings.change_your_password.match_details":"Password did not match, please re-enter.",
+      "settings.change_your_password.next":"UPDATE",
+      
+      "settings.accounts_im_on.accounts_im_on":"ACCOUNTS I'M ON",
+      "settings.accounts_im_on.details":"You are not an additional user on any accounts currently. If you were sent an invitation and haven't accepted it yet, please check your email.",
+	  
+	  "settings.accounts_im_on2.accounts_settings":"Account Settings",
+	  "settings.accounts_im_on2.accounts_im_on":"ACCOUNTS I'M ON",
+	  
+      
+      "settings.invite_sent.invite_sent":"INVITE SENT",
+      "settings.invite_sent.details":"Your invite has been emailed to your additional user",
+      "settings.invite_sent.close":"CLOSE",
+	  
+      "settings.delete_invite":"DELETE INVITE",
+      "settings.delete_invite.delete_invite_details":"If you delete this invite the additional user will no longer have access to your appliances.",
+      "settings.delete_invite.delete_invite":"DELETE INVITE",
+      "settings.delete_invite.delete_invite.close":"CLOSE",
+	  
+	  "settings.sure_log_out":"ARE YOU SURE YOU WANT TO SIGN OUT?",
+      "settings.sure_log_out.details":"If you sign out, you will no longer receive notifications.",
+      "settings.sure_log_out.log_out":"SIGN OUT",
+      "settings.sure_log_out.cancel":"CANCEL",
+	  
+      "settings.delete_location":"DELETE LOCATION",
+      "settings.delete_location.details":"If you delete your location, you will no longer have access to registered appliances.",
+      "settings.delete_location.delete":"DELETE",
+      "settings.delete_location.close":"CLOSE",
+	  
+      "settings.sure_delete_account":"ARE YOU SURE YOU WANT TO DELETE THIS ACCOUNT?",
+      "settings.sure_delete_account.details":"Deleting this account will clear all appliance data from this device.",
+      "settings.sure_delete_account.delete":"DELETE",
+      "settings.sure_delete_account.close":"CLOSE",
+	  
+	  "settings.manage_locations3.manage_locations":"MANAGE LOCATIONS",
+	  "settings.manage_locations3.manage_locations_details":"You do not have any locations created on this account",
+	  "settings.manage_locations3.add_location":"ADD LOCATION",
+	  
+	  "settings.manage_locations.appliances_located":"Where are your appliances located?",
+      "settings.manage_locations.add_new_location":"ADD NEW LOCATION",
+	  "settings.manage_locations.next":"NEXT",
+	  
+	  "settings.delete_received_invite":"DELETE INVITE",
+	  "settings.delete_invite.delete_invite_details_received":"If you delete this invite you will no longer have access to the appliances that you were invited to use.",
+	  "settings.delete_invite.delete_invite_received":"DELETE INVITE",
+	  "settings.delete_invite.delete_invite.close_received":"CLOSE",
+	  
+	  "settings.guest_access1.add_guest_access":"ADD ADDITIONAL USER",
+	  "settings.guest_access1.add_family_details":"Add additional users to your appliances so they can command and control them digitally. Additional users won't be able to change your account settings, add or delete appliances.",
+      "settings.guest_access1.add_guest":"ADD ADDITIONAL USER",
+	  
+      "setting.guest_user.settings":"Settings",
+      "setting.guest_user.guest_user":"ADDITIONAL USERS",
+	  "setting.guest_user.current_guest_users":"CURRENT ADDITIONAL USERS",
+	  "setting.guest_user.pending_invitation":"Pending Invitation",
+	  "setting.guest_user.denied_invitation":"Denied Invitation",
+	  "setting.guest_user.accepted_invitation":"Accepted Invitation",
+	  "settings.guest_user.add_guest":"ADD ADDITIONAL USER",
+	  
+	  
+      "settings.add_guest_access.settings":"Settings",
+      "settings.add_guest_access.add_guest_access":"ADD ADDITIONAL USERS",
+	  "settings.add_guest_access.first_name":"FIRST NAME",
+	  "settings.add_guest_access.last_name":"LAST NAME",
+	  "settings.add_guest_access.email_address":"EMAIL",
+	  "settings.add_guest_access.add_location":"LOCATIONS",
+	  "settings.add_guest_access.add_location_details":"Select a location where you would like to add the additional user to:",
+	  "settings.guest_access.send_invite":"SEND INVITE",
+	  
+	  "settings.service_support.settings":"Settings",
+	  "settings.service_support.service_support":"SERVICE & SUPPORT",
+	  "settings.service_support.appliance_name":"Appliance Name",
+	  "settings.service_support.model":"Model",
+	  "settings.service_support.said":"SAID",
+	  "settings.service_support.serial":"Serial",
+	  "settings.service_support.start_date":"Start Date",
+      "settings.service_support.contact_support":"CONTACT SUPPORT",
+      "settings.service_support.contact_support_details":"M-F 8am - 8pm EST",
+      "settings.service_support.schedule_service":"SCHEDULE SERVICE",
+      "settings.service_support.schedule_service_details":"Make an Appointment",
+      "settings.service_support.documents":"DOCUMENTS",
+      "settings.service_support.documents_details":"Important Manuals & Guides",
+      "settings.service_support.appliance_errors":"APPLIANCE ERRORS",
+      "settings.service_support.appliance_errors_details":"Insights & Information",
+	  
+      "settings.contact_support.contact_support":"CONTACT SUPPORT",
+      "settings.contact_support.contact_support_details":"Questions or comments? You can reach us by making a call to this number: 1-800-JENNAIR(536-6247).",
+	  "settings.contact_support.call":"CALL",
+      "settings.contact_support.close":"CLOSE",
+	  
+      "settings.documents.documents":"DOCUMENTS",
+	  
+      "settings.appliance_errors.appliance_error":"APPLIANCE ERRORS",
+	  "settings.appliance_errors.no_appliance_error_ios":"NO APPLIANCE ERRORS",
+	  "settings.appliance_errors.appliance_name":"Appliance Name",
+	  "settings.appliance_errors.model":"Model",
+	  "settings.appliance_errors.said":"SAID",
+	  "settings.appliance_errors.serial":"Serial",
+	  "settings.appliance_errors.start_date":"Start Date",
+	  
+	  "settings.error_code.error_code":"ERROR CODE",
+	  "settings.error_code.step":"Step %s",
+      "settings.error_code.its_fixed":"IT'S FIXED",
+     
+      "settings.feedback.settings":"Settings",
+      "settings.feedback.feedback":"FEEDBACK",
+      "settings.feedback.general_feedback":"RATE THE APP",
+      "settings.feedback.general_feedback_details":"Rate your experience",
+      "settings.feedback.feature_feedback":"FEATURE-SPECIFIC FEEDBACK",
+      "settings.feedback.feature_feedback_details":"Rate your APP features",
+      "settings.feedback.report_bug":"REPORT A BUG",
+      "settings.feedback.report_bug_details":"Report JennAir App issues",
+	  
+      "settings.general_feedback1.settings":"Settings",
+      "settings.general_feedback1.general_feedback":"RATE THE APP",
+      "settings.general_feedback1.general_feedback_details":"On a scale of 1 - 5, how would you rate the overall app experience?",
+	  "settings.general_feedback1.write_comment":"WRITE YOUR COMMENT (REQUIRED)",
+      "settings.general_feedback1.submit":"SUBMIT",
+	  
+      
+      "settings.feedback_sent.feedback_sent":"FEEDBACK SENT",
+      "settings.feedback_sent.feedback_sent_details":"Thank you for providing your feedback.",
+	  "settings.feedback_sent.close":"CLOSE",
+	  "settings.feedback_sent.share_review":"SHARE REVIEW",
+	  
+      "settings.report_bug.settings":"Settings",
+      "settings.report_bug.report_a_bug":"REPORT A BUG",
+      "settings.report_bug.report_a_bug_details":"Which feature are you experiencing an issue with?",
+	  "settings.report_bug.product_list":"Product",
+	  "settings.report_bug.feature_list":"Feature",
+	  "settings.report_bug.feature_list_details":"Please enter a detailed description of the issue.",
+	  "settings.report_bug.write_comment":"WRITE YOUR COMMENT (REQUIRED)",
+	  "settings.report_bug.submit":"SUBMIT",
+	  
+	  
+      "settings.feedback_sent_general.feedback_sent":"FEEDBACK SENT",
+      "settings.feedback_sent_general.feedback_sent_details":"Thank you for providing your feedback.",
+      "settings.feedback_sent_general.share_review":"SHARE REVIEW",
+      "settings.feedback_sent_general.close":"CLOSE",
+	  
+	  "settings.feedback_sent_general.feedback_sent_details_apple":"Thank you for providing your feedback. Would you like to share your experience on the app store?",
+	  "settings.feedback_sent_general.feedback_sent_details_google":"Thank you for providing your feedback. Would you like to share your experience on the google play store?",
+	  
+	  "settings.bug_reported":"BUG REPORTED",
+	  "settings.bug_reported_details":"Thank you for reporting the bug. ",
+	  "settings.bug_reported_close":"CLOSE",
+	  
+      "settings.smart_home.settings":"Settings",
+      "settings.smart_home.smart_home_integrations":"SMART HOME INTEGRATIONS",
+	  "settings.smart_home.nest":"NEST",
+	  "settings.smart_home.nest_details":"Set NEST to react to changes",
+	  "settings.smart_home.amazon_alexa":"AMAZON ALEXA",
+      "settings.smart_home.amazon_alexa_details":"Manage functions with voice commands",
+      "settings.smart_home.google_home":"GOOGLE HOME",
+      "settings.smart_home.google_home_details":"Manage functions with voice commands",
+	  
+	  "settings.nest.smart_home_integrations":"Smart Home Integrations",
+	  "settings.nest.nest":"NEST",
+	  "settings.nest.nest_instruction":"Please ensure your JennAir smart appliance is connected to the JennAir APP and Wi-Fi.{step}Click on Add NEST and log in to the NEST App{step}Select NEST location & start using NEST features with your compatible JennAir smart appliances",
+	  "settings.nest.add_nest":"ADD NEST",
+	  
+	  "settings.nest2.smart_home_integrations":"Smart Home Integrations",
+	  "settings.nest2.nest":"NEST",
+	  "settings.nest2.nest_details":"Set Nest Learning ThermostatsÂ® to react to the oven's rising temperature and decrease room temperature by a set number of degrees. Receive alerts when the oven is left on and no one is home, all through the app.* * Away signal can take up to two hours.",
+	  "settings.nest2.enter_our_realm":"SIGN UP or SIGN IN",
+	  "settings.nest.learn_more":"LEARN MORE",
+	  
+	  
+      "settings.amazon_alexa.smart_home_integration":"Smart Home Integrations",
+      "settings.amazon_alexa.amazon_alexa":"AMAZON ALEXA",
+	  "settings.smart_home.steps_to_connect":"STEPS TO CONNECT",
+	  "settings.amazon_alexa.compatible_appliances":"Works only with selected compatible appliances. Follow the steps below to go the Amazon Alexa app to find out if your appliance is compatible.",
+      "settings.amazon_alexa.amazon_alexa_instructions":"Please ensure your JennAir connected appliance is connected to the JennAir APP and Wi-Fi.{step}Open the Alexa APP and log in.{step}Click the ENABLE button, or say, \"Alexa, enable JennAir skill\".{step}Enter your JennAir account username and password to link your account to Alexa.",
+      "settings.amazon_alexa.enable_skill":"ENABLE SKILL",
+	  "settings.smart_home.step":"STEP %s",
+	  
+      "settings.amazon_alexa2.smart_home_integration":"Smart Home Integrations",
+      "settings.amazon_alexa2.amazon_alexa":"AMAZON ALEXA",
+      "settings.amazon_alexa2.amazon_alexa_details":"Manage functions like setting and adjusting cooking times and temperatures or turning the oven off with simple voice commands using a compatible voice enabled device.",
+      "settings.amazon_alexa2.enter_our_realm":"SIGN UP or SIGN IN",
+      "settings.amazon_alexa2.learn_more":"LEARN MORE",
+	  
+      "settings.google_home.smart_home_integration":"Smart Home Integrations",
+      "settings.google_home.google_home":"GOOGLE HOME",
+	  "settings.smart_home.steps_to_connect2":"STEPS TO CONNECT",
+	  "settings.google_home.compatible_appliances":"Works only with selected compatible appliances. Follow the steps below to go the Google Home app to find out if your appliance is compatible.",
+      "settings.google_home.instructions":"Please ensure your JennAir connected appliance is connected to the JennAir APP and Wi-Fi.{step}Turn to your Google Home and say,\"OK Google, ask JennAir to link my account\".{step}Google Assistant will display a LINK card in the Google Home APP. Launch the Google Home APP, and tap the Discover tab to click LINK.{step}If you don't see a LINK card, you may need to close the Google Home APP and relaunch it.{step}Enter your JennAir account username and password to link your account to Google Home.",
+      "settings.google_home.add_google_device":"ADD GOOGLE ASSISTANT",
+	  
+      "settings.google_home2.smart_home_integrations":"Smart Home Integrations",
+      "settings.google_home2.google_home":"GOOGLE HOME",
+      "settings.google_home2.google_home_details":"Manage functions on compatible ovens like setting and adjusting cooking times and temperatures or turning the oven off with simple voice commands using a compatible voice enabled device.",
+      "settings.google_home2.enter_our_realm":"SIGN UP or SIGN IN",
+      "settings.google_home2.learn_more":"LEARN MORE",
+	  
+      "settings.about.settings":"Settings",
+      "settings.about.about":"About",
+      "settings.about.jennair":"JennAir",
+	  "settings.about.version":"Version %s",
+	  "settings.about.version_ios":"iOS version %s",
+      "settings.about.privacy_statement":"Privacy Notice",
+      "settings.about.terms_service":"Terms of Service",
+      "settings.about.update":"Update Available",
+      "settings.about.log_file":"Log File",
+	  
+	  "settings.force_update.close": "Close",
+      "settings.force_update.update_now": "Update Now",
+	  
+      "culinary_center.culinary_center":"CULINARY CENTER",
+      "culinary_center.assisted_cooking":"ASSISTED COOKING",
+      "culinary_center.assisted_cooking_details":"Step-by-step guidance",
+      "culinary_center.custom_recipes":"JENNAIR CUSTOM RECIPES",
+      "culinary_center.custom_recipes_details":"Savor the culinary experience",
+      "culinary_center.my_creations":"MY CREATIONS",
+      "culinary_center.my_creations_details":"Curate your personalized recipe",
+      "culinary_center.cook_command":"COOK ON COMMAND",
+      "culinary_center.cook_command_details":"Scan and send select items to the oven",
+      "culinary_center.access_yummly":"ACCESS YUMMLY",
+      "culinary_center.access_yummly_details":"Inspire creativity with more recipes",
+	  
+      "uam.perfection_awaits.perfection_awaits":"PERFECTION AWAITS",
+      "uam.perfection_awaits.perfection_awaits_details":"With a JennAir account you can add compatible smart appliances and connect to Wi-Fi to get real-time notifications, personalize settings or control select appliances from anywhere with remote access.",
+      "uam.perfection_awaits.enter_realm":"SIGN UP or SIGN IN",
+      "uam.perfection_awaits.learn_more":"LEARN MORE",
+	  
+      "uam.get_started.lets_get_started":"SIGN UP or SIGN IN",
+      "uam.get_started.enter_your_email":"ENTER YOUR EMAIL",
+      "uam.get_started.next":"NEXT",
+	  
+      "uam.greet_you.how_greet_you":"HOW SHALL WE GREET YOU?",
+	  "uam.greet_you.first_name":"ENTER YOUR FIRST NAME",
+	  "uam.greet_you.last_name":"ENTER YOUR LAST NAME",
+	  "uam.greet_you.phone_number":"ENTER YOUR PHONE NUMBER",
+	  "uam.greet_you.next":"NEXT",
+	  
+	  
+      "uam.password.your_password":"CREATE A PASSWORD",
+      "uam.password.your_password_details":"Must be a length of 8 or more characters \n Must include lower case characters \n Must include upper case characters \n Must include atleast one number",
+	  "uam.password.password":"PASSWORD",
+	  "uam.password.confirm_password":"CONFIRM PASSWORD",
+	  "uam.password.password_doesnt_match":"Password doesn't match, please re-enter",
+	  "uam.password.next":"NEXT",
+	  
+      
+      "uam.terms_conditions.terms_and_conditions":"TERMS AND CONDITIONS",
+      "uam.terms_conditions.privacy_statement":"PRIVACY NOTICE",
+      "uam.terms_conditions.accept_privacy_statement":"Accept Privacy Notice",
+      "uam.terms_conditions.terms_of_service":"TERMS OF SERVICE",
+      "uam.terms_conditions.accept_terms_service":"Accept Terms of Service",
+      "uam.terms_conditions.next":"NEXT",
+	  
+      "uam.validate_email.validate_email":"VALIDATE EMAIL",
+      "uam.validate_email.validate_email_details":"An email has been sent to %s. Please follow the instructions to validate and enter your account.",
+      "uam.validate_email.not_you":"NOT YOU?",
+      "uam.validate_email.resend":"RESEND",
+      "uam.validate_email.close":"SIGN IN",
+	  
+      "uam.welcome_back1.welcome_back_name":"WELCOME BACK,%s",
+      "uam.welcome_back1.enter_password":"ENTER PASSWORD",
+	  "uam.welcome_back1.password":"PASSWORD",
+	  
+      "uam.welcome_back1.show_password":"Show Password",
+      "uam.welcome_back1.next":"NEXT",
+      "uam.welcome_back1.keep_me_logged":"Keep Me Logged In",
+      "uam.welcome_back1.forgot_password":"FORGOT PASSWORD",
+      "uam.welcome_back1.not_you":"NOT YOU?",
+	  
+      "uam.reset_password.reset_password":"RESET YOUR PASSWORD",
+      "uam.reset_password.reset_password_details":"Password reset instructions will be sent to the below email ID",
+	  "uam.reset_password.email":"EMAIL",
+      "uam.reset_password.send":"SEND",
+      "uam.reset_password.close":"CLOSE",
+	  
+	 "uam.wrong_password.incorrect_password": "Incorrect Password",
+     "uam.wrong_password.incorrect_password_details": "Password is incorrect, please input the correct password or use Forgot Password to reset the password",
+	 "uam.wrong_password.dismiss": "Dismiss",
+	  
+      "uam.email_resent.email_resent":"EMAIL SENT",
+      "uam.email_resent.email_resent_details":"An email has been sent to %s. Please follow instructions.",
+      "uam.email_resent.done":"SIGN IN",
+	  
+      "uam.welcome_back2.welcome_back_name":"WELCOME BACK,%s",
+      "uam.welcome_back2.enter_password":"ENTER PASSWORD",
+      "uam.welcome_back2.show_password":"Show Password",
+      "uam.welcome_back2.incorrect_password":"Incorrect password, please re-enter.",
+      "uam.welcome_back2.next":"NEXT",
+      "uam.welcome_back2.keep_me_logged":"Keep Me Logged In",
+      "uam.welcome_back2.forgot_password":"FORGOT PASSWORD",
+      "uam.welcome_back2.not_you":"NOT YOU?",
+	  
+      "uam.activate_account.activate_account":"ACTIVATE ACCOUNT",
+      "uam.activate_account.activate_account_details":"Your account is locked or deactivated. To reset, please click on \"forgot password\" link below.",
+      "uam.activate_account.forgot_password":"FORGOT PASSWORD",
+      "uam.activate_account.close":"CLOSE",
+	  
+	  
+      "uam.common_widgets.popup_cancel_button": "CANCEL", 
+      "uam.common_widgets.popup_error_title": "ERROR",
+      "uam.common_widgets.popup_internet_error_details": "There was a problem communicating with server. Please check your internet connection and try again.",
+	  
+	  "uam.terms_conditions.accept" : "accept",
+      "uam.terms_conditions.logout" : "logout",
+	  
+      "s2c.get_connected1.get_connected":"Let's get Connected",
+      "s2c.get_connected1.get_connected_details":"To add an appliance, connect your Wi-Fi enabled device to your Wi-Fi network, checking to ensure your router supports 2.4GHz networks.",
+      "s2c.get_connected1.begin":"BEGIN",
+      "s2c.get_connected1.cancel":"CANCEL",
+	  
+      "s2c.scan_connect1.scan_connect":"",
+      "s2c.scan_connect1.scan_said":"SCAN QR CODE",
+      "s2c.scan_connect1.no_code":"NO CODE",
+      "s2c.scan_connect1.need_help":"NEED HELP?",
+	  
+      "s2c.scan_connect2.scan_connect":"SCAN TO CONNECT",
+      "s2c.scan_connect2.scan_said":"Scan SAID Label",
+      "s2c.scan_connect2.add_appliance_details":"Find QR code and scan to begin the process.",
+      "s2c.scan_connect2.cant_find_code":"CAN'T FIND CODE?",
+      "s2c.scan_connect2.enter_manually":"ENTER MANUALLY",
+	  "s2c.scan_connect2.close":"CLOSE",
+	  
+      "s2c.claim_appliance.claiming_appliance":"MANUALLY ENTER CODE",
+      "s2c.claim_appliance.enter_said":"ENTER SAID",
+      "s2c.claim_appliance.enter_mac":"ENTER MAC ID",
+      "s2c.claim_appliance.enter":"NEXT",
+	  "s2c.claim_appliance.scan_code_instead":"Scan Your Code Instead",
+	  
+      "s2c.claim_appliance2.claiming_appliance":"Claiming Appliance...",
+	  
+      "s2c.prep_connection1.prep_connection":"Prep for Connection",
+      "s2c.prep_connection1.prep_connection_details":"To begin connecting your appliance, make sure you are close to your appliance,connected to your home network and follow the instructions below.",
+      "s2c.prep_connection1.next":"NEXT",
+	  
+      "s2c.prep_connection1.cant_find_button":"CAN'T FIND BUTTON",
+	  
+      "s2c.prep_connection1.connecting":"CONNECTING",
+      "s2c.prep_connection1.connecting_details":"Waiting for appliance to connect to home router.",
+      "s2c.prep_connection1.check_firewall":"Check your Firewall",
+      "s2c.prep_connection1.try_again":"TRY AGAIN",
+      "s2c.prep_connection1.call_for_assistance":"CALL FOR ASSISTANCE",
+	  
+      "s2c.appliance_offline.appliance_offline":"%s is Offline",
+      "s2c.appliance_offline.appliance_offline_details":"%s is currently offline. This could be caused by changing routers, router names, passwords or if your router connection to the internet is down. Before beginning to reconnect, make sure your phone is connected to your home Wi-Fi network and that your router supports 2.4 GHz networks.",
+      "s2c.appliance_offline.reconnect":"RECONNECT",
+	  "s2c.appliance_offline.try_later":"TRY LATER",
+	  
+      "s2c.clear_network.clear_network_settings":"Clear Network Settings",
+      "s2c.clear_network.okay":"NEXT",
+	  
+	  "s2c.generic_handle_error_description":"Oops, something went wrong!",
+	  "s2c.generic_handle_error_try_again":"Try Again",
+	  "s2c.generic_handle_error_exit":"Exit",
+	  
+      
+      "s2c.find_appliance.find_appliance":"Find Appliance",
+      "s2c.find_appliance.find_appliance_details":"Select the category and model of your appliance.",
+	  "s2c.find_appliance.next":"NEXT",
+	  
+      
+      "s2c.button_location.button_location":"SAID Label Location ",
+      "s2c.button_location.ok":"OKAY",
+	  
+      "s2c.register_failed.register_failed":"Register Failed",
+      "s2c.register_failed.register_failed_details":"Appliance is already claimed into an existing Account/Location. Please delete it from the existing Account/Location before claiming it into a new Account/Location",
+      "s2c.register_failed.exit":"EXIT",
+	  
+      "s2c.successfully_added.successfully_added":"Appliance Successfully Added",
+      "s2c.successfully_added.register_appliance":"Name your appliance ",
+      "s2c.successfully_added.okay":"OKAY",
+	  "s2c.successfully_added.appliance_default_name":"My Appliance",
+	  
+	  
+	  "s2c.steps_reconnecting.steps_reconnecting":"Connect Phone to Appliance Wi-Fi",
+      "s2c.steps_reconnecting.steps_reconnecting_details":"We are going to connect your appliance to Wi-Fi. Perform the steps below, then return to JennAir app",
+      "s2c.steps_reconnecting.step1":"STEP 1",
+      "s2c.steps_reconnecting.step1_details":"Open your Wi-Fi setting on your mobile device, laptop or desktop",
+      "s2c.steps_reconnecting.step2":"STEP 2",
+      "s2c.steps_reconnecting.step2_details":"Look for network named similar to %s",
+      "s2c.steps_reconnecting.next":"NEXT",
+      "s2c.steps_reconnecting.network_missing":"NETWORK MISSING",
+	  
+      "s2c.wifi_network.wifi_network":"'JennAir' Wants to join Wi-Fi Network %s",
+      "s2c.wifi_network.cancel":"CANCEL",
+      "s2c.wifi_network.join":"JOIN",
+	  
+      "s2c.unable_join_network.unable_join_network":"Unable to Join the network %s",
+      "s2c.unable_join_network.ok":"OKAY",
+	  
+      "s2c.steps_reconnecting.wait_beaconing":"Wait beaconing...",
+	  
+      "s2c.steps_reconnecting.provisioning":"Provisioning....",
+	  
+      "s2c.steps_reconnecting.connecting2":"CONNECTING",
+      "s2c.steps_reconnecting.connecting2_details":"1. Waiting for appliance to connect to home router",
+      "s2c.steps_reconnecting.connecting3":"CONNECTING",
+      "s2c.steps_reconnecting.connecting3_details":"2. Waiting for appliance to connect to Internet",
+      "s2c.steps_reconnecting.connecting4":"CONNECTING",
+      "s2c.steps_reconnecting.connecting4_details":"3. Appliance connected to server! Finishing the process..",
+	  
+	  
+      "s2c.steps_reconnecting.step": "Step %s",
+
+      "s2c.os.os_out_date":"OS Out Of Date",
+      "s2c.os.os_out_date_details":"It appears your phone's operating system needs an update. In order to make it easier to connect your appliance, we suggest you download the update before continuing",
+      "s2c.os.update":"UPDATE",
+      "s2c.os.skip":"SKIP",
+	  
+	  "s2c.prepare_connection.prepare_for_connection":"Prepare for Connection",
+	  "s2c.prepare_connection.okay":"OKAY",
+	  
+      "s2c.connecting_phone.connecting_phone":"CONNECTING PHONE TO THE HOTSPOT FROM APPLIANCE: %s",
+	  
+      "s2c.connection_error.connection_error":"CONNECTION ERROR",
+      "s2c.connection_error.connection_error_details":"We are unable to establish a connection to your network. Please make sure you have entered the correct password and try again. If the error persists, call Customer Support for further assisstance",
+      "s2c.connection_error.try_again":"TRY AGAIN",
+      "s2c.connection_error.call":"CALL",
+	  
+	  "s2c.wrong_code.wrong_code_scanned":"Wrong Code Scanned",
+	  "s2c.wrong_code.please_try_again":"Please try again",
+	  "s2c.wrong_code.scan":"SCAN",
+	  
+	  "s2c.wifi_credentials.wifi_router_credentials":"Wi-Fi Router Credentials",
+	  "s2c.wifi_credentials.network_name":"Network Name",
+	  "s2c.wifi_credentials.password":"Password",
+	  "s2c.wifi_credentials.next":"NEXT",
+	  
+	  "s2c.connect_network.connect_to_network":"Connect To Network",
+	  "s2c.connect_network.connect_network_details":"Please make sure your phone is connected to your home Wi-Fi network.",
+	  "s2c.connect_network.dismiss":"DISMISS",
+	  
+	  "s2c.checking_connection":"Checking Connection...",
+	  
+	  "s2c.said_details.said_details":"SAID DETAILS",
+	  "s2c.said_details.said_message":"Is the image that you are viewing identical in format to the image above?",
+	  "s2c.said_details.yes":"YES",
+	  "s2c.said_details.no":"NO",
+	  "s2c.said_details.cant_find_code":"Can't find code",
+	  
+	  
+	  "s2c.register_failed2.register_failed":"Register Failed",
+      "s2c.register_failed2.register_failed_details":"There is an error in connection. Please try again.",
+      "s2c.register_failed2.exit":"EXIT",
+	  
+	  "s2c.minerva_image.appliance_image":"APPLIANCE IMAGE",
+	  "s2c.minerva_image.details":"Please choose your model",
+	  "s2c.minerva_image.next":"NEXT",
+	  
+	  "s2c.already_claimed.title":"Already Claimed",
+	  "s2c.already_claimed.subtitle":"Appliance already claimed and provisioned by you",
+	  "s2c.already_claimed.ok":"OK",
+	  
+	  "s2c.re_enter_said":"Re-Enter SAID",
+	  "s2c.re_enter_said_details":"Please re-enter your appliance's SAID information.",
+	  "s2c.re_enter_said_hint":"Re-Enter SAID",
+	  "s2c.re_enter_said_next":"Next",
+	  
+	  "s2c.check_network_details":"Please go to Android Wi-Fi Settings and check if you see the following network listed within the available networks.",
+	  "s2c.check_network_go_to_settings":"Go To Settings",
+	  "s2c.check_network_cant_find_network":"Can't find network",
+	  "s2c.check_network_network_is_listed":"Network is listed",
+	  
+	  
+	  "s2c.appliance_claimed_another_account":"Appliance is already claimed into an existing Account/Location. Please delete it from the existing Account/Location before claiming it into a new Account/Location",
+	  "s2c.appliance_online.already_claimed": "Already Claimed",
+	  
+	  "s2c.appliance_online.appliance_online_details": "Appliance is already claimed into an existing Account/Location. Please delete it from the existing Account/Location before claiming it into a new Account/Location",
+	  
+	  "s2c.appliance_online.ok": "OK",
+      "s2c.check_network_list_details": "Please go to Android Wi-Fi Settings and check if you see the following networks listed within the available networks.",
+
+
+	  
+	  "learnmore.master_domain":"MASTER YOUR DOMAIN",
+	  "learnmore.master_domain_details":"Create a JennAir account to access a digital ecosystem that defies limitations, harnessing the power of select connected appliances and compatible smart home devices, all from the JennAir app.",
+	  
+	  
+	  "cs.perfection_awaits.perfection_awaits":"PERFECTION AWAITS",
+	  "cs.perfection_awaits.perfection_awaits_details":"With a JennAir account you can add select appliances and connect to Wi-Fi to get real-time notifications, personalize settings and locations, invite guests or control your appliance from anywhere with remote access.",
+	  "cs.perfection_awaits.enter_our_realm":"SIGN UP or SIGN IN",
+	  "cs.perfection_awaits.learn_more":"LEARN MORE",
+	  
+	  "cs.add_appliance.add_appliance":"ADD APPLIANCE",
+	  "cs.add_appliance.add_appliance_details":"Tap below to add an appliance and indulge in culinary adventures tailored precisely to your preferences with step-by-step recipes, timers, saved favorites, and real-time notifications.",
+	  "cs.add_appliance.add_appliance_button":"Add Appliance",
+	  
+	  "cs.add_location.add_location":"ADD LOCATION",
+	  "cs.add_location.add_location_details":"You do not have any locations created on this account. Tap below to add a new location.",
+	  "cs.add_location.add_location_button":"Add Location",
+	  
+	  "cs.appliances_located.your_appliances_located":"WHERE ARE YOUR APPLIANCES LOCATED?",
+	  "cs.appliances_located.locations_list":"SELECT FROM LIST OF LOCATIONS",
+	  "cs.appliances_located.add_new_location":"ADD NEW LOCATION",
+	  "cs.appliances_located.next":"NEXT",
+	  
+	  "cs.invite_guest.invite_guest":"INVITE ADDITIONAL USER",
+	  "cs.invite_guest.invite_guest_details":"Add additional users to your appliances so they can command and control them digitally. Additional users won't be able to change your account settings, add or delete appliances.",
+	  
+	  
+	  "cs.my_appliances.my_appliances":"MY APPLIANCES",
+	  "cs.my_appliances.location":"LOCATION",
+	  "cs.my_appliances.appliances_list":"LIST OF APPLIANCES",
+	  
+	  "cs.culinary_center1.culinary_center":"Culinary Center",
+	  "cs.culinary_center1.my_creations":"MY CREATIONS",
+	  "cs.culinary_center1.my_creations_details":"Curate recipe presets at will. Bake for 30 minutes, broil for 4 and keep dishes warm until you're ready to dine, all without adjusting the oven for each stage.",
+	  "cs.culinary_center1.add_creation":"ADD CREATION",
+	  "cs.culinary_center1.saved_creations":"SAVED CREATIONS",
+	  "cs.culinary_center1.no_saved_creations":"You currently don't have any saved creations, click ADD CREATION to begin.",
+	  
+	  "cs.compatible_appliance.details":"Your appliance is incompatible with the the assisted cooking feature.",
+	  "cs.compatible_appliance.add_compatible_appliance":"ADD COMPATIBLE APPLIANCE",
+	  
+	  "cs.culinary_center2.culinary_center":"Culinary Center",
+	  "cs.culinary_center2.assisted_cooking":"ASSISTED COOKING",
+	  "cs.culinary_center2.assisted_cooking_details":"You have multiple compatible appliances for assisted cooking. Please select which one would you like to use.",
+	  
+	  "cs.internet_connection.no_internet":"NO INTERNET",
+	  "cs.internet_connection.no_internet_details":"Please make sure that you are connected to the internet.",
+	  
+	  "rcs.oven_status.start":"START",
+	  "rcs.oven_status.delay_start":"DELAY START",
+	  
+	  "rcs.oven_set.start_now":"START NOW",
+	  "rcs.oven_set.send_to_appliance":"SEND TO APPLIANCE",
+	  "rcs.oven_set.cancel":"CANCEL",
+	  
+	  "rcs.oven_status.start_on_appliance":"PRESS START ON APPLIANCE",
+	  "rcs.oven_status.modify_temp_button":"MODIFY TEMPERATURE",
+	  "rcs.oven_status.cancel":"CANCEL",
+	  
+	  "rcs.oven_status.modify_temp_title":"MODIFY TEMPERATURE",
+	  "rcs.oven_status.update_temp":"UPDATE",
+	  
+	  "rcs.oven_status.keypad_view":"KEYPAD VIEW",
+	  "rcs.oven_status.edit_cook_time":"EDIT COOK TIME",
+	  
+	  "rcs.oven_status.add_cook_time":"ADD COOK TIME",
+	  "rcs.oven_status.cook_time_title":"COOK TIME",
+	  "rcs.oven_status.cooktime_start_now":"START NOW",
+	  "rcs.oven_status.cooktime_start_after_preheat":"START AFTER PREHEAT",
+	  
+	  "rcs.oven_status.cooktime_time_complete":"Cook time Complete. Enjoy your meal",
+	  "rcs.oven_status.cooktime_since_done":"%s SINCE DONE",
+	  "rcs.oven_status.stay_on":"Stay On",
+	  "rcs.oven_status.turn_off":"TURN OFF",
+	  
+	  "rcs.oven_status.conversion_settings":"CONVERSION BASED ON SETTINGS",
+	  "rcs.oven_status.conversion_temp_details":"Temperature: from %s to %s",
+	  "rcs.oven_status.conversion_cooktime_details":"Cook Time: from %s to %s",
+	  "rcs.oven_status.conversion_continue":"CONTINUE",
+	  
+	  "rcs.oven_status.probe_error":"ERROR",
+	  
+	  "rcs.oven_status.probe_not_detected":"No Probe Detected",
+	  "rcs.oven_status.probe_insert":"Please insert probe to start this cycle.",
+	  "rcs.oven_status.probe_cancel":"CANCEL",
+	  
+	  "rcs.oven_status.probe_detected":"Probe Detected",
+	  "rcs.oven_status.probe_remove":"Please remove probe to start this cycle.",
+	  
+	  "rcs.oven_status.cooktime_hours":"%s H",
+	  "rcs.oven_status.cooktime_minutes":"%s M",
+	  "rcs.oven_status.cooktime_seconds":"%s S",
+	  
+	  "rcs.oven_status.cooktime_converted":"Converted cook time: %s",
+	  
+	  "rcs.oven_status.modify_delay_title":"EDIT DELAY",
+	  "rcs.oven_status.update_delay":"UPDATE DELAY",
+	  "rcs.oven_status.remove_delay":"REMOVE DELAY",
+	  "rcs.oven_status.idle":"IDLE",
+	  "rcs.oven_status.pre_heating":"PREHEATING",
+	  "rcs.oven_status.start_cook_time":"START COOK TIME",
+	  "rcs.oven_status.food_temp":"FOOD TEMPERATURE",
+	  
+	  "rcs.oven_status.at_temp":"AT TEMPERATURE",
+	  
+	  "rcs.oven_status.preheat_complete":"PREHEAT COMPLETE",
+	  "rcs.oven_status.edit_timer":"EDIT TIMER",
+	  "rcs.oven_status.cooking_starts":"COOKING STARTS",
+	  "rcs.oven_status.edit_delay":"Edit delay",
+	  
+	  "rcs.oven_status.sub_mode":"submode",
+	  "rcs.oven_status.done":"DONE",
+	  "rcs.oven_status.scroll_view":"SCROLL VIEW",
+	  "rcs.oven_status.insert_probe":"Please insert probe",
+	  
+	  
+	  "rcs.oven_status.add_my_creations":"ADD TO MY CREATIONS",
+	  "rcs.oven_status.start_details":"Appliance will not start unless remote is enabled on the oven.",
+	  
+	  "rcs.oven_status.modify_temp_update":"UPDATE",
+	  "rcs.oven_status.time_remaining":"TIME REMAINING",
+	  
+	 
+	  "rcs.oven_status.preheat_complete_popup_title":"Preheat Complete",
+	  "rcs.oven_status.preheat_complete_details":"Your preheat is complete! Would you like to start your cook timer?",
+	  "rcs.oven_status.preheat_complete_close":"CLOSE",
+	  "rcs.oven_status.start_timer":"START TIMER",
+	  "rcs.oven_set.cook_time_title":"COOK TIME",
+	  "rcs.oven_status.modify_cooktime.update":"UPDATE",
+	  "rcs.oven_status.sent_to_oven":"SEND TO OVEN",
+	  
+	  "rcs.oven_kitchen_timer.kitchen_timer":"KITCHEN TIMER",
+	  "rcs.oven_kitchen_timer.hours":"%s H",
+	  "rcs.oven_kitchen_timer.minutes":"%s M",
+	  "rcs.oven_kitchen_timer.seconds":"%s S",
+	  "rcs.oven_kitchen_timer.timer_details":"Number entered must be between 00Hrs 00Mins 00Sec ",
+	  "rcs.oven_kitchen_timer.start_timer":"START TIMER",
+	  
+	  "rcs.oven_kitchen_timer.time_remaining":"TIME REMAINING",
+	  "rcs.oven_kitchen_timer.edit":"EDIT",
+	  "rcs.oven_kitchen_timer.cancel":"CANCEL",
+	  
+	  "rcs.oven_kitchen_timer.remaining":"REMAINING",
+	  
+	  "rcs.oven_kitchen_timer.complete1":"KITCHEN TIMER COMPLETE",
+	  "rcs.oven_kitchen_timer.dismiss":"DISMISS",
+	  
+	  "rcs.oven_kitchen_timer.complete2":"KITCHEN TIMER COMPLETE",
+	  
+	  "rcs.oven_kitchen_timer.cancel_timer":"Cancel",
+	  "rcs.oven_kitchen_timer.update_timer":"Update",
+	  
+	  "rcs.oven_control_lock_title":"Control Lock Enabled",
+	  "rcs.oven_control_lock_message":"Please disable Control Lock in APPLIANCE SETTINGS to control the appliance.",
+	  "rcs.oven_control_lock_buttons_primary":"APPLIANCE SETTINGS",
+	  "rcs.oven_control_lock_buttons_secondary":"DISMISS",
+	  
+	  
+	  "rcs.microwave.time_hours":"%s H",
+	  "rcs.microwave.timer.minutes":"%s M",
+	  "rcs.microwave.timer.seconds":"%s S",
+	  "rcs.microwave.power_level":"POWER LEVEL",
+	  
+	  "rcs.microwave.ready_to_cook":"Ready to cook.\nPlease start on the appliance",
+	  
+	  
+	 "rcs.ref.my_appliances":"My Appliances",
+	 "rcs.ref.temp":"TEMPERATURE",
+	 
+	 "rcs.ref_control_lock_title":"Control Lock Enabled",
+	 "rcs.ref_control_lock_message":"Please disable Control Lock in APPLIANCE SETTINGS to control the appliance.",
+	 "rcs.ref_control_lock_buttons_primary":"APPLIANCE SETTINGS",
+	 "rcs.ref_control_lock_buttons_secondary":"DISMISS",
+	 
+	 "rcs.ref_sabbath_mode_title":"Sabbath Mode Enabled",
+	 "rcs.ref_sabbath_mode_message":"Please disable Sabbath Mode in APPLIANCE SETTINGS to control the appliance. ",
+	 "rcs.ref_sabbath_mode_buttons_primary":"APPLIANCE SETTINGS",
+	 "rcs.ref_sabbath_mode_buttons_secondary":"GO TO DASHBOARD",
+	 
+	 
+	 "rcs.cook_top.cook_on_alert":"COOKTOP LEFT ON ALERT",
+	 "rcs.cook_top.off":"OFF",
+	 "rcs.cook_top.time":"%s Minutes",
+	 
+	 "rcs.common_widgets.keypad_view":"KEYPAD VIEW",
+	 
+	 "rcs.common_widgets.scroll_view":"SCROLL VIEW",
+	 
+	 "rcs.common_widgets.mode":"MODE:",
+	 
+	 "rcs.common_widgets.time_hours":"%s H",
+	 "rcs.common_widgets.time_minutes":"%s M",
+	 "rcs.common_widgets.time_seconds":"%s S",
+	 "rcs.common_widgets.time_details":"Number entered must fit between %s and %s",
+	 
+	 "rcs.common_widgets.when_done":"WHEN DONE:",
+	 
+	 "rcs.common_widgets.temp_details":"Number entered must fit between %s and %s",
+	 
+	 "rcs.common_widgets.delay_start":"DELAY START",
+	 "rcs.common_widgets.time_am":"AM",
+	 "rcs.common_widgets.time_pm":"PM",
+	 "rcs.common_widgets.start_delay":"START DELAY",
+	 
+	 "rcs.common_widgets.appliance_offline":"%s IS OFFLINE",
+	 "rcs.common_widgets.appliance_offline_details":"Your appliance %s is offline, before you can set your appliances please reconnect it to your wireless network",
+	 "rcs.common_widgets.appliance_reconnect":"RECONNECT",
+	 
+	 "rcs.common_widgets.light":"LIGHT",
+	 "rcs.common_widgets.light_on":"On",
+	 "rcs.common_widgets.light_off":"Off",
+	 
+	 "rcs.common_widgets.delete_appliance.delete_appliance":"Delete Appliance",
+	 "rcs.common_widgets.delete_appliance.details":"If you delete your appliance you will no longer see it in dashboard.",
+     "rcs.common_widgets.delete_appliance.close":"CLOSE",
+	 "rcs.common_widgets.delete_appliance.delete":"DELETE",
+	 
+	 
+	 "rcs.dish.my_appliances":"My Appliances",
+	 "rcs.dish.start":"START",
+	 "rcs.dish.set_delay":"SET DELAY",
+	 
+	 "rcs.dish.cycle_running":"CYCLE RUNNING",
+	 "rcs.dish.cycle_starts":"CYCLE STARTS",
+     "rcs.dish.cycle_edit":"EDIT",
+     "rcs.dish.cycle_cancel":"CANCEL",
+	 
+	 "rcs.dish.cycle_washing":"WASHING",
+	 "rcs.dish.cycle_time_remaining":"TIME REMAINING",
+	 "rcs.dish.cycle_light":"LIGHT",
+	 "rcs.dish.cycle_modify_cycle":"MODIFY CYCLE",
+	 
+	 "rcs.dish.idle":"IDLE",
+	 "rcs.dish.since_done":"since done",
+	 "rcs.dish.cycle_complete":"CYCLE COMPLETE",
+	 
+	 "rcs.dish.appliance_info":"APPLIANCE INFO",
+	 "rcs.dish.appliance_name":"APPLIANCE NAME",
+	 "rcs.dish.appliance_model":"Model",
+	 "rcs.dish.appliance_said":"SAID",
+	 "rcs.dish.appliance_serial":"Serial",
+	 "rcs.dish.appliance_start_date":"Start Date",
+	 "rcs.dish.contact_support":"CONTACT SUPPORT",
+	 "rcs.dish.contact_support_details":"Mon - Fri 8 am - 8 pm EST",
+	 "rcs.dish.schedule_service":"SCEDULE A SERVICE",
+	 "rcs.dish.schedule_service_details":"Make an appointment",
+	 "rcs.dish.documents":"DOCUMENTS",
+	 
+	 "rcs.dish.cycle_am":"AM",
+	 "rcs.dish.cycle_pm":"PM",
+	 
+	 "rcs.dish.cycle_start_delay":"START DELAY",
+	 
+	 "rcs.dish.delete_appliance":"DELETE APPLIANCE",
+	 "rcs.dish.delete_appliance_details":"If you delete the appliance you will no longer see it in your appliance dashboard or control the appliance from the JennAir App",
+	 
+	 "rcs.dish.press_start_on_the_appliance":"PRESS START ON APPLIANCE",
+	 "rcs.dish.not_available_text":"N/A",
+	 
+	 "rcs.dish.done_button":"DONE",
+	 
+	 "rcs.dish_sabbath_mode_title":"Sabbath Mode Enabled",
+	 "rcs.dish_sabbath_mode_message":"Please disable Sabbath Mode in APPLIANCE SETTINGS to control the appliance. ",
+	 "rcs.dish_sabbath_mode_buttons_primary":"APPLIANCE SETTINGS",
+	 "rcs.dish_sabbath_mode_buttons_secondary":"GO TO DASHBOARD",
+	 
+	"rcs.documents": "DOCUMENTS",
+    "rcs.notifications": "NOTIFICATIONS",
+    "rcs.appliance_errors": "APPLIANCE ERRORS",
+    "rcs.appliance_error_details.step": "Step %s",
+    "rcs.appliance_info.contact_support": "CONTACT SUPPORT",
+    "rcs.appliance_info.schedule_service": "SCHEDULE SERVICE",
+    "rcs.appliance_info.make_an_appointment": "Make an appointment",
+    "rcs.appliance_info.documents": "DOCUMENTS",
+    "rcs.appliance_info.appliance_errors": "APPLIANCE ERRORS",
+    "rcs.appliance_info.save": "SAVE",
+    "rcs.appliance_info.appliance_info": "APPLIANCE INFO",
+	
+    "rcs.appliance_settings": "APPLIANCE SETTINGS",
+    "rcs.appliance_settings.appliance_info": "APPLIANCE INFO",
+	"rcs.appliance_settings.appliance_info_description":"See important details such as model and serial number",
+    "rcs.appliance_settings.delete_appliance": "DELETE APPLIANCE",
+	
+    "rcs.dashboard.my_appliances": "MY APPLIANCES",
+	"dashboard.idle":"Idle",
+	"dashboard.running":"Running",
+	"dashboard.offline":"Offline",
+	"dashboard.programming":"Programming",
+	"dashboard.loading_status":"Loading status",
+	
+	"dashboard.add_appliance.add_appliance":"ADD APPLIANCE",
+	"dashboard.add_appliance.details":"Tap below to add an appliance and indulge in culinary adventures tailored precisely to your preferences with step-by-step recipes, timers, saved favorites, and real-time notifications.",
+	"dashboard.add_appliance.add_appliance_button":"ADD APPLIANCE",
+	
+	"dashboard.oven.idle":"Ready to Cook",
+    "dashboard.dish.idle":"Ready to Wash",
+	"dashboard.microwave.idle":"Ready To Cook",
+	
+	"rcs.appliance_info.rename_appliance":"RENAME APPLIANCE",
+	
+	"rcs.appliance_info.rename_appliance.rename_appliance":"RENAME APPLIANCE",
+	"rcs.appliance_info.rename_appliance_description":"Change the name of the appliance",
+	"rcs.appliance_info.rename_appliance.rename_appliance_details":"Edit appliance name at any time",
+	"rcs.appliance_info.rename_appliance.appliance_name":"APPLIANCE NAME",
+	"rcs.appliance_info.rename_appliance.save":"SAVE",
+	
+	"rcs.common_widgets.notification_error_title":"Error",
+	"rcs.common_widgets.command_succeeded":"Command succeeded!",
+	"rcs.common_widgets.command_failed":"Command failed!",
+	"rcs.common_widgets.popup_error_title":"Error",
+	
+	"rcs.common_widgets.delay_time_details":"Please enter a value between %s and %s hours",
+	"rcs.common_widgets.delay_time_hours":"HOURS",
+	"rcs.common_widgets.delay_time_minutes":"MINUTES",
+	
+	"rcs.common_widgets.popup_alert.cancel": "CANCEL",
+	
+	"rcs.common_widgets.start_new_cycle":"To start a new cycle, please cancel the current cycle on the appliance",
+	
+	"cc.assisted_cooking_select_appliance.culinary_center": "Assisted Cooking",
+    "cc.assisted_cooking_select_appliance.select_cavity": "Select Cavity",
+    "cc.assisted_cooking_select_appliance.select_cavity_details": "Please select the appliance and cavity you would like to use",
+	"cc.assisted_cooking_select_appliance.compatible_appliances":"Compatible Appliances",
+	
+	"cc.assisted_cooking_select_appliance.running_state":"Please cancel the current running cycle before starting a new cycle. Tap here to cancel.",
+	"cc.assisted_cooking_select_appliance.programming_state":"Please cancel the current set cycle before starting a new cycle. Tap here to cancel.",  
+	
+	"cc.assisted_cooking_select_appliance.running_info":"Please cancel the running cycle before starting a new cycle",
+	
+	"cc.assisted_cooking.add_appliance.add_appliance":"ADD APPLIANCE",
+	"cc.assisted_cooking.add_appliance.details":"To use this feature,please add a compatible appliance",
+	"cc.assisted_cooking.add_appliance.add_appliance_button":"ADD APPLIANCE",
+
+	
+	 "cc.assisted_cooking.probe_tips":"PROBE TIPS ",
+	 "cc.assisted_cooking.probe_tips_okay":"OKAY",
+	 
+	 "cc.assisted_cooking.culinary_center":"Culinary Center",
+	 "cc.assisted_cooking.assisted_cooking":"ASSISTED COOKING",
+	 
+	 "cc.assisted_cooking.culinary_center2":"Assisted Cooking",
+	 "cc.assisted_cooking.doneness":"DONENESS",
+	 "cc.assisted_cooking.oven_temp":"OVEN TEMPERATURE",
+	 "cc.assisted_cooking.keypad_view":"KEYPAD VIEW",
+	 "cc.assisted_cooking.scroll_view":"SCROLL VIEW",
+	 "cc.assisted_cooking.probe_temp":"PROBE TEMPERATURE",
+	 "cc.assisted_cooking.probe_tips2":"PROBE TIPS",
+	 "cc.assisted_cooking.probe_detected":"Probe Detected",
+	 "cc.assisted_cooking.no_probe_detected":"No probe detected. Please insert the probe.",
+	 "cc.assisted_cooking.start2":"START",
+	 
+	 
+	 "cc.assisted_cooking.cookware":"COOKWARE",
+	 "cc.assisted_cooking.cooking_time":"COOKING TIME",
+	 "cc.assisted_cooking.cooking_time_details":"Number entered must be between %s Hours %s Minutes and %s Hours %s Minutes",
+	 "cc.assisted_cooking.cooking_time_interval":"Number entered must be between %s and %s ",
+	 "cc.assisted_cooking.cooking_time_format_hours":"%s Hours",
+	 "cc.assisted_cooking.cooking_time_format_hour":"%s Hour",
+	 "cc.assisted_cooking.cooking_time_format_minutes":"%s Minutes",
+	 "cc.assisted_cooking.cooking_time_format_minute":"%s Minute",
+	 "cc.assisted_cooking.cooking_time_format_seconds":"%s Seconds",
+	 "cc.assisted_cooking.cooking_time_format_second":"%s Second",
+	 "cc.assisted_cooking.cooking_tips3":"COOKING TIPS",
+	 "cc.assisted_cooking.cooking_temp_interval":"Number entered must be between %s and %s",
+	 
+	 "cc.assisted_cooking.cooking_tips":"COOKING TIPS",
+	 "cc.assisted_cooking.cooking_tips_okay":"OKAY",
+	 
+	 
+	 "cc.assisted_cooking.probe_not_detected":"No Probe Detected",
+	 "cc.assisted_cooking.insert_probe_details":"Please insert probe to start this cycle.",
+	 "cc.assisted_cooking.insert_probe_error":"Error",
+	 
+	 "cc.assisted_cooking.insert_probe_cancel":"CANCEL",
+	 "cc.assisted_cooking.start_cycle_cancel":"Cancel",
+	 
+	 "cc.assisted_cooking.probe_detected1":"Probe Detected",
+	 "cc.assisted_cooking.remove_probe_details":"Please remove probe to start this cycle.",
+	 
+	 "culinary_center.assisted_cooking.rack": "Rack %s",
+	 
+	 "cc.custom_recipe.jennair_custom_recipe":"JennAir Custom Recipe",
+	 "cc.custom_recipe.compatible_assisted_cooking":"Compatible with Assisted Cooking",
+	 "cc.custom_recipe.prep_time":"Prep Time",
+	 "cc.custom_recipe.cooking_time":"Cooking Time",
+	 "cc.custom_recipe.cuisine":"Cuisine",
+	 "cc.custom_recipe.dish_type":"Dish Type",
+	 "cc.custom_recipe.difficulty":"Difficulty",
+	 "cc.custom_recipe.savings":"Servings",
+	 "cc.custom_recipe.ingredients":"INGREDIENTS",
+	 "cc.custom_recipe.assisted_cooking":"ASSISTED COOKING",
+	 
+	 "cc.custom_recipe.jennair_custom_recipe2":"JennAir Custom Recipe",
+	 "cc.custom_recipe.prep_time2":"Prep Time",
+	 "cc.custom_recipe.cooking_time2":"Cooking Time",
+	 "cc.custom_recipe.cuisine2":"Cuisine",
+	 "cc.custom_recipe.dish_type2":"Dish Type",
+	 "cc.custom_recipe.difficulty2":"Difficulty",
+	 "cc.custom_recipe.savings2":"Servings",
+	 "cc.custom_recipe.ingredients2":"INGREDIENTS",
+	 "cc.custom_recipe.pro_tip":"PRO-TIP",
+	 
+	 "cc.custom_recipe.culinary_center":"Culinary Center",
+     "cc.custom_recipe.jennair_custom_recipe3":"JENNAIR CUSTOM RECIPES",
+	 
+	  
+	 
+	 "cc.my_creations.culinary_center":"Culinary Center",
+	 "cc.my_creations.my_creations":"MY CREATIONS",
+	 "cc.my_creations.my_creations_details":"Curate recipe presets at will. Bake for 30 minutes, broil for 4 and keep dishes warm until you are ready to dine - all without getting up to reset the oven for each stage.",
+	 "cc.my_creations.add_creation":"ADD CREATION",
+	 "cc.my_creations.saved_creations":"SAVED CREATIONS",
+	 "cc.my_creations.saved_creations_details":"You currently don't have any saved creations.",
+	 
+	 "cc.save_to_my_creation.done":"DONE",
+	 "cc.save_to_my_creation.save_my_creation":"BUILD NEW CREATION",
+	 "cc.save_to_my_creation.creation_name_optional":"CREATION NAME ",
+	 
+	 "cc.my_creations.delete_creation":"DELETE CREATION",
+	 "cc.my_creations.delete_creation_details":"If you delete your creation you will not be able to access it again",
+	 "cc.my_creations.delete":"DELETE ",
+	 "cc.my_creations.close":"CLOSE",
+	 
+	 "cc.my_creations.delete2":"DELETE",
+	 "cc.my_creations.mode":"MODE:",
+	 
+	 "cc.my_creations2.culinary_center":"Culinary Center",
+	 "cc.my_creations2.my_creations":"MY CREATIONS",
+	 "cc.my_creations2.step":"Step %s",
+	 "cc.my_creations2.target_temp":"TARGET TEMPERATURE",
+	 "cc.my_creations2.keypad_view":"KEYPAD VIEW",
+	 "cc.my_creations2.scroll_view":"SCROLL VIEW",
+	 "cc.my_creations2.timer_details":"Enter number between %s and %s (based on unit temp range)",
+	 "cc.my_creations2.when_done":"WHEN DONE",
+	 "cc.my_creations2.save":"SAVE ",
+	 "cc.my_creations2.add_step":"ADD STEP",
+	 
+	 "cc.my_creations3.culinary_center":"Culinary Center",
+	 "cc.my_creations3.my_creations":"My Creations",
+	 "cc.my_creations.creation_name":"CREATION NAME",
+	 "cc.my_creations.oven":"OVEN:",
+	 "cc.my_creations.select_step_edit_mode":"Select a step to enter edit mode",
+	 "cc.my_creations.creation_name.name":"Name:",
+	 "cc.my_creations3.step":"Step %s",
+	 
+	 "cc.my_creations.start_oven":"START OVEN",
+	 "cc.my_creations.delay_start":"DELAY START",
+	 "cc.my_creations.delete_creation2":"DELETE CREATION",
+	 
+	 "cc.my_creations_compatibile_appliances.culinary_center":"My Creations",
+	 "cc.my_creations_compatibile_appliances.select_cavity":"Select Cavity",
+	 "cc.my_creations_compatibile_appliances.select_cavity_details":"Please select the appliance and cavity you would like to use",
+	 "cc.my_creations_compatibile_appliances.compatible_appliances":"Compatible Appliances",
+	 
+	 "cc.my_creations.add_appliance.add_appliance":"ADD APPLIANCE",
+	 "cc.my_creations.add_appliance.details":"Add a compatible appliance",
+	 "cc.my_creations.add_appliance.add_appliance_button":"ADD APPLIANCE",
+	 
+	 "home_feed.assisted_cooking":"ASSISTED COOKING",
+	 "home_feed.view_all":"VIEW ALL",
+	 
+	 "home_feed.custom_recipe":"JennAir Custom Recipe",
+	 
+	 "home_feed.lifestyle_article":"Lifestyle Article",
+	 
+	 "notice_ios":"Test Data",
+     "major_text":"Test Data",
+	 
+	 "version_1.0.9_msg_Label":"Test Data Version 1.0.9", 
+	 "version_1.0.9_title_Label":"Test Data Version 1.0.9",
+	 
+	 "kitchen_timer.push_text.u2_oven":"Oven kitchen timer is complete",
+	 "kitchen_timer.alert_title.u2_oven":"Kitchen Timer Complete",
+	 
+	 "generic.popup_error.title": "System Alert",
+	 "generic.popup_error.primary_button": "Dismiss",
+     "generic.popup_error.unexpected_message": "Something went wrong. Please try again later.",
+	 
+	 "rcs.oven_status.probe_temp_reached":"Probe Temperature Reached",
+	 
+	 "s2c.no_camera_permissions.title": "No permission",
+     "s2c.no_camera_permissions.subtitle": "The app does not have permission to access the phone camera. To permit, click the Settings button below.",
+     "s2c.no_camera_permissions.button.settings": "Settings",
+     "s2c.no_camera_permissions.button.dismiss": "Dismiss",
+	 
+	 "s2c.no_location_permissions.title": "No permission",
+     "s2c.no_location_permissions.subtitle": "The app does not have permission to access the location service. To permit, click the Settings button below.",
+     "s2c.no_location_permissions.button.settings": "Settings",
+     "s2c.no_location_permissions.button.dismiss": "Dismiss",
+	 
+	"rcs.rating.enjoying_the_app": "Enjoying JennAir app?",
+    "rcs.rating.play_store": "Tap a star to rate it on the AppStore",
+    "rcs.rating.not_now": "Not Now",
+	"rcs.rating.cancel":"Cancel",
+    "rcs.rating.submit": "Submit",
+	
+	"rcs.rating.enjoying_aos_app": "Enjoying JennAir app?",
+    "rcs.rating.aos_play_store": "Tap a star to rate it ",
+	"rcs.rating.comments_required": "Comments Required",
+	"rcs.rating.aos_submit_button": "Submit",
+	
+	"rcs.rating.give_feedback": "Thank you for the Feedback.",
+	"rcs.rating.aos_close_button": "Close",
+	
+	"rcs.rating.app_play_store": "Would you like to rate the app on Google Play Store?",
+   
+	"rcs.rating.app_play_store_rate":"Rate on Play Store",
+	"rcs.rating.app_play_store_not_now":"Not Now",
+	
+	"forceupdate.ios.major.version_4_0_0.title_label":"UPDATE REQUIRED",
+	"forceupdate.ios.major.version_4_0_0.msg_label":"New version enables changes required to make the JennAir app compatible with the latest version of ios(13). Please click on the 'Update Now' button below to upgrade to the new JennAir app"
+    
+	
+
+
+	 }
+	}

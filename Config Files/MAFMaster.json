@@ -1,0 +1,156 @@
+{
+    "Header": {
+        "title": "MAFMaster",
+        "version": "1.56",
+        "createdAt": "Oct 22, 2018 6:30:00 PM",
+        "modifiedDate": "Sep 12, 2019 6:30:00 PM",
+        "createdBy": "Venkat Boddapati",
+        "Description": ""
+    },
+    "Data": {
+        "Configurations": [
+            {
+                "fileName": "HomeFeed_eng",
+                "extension" : "json",
+                "version": "1.12",
+                "URL": "NAR/JENNAIR/MOBILEAPP/CATEGORIES/COOKING/CULINARYCENTER/HomeFeed_eng.json",
+                "Description": "File which contains ja custom recipes, life style articles and top assisted cooking items"
+            },
+            {
+                "fileName": "HomeFeed_fre",
+                "extension" : "json",
+                "version": "1.13",
+                "URL": "NAR/JENNAIR/MOBILEAPP/CATEGORIES/COOKING/CULINARYCENTER/HomeFeed_fre.json",
+                "Description": "File which contains ja custom recipes, life style articles and top assisted cooking items"
+            },
+            {
+                "fileName": "ScantoConnect",
+                "extension" : "json",
+                "version": "1.6",
+                "URL": "NAR/JENNAIR/MOBILEAPP/CATEGORIES/ScantoConnect.json",
+                "Description": "File which contains Scan to connect configurations"
+            },
+            {
+                "fileName": "AssistedCooking",
+                "extension" : "json",
+                "version": "1.0",
+                "URL": "NAR/JENNAIR/MOBILEAPP/CATEGORIES/COOKING/CULINARYCENTER/AssistedCooking.json",
+                "Description": "Assisted cooking config files"
+            },
+            {
+                "fileName": "LocalizationEnglish",
+                "extension" : "json",
+                "version": "1.43",
+                "URL": "NAR/JENNAIR/MOBILEAPP/LOCALIZATION/eng",
+                "Description": "Localization English"
+            },
+            {
+                "fileName": "LocalizationFrench",
+                "extension" : "json",
+                "version": "1.24",
+                "URL": "NAR/JENNAIR/MOBILEAPP/LOCALIZATION/fre",
+                "Description": "Localization French"
+            },
+            {
+                "fileName": "BrandConfig",
+                "extension" : "json",
+                "version": "1.15",
+                "URL": "NAR/JENNAIR/MOBILEAPP/Brand.json",
+                "Description": "Brand json file contains configurations that branded app needs"
+            },
+            {
+                "fileName": "CategoriesConfig",
+                "extension" : "json",
+                "version": "1.11",
+                "URL": "NAR/JENNAIR/MOBILEAPP/CATEGORIES/Categories.json",
+                "Description": "Categories json file contains configurations that Appliance categories app needs"
+            },
+           {
+                "fileName": "FeaturesInfo_USeng",
+               "extension" : "json",
+               "version": "1.5",
+                "URL": "NAR/JENNAIR/MOBILEAPP/FeaturesInfo_USeng.json",
+                "Description": "File which contains features info"
+              },
+			
+			 {
+                "fileName": "FeaturesInfo_CAfre",
+                 "extension" : "json",
+                 "version": "1.3",
+                "URL": "NAR/JENNAIR/MOBILEAPP/FeaturesInfo_CAfre.json",
+                "Description": "File which contains features info"
+            },
+			{
+                "fileName": "FeaturesInfo_CAeng",
+                "extension" : "json",
+                "version": "1.3",
+                "URL": "NAR/JENNAIR/MOBILEAPP/FeaturesInfo_CAeng.json",
+                "Description": "File which contains features info"
+            },
+			  {
+                "fileName": "ApplianceDocuments_USeng",
+                "extension" : "json",
+                "version": "1.0",
+				"URL": "NAR/JENNAIR/MOBILEAPP/CATEGORIES/ApplianceDocuments_USeng.json",
+				"Description": "File which contains All files of Documents"
+             },
+              {
+                "fileName": "ApplianceDocuments_CAeng",
+                "extension" : "json",
+                "version": "1.0",
+                "URL": "NAR/JENNAIR/MOBILEAPP/CATEGORIES/ApplianceDocuments_CAeng.json",
+                "Description": "File which contains All files of Documents"
+             },
+             {
+                "fileName": "ApplianceDocuments_CAfre",
+                "extension" : "json",
+                "version": "1.1",
+                "URL": "NAR/JENNAIR/MOBILEAPP/CATEGORIES/ApplianceDocuments_CAfre.json",
+                "Description": "File which contains All files of Documents"
+
+             },
+            {
+                "fileName": "SmartHome",
+                "extension" : "json",
+                "version": "1.4",
+                "URL": "NAR/JENNAIR/MOBILEAPP/SmartHome.json",
+                "Description": "File which contains All Smart home integrations"
+            },
+            {
+                "fileName": "MinervaCulinaryCenter",
+                "extension" : "realm",
+                "version": "1.8",
+                "URL": "NAR/JENNAIR/MOBILEAPP/CATEGORIES/COOKING/CULINARYCENTER/MinervaCulinaryCenter.realm",
+                "Description": "Realm File for Assisted cooking for Minerva"
+            },
+            {
+                "fileName": "U2CulinaryCenter",
+                "extension" : "realm",
+                "version": "1.6",
+                "URL": "NAR/JENNAIR/MOBILEAPP/CATEGORIES/COOKING/CULINARYCENTER/U2CulinaryCenter.realm",
+                "Description": "Realm File for Assisted cooking for Minerva"
+            },
+            {
+                "fileName": "ServiceAndSupport_USeng",
+                "extension" : "json",
+                "version": "1.3",
+                "URL": "NAR/JENNAIR/MOBILEAPP/ServiceAndSupport_USeng.json",
+                "Description": "Service and Support file for US CXC "
+            },
+            {
+                "fileName": "ServiceAndSupport_CAeng",
+                "extension" : "json",
+                "version": "1.3",
+                "URL": "NAR/JENNAIR/MOBILEAPP/ServiceAndSupport_CAeng.json",
+                "Description": "Service and Support file for Canada English CXC"
+            },
+            {
+                "fileName": "ServiceAndSupport_CAfre",
+                "extension" : "json",
+                "version": "1.5",
+                "URL": "NAR/JENNAIR/MOBILEAPP/ServiceAndSupport_CAfre.json",
+                "Description": "Service and Support file for Canada French CXC"
+            }
+        ]
+    }
+}

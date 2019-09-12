@@ -1,0 +1,416 @@
+{
+  "Header": {
+    "title": "ScantoConnect",
+    "version": "1.6",
+    "createdAt": "Oct 22, 2018 6:30:00 PM",
+    "modifiedDate": "July 29, 2019 3:30:00 PM",
+    "createdBy": "Venkat Boddapati",
+    "Description": "Jenn Air"
+  },
+  "Data": {
+    "categories": [
+      {
+        "categoryName": "kCookTop",
+        "categoryImageUrl": "",
+        "products": [
+          {
+            "productName": "Loki JEC4430H",
+            "productPrefix": [
+              "OVEN"
+            ],
+            "modelNumber": [
+              "JEC4430H"
+            ],
+            "gui": 0,
+            "findQrCodeImageUrl": "NAR/JENNAIR/MOBILEAPP/Images/ScanToConnect/FindQRCode/Loki_JEC4430H@{size}.png",
+            "findQrCodeDesc": "kFindSaidInfoLoki",
+            "findConnectButtonImageUrl": "NAR/JENNAIR/MOBILEAPP/Images/ScanToConnect/FindConnectButton/Loki_JEC4430H@{size}.png",
+            "findConnectButtonDesc": "kFindConnectButtonDescriptionLoki",
+            "clearNetworkSettingsImage": "",
+            "clearNetworkInstructions": "KClearNetworkInstructionsLoki"
+          },
+          {
+            "productName": "Loki JEC4536H",
+            "productPrefix": [
+              "OVEN"
+            ],
+            "modelNumber": [
+              "JEC4536H"
+            ],
+            "gui": 0,
+            "findQrCodeImageUrl": "NAR/JENNAIR/MOBILEAPP/Images/ScanToConnect/FindQRCode/Loki_JEC4536H@{size}.png",
+            "findQrCodeDesc": "kFindSaidInfoLoki",
+            "findConnectButtonImageUrl": "NAR/JENNAIR/MOBILEAPP/Images/ScanToConnect/FindConnectButton/Loki_JEC4536H@{size}.png",
+            "findConnectButtonDesc": "kFindConnectButtonDescriptionLoki",
+            "clearNetworkSettingsImage": "",
+            "clearNetworkInstructions": "KClearNetworkInstructionsLoki"
+          },
+          {
+            "productName": "Loki JEC4424H",
+            "productPrefix": [
+              "OVEN"
+            ],
+            "modelNumber": [
+              "JEC4424H"
+            ],
+            "gui": 0,
+            "findQrCodeImageUrl": "NAR/JENNAIR/MOBILEAPP/Images/ScanToConnect/FindQRCode/Loki_JEC4424H@{size}.png",
+            "findQrCodeDesc": "kFindSaidInfoLoki",
+            "findConnectButtonImageUrl": "NAR/JENNAIR/MOBILEAPP/Images/ScanToConnect/FindConnectButton/Loki_JEC4424H@{size}.png",
+            "findConnectButtonDesc": "kFindConnectButtonDescriptionLoki",
+            "clearNetworkSettingsImage": "",
+            "clearNetworkInstructions": "KClearNetworkInstructionsLoki"
+          }
+        ]
+      },
+      {
+        "categoryName": "kFreezer",
+        "categoryImageUrl": "",
+        "products": [
+          {
+            "productName": "Oberon Freezer Left",
+            "productPrefix": [
+              "REFRID",
+              "WP"
+            ],
+            "modelNumber": [
+              "JBZFL18IGX00",
+              "JBZFL18IGX",
+              "JBZFL24IGX00",
+              "JBZFL24IGX",
+              "JBZFL30IGX00",
+              "JBZFL30IGX"
+            ],
+            "gui": 0,
+            "findQrCodeImageUrl": "NAR/JENNAIR/MOBILEAPP/Images/ScanToConnect/FindQRCode/Oberon_Freezer_Left@{size}.png",
+            "findQrCodeDesc": "kFindSaidInfoOberonFreezer",
+            "findConnectButtonImageUrl": "NAR/JENNAIR/MOBILEAPP/Images/ScanToConnect/FindConnectButton/Oberon@{size}.png",
+            "findConnectButtonDesc": "kFindConnectButtonDescriptionOberonFreezer",
+            "clearNetworkSettingsImage": "",
+            "clearNetworkInstructions": "KClearNetworkInstructionsOberonFreezer"
+          },
+          {
+            "productName": "Oberon Freezer Right",
+            "productPrefix": [
+              "REFRID",
+              "WP"
+            ],
+            "modelNumber": [
+              "JBZFR18IGX00",
+              "JBZFR18IGX",
+              "JBZFR24IGX00",
+              "JBZFR24IGX",
+              "JBZFR30IGX00",
+              "JBZFR30IGX"
+            ],
+            "gui": 0,
+            "findQrCodeImageUrl": "NAR/JENNAIR/MOBILEAPP/Images/ScanToConnect/FindQRCode/Oberon_Freezer_Right@{size}.png",
+            "findQrCodeDesc": "kFindSaidInfoOberonFreezer",
+            "findConnectButtonImageUrl": "NAR/JENNAIR/MOBILEAPP/Images/ScanToConnect/FindConnectButton/Oberon@{size}.png",
+            "findConnectButtonDesc": "kFindConnectButtonDescriptionOberonFreezer",
+            "clearNetworkSettingsImage": "",
+            "clearNetworkInstructions": "KClearNetworkInstructionsOberonFreezer"
+          },
+          {
+            "productName": "Burlesque Freezer",
+            "productPrefix": [
+              "REFRID",
+              "WP"
+            ],
+            "modelNumber": [
+              "ALOVE18FLC00",
+              "ALOVE24FLC00"
+            ],
+            "gui": 0,
+            "findQrCodeImageUrl": "NAR/JENNAIR/MOBILEAPP/Images/ScanToConnect/FindQRCode/Oberon_Freezer_Right@{size}.png",
+            "findQrCodeDesc": "kFindSaidInfoOberonFreezer",
+            "findConnectButtonImageUrl": "NAR/JENNAIR/MOBILEAPP/Images/ScanToConnect/FindConnectButton/Oberon@{size}.png",
+            "findConnectButtonDesc": "kFindConnectButtonDescriptionOberonFreezer",
+            "clearNetworkSettingsImage": "",
+            "clearNetworkInstructions": "KClearNetworkInstructionsOberonFreezer"
+          }
+        ]
+      },
+      {
+        "categoryName": "kRefrigerator",
+        "categoryImageUrl": "",
+        "products": [
+          {
+            "productName": "Oberon Refrigerator Left",
+            "productPrefix": [
+              "REFRID",
+              "WP"
+            ],
+            "modelNumber": [
+              "JBRFL24IGX00",
+              "JBRFL24IGX",
+              "JBRFL30IGX00",
+              "JBRFL30IGX",
+              "JBRFL36IGX00",
+              "JBRFL36IGX"
+            ],
+            "gui": 0,
+            "findQrCodeImageUrl": "NAR/JENNAIR/MOBILEAPP/Images/ScanToConnect/FindQRCode/Oberon_Ref_Left@{size}.png",
+            "findQrCodeDesc": "kFindSaidInfoOberonRefrigerator",
+            "findConnectButtonImageUrl": "NAR/JENNAIR/MOBILEAPP/Images/ScanToConnect/FindConnectButton/Oberon@{size}.png",
+            "findConnectButtonDesc": "kFindConnectButtonDescriptionOberonRefrigerator",
+            "clearNetworkSettingsImage": "",
+            "clearNetworkInstructions": "KClearNetworkInstructionsOberonRefrigerator"
+          },
+          {
+            "productName": "Oberon Refrigerator Right",
+            "productPrefix": [
+              "REFRID",
+              "WP"
+            ],
+            "modelNumber": [
+              "JBRFR24IGX00",
+              "JBRFR24IGX",
+              "JBRFR30IGX00",
+              "JBRFR30IGX",
+              "JBRFR36IGX00",
+              "JBRFR36IGX"
+            ],
+            "gui": 0,
+            "findQrCodeImageUrl": "NAR/JENNAIR/MOBILEAPP/Images/ScanToConnect/FindQRCode/Oberon_Ref_Right@{size}.png",
+            "findQrCodeDesc": "kFindSaidInfoOberonRefrigerator",
+            "findConnectButtonImageUrl": "NAR/JENNAIR/MOBILEAPP/Images/ScanToConnect/FindConnectButton/Oberon@{size}.png",
+            "findConnectButtonDesc": "kFindConnectButtonDescriptionOberonRefrigerator",
+            "clearNetworkSettingsImage": "",
+            "clearNetworkInstructions": "KClearNetworkInstructionsOberonRefrigerator"
+          },
+          {
+            "productName": "Burlesque Refrigerator",
+            "productPrefix": [
+              "REFRID",
+              "WP"
+            ],
+            "modelNumber": [
+              "ALOVE24RRC00",
+              "ALOVE30RRC00"
+            ],
+            "gui": 0,
+            "findQrCodeImageUrl": "NAR/JENNAIR/MOBILEAPP/Images/ScanToConnect/FindQRCode/Oberon_Ref_Left@{size}.png",
+            "findQrCodeDesc": "kFindSaidInfoOberonRefrigerator",
+            "findConnectButtonImageUrl": "NAR/JENNAIR/MOBILEAPP/Images/ScanToConnect/FindConnectButton/Oberon@{size}.png",
+            "findConnectButtonDesc": "kFindConnectButtonDescriptionOberonRefrigerator",
+            "clearNetworkSettingsImage": "",
+            "clearNetworkInstructions": "KClearNetworkInstructionsOberonRefrigerator"
+          },
+		  {
+            "productName": "Burlesque Freezer",
+            "productPrefix": [
+              "REFRID",
+              "WP"
+            ],
+            "modelNumber": [
+              "ALOVE18FLC00",
+              "ALOVE24FLC00"
+            ],
+            "gui": 0,
+            "findQrCodeImageUrl": "NAR/JENNAIR/MOBILEAPP/Images/ScanToConnect/FindQRCode/Oberon_Freezer_Right@{size}.png",
+            "findQrCodeDesc": "kFindSaidInfoOberonRefrigerator",
+            "findConnectButtonImageUrl": "NAR/JENNAIR/MOBILEAPP/Images/ScanToConnect/FindConnectButton/Oberon@{size}.png",
+            "findConnectButtonDesc": "kFindConnectButtonDescriptionOberonRefrigerator",
+            "clearNetworkSettingsImage": "",
+            "clearNetworkInstructions": "KClearNetworkInstructionsOberonRefrigerator"
+          }
+        ]
+      },
+      {
+        "categoryName": "kWallOven",
+        "categoryImageUrl": "",
+        "products": [
+          {
+            "productName": "JA Minerva Phase 0",
+            "productPrefix": [
+              ""
+            ],
+            "modelNumber": [
+              "JJW3430",
+              "JJW3830",
+              "JMW3430"
+            ],
+            "gui": 2,
+            "findQrCodeImageUrl": "",
+            "findQrCodeDesc": "kFindSaidInfoMinervaOven",
+            "findConnectButtonImageUrl": "",
+            "findConnectButtonDesc": "kFindConnectButtonDescriptionMinervaOven",
+            "clearNetworkSettingsImage": "",
+            "clearNetworkInstructions": "KClearNetworkInstructionsMinervaOven",
+            "modelNumberImages": [
+              "Black",
+              "Pro",
+              "Euro",
+              "Noir",
+              "Rise"
+            ]
+          }
+        ]
+      },
+      {
+        "categoryName": "kFreeStandingOven",
+        "categoryImageUrl": "",
+        "products": [
+          {
+            "productName": "U2 Double_Noir",
+            "productPrefix": [
+              "OVEN"
+            ],
+            "modelNumber": [
+              "JDRP548HM00",
+              "JDRP648HM00",
+              "JDRP748HM00",
+              "JDRP848HM00",
+              "JGRP548HM00",
+              "JGRP648HM00",
+              "JGRP748HM00",
+              "JDSP548HM00",
+              "TANKMAN50"
+            ],
+            "gui": 0,
+            "findQrCodeImageUrl": "NAR/JENNAIR/MOBILEAPP/Images/ScanToConnect/FindQRCode/U2_Double_Noir@{size}.png",
+            "findQrCodeDesc": "kFindSaidInfoU2Oven",
+            "findConnectButtonImageUrl": "NAR/JENNAIR/MOBILEAPP/Images/ScanToConnect/FindConnectButton/U2_Double_Noir@{size}.png",
+            "findConnectButtonDesc": "kFindConnectButtonDescriptionU2",
+            "clearNetworkSettingsImage": "",
+            "clearNetworkInstructions": "KClearNetworkInstructionsU2Oven"
+          },
+          {
+            "productName": "U2 Double_Rise",
+            "productPrefix": [
+              "OVEN"
+            ],
+            "modelNumber": [
+              "JGRP548HL00",
+              "JGRP648HL00",
+              "JGRP748HL00",
+              "JDRP548HL00",
+              "JDRP648HL00",
+              "JDRP748HL00",
+              "JDRP848HL00",
+              "JDSP548HL00"
+            ],
+            "gui": 0,
+            "findQrCodeImageUrl": "NAR/JENNAIR/MOBILEAPP/Images/ScanToConnect/FindQRCode/U2_Double_Rise@{size}.png",
+            "findQrCodeDesc": "kFindSaidInfoU2Oven",
+            "findConnectButtonImageUrl": "NAR/JENNAIR/MOBILEAPP/Images/ScanToConnect/FindConnectButton/U2_Double_Rise@{size}.png",
+            "findConnectButtonDesc": "kFindConnectButtonDescriptionU2",
+            "clearNetworkSettingsImage": "",
+            "clearNetworkInstructions": "KClearNetworkInstructionsU2Oven"
+          },
+          {
+            "productName": "U2 Single_Noir",
+            "productPrefix": [
+              "OVEN"
+            ],
+            "modelNumber": [
+              "JDRP430HM00",
+              "JDRP436HM00",
+              "JDRP536HM00",
+              "JDRP636HM00",
+              "JGRP430HM00",
+              "JGRP436HM00",
+              "JGRP536HM00",
+              "JGRP636HM00",
+              "JDSP536HM00"
+            ],
+            "gui": 0,
+            "findQrCodeImageUrl": "NAR/JENNAIR/MOBILEAPP/Images/ScanToConnect/FindQRCode/U2_Single_Noir@{size}.png",
+            "findQrCodeDesc": "kFindSaidInfoU2Oven",
+            "findConnectButtonImageUrl": "NAR/JENNAIR/MOBILEAPP/Images/ScanToConnect/FindConnectButton/U2_Single_Noir@{size}.png",
+            "findConnectButtonDesc": "kFindConnectButtonDescriptionU2",
+            "clearNetworkSettingsImage": "",
+            "clearNetworkInstructions": "KClearNetworkInstructionsU2Oven"
+          },
+          {
+            "productName": "U2 Single_Rise",
+            "productPrefix": [
+              "OVEN"
+            ],
+            "modelNumber": [
+              "JGRP430HL00",
+              "JGRP436HL00",
+              "JGRP536HL00",
+              "JGRP636HL00",
+              "JDRP430HL00",
+              "JDRP436HL00",
+              "JDRP536HL00",
+              "JDRP636HL00",
+              "JDSP536HL00"
+            ],
+            "gui": 0,
+            "findQrCodeImageUrl": "NAR/JENNAIR/MOBILEAPP/Images/ScanToConnect/FindQRCode/U2_Single_Rise@{size}.png",
+            "findQrCodeDesc": "kFindSaidInfoU2Oven",
+            "findConnectButtonImageUrl": "NAR/JENNAIR/MOBILEAPP/Images/ScanToConnect/FindConnectButton/U2_Single_Rise@{size}.png",
+            "findConnectButtonDesc": "kFindConnectButtonDescriptionU2",
+            "clearNetworkSettingsImage": "",
+            "clearNetworkInstructions": "KClearNetworkInstructionsU2Oven"
+          }
+        ]
+      },
+      {
+        "categoryName": "kDishawasher",
+        "categoryImageUrl": "",
+        "products": [
+          {
+            "productName": "JA Dish",
+            "productPrefix": [
+              "DISHW"
+            ],
+            "modelNumber": [
+              "JDTSS244GP0",
+              "JDTSS244GS0",
+              "JDTSS246GP0",
+              "JDTSS246GS0",
+              "JDTSS244GL0",
+              "JDTSS244GM0",
+              "JDTSS246GL0",
+              "JDTSS246GM0",
+              "JDTSS247HS0"
+            ],
+            "gui": 0,
+            "findQrCodeImageUrl": "NAR/JENNAIR/MOBILEAPP/Images/ScanToConnect/FindQRCode/Dish@{size}.png",
+            "findQrCodeDesc": "kFindSaidInfoJADish",
+            "findConnectButtonImageUrl": "NAR/JENNAIR/MOBILEAPP/Images/ScanToConnect/FindConnectButton/Dish@{size}.png",
+            "findConnectButtonDesc": "kFindConnectButtonDescriptionJADish",
+            "clearNetworkSettingsImage": "",
+            "clearNetworkInstructions": "KClearNetworkInstructionsJADish"
+          }
+        ]
+      },
+      {
+        "categoryName": "kRefrigeratorAllinone",
+        "categoryImageUrl": "",
+        "products": [
+          {
+            "productName": "Bella refrigerator",
+            "productPrefix": [
+              "REFRID",
+              "WP"
+            ],
+            "modelNumber": [
+              "JFFCC72EFS00",
+              "JFFCC72EFP00",
+              "JFFCC72EFP01",
+              "JFFCC72EFS01",
+              "JFFCC72EFP02",
+              "JFFCC72EFS02",
+              "JFFCC72EHL01",
+              "JFFCC72EHL",
+			  "JFFCC72EFP03",
+			  "JFFCC72EFS03"
+            ],
+            "gui": 0,
+            "findQrCodeImageUrl": "NAR/JENNAIR/MOBILEAPP/Images/ScanToConnect/FindQRCode/Bella@{size}.png",
+            "findQrCodeDesc": "kFindSaidInfoBellaRefrigerator",
+            "findConnectButtonImageUrl": "NAR/JENNAIR/MOBILEAPP/Images/ScanToConnect/FindConnectButton/Bella@{size}.png",
+            "findConnectButtonDesc": "kFindConnectButtonDescriptionBella",
+            "clearNetworkSettingsImage": "",
+            "clearNetworkInstructions": "KClearNetworkInstructionsBella"
+          }
+        ]
+      }
+    ]
+  }
+}

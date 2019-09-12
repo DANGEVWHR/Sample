@@ -1,0 +1,20 @@
+{
+    "Header": {
+        "title": "SmartHome",
+        "version": "1.4",
+        "createdAt": "Apr 4, 2019 6:30:00 PM",
+        "modifiedDate": "Sep 10, 2019 3:30:00 PM",
+        "createdBy": "Venkat Boddapati",
+        "Description": ""
+    },
+    "Data": {
+        "SmartHomes": [
+            {
+                "TypeId": "SMARTHOME_AMAZON",
+                "DisplayImage": "NAR/JENNAIR/MOBILEAPP/Images/SmartHomeIntegrations/AmazonEcho@{size}.png",
+                "iOSAppUrl": "https://itunes.apple.com/us/app/amazon-alexa/id944011620?mt=8",
+                "AndroidAppUrl": "https://play.google.com/store/apps/details?id=com.amazon.dee.app"
+            }
+        ]
+    }
+}
