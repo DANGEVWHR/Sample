@@ -3110,6 +3110,16 @@
         },
         "Features": {
           "Common": {
+            "ChangeTempUnits": {
+              "Visible": true,
+              "AvailableIn": [
+                "US",
+                "CA"
+              ],
+              "StateAttributes": {
+                "State": "Sys_DisplaySetTempUnits"
+              }
+            },
             "LocalKitchenTimer": {
               "Visible": true,
               "AvailableIn": [
