@@ -1,9 +1,9 @@
 {
   "Header": {
     "title": "Localisation française",
-    "version": "1.24",
+    "version": "1.26",
     "createdAt": " Oct 22 2018 6:30:00 PM",
-    "modifiedDate": "Sep 11 2019 4:30:00 PM",
+    "modifiedDate": "Sep 13 2019 4:30:00 PM",
     "createdBy": "Venkat Boddapati",
     "Description": ""
   },
@@ -544,7 +544,7 @@
     "rcs.oven_status.cook_time_title": "DURÉE DE CUISSON",
     "rcs.oven_status.cooktime_start_now": "DÉMARRER MAINTENANT",
     "rcs.oven_status.cooktime_start_after_preheat": "DÉMARRER APRÈS LE PRÉCHAUFFAGE",
-    "rcs.oven_status.cooktime_time_complete": "Temps de cuisson terminé. Bon appétit",
+    "rcs.oven_status.cooktime_time_complete": "Temps de cuisson terminé",
     "rcs.oven_status.cooktime_since_done": "%s DEPUIS LA FIN",
     "rcs.oven_status.stay_on": "Rester en marche",
     "rcs.oven_status.turn_off": "ÉTEINDRE",
@@ -903,7 +903,10 @@
 	"rcs.rating.app_play_store_not_now":"Pas maintenant",
 	
 	"forceupdate.ios.major.version_4_0_0.title_label":"MISE À JOUR REQUISE",
-	"forceupdate.ios.major.version_4_0_0.msg_label":"La nouvelle version permet d’apporter les changements requis afin de rendre l’application JennAir compatible avec la dernière version iOS (13). Veuillez cliquer sur le bouton “Mettre à jour” pour passer à la nouvelle application JennAir."
+	"forceupdate.ios.major.version_4_0_0.msg_label":"La nouvelle version permet d’apporter les changements requis afin de rendre l’application JennAir compatible avec la dernière version iOS (13). Veuillez cliquer sur le bouton “Mettre à jour” pour passer à la nouvelle application JennAir.",
+    
+	"uam.terms_conditions.marketing_emails":" Préférences marketing",
+    "uam.terms_conditions.accept_marketing_emails":"JennAir Canada peut communiquer avec moi, y compris par courriel, au sujet de ses offres spéciales, promotions, marques, produits et services."
 
 	
   }

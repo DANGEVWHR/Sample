@@ -1,9 +1,9 @@
 {
   "Header": {
     "title": "Eng Localization",										
-    "version": "1.43",
+    "version": "1.45",
     "createdAt": "Oct 22, 2018 6:30:00 PM",
-    "modifiedDate": "Sep 12, 2019 5:30:00 PM",
+    "modifiedDate": "Sep 13, 2019 5:30:00 PM",
     "createdBy": "Venkat Boddapati",
     "Description": ""
   },
@@ -663,7 +663,7 @@
 	  "rcs.oven_status.cooktime_start_now":"START NOW",
 	  "rcs.oven_status.cooktime_start_after_preheat":"START AFTER PREHEAT",
 	  
-	  "rcs.oven_status.cooktime_time_complete":"Cook time Complete. Enjoy your meal",
+	  "rcs.oven_status.cooktime_time_complete":"Cook time Complete",
 	  "rcs.oven_status.cooktime_since_done":"%s SINCE DONE",
 	  "rcs.oven_status.stay_on":"Stay On",
 	  "rcs.oven_status.turn_off":"TURN OFF",
@@ -1103,9 +1103,11 @@
 	"rcs.rating.app_play_store_not_now":"Not Now",
 	
 	"forceupdate.ios.major.version_4_0_0.title_label":"UPDATE REQUIRED",
-	"forceupdate.ios.major.version_4_0_0.msg_label":"New version enables changes required to make the JennAir app compatible with the latest version of ios(13). Please click on the 'Update Now' button below to upgrade to the new JennAir app"
+	"forceupdate.ios.major.version_4_0_0.msg_label":"New version enables changes required to make the JennAir app compatible with the latest version of ios(13). Please click on the 'Update Now' button below to upgrade to the new JennAir app",
     
-	
+	"uam.terms_conditions.marketing_emails":"MARKETING PREFERENCES",
+    "uam.terms_conditions.accept_marketing_emails":"Yes, I’d like to receive occasional special offers, promotions, or other e-mail marketing communications from JennAir."
+
 
 
 	 }

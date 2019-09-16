@@ -1,9 +1,9 @@
 {
     "Header": {
         "title": "BrandConfig",
-        "version": "1.15",
+        "version": "1.16",
         "createdAt": "Oct 22, 2018 6:30:00 PM",
-        "modifiedDate": "Aug 20, 2019 09:30:00 PM",
+        "modifiedDate": "Sept 16, 2019 09:30:00 PM",
         "createdBy": "Venkat Boddapati",
         "Description": ""
     },
@@ -268,11 +268,11 @@
         },
         "Validators": {
             "FirstNameValidator": {
-                "Regex": "^.{2,256}$",
+                "Regex": "^\\p{L}{2}(\\p{L}| ){0,254}$",
                 "Description": "SignUp FirstName"
             },
             "LastNameNameValidator": {
-                "Regex": "^.{2,256}$",
+                "Regex": "^\\p{L}{2}(\\p{L}| ){0,254}$",
                 "Description": "SignUp LastName"
             },
             "EmailValidator": {

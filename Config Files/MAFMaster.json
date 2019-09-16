@@ -1,9 +1,9 @@
 {
     "Header": {
         "title": "MAFMaster",
-        "version": "1.56",
+        "version": "1.58",
         "createdAt": "Oct 22, 2018 6:30:00 PM",
-        "modifiedDate": "Sep 12, 2019 6:30:00 PM",
+        "modifiedDate": "Sep 13, 2019 6:30:00 PM",
         "createdBy": "Venkat Boddapati",
         "Description": ""
     },
@@ -40,28 +40,28 @@
             {
                 "fileName": "LocalizationEnglish",
                 "extension" : "json",
-                "version": "1.43",
+                "version": "1.45",
                 "URL": "NAR/JENNAIR/MOBILEAPP/LOCALIZATION/eng",
                 "Description": "Localization English"
             },
             {
                 "fileName": "LocalizationFrench",
                 "extension" : "json",
-                "version": "1.24",
+                "version": "1.25",
                 "URL": "NAR/JENNAIR/MOBILEAPP/LOCALIZATION/fre",
                 "Description": "Localization French"
             },
             {
                 "fileName": "BrandConfig",
                 "extension" : "json",
-                "version": "1.15",
+                "version": "1.16",
                 "URL": "NAR/JENNAIR/MOBILEAPP/Brand.json",
                 "Description": "Brand json file contains configurations that branded app needs"
             },
             {
                 "fileName": "CategoriesConfig",
                 "extension" : "json",
-                "version": "1.11",
+                "version": "1.12",
                 "URL": "NAR/JENNAIR/MOBILEAPP/CATEGORIES/Categories.json",
                 "Description": "Categories json file contains configurations that Appliance categories app needs"
             },
