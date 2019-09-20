@@ -1,4 +1,4 @@
-﻿{
+{
         "AntennaRSSIValueA.Label": "AntenneRSSIValeurA",
         "AntennaRSSIValueB.Label": "AntenneRSSIValeurB",
         "ApplianceSubscribeListVersion.Label": "Version de la liste de souscription de l'électroménager",
@@ -567,6 +567,7 @@
         "KitchenTimer.Label" : "Minuterie de cuisine",
         "KitchenTimer.Description" : "Réglez une minuterie pour mesurer les intervalles spécifiques de temps pendant le processus de cuisson",
         "LightOnOff.Label" : "Éclairage de la cavité",
-        "LightOnOff.Description" : "Allumez ou éteignez la lampe de la cavité en tout temps"
-        
+        "LightOnOff.Description" : "Allumez ou éteignez la lampe de la cavité en tout temps",
+        "ChangeTempUnits.Label" : "Préférence d’unité de température",
+        "ChangeTempUnits.Description" : "Choisissez votre préférence d’unité de température sur l’application mobile et l’électroménager"
     }

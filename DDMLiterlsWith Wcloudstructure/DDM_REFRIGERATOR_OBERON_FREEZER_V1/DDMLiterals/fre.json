@@ -99,6 +99,8 @@
         "MaxIce.Description" : "Accélère la production de glaçons pour votre réfrigérateur. Cette fonction ne d’activera pas si la machine à glaçons n’est pas mise en marche",
         "IceMaker.Label" : "Machine à glaçons",
         "IceMaker.Description" : "Allumez et éteignez votre machine à glaçons en tout temps",
-        "CavityBrightness.Label" : "Luminosité de la cavité"
+        "CavityBrightness.Label" : "Luminosité de la cavité",
+        "ChangeTempUnits.Label" : "Préférence d’unité de température",
+        "ChangeTempUnits.Description" : "Choisissez votre préférence d’unité de température sur l’application mobile et l’électroménager"
 
     }

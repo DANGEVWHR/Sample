@@ -117,6 +117,7 @@
         "MaxCool.Description" : "Accélère le processus de refroidissement pour votre réfrigérateur",
         "MaxIce.Label" : "Max ice",
         "MaxIce.Description" : "Accélère la production de glaçons pour votre réfrigérateur. Cette fonction ne d’activera pas si la machine à glaçons n’est pas mise en marche",
-        "AutoNightLight.Label" : "Veilleuse automatique"
-        
+        "AutoNightLight.Label" : "Veilleuse automatique",
+        "ChangeTempUnits.Label" : "Préférence d’unité de température",
+        "ChangeTempUnits.Description" : "Choisissez votre préférence d’unité de température sur l’application mobile et l’électroménager"
     }

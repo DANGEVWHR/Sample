@@ -1,9 +1,9 @@
 {
   "Header": {
     "title": "Eng Localization",										
-    "version": "1.45",
+    "version": "1.47",
     "createdAt": "Oct 22, 2018 6:30:00 PM",
-    "modifiedDate": "Sep 13, 2019 5:30:00 PM",
+    "modifiedDate": "Sep 19, 2019 5:30:00 PM",
     "createdBy": "Venkat Boddapati",
     "Description": ""
   },
@@ -1103,7 +1103,14 @@
 	"rcs.rating.app_play_store_not_now":"Not Now",
 	
 	"forceupdate.ios.major.version_4_0_0.title_label":"UPDATE REQUIRED",
-	"forceupdate.ios.major.version_4_0_0.msg_label":"New version enables changes required to make the JennAir app compatible with the latest version of ios(13). Please click on the 'Update Now' button below to upgrade to the new JennAir app",
+	"forceupdate.ios.major.version_4_0_0.msg_label":"New version enables changes required to make the JennAir app compatible with the latest version of ios (13). Please click on the 'Update Now' button below to upgrade to the new JennAir app",
+    
+    "forceupdate.android.minor.version_4_0_0.title_label":"UPDATE AVAILABLE",
+    "forceupdate.android.minor.version_4_0_0.msg_label":"New version has minor bug fixes and performance improvements. Please click on 'Update Now' to upgrade to new version of the JennAir app.",
+
+    "forceupdate.android.minor.version_4_0_2.title_label":"UPDATE AVAILABLE",
+    "forceupdate.android.minor.version_4_0_2.msg_label":"New version has minor bug fixes and performance improvements. Please click on 'Update Now' to upgrade to new version of the JennAir app.",
+
     
 	"uam.terms_conditions.marketing_emails":"MARKETING PREFERENCES",
     "uam.terms_conditions.accept_marketing_emails":"Yes, I’d like to receive occasional special offers, promotions, or other e-mail marketing communications from JennAir."

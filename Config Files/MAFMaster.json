@@ -1,9 +1,9 @@
 {
     "Header": {
         "title": "MAFMaster",
-        "version": "1.58",
+        "version": "1.59",
         "createdAt": "Oct 22, 2018 6:30:00 PM",
-        "modifiedDate": "Sep 13, 2019 6:30:00 PM",
+        "modifiedDate": "Sep 19, 2019 6:30:00 PM",
         "createdBy": "Venkat Boddapati",
         "Description": ""
     },
@@ -40,14 +40,14 @@
             {
                 "fileName": "LocalizationEnglish",
                 "extension" : "json",
-                "version": "1.45",
+                "version": "1.47",
                 "URL": "NAR/JENNAIR/MOBILEAPP/LOCALIZATION/eng",
                 "Description": "Localization English"
             },
             {
                 "fileName": "LocalizationFrench",
                 "extension" : "json",
-                "version": "1.25",
+                "version": "1.28",
                 "URL": "NAR/JENNAIR/MOBILEAPP/LOCALIZATION/fre",
                 "Description": "Localization French"
             },

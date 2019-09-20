@@ -308,5 +308,7 @@
     "LocalKitchenTimer.Label" : "Minuterie de cuisine",
     "LocalKitchenTimer.Description" : "Réglez une minuterie pour mesurer les intervalles spécifiques de temps pendant le processus de cuisson",
     "LightOnOff.Label" : "Lampe de cavité",
-    "LightOnOff.Description" : "Allumez ou éteignez la lampe de la cavité en tout temps"
+    "LightOnOff.Description" : "Allumez ou éteignez la lampe de la cavité en tout temps",
+    "ChangeTempUnits.Label" : "Préférence d’unité de température",
+    "ChangeTempUnits.Description" : "Choisissez votre préférence d’unité de température sur l’application mobile et l’électroménager"
   }

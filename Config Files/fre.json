@@ -1,9 +1,9 @@
 {
   "Header": {
     "title": "Localisation française",
-    "version": "1.26",
+    "version": "1.28",
     "createdAt": " Oct 22 2018 6:30:00 PM",
-    "modifiedDate": "Sep 13 2019 4:30:00 PM",
+    "modifiedDate": "Sep 19 2019 4:30:00 PM",
     "createdBy": "Venkat Boddapati",
     "Description": ""
   },
@@ -904,7 +904,13 @@
 	
 	"forceupdate.ios.major.version_4_0_0.title_label":"MISE À JOUR REQUISE",
 	"forceupdate.ios.major.version_4_0_0.msg_label":"La nouvelle version permet d’apporter les changements requis afin de rendre l’application JennAir compatible avec la dernière version iOS (13). Veuillez cliquer sur le bouton “Mettre à jour” pour passer à la nouvelle application JennAir.",
-    
+     
+   "forceupdate.android.minor.version_4_0_0.title_label":"MISE À JOUR DISPONIBLE",
+    "forceupdate.android.minor.version_4_0_0.msg_label":"La nouvelle version comprend des corrections de bogues mineurs et des améliorations de performance. Veuillez cliquer sur \"Mettre à jour maintenant\" pour obtenir la nouvelle version de l'application JennAir.",
+
+    "forceupdate.android.minor.version_4_0_2.title_label":"MISE À JOUR DISPONIBLE",
+    "forceupdate.android.minor.version_4_0_2.msg_label":"La nouvelle version comprend des corrections de bogues mineurs et des améliorations de performance. Veuillez cliquer sur \"Mettre à jour maintenant\" pour obtenir la nouvelle version de l'application JennAir.",
+
 	"uam.terms_conditions.marketing_emails":" Préférences marketing",
     "uam.terms_conditions.accept_marketing_emails":"JennAir Canada peut communiquer avec moi, y compris par courriel, au sujet de ses offres spéciales, promotions, marques, produits et services."
 

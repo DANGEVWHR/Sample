@@ -100,7 +100,8 @@
         "SabbathMode.Description" : "Sets the appliance to remain in a non-disturbing state during Sabbath. The interior lights will turn off and audio is silenced",
         "MaxCool.Label" : "Max cool",
         "MaxCool.Description" : "Accelerates the cooling process for your refrigerator",
-        "CavityBrightness.Label" : "Cavity Brightness"
+        "CavityBrightness.Label" : "Cavity Brightness",
+        "ChangeTempUnits.Label" : "Temperature Unit Preference",
+        "ChangeTempUnits.Description" : "Select the unit preference of your choice to see on both mobile app and appliance"
 
-        
     }

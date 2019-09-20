@@ -1,4 +1,4 @@
-﻿{
+{
         "CapabilityCavity_SetCavitySelect.EnumValues.FreezerZone2.Label": "Zone 2 congélateur",
         "CapabilityCavity_SetCavitySelect.EnumValues.PantryZone3.Label": "Zone 3 garde-manger",
         "CapabilityCavity_SetCavitySelect.EnumValues.RefrigeratorZone1.Label": "Zone 1 réfrigérateur",
@@ -100,5 +100,7 @@
         "SabbathMode.Description" : "Permet à l’appareil de se mettre en mode Ne pas déranger pendant le Sabbat. Les lampes intérieures et les signaux sonores sont désactivés.",
         "MaxCool.Label" : "Refroidissement maximal",
         "MaxCool.Description" : " Accélère le processus de refroidissement pour votre réfrigérateur ",
-        "CavityBrightness.Label" : "Luminosité de la cavité"
+        "CavityBrightness.Label" : "Luminosité de la cavité",
+        "ChangeTempUnits.Label" : "Préférence d’unité de température",
+        "ChangeTempUnits.Description" : "Choisissez votre préférence d’unité de température sur l’application mobile et l’électroménager"
     }

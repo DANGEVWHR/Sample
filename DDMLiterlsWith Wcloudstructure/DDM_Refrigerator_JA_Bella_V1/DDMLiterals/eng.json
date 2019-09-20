@@ -117,5 +117,7 @@
         "MaxCool.Description" : "Accelerates the cooling process for your refrigerator",
         "MaxIce.Label" : "Max ice",
         "MaxIce.Description" : "Accelerates the ice making production for your refrigerator. This setting will not operate until the Ice Maker is turned on",
-        "AutoNightLight.Label" : "Auto Night Light"
+        "AutoNightLight.Label" : "Auto Night Light",
+        "ChangeTempUnits.Label" : "Temperature Unit Preference",
+        "ChangeTempUnits.Description" : "Select the unit preference of your choice to see on both mobile app and appliance"
     }

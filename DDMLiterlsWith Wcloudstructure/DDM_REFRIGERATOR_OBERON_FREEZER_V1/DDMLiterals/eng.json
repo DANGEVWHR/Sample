@@ -98,5 +98,7 @@
     "MaxIce.Description" : "Accelerates the ice making production for your refrigerator. This setting will not operate until the Ice Maker is turned on",
     "IceMaker.Label" : "Ice maker",
     "IceMaker.Description" : "Turn your Ice Maker on/off at any time",
-    "CavityBrightness.Label" : "Cavity Brightness"
+    "CavityBrightness.Label" : "Cavity Brightness",
+    "ChangeTempUnits.Label" : "Temperature Unit Preference",
+    "ChangeTempUnits.Description" : "Select the unit preference of your choice to see on both mobile app and appliance"
     }

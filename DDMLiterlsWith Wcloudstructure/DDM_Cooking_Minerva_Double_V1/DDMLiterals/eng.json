@@ -567,5 +567,7 @@
         "KitchenTimer.Label" : "Kitchen timer",
         "KitchenTimer.Description" : "Set a timer to measure specific time intervals during the cooking process",
         "LightOnOff.Label" : "Cavity light",
-        "LightOnOff.Description" : "Turn your cavity light on/off any time"
+        "LightOnOff.Description" : "Turn your cavity light on/off any time",
+        "ChangeTempUnits.Label" : "Temperature Unit Preference",
+        "ChangeTempUnits.Description" : "Select the unit preference of your choice to see on both mobile app and appliance"
     }
