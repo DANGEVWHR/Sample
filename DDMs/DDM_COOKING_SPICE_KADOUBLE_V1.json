@@ -127,7 +127,7 @@
         },
         "DeviceIO": "RO",
         "MappedAttributeName": "XCat_OdometerStatusRunningHours",
-        "Default": 0,
+        "Default": 1,
         "Key": "0x01050001"
       },
       {
